@@ -1,5 +1,32 @@
 [
   {
+    "slug": "bench-bracket",
+    "date": "2026-10-28",
+    "ref": "bench/bracket",
+    "title": "Bracket bench: optimised bracket",
+    "note": "as shared",
+    "source": "rulecad examples",
+    "picture": true
+  },
+  {
+    "slug": "bench-bracket-web",
+    "date": "2026-10-28",
+    "ref": "bench/bracket-web",
+    "title": "Bracket bench: plain web",
+    "note": "as shared",
+    "source": "rulecad examples",
+    "picture": true
+  },
+  {
+    "slug": "bench-bracket-bench",
+    "date": "2026-10-28",
+    "ref": "bench/bracket-bench",
+    "title": "Bracket bench, assembled",
+    "note": "as shared",
+    "source": "rulecad examples",
+    "picture": true
+  },
+  {
     "slug": "lever-c",
     "date": "2026-10-28",
     "ref": "bench/lever",
@@ -24,6 +51,339 @@
     "title": "Bracket bench: optimised bracket (printable) 0.1.0",
     "note": "optimised to print without supports, standing on its back plate",
     "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "legion-go-mx-folio",
+    "date": "2026-10-27",
+    "ref": "legion-go-mx/folio",
+    "title": "Legion Go folio (Cherry MX)",
+    "note": "as shared",
+    "source": "mirror-cad",
+    "picture": true
+  },
+  {
+    "slug": "legion-go-mx-keycaps",
+    "date": "2026-10-27",
+    "ref": "legion-go-mx/keycaps",
+    "title": "Legion Go folio: 57 keycaps",
+    "note": "as shared",
+    "source": "mirror-cad",
+    "picture": true
+  },
+  {
+    "slug": "lever-optimised",
+    "date": "2026-10-27",
+    "ref": "lever/optimised",
+    "title": "Lever bench: optimised lever",
+    "note": "as shared",
+    "source": "rulecad examples",
+    "picture": true
+  },
+  {
+    "slug": "lever-optimised-both",
+    "date": "2026-10-27",
+    "ref": "lever/optimised:both",
+    "title": "Lever bench: optimised lever (both)",
+    "note": "as shared",
+    "source": "rulecad examples",
+    "picture": true
+  },
+  {
+    "slug": "lever-bench",
+    "date": "2026-10-27",
+    "ref": "lever/bench",
+    "title": "Lever bench, assembled",
+    "note": "as shared",
+    "source": "rulecad examples",
+    "picture": true
+  },
+  {
+    "slug": "legion-go-folio",
+    "date": "2026-10-26",
+    "ref": "legion-go/folio",
+    "title": "Legion Go folio",
+    "note": "as shared",
+    "source": "mirror-cad",
+    "picture": true
+  },
+  {
+    "slug": "legion-go-rail-test",
+    "date": "2026-10-25",
+    "ref": "legion-go/rail-test",
+    "title": "Legion Go rail test piece",
+    "note": "as shared",
+    "source": "mirror-cad",
+    "picture": true
+  },
+  {
+    "slug": "legion-go-rail-test-full",
+    "date": "2026-10-25",
+    "ref": "legion-go/rail-test:full",
+    "title": "Legion Go rail test (full)",
+    "note": "as shared",
+    "source": "mirror-cad",
+    "picture": true
+  },
+  {
+    "slug": "legion-go-rail-test-short",
+    "date": "2026-10-25",
+    "ref": "legion-go/rail-test:short",
+    "title": "Legion Go rail test (short)",
+    "note": "as shared",
+    "source": "mirror-cad",
+    "picture": true
+  },
+  {
+    "slug": "legion-go-hinge-foot",
+    "date": "2026-10-25",
+    "ref": "legion-go/hinge-foot",
+    "title": "Legion Go hinge foot",
+    "note": "as shared",
+    "source": "mirror-cad",
+    "picture": true
+  },
+  {
+    "slug": "legion-go-keyboard",
+    "date": "2026-10-25",
+    "ref": "legion-go/keyboard",
+    "title": "Legion Go keyboard case",
+    "note": "as shared",
+    "source": "mirror-cad",
+    "picture": true
+  },
+  {
+    "slug": "legion-go-rail-test-box-short",
+    "date": "2026-10-25",
+    "ref": "legion-go/rail-test:box-short",
+    "title": "Legion Go rail test (box-short)",
+    "note": "as shared",
+    "source": "mirror-cad",
+    "picture": true
+  },
+  {
+    "slug": "legion-go-folded",
+    "date": "2026-10-25",
+    "ref": "legion-go/folded",
+    "title": "Legion Go folio: folded shut",
+    "note": "as shared",
+    "source": "mirror-cad",
+    "picture": true
+  },
+  {
+    "slug": "legion-go-flat",
+    "date": "2026-10-25",
+    "ref": "legion-go/flat",
+    "title": "Legion Go folio: open flat",
+    "note": "as shared",
+    "source": "mirror-cad",
+    "picture": true
+  },
+  {
+    "slug": "legion-go-tablet",
+    "date": "2026-10-25",
+    "ref": "legion-go/tablet",
+    "title": "Legion Go folio: tablet mode",
+    "note": "as shared",
+    "source": "mirror-cad",
+    "picture": true
+  },
+  {
+    "slug": "legion-go-mount",
+    "date": "2026-10-25",
+    "ref": "legion-go/mount",
+    "title": "Legion Go side mount",
+    "note": "as shared",
+    "source": "mirror-cad",
+    "picture": true
+  },
+  {
+    "slug": "legion-go-stand",
+    "date": "2026-10-25",
+    "ref": "legion-go/stand",
+    "title": "Legion Go folio: open",
+    "note": "as shared",
+    "source": "mirror-cad",
+    "picture": true
+  },
+  {
+    "slug": "legion-go-mx-stand",
+    "date": "2026-10-25",
+    "ref": "legion-go-mx/stand",
+    "title": "Legion Go folio: open",
+    "note": "as shared",
+    "source": "mirror-cad",
+    "picture": true
+  },
+  {
+    "slug": "legion-go-mx-folded",
+    "date": "2026-10-25",
+    "ref": "legion-go-mx/folded",
+    "title": "Legion Go folio: folded shut",
+    "note": "as shared",
+    "source": "mirror-cad",
+    "picture": true
+  },
+  {
+    "slug": "legion-go-mx-flat",
+    "date": "2026-10-25",
+    "ref": "legion-go-mx/flat",
+    "title": "Legion Go folio: open flat",
+    "note": "as shared",
+    "source": "mirror-cad",
+    "picture": true
+  },
+  {
+    "slug": "legion-go-mx-tablet",
+    "date": "2026-10-25",
+    "ref": "legion-go-mx/tablet",
+    "title": "Legion Go folio: tablet mode",
+    "note": "as shared",
+    "source": "mirror-cad",
+    "picture": true
+  },
+  {
+    "slug": "keyboard-staggered-keycaps",
+    "date": "2026-10-14",
+    "ref": "keyboard/staggered-keycaps",
+    "title": "Staggered keyboard: 55 keycaps",
+    "note": "as shared",
+    "source": "mirror-cad",
+    "picture": true
+  },
+  {
+    "slug": "keyboard-macropad-pcb",
+    "date": "2026-10-14",
+    "ref": "keyboard/macropad-pcb",
+    "title": "9-key macropad PCB",
+    "note": "as shared",
+    "source": "mirror-cad",
+    "picture": true
+  },
+  {
+    "slug": "keyboard-main-pcb",
+    "date": "2026-10-14",
+    "ref": "keyboard/main-pcb",
+    "title": "Staggered keyboard PCB",
+    "note": "as shared",
+    "source": "mirror-cad",
+    "picture": true
+  },
+  {
+    "slug": "keyboard-staggered-pcb",
+    "date": "2026-10-14",
+    "ref": "keyboard/staggered-pcb",
+    "title": "Staggered PCB keyboard",
+    "note": "as shared",
+    "source": "mirror-cad",
+    "picture": true
+  },
+  {
+    "slug": "keyboard-keycap",
+    "date": "2026-10-14",
+    "ref": "keyboard/keycap",
+    "title": "MX keycap",
+    "note": "as shared",
+    "source": "mirror-cad",
+    "picture": true
+  },
+  {
+    "slug": "keyboard-macropad-3x3",
+    "date": "2026-10-14",
+    "ref": "keyboard/macropad-3x3",
+    "title": "9-key macropad",
+    "note": "as shared",
+    "source": "mirror-cad",
+    "picture": true
+  },
+  {
+    "slug": "keyboard-staggered-plate",
+    "date": "2026-10-13",
+    "ref": "keyboard/staggered-plate",
+    "title": "Staggered keyboard: plate",
+    "note": "as shared",
+    "source": "mirror-cad",
+    "picture": true
+  },
+  {
+    "slug": "keyboard-keycap-legend-f",
+    "date": "2026-10-13",
+    "ref": "keyboard/keycap:legend-f",
+    "title": "MX keycap (legend-f)",
+    "note": "as shared",
+    "source": "mirror-cad",
+    "picture": true
+  },
+  {
+    "slug": "keyboard-keycap-legend-shift",
+    "date": "2026-10-13",
+    "ref": "keyboard/keycap:legend-shift",
+    "title": "MX keycap (legend-shift)",
+    "note": "as shared",
+    "source": "mirror-cad",
+    "picture": true
+  },
+  {
+    "slug": "keyboard-staggered-case",
+    "date": "2026-10-13",
+    "ref": "keyboard/staggered-case",
+    "title": "Staggered keyboard: case",
+    "note": "as shared",
+    "source": "mirror-cad",
+    "picture": true
+  },
+  {
+    "slug": "keyboard-staggered",
+    "date": "2026-10-13",
+    "ref": "keyboard/staggered",
+    "title": "Staggered handwired keyboard",
+    "note": "as shared",
+    "source": "mirror-cad",
+    "picture": true
+  },
+  {
+    "slug": "keyboard-handwired-40",
+    "date": "2026-10-12",
+    "ref": "keyboard/handwired-40",
+    "title": "Handwired 40% keyboard",
+    "note": "as shared",
+    "source": "mirror-cad",
+    "picture": true
+  },
+  {
+    "slug": "keyboard-handwired-40-case",
+    "date": "2026-10-12",
+    "ref": "keyboard/handwired-40-case",
+    "title": "Handwired 40%: case",
+    "note": "as shared",
+    "source": "mirror-cad",
+    "picture": true
+  },
+  {
+    "slug": "keyboard-handwired-40-plate",
+    "date": "2026-10-12",
+    "ref": "keyboard/handwired-40-plate",
+    "title": "Handwired 40%: plate",
+    "note": "as shared",
+    "source": "mirror-cad",
+    "picture": true
+  },
+  {
+    "slug": "keyboard-handwired-40-keycaps",
+    "date": "2026-10-12",
+    "ref": "keyboard/handwired-40-keycaps",
+    "title": "Handwired 40%: 48 keycaps",
+    "note": "as shared",
+    "source": "mirror-cad",
+    "picture": true
+  },
+  {
+    "slug": "keyboard-macropad-3x3-print",
+    "date": "2026-10-11",
+    "ref": "keyboard/macropad-3x3-print",
+    "title": "9-key macropad, print plate",
+    "note": "as shared",
+    "source": "mirror-cad",
     "picture": true
   }
 ]
