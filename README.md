@@ -5,6 +5,7 @@
 - **[Bracket bench: four wall brackets of equal mass](experiments/bracket-bench/)** (2026-10-28): Optimised brackets predicted 1.5 times as stiff as a plain web; what printing without supports costs. [On the site](https://jonibach.github.io/rulecad-archive/experiments/bracket-bench/)
 - **[L-bracket: stiffest against stress-limited](experiments/lbracket/)** (2026-10-28): Stress limits cut the peak stress by 46% for the same material. [On the site](https://jonibach.github.io/rulecad-archive/experiments/lbracket/)
 - **[Lever bench: four levers of equal mass](experiments/lever-bench/)** (2026-10-28): The optimised lever predicted 27 times as stiff as a lightened plate. [On the site](https://jonibach.github.io/rulecad-archive/experiments/lever-bench/)
+- **[Twisted tube: the first showcase part](experiments/twist/)** (2026-10-28): Printed in one piece at the second attempt, but with flat blocks and icicles that need supports. [On the site](https://jonibach.github.io/rulecad-archive/experiments/twist/)
 - **[Verification: how sure are the predictions?](experiments/verification/)** (2026-10-28): Finer cells showed the first bracket predictions were 15–35% too flexible. [On the site](https://jonibach.github.io/rulecad-archive/experiments/verification/)
 
 ## Models
