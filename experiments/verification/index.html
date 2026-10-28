@@ -1,0 +1,21 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Verification: how sure are the predictions?</title>
+<meta property="og:title" content="Verification: how sure are the predictions?">
+<meta property="og:image" content="https://jonibach.github.io/rulecad-archive/experiments/verification/picture.png">
+<style>body { font-family: system-ui, sans-serif; margin: 0; background: #111; color: #ddd; line-height: 1.5; }
+  main, header, section { max-width: 72rem; margin: 0 auto; padding: 1rem 1.25rem; } main { max-width: 52rem; }
+  a { color: #8cf; } img { max-width: 100%; border-radius: 6px; } code { color: #bbb; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.9rem; margin: 1rem 0; } th, td { border-bottom: 1px solid #333; padding: 0.4rem 0.5rem; text-align: left; vertical-align: top; }</style>
+<main>
+<p><a href="../../">← rulecad archive</a></p>
+<h1>Verification: how sure are the predictions?</h1>
+<p><strong>28 October 2026 · rulecad cad 0.7.2</strong></p>
+<p>A prediction from a coarse grid can be well off. Each bench specimen was analysed again on smaller cells, and on cells a quarter bigger, to see whether its numbers had settled.</p>
+<p><img src="picture.png" alt="Plain web bracket: predicted stiffness against cell size"></p>
+<table><tr><th>Plain web bracket (A)</th><th>Straight down</th><th>At 45°</th></tr><tr><td>2.5 mm cubes, solid only where a cube's centre is inside (the first predictions)</td><td>72.8 N/mm</td><td>15.7 N/mm</td></tr><tr><td>2.5 mm cubes, each filled by the share the part takes up</td><td>108.6 N/mm</td><td>45.1 N/mm</td></tr><tr><td>1.25 mm</td><td>98.6 N/mm</td><td>25.1 N/mm</td></tr><tr><td>1 mm</td><td>94.5 N/mm</td><td>23.4 N/mm</td></tr><tr><td>0.83 mm</td><td>93.8 N/mm</td><td>23.1 N/mm</td></tr></table>
+<h2>Findings</h2>
+<ul><li><strong>The first bracket predictions were 15–35% too flexible.</strong> On 2.5 mm cubes counted solid by their centre, the 6 mm back plate came out 5 mm thick, and bending stiffness goes with thickness cubed.</li><li><strong>Coarse cells mislead either way.</strong> Filling cubes by share fixes the plate but makes thin walls too stiff in bending. Only small cells settle.</li><li><strong>What cad check does now:</strong> given a cell size, it analyses a part on those cells and on cells a quarter bigger, and says whether the stiffness has settled (within 5%). It writes a report with the peak stress, where it is, and the safety factor.</li><li><strong>The levers were already right.</strong> Flat parts were always filled by share, and they settle within 2%.</li></ul>
+<p>Models: <a href="https://jonibach.github.io/rulecad-archive/m/bracket-a/">A</a>, <a href="https://jonibach.github.io/rulecad-archive/m/bracket-c/">C</a>.</p>
+</main>

@@ -1,9 +1,82 @@
 # rulecad archive
 
+## Experiments
+
+- **[Bracket bench: four wall brackets of equal mass](experiments/bracket-bench/)** (2026-10-28): Optimised brackets predicted 1.5 times as stiff as a plain web; what printing without supports costs. [On the site](https://jonibach.github.io/rulecad-archive/experiments/bracket-bench/)
+- **[L-bracket: stiffest against stress-limited](experiments/lbracket/)** (2026-10-28): Stress limits cut the peak stress by 46% for the same material. [On the site](https://jonibach.github.io/rulecad-archive/experiments/lbracket/)
+- **[Lever bench: four levers of equal mass](experiments/lever-bench/)** (2026-10-28): The optimised lever predicted 27 times as stiff as a lightened plate. [On the site](https://jonibach.github.io/rulecad-archive/experiments/lever-bench/)
+- **[Verification: how sure are the predictions?](experiments/verification/)** (2026-10-28): Finer cells showed the first bracket predictions were 15–35% too flexible. [On the site](https://jonibach.github.io/rulecad-archive/experiments/verification/)
+
+## Models
+
 Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a picture of each, and a link that opens it in the 3D viewer (turn it, download STL or 3MF). Everything here is public.
 
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
+
+### Lever bench: optimised lever (both) 0.1.0
+
+2026-10-28 · `bench/lever:both` in bench: optimised for two loads
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/lever-d/)
+
+[![Lever bench: optimised lever (both) 0.1.0](m/lever-d/preview.png)](https://jonibach.github.io/rulecad-archive/m/lever-d/)
+
+### Lever bench: lightened plate 0.1.0
+
+2026-10-28 · `bench/lever-plate` in bench: a plate with four windows
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/lever-b/)
+
+[![Lever bench: lightened plate 0.1.0](m/lever-b/preview.png)](https://jonibach.github.io/rulecad-archive/m/lever-b/)
+
+### Lever bench: plain bar 0.1.0
+
+2026-10-28 · `bench/lever-bar` in bench: a plain bar
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/lever-a/)
+
+[![Lever bench: plain bar 0.1.0](m/lever-a/preview.png)](https://jonibach.github.io/rulecad-archive/m/lever-a/)
+
+### Bracket bench: optimised bracket (side-free) 0.1.0
+
+2026-10-28 · `bench/bracket:side-free` in bench: B laid on its side: what it would need supporting
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/bracket-b-side/)
+
+[![Bracket bench: optimised bracket (side-free) 0.1.0](m/bracket-b-side/preview.png)](https://jonibach.github.io/rulecad-archive/m/bracket-b-side/)
+
+### Bracket bench: optimised bracket 0.1.0
+
+2026-10-28 · `bench/bracket` in bench: optimised freely
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/bracket-b/)
+
+[![Bracket bench: optimised bracket 0.1.0](m/bracket-b/preview.png)](https://jonibach.github.io/rulecad-archive/m/bracket-b/)
+
+### Bracket bench: plain web 0.1.0
+
+2026-10-28 · `bench/bracket-web` in bench: the plain web: the hand-made bracket
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/bracket-a/)
+
+[![Bracket bench: plain web 0.1.0](m/bracket-a/preview.png)](https://jonibach.github.io/rulecad-archive/m/bracket-a/)
+
+### L-bracket: lightest under 25 MPa
+
+2026-10-28 · `lbracket/stress` in rulecad topopt reference: the lightest under 25 MPa; peak 36.6 MPa as made
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/lbracket-stress/)
+
+[![L-bracket: lightest under 25 MPa](m/lbracket-stress/preview.png)](https://jonibach.github.io/rulecad-archive/m/lbracket-stress/)
+
+### L-bracket: stiffest at 40%
+
+2026-10-28 · `lbracket/stiffest` in rulecad topopt reference: the stiffest at 40% of the space; peak 67.2 MPa as made
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/lbracket-stiffest/)
+
+[![L-bracket: stiffest at 40%](m/lbracket-stiffest/preview.png)](https://jonibach.github.io/rulecad-archive/m/lbracket-stiffest/)
 
 ### Bracket bench: optimised bracket
 

@@ -1,0 +1,22 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lever bench: four levers of equal mass</title>
+<meta property="og:title" content="Lever bench: four levers of equal mass">
+<meta property="og:image" content="https://jonibach.github.io/rulecad-archive/experiments/lever-bench/picture.png">
+<style>body { font-family: system-ui, sans-serif; margin: 0; background: #111; color: #ddd; line-height: 1.5; }
+  main, header, section { max-width: 72rem; margin: 0 auto; padding: 1rem 1.25rem; } main { max-width: 52rem; }
+  a { color: #8cf; } img { max-width: 100%; border-radius: 6px; } code { color: #bbb; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.9rem; margin: 1rem 0; } th, td { border-bottom: 1px solid #333; padding: 0.4rem 0.5rem; text-align: left; vertical-align: top; }</style>
+<main>
+<p><a href="../../">← rulecad archive</a></p>
+<h1>Lever bench: four levers of equal mass</h1>
+<p><strong>28 October 2026 · rulecad examples/bench · measurements to come</strong></p>
+<p>A lever 140 mm long, bolted at one end and loaded at the other, is cut from a 6 mm PLA plate. Four levers of the same mass (16,800 mm³) are held and loaded the same way. The predictions are verified on 0.5 mm cells.</p>
+<p><img src="picture.png" alt="Levers A to D"></p>
+<table><tr><th>Lever</th><th>Straight down</th><th>At 45°</th><th>Peak stress at 20 N</th><th>Model</th></tr><tr><td>A, plain bar</td><td>28.2 N/mm</td><td>55.8 N/mm</td><td>6.06 MPa</td><td><a href="https://jonibach.github.io/rulecad-archive/m/lever-a/">Open in 3D</a></td></tr><tr><td>B, plate with four windows</td><td>3.72 N/mm</td><td>7.4 N/mm</td><td>25.3 MPa</td><td><a href="https://jonibach.github.io/rulecad-archive/m/lever-b/">Open in 3D</a></td></tr><tr><td>C, optimised for the load</td><td>100 N/mm</td><td>185 N/mm</td><td>3.0 MPa</td><td><a href="https://jonibach.github.io/rulecad-archive/m/lever-c/">Open in 3D</a></td></tr><tr><td>D, optimised for two loads</td><td>99.3 N/mm</td><td>191 N/mm</td><td>3.05 MPa</td><td><a href="https://jonibach.github.io/rulecad-archive/m/lever-d/">Open in 3D</a></td></tr></table>
+<h2>Findings</h2>
+<ul><li><strong>Optimised against the usual lightening:</strong> C is 27 times as stiff as B for the same material, and 3.5 times as stiff as the plain bar.</li><li><strong>B is fragile.</strong> Its peak stress at 20 N is 1.5 times under PLA's strength, at a window's corner: it may crack at about 2 kg.</li><li><strong>A calibrates the rest.</strong> The bar's prediction is the surest, so its measured stiffness corrects the material's modulus for the other three.</li></ul>
+<h2>Still to do</h2>
+<p>Print three of each, load them in steps and record the measurements against these predictions.</p>
+</main>

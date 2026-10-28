@@ -1,5 +1,77 @@
 [
   {
+    "slug": "lever-d",
+    "date": "2026-10-28",
+    "ref": "bench/lever:both",
+    "title": "Lever bench: optimised lever (both) 0.1.0",
+    "note": "optimised for two loads",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "lever-b",
+    "date": "2026-10-28",
+    "ref": "bench/lever-plate",
+    "title": "Lever bench: lightened plate 0.1.0",
+    "note": "a plate with four windows",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "lever-a",
+    "date": "2026-10-28",
+    "ref": "bench/lever-bar",
+    "title": "Lever bench: plain bar 0.1.0",
+    "note": "a plain bar",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "bracket-b-side",
+    "date": "2026-10-28",
+    "ref": "bench/bracket:side-free",
+    "title": "Bracket bench: optimised bracket (side-free) 0.1.0",
+    "note": "B laid on its side: what it would need supporting",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "bracket-b",
+    "date": "2026-10-28",
+    "ref": "bench/bracket",
+    "title": "Bracket bench: optimised bracket 0.1.0",
+    "note": "optimised freely",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "bracket-a",
+    "date": "2026-10-28",
+    "ref": "bench/bracket-web",
+    "title": "Bracket bench: plain web 0.1.0",
+    "note": "the plain web: the hand-made bracket",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "lbracket-stress",
+    "date": "2026-10-28",
+    "ref": "lbracket/stress",
+    "title": "L-bracket: lightest under 25 MPa",
+    "note": "the lightest under 25 MPa; peak 36.6 MPa as made",
+    "source": "rulecad topopt reference",
+    "picture": true
+  },
+  {
+    "slug": "lbracket-stiffest",
+    "date": "2026-10-28",
+    "ref": "lbracket/stiffest",
+    "title": "L-bracket: stiffest at 40%",
+    "note": "the stiffest at 40% of the space; peak 67.2 MPa as made",
+    "source": "rulecad topopt reference",
+    "picture": true
+  },
+  {
     "slug": "bench-bracket",
     "date": "2026-10-28",
     "ref": "bench/bracket",

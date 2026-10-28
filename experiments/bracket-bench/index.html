@@ -1,0 +1,22 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bracket bench: four wall brackets of equal mass</title>
+<meta property="og:title" content="Bracket bench: four wall brackets of equal mass">
+<meta property="og:image" content="https://jonibach.github.io/rulecad-archive/experiments/bracket-bench/picture.png">
+<style>body { font-family: system-ui, sans-serif; margin: 0; background: #111; color: #ddd; line-height: 1.5; }
+  main, header, section { max-width: 72rem; margin: 0 auto; padding: 1rem 1.25rem; } main { max-width: 52rem; }
+  a { color: #8cf; } img { max-width: 100%; border-radius: 6px; } code { color: #bbb; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.9rem; margin: 1rem 0; } th, td { border-bottom: 1px solid #333; padding: 0.4rem 0.5rem; text-align: left; vertical-align: top; }</style>
+<main>
+<p><a href="../../">← rulecad archive</a></p>
+<h1>Bracket bench: four wall brackets of equal mass</h1>
+<p><strong>28 October 2026 · rulecad examples/bench · measurements to come</strong></p>
+<p>A wall bracket bolted to a wall by two M5 bolts reaches 80 mm out to a load bolt. Four brackets of the same mass (27,520 mm³, about 35 g of PLA) fill the same 40 × 40 × 86 mm space and are held and loaded the same way. The predictions are verified on 0.8 mm cells.</p>
+<p><img src="picture.png" alt="Brackets A to D"></p>
+<table><tr><th>Bracket</th><th>Straight down</th><th>At 45°</th><th>Overhang past 45°</th><th>Model</th></tr><tr><td>A, plain web</td><td>95.2 N/mm</td><td>24.4 N/mm</td><td>none</td><td><a href="https://jonibach.github.io/rulecad-archive/m/bracket-a/">Open in 3D</a></td></tr><tr><td>B, optimised freely</td><td>141 N/mm</td><td>60.9 N/mm</td><td>103 mm² standing; 1,035 mm² <a href="https://jonibach.github.io/rulecad-archive/m/bracket-b-side/">on its side</a></td><td><a href="https://jonibach.github.io/rulecad-archive/m/bracket-b/">Open in 3D</a></td></tr><tr><td>C, printable standing on its back plate</td><td>141 N/mm</td><td>52.6 N/mm</td><td>none</td><td><a href="https://jonibach.github.io/rulecad-archive/m/bracket-c/">Open in 3D</a></td></tr><tr><td>D, printable lying on its side</td><td>127 N/mm</td><td>41.0 N/mm</td><td>none</td><td><a href="https://jonibach.github.io/rulecad-archive/m/bracket-d/">Open in 3D</a></td></tr></table>
+<h2>Findings</h2>
+<ul><li><strong>Optimised against plain:</strong> about 1.5 times as stiff straight down, and over twice as stiff at 45°, for the same material.</li><li><strong>What printing without supports costs:</strong> standing up, nothing straight down and 14% at 45°. Lying on its side, 10% straight down and 33% at 45°: every hole's roof must rise at 45°.</li><li><strong>How sure:</strong> stiffness changes less than 5% between 1 mm and 0.8 mm cells, except D at 45° (5.6%).</li></ul>
+<h2>Still to do</h2>
+<p>Print three of each, load them on the bench's rig and record the measurements against these predictions.</p>
+</main>

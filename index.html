@@ -17,12 +17,77 @@
 </style>
 <header>
   <h1>rulecad archive</h1>
-  <p>43 models made with <a href="https://github.com/JoniBach/rulecad">rulecad</a>. Open one in 3D to turn it and download STL or 3MF.</p>
-  <nav><a href="#bench">bench</a><a href="#legion-go-mx">legion-go-mx</a><a href="#lever">lever</a><a href="#legion-go">legion-go</a><a href="#keyboard">keyboard</a></nav>
+  <p>51 models made with <a href="https://github.com/JoniBach/rulecad">rulecad</a>. Open one in 3D to turn it and download STL or 3MF.</p>
+  <nav><a href="#experiments">experiments</a><a href="#bench">bench</a><a href="#lbracket">lbracket</a><a href="#legion-go-mx">legion-go-mx</a><a href="#lever">lever</a><a href="#legion-go">legion-go</a><a href="#keyboard">keyboard</a></nav>
 </header>
+<section id="experiments">
+<h2>Experiments</h2>
+<div class="grid">
+<article>
+  <a href="experiments/bracket-bench/"><img src="experiments/bracket-bench/picture.png" alt="" loading="lazy" style="object-fit:contain"></a>
+  <h3><a href="experiments/bracket-bench/">Bracket bench: four wall brackets of equal mass</a></h3>
+  <p>2026-10-28 · Optimised brackets predicted 1.5 times as stiff as a plain web; what printing without supports costs</p>
+  <p class="links"><a href="experiments/bracket-bench/">Results</a></p>
+</article>
+<article>
+  <a href="experiments/lbracket/"><img src="experiments/lbracket/picture.png" alt="" loading="lazy" style="object-fit:contain"></a>
+  <h3><a href="experiments/lbracket/">L-bracket: stiffest against stress-limited</a></h3>
+  <p>2026-10-28 · Stress limits cut the peak stress by 46% for the same material</p>
+  <p class="links"><a href="experiments/lbracket/">Results</a></p>
+</article>
+<article>
+  <a href="experiments/lever-bench/"><img src="experiments/lever-bench/picture.png" alt="" loading="lazy" style="object-fit:contain"></a>
+  <h3><a href="experiments/lever-bench/">Lever bench: four levers of equal mass</a></h3>
+  <p>2026-10-28 · The optimised lever predicted 27 times as stiff as a lightened plate</p>
+  <p class="links"><a href="experiments/lever-bench/">Results</a></p>
+</article>
+<article>
+  <a href="experiments/verification/"><img src="experiments/verification/picture.png" alt="" loading="lazy" style="object-fit:contain"></a>
+  <h3><a href="experiments/verification/">Verification: how sure are the predictions?</a></h3>
+  <p>2026-10-28 · Finer cells showed the first bracket predictions were 15–35% too flexible</p>
+  <p class="links"><a href="experiments/verification/">Results</a></p>
+</article>
+</div>
+</section>
 <section id="bench">
 <h2>bench</h2>
 <div class="grid">
+<article>
+  <a href="m/lever-d/"><img src="m/lever-d/thumb.jpg" alt="" loading="lazy"></a>
+  <h3><a href="m/lever-d/">Lever bench: optimised lever (both) 0.1.0</a></h3>
+  <p>2026-10-28 · <code>bench/lever:both</code> · optimised for two loads</p>
+  <p class="links"><a href="m/lever-d/">Open in 3D</a> · <a href="m/lever-d/preview.png">Picture</a></p>
+</article>
+<article>
+  <a href="m/lever-b/"><img src="m/lever-b/thumb.jpg" alt="" loading="lazy"></a>
+  <h3><a href="m/lever-b/">Lever bench: lightened plate 0.1.0</a></h3>
+  <p>2026-10-28 · <code>bench/lever-plate</code> · a plate with four windows</p>
+  <p class="links"><a href="m/lever-b/">Open in 3D</a> · <a href="m/lever-b/preview.png">Picture</a></p>
+</article>
+<article>
+  <a href="m/lever-a/"><img src="m/lever-a/thumb.jpg" alt="" loading="lazy"></a>
+  <h3><a href="m/lever-a/">Lever bench: plain bar 0.1.0</a></h3>
+  <p>2026-10-28 · <code>bench/lever-bar</code> · a plain bar</p>
+  <p class="links"><a href="m/lever-a/">Open in 3D</a> · <a href="m/lever-a/preview.png">Picture</a></p>
+</article>
+<article>
+  <a href="m/bracket-b-side/"><img src="m/bracket-b-side/thumb.jpg" alt="" loading="lazy"></a>
+  <h3><a href="m/bracket-b-side/">Bracket bench: optimised bracket (side-free) 0.1.0</a></h3>
+  <p>2026-10-28 · <code>bench/bracket:side-free</code> · B laid on its side: what it would need supporting</p>
+  <p class="links"><a href="m/bracket-b-side/">Open in 3D</a> · <a href="m/bracket-b-side/preview.png">Picture</a></p>
+</article>
+<article>
+  <a href="m/bracket-b/"><img src="m/bracket-b/thumb.jpg" alt="" loading="lazy"></a>
+  <h3><a href="m/bracket-b/">Bracket bench: optimised bracket 0.1.0</a></h3>
+  <p>2026-10-28 · <code>bench/bracket</code> · optimised freely</p>
+  <p class="links"><a href="m/bracket-b/">Open in 3D</a> · <a href="m/bracket-b/preview.png">Picture</a></p>
+</article>
+<article>
+  <a href="m/bracket-a/"><img src="m/bracket-a/thumb.jpg" alt="" loading="lazy"></a>
+  <h3><a href="m/bracket-a/">Bracket bench: plain web 0.1.0</a></h3>
+  <p>2026-10-28 · <code>bench/bracket-web</code> · the plain web: the hand-made bracket</p>
+  <p class="links"><a href="m/bracket-a/">Open in 3D</a> · <a href="m/bracket-a/preview.png">Picture</a></p>
+</article>
 <article>
   <a href="m/bench-bracket/"><img src="m/bench-bracket/thumb.jpg" alt="" loading="lazy"></a>
   <h3><a href="m/bench-bracket/">Bracket bench: optimised bracket</a></h3>
@@ -58,6 +123,23 @@
   <h3><a href="m/bracket-c/">Bracket bench: optimised bracket (printable) 0.1.0</a></h3>
   <p>2026-10-28 · <code>bench/bracket:printable</code> · optimised to print without supports, standing on its back plate</p>
   <p class="links"><a href="m/bracket-c/">Open in 3D</a> · <a href="m/bracket-c/preview.png">Picture</a></p>
+</article>
+</div>
+</section>
+<section id="lbracket">
+<h2>lbracket</h2>
+<div class="grid">
+<article>
+  <a href="m/lbracket-stress/"><img src="m/lbracket-stress/thumb.jpg" alt="" loading="lazy"></a>
+  <h3><a href="m/lbracket-stress/">L-bracket: lightest under 25 MPa</a></h3>
+  <p>2026-10-28 · <code>lbracket/stress</code> · the lightest under 25 MPa; peak 36.6 MPa as made</p>
+  <p class="links"><a href="m/lbracket-stress/">Open in 3D</a> · <a href="m/lbracket-stress/preview.png">Picture</a></p>
+</article>
+<article>
+  <a href="m/lbracket-stiffest/"><img src="m/lbracket-stiffest/thumb.jpg" alt="" loading="lazy"></a>
+  <h3><a href="m/lbracket-stiffest/">L-bracket: stiffest at 40%</a></h3>
+  <p>2026-10-28 · <code>lbracket/stiffest</code> · the stiffest at 40% of the space; peak 67.2 MPa as made</p>
+  <p class="links"><a href="m/lbracket-stiffest/">Open in 3D</a> · <a href="m/lbracket-stiffest/preview.png">Picture</a></p>
 </article>
 </div>
 </section>
