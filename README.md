@@ -14,6 +14,14 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
+### Twisted tube: optimised 0.1.0
+
+2026-10-28 · `showcase/twist` in bench: Second attempt, in one piece: 25% of a 40 × 80 mm cylinder with struts at least 5 mm thick. The wall opens into diamond windows running round it in a spiral. 249 steps on 23,040 cells of 2 mm in 19 min; printable standing up, 32 g of PLA.
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/twist-2/)
+
+[![Twisted tube: optimised 0.1.0](m/twist-2/preview.png)](https://jonibach.github.io/rulecad-archive/m/twist-2/)
+
 ### Twisted tube, first attempt: falls apart
 
 2026-10-28 · `showcase/twist` in bench: Failed: the struts came out one cell thick, and a one-cell strut at 45° on a cube grid touches only at edges, so the part fell into 11 pieces with many thin, non-solid bits. Settings: 15% of a 40 × 80 mm cylinder, filter 3 mm on 2 mm cells. Rerun with a 5 mm filter and 25% material.

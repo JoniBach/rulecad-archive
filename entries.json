@@ -1,5 +1,14 @@
 [
   {
+    "slug": "twist-2",
+    "date": "2026-10-28",
+    "ref": "showcase/twist",
+    "title": "Twisted tube: optimised 0.1.0",
+    "note": "Second attempt, in one piece: 25% of a 40 × 80 mm cylinder with struts at least 5 mm thick. The wall opens into diamond windows running round it in a spiral. 249 steps on 23,040 cells of 2 mm in 19 min; printable standing up, 32 g of PLA.",
+    "source": "bench",
+    "picture": true
+  },
+  {
     "slug": "twist",
     "date": "2026-10-28",
     "ref": "showcase/twist",
