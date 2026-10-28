@@ -1,0 +1,29 @@
+[
+  {
+    "slug": "lever-c",
+    "date": "2026-10-28",
+    "ref": "bench/lever",
+    "title": "Lever bench: optimised lever 0.1.0",
+    "note": "the stiffest lever for its load, 2D",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "bracket-d",
+    "date": "2026-10-28",
+    "ref": "bench/bracket:side",
+    "title": "Bracket bench: optimised bracket (side) 0.1.0",
+    "note": "optimised to print without supports, lying on its side",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "bracket-c",
+    "date": "2026-10-28",
+    "ref": "bench/bracket:printable",
+    "title": "Bracket bench: optimised bracket (printable) 0.1.0",
+    "note": "optimised to print without supports, standing on its back plate",
+    "source": "bench",
+    "picture": true
+  }
+]
