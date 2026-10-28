@@ -1,5 +1,14 @@
 [
   {
+    "slug": "twist",
+    "date": "2026-10-28",
+    "ref": "showcase/twist",
+    "title": "Twisted tube: optimised 0.1.0",
+    "note": "Held at the bottom ring, twisted at the top: 15% of a 40 × 80 mm cylinder, printable standing up. 268 steps on 23,040 cells of 2 mm, 2 h 36 min.",
+    "source": "bench",
+    "picture": true
+  },
+  {
     "slug": "lever-d",
     "date": "2026-10-28",
     "ref": "bench/lever:both",

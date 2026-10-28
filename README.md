@@ -14,6 +14,14 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
+### Twisted tube: optimised 0.1.0
+
+2026-10-28 · `showcase/twist` in bench: Held at the bottom ring, twisted at the top: 15% of a 40 × 80 mm cylinder, printable standing up. 268 steps on 23,040 cells of 2 mm, 2 h 36 min.
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/twist/)
+
+[![Twisted tube: optimised 0.1.0](m/twist/preview.png)](https://jonibach.github.io/rulecad-archive/m/twist/)
+
 ### Lever bench: optimised lever (both) 0.1.0
 
 2026-10-28 · `bench/lever:both` in bench: optimised for two loads
