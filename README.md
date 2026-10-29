@@ -2,6 +2,7 @@
 
 ## Experiments
 
+- **[Bin: a lattice wall for the X1C's whole build volume](experiments/bin/)** (2026-10-30): At 5% of the cylinder, four legs become pointed arches under the rim; the share, not the method, made the first attempt solid. [On the site](https://jonibach.github.io/rulecad-archive/experiments/bin/)
 - **[Tree stand: from stool to goblet to Y to tree](experiments/tree/)** (2026-10-29): Where the loads sit decides whether a part branches; the fifth attempt is complete and print-ready. [On the site](https://jonibach.github.io/rulecad-archive/experiments/tree/)
 - **[Bracket bench: four wall brackets of equal mass](experiments/bracket-bench/)** (2026-10-28): Optimised brackets predicted 1.5 times as stiff as a plain web; what printing without supports costs. [On the site](https://jonibach.github.io/rulecad-archive/experiments/bracket-bench/)
 - **[L-bracket: stiffest against stress-limited](experiments/lbracket/)** (2026-10-28): Stress limits cut the peak stress by 46% for the same material. [On the site](https://jonibach.github.io/rulecad-archive/experiments/lbracket/)
@@ -15,6 +16,14 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
+
+### Bin: optimised lattice wall 0.1.0
+
+2026-10-29 · `showcase/bin` in bench: Second attempt, at 5% of the cylinder (about 17% of the wall): four legs rise from the foot ring into pointed arches that meet under the rim, like a crown. One piece, nothing in mid-air, no overhang past 45° (the design's ledge under the rim slopes a touch steeper than 45°). 664 g of PLA; leant on 4,240 N/mm, kicked 54 N/mm; 300 steps in an hour on the faster solver, not settled, and 17% of the kept rim had nothing under it before the ledge. On 6 mm cells the optimiser can't bridge (its reach rounds to zero).
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/bin-2/)
+
+[![Bin: optimised lattice wall 0.1.0](m/bin-2/preview.png)](https://jonibach.github.io/rulecad-archive/m/bin-2/)
 
 ### Tree stand: optimised 0.1.0
 
