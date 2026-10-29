@@ -1,5 +1,14 @@
 [
   {
+    "slug": "tree-4",
+    "date": "2026-10-29",
+    "ref": "showcase/tree",
+    "title": "Tree stand: optimised 0.1.0",
+    "note": "Fourth attempt, on the faster solver with kept regions held up: the trunk splits into branches that fan out under the plate, and every bridge is short (2.6 mm), nothing starts in mid-air, no overhang past 45°. But the trunk grows from two feet and the third, kept, sits loose: the loads never needed it. 10% of the space, 3,960 N/mm down; 300 steps, not settled, 22 min.",
+    "source": "bench",
+    "picture": true
+  },
+  {
     "slug": "bin",
     "date": "2026-10-29",
     "ref": "showcase/bin",

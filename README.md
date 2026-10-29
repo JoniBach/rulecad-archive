@@ -16,6 +16,14 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
+### Tree stand: optimised 0.1.0
+
+2026-10-29 · `showcase/tree` in bench: Fourth attempt, on the faster solver with kept regions held up: the trunk splits into branches that fan out under the plate, and every bridge is short (2.6 mm), nothing starts in mid-air, no overhang past 45°. But the trunk grows from two feet and the third, kept, sits loose: the loads never needed it. 10% of the space, 3,960 N/mm down; 300 steps, not settled, 22 min.
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/tree-4/)
+
+[![Tree stand: optimised 0.1.0](m/tree-4/preview.png)](https://jonibach.github.io/rulecad-archive/m/tree-4/)
+
 ### Bin: optimised lattice wall 0.1.0
 
 2026-10-29 · `showcase/bin` in bench: First attempt, too heavy and not yet support-free: 230 × 250 mm, a wall that's mostly solid with tall pointed-arch windows (the 45° rule's own shape), about 2 kg of PLA. The 15% share counted the whole cylinder, the empty inside too, so it filled half the wall; about 4–5% would give a lattice. Leant on: 35,700 N/mm; kicked: 1,380 N/mm. The print check still finds 523 mm² past 45° and two tips under the rim. 246 steps on 76,800 cells of 6 mm in about 4 hours.
