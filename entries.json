@@ -1,5 +1,14 @@
 [
   {
+    "slug": "tree-2",
+    "date": "2026-10-29",
+    "ref": "showcase/tree",
+    "title": "Tree stand: optimised 0.1.0",
+    "note": "Second attempt: a goblet, not a tree. With the feet together as a trunk and the load round the plate's edge, it grew a cone flaring out at 45° to the plate. The twisting case and six evenly spaced loads favour a closed shell over separate branches. In one piece, no overhangs past 45°, bridges 2.6 mm; 48 g of PLA; 266 steps in 55 min.",
+    "source": "bench",
+    "picture": true
+  },
+  {
     "slug": "tree",
     "date": "2026-10-29",
     "ref": "showcase/tree",

@@ -17,6 +17,14 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 
 ### Tree stand: optimised 0.1.0
 
+2026-10-29 · `showcase/tree` in bench: Second attempt: a goblet, not a tree. With the feet together as a trunk and the load round the plate's edge, it grew a cone flaring out at 45° to the plate. The twisting case and six evenly spaced loads favour a closed shell over separate branches. In one piece, no overhangs past 45°, bridges 2.6 mm; 48 g of PLA; 266 steps in 55 min.
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/tree-2/)
+
+[![Tree stand: optimised 0.1.0](m/tree-2/preview.png)](https://jonibach.github.io/rulecad-archive/m/tree-2/)
+
+### Tree stand: optimised 0.1.0
+
 2026-10-29 · `showcase/tree` in bench: First attempt: came out as a stool, three straight legs under a plate, not a tree. The loads sit right above the feet and the solid plate spreads them, so straight columns are stiffest. In one piece, prints standing on its feet with 3 mm bridges under the plate, 48 g of PLA; 237 steps on 40,960 cells in 49 min.
 
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/tree/)
