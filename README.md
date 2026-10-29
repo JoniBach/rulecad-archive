@@ -15,6 +15,14 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
+### Tree stand: optimised 0.1.0
+
+2026-10-29 · `showcase/tree` in bench: First attempt: came out as a stool, three straight legs under a plate, not a tree. The loads sit right above the feet and the solid plate spreads them, so straight columns are stiffest. In one piece, prints standing on its feet with 3 mm bridges under the plate, 48 g of PLA; 237 steps on 40,960 cells in 49 min.
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/tree/)
+
+[![Tree stand: optimised 0.1.0](m/tree/preview.png)](https://jonibach.github.io/rulecad-archive/m/tree/)
+
 ### Twisted tube: optimised 0.1.0
 
 2026-10-28 · `showcase/twist` in bench: Second attempt, in one piece: 25% of a 40 × 80 mm cylinder with struts at least 5 mm thick. The wall opens into diamond windows running round it in a spiral. 249 steps on 23,040 cells of 2 mm in 19 min; printable standing up, 32 g of PLA.

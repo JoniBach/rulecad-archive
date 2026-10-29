@@ -1,5 +1,14 @@
 [
   {
+    "slug": "tree",
+    "date": "2026-10-29",
+    "ref": "showcase/tree",
+    "title": "Tree stand: optimised 0.1.0",
+    "note": "First attempt: came out as a stool, three straight legs under a plate, not a tree. The loads sit right above the feet and the solid plate spreads them, so straight columns are stiffest. In one piece, prints standing on its feet with 3 mm bridges under the plate, 48 g of PLA; 237 steps on 40,960 cells in 49 min.",
+    "source": "bench",
+    "picture": true
+  },
+  {
     "slug": "twist-2",
     "date": "2026-10-28",
     "ref": "showcase/twist",
