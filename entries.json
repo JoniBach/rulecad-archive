@@ -1,5 +1,14 @@
 [
   {
+    "slug": "bin",
+    "date": "2026-10-29",
+    "ref": "showcase/bin",
+    "title": "Bin: optimised lattice wall 0.1.0",
+    "note": "First attempt, too heavy and not yet support-free: 230 × 250 mm, a wall that's mostly solid with tall pointed-arch windows (the 45° rule's own shape), about 2 kg of PLA. The 15% share counted the whole cylinder, the empty inside too, so it filled half the wall; about 4–5% would give a lattice. Leant on: 35,700 N/mm; kicked: 1,380 N/mm. The print check still finds 523 mm² past 45° and two tips under the rim. 246 steps on 76,800 cells of 6 mm in about 4 hours.",
+    "source": "bench",
+    "picture": true
+  },
+  {
     "slug": "tree-3",
     "date": "2026-10-29",
     "ref": "showcase/tree",
