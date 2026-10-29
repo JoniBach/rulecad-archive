@@ -2,7 +2,7 @@
 
 ## Experiments
 
-- **[Tree stand: from stool to goblet to Y](experiments/tree/)** (2026-10-29): Where the loads sit, not the method, decides whether a part branches. [On the site](https://jonibach.github.io/rulecad-archive/experiments/tree/)
+- **[Tree stand: from stool to goblet to Y to tree](experiments/tree/)** (2026-10-29): Where the loads sit decides whether a part branches; the fifth attempt is complete and print-ready. [On the site](https://jonibach.github.io/rulecad-archive/experiments/tree/)
 - **[Bracket bench: four wall brackets of equal mass](experiments/bracket-bench/)** (2026-10-28): Optimised brackets predicted 1.5 times as stiff as a plain web; what printing without supports costs. [On the site](https://jonibach.github.io/rulecad-archive/experiments/bracket-bench/)
 - **[L-bracket: stiffest against stress-limited](experiments/lbracket/)** (2026-10-28): Stress limits cut the peak stress by 46% for the same material. [On the site](https://jonibach.github.io/rulecad-archive/experiments/lbracket/)
 - **[Lever bench: four levers of equal mass](experiments/lever-bench/)** (2026-10-28): The optimised lever predicted 27 times as stiff as a lightened plate. [On the site](https://jonibach.github.io/rulecad-archive/experiments/lever-bench/)
@@ -15,6 +15,14 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
+
+### Tree stand: optimised 0.1.0
+
+2026-10-29 · `showcase/tree` in bench: Fifth attempt, complete and print-ready: a trunk from all three feet, branching into a canopy under the plate. With a sideways push from three directions every foot is needed. One piece, nothing in mid-air, no overhang past 45°, bridges 2.6 mm; 32 g of PLA, 4,380 N/mm down, 126–133 N/mm sideways; 300 steps in 50 min on the faster solver.
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/tree-5/)
+
+[![Tree stand: optimised 0.1.0](m/tree-5/preview.png)](https://jonibach.github.io/rulecad-archive/m/tree-5/)
 
 ### Tree stand: optimised 0.1.0
 

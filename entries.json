@@ -1,5 +1,14 @@
 [
   {
+    "slug": "tree-5",
+    "date": "2026-10-29",
+    "ref": "showcase/tree",
+    "title": "Tree stand: optimised 0.1.0",
+    "note": "Fifth attempt, complete and print-ready: a trunk from all three feet, branching into a canopy under the plate. With a sideways push from three directions every foot is needed. One piece, nothing in mid-air, no overhang past 45°, bridges 2.6 mm; 32 g of PLA, 4,380 N/mm down, 126–133 N/mm sideways; 300 steps in 50 min on the faster solver.",
+    "source": "bench",
+    "picture": true
+  },
+  {
     "slug": "tree-4",
     "date": "2026-10-29",
     "ref": "showcase/tree",
