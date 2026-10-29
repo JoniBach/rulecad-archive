@@ -1,5 +1,14 @@
 [
   {
+    "slug": "tree-3",
+    "date": "2026-10-29",
+    "ref": "showcase/tree",
+    "title": "Tree stand: optimised 0.1.0",
+    "note": "Third attempt: a Y. A trunk rises from the feet and splits into three arms under the plate, one to each load. 10% of the space, three loads between the feet, no twist. In one piece apart from four specks of 1–2 cells, no overhangs past 45°, bridges 3.3 mm; 32 g of PLA; 239 steps in 87 min.",
+    "source": "bench",
+    "picture": true
+  },
+  {
     "slug": "tree-2",
     "date": "2026-10-29",
     "ref": "showcase/tree",
