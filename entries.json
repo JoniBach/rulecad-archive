@@ -1,5 +1,23 @@
 [
   {
+    "slug": "flexure-sampler",
+    "date": "2026-10-30",
+    "ref": "flexures/sampler",
+    "title": "Flexure sampler: seven flexures at three thicknesses, on two rails 0.1.0",
+    "note": "The flexure sampler: seven kinds of flexure at two, three and four lines thick on two rails, 152 × 122 × 8 mm, printed flat so every one bends within its layers. Each has a predicted stiffness and travel to 2% strain to measure against.",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "spring-pressed",
+    "date": "2026-10-30",
+    "ref": "flexures/spring:pressed",
+    "title": "A leaf spring on its block, at rest and pressed (pressed) 0.1.0",
+    "note": "A leaf spring (40 × 1.26 × 8 mm, PLA) on its block, drawn pressed 15 mm sideways by the elastica: the tip has come 2.5 mm nearer the block and turned. From the flexure bench (@rulecad/flexures).",
+    "source": "bench",
+    "picture": true
+  },
+  {
     "slug": "bin-2",
     "date": "2026-10-29",
     "ref": "showcase/bin",

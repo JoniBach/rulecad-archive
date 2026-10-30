@@ -18,6 +18,22 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
+### Flexure sampler: seven flexures at three thicknesses, on two rails 0.1.0
+
+2026-10-30 · `flexures/sampler` in bench: The flexure sampler: seven kinds of flexure at two, three and four lines thick on two rails, 152 × 122 × 8 mm, printed flat so every one bends within its layers. Each has a predicted stiffness and travel to 2% strain to measure against.
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/flexure-sampler/)
+
+[![Flexure sampler: seven flexures at three thicknesses, on two rails 0.1.0](m/flexure-sampler/preview.png)](https://jonibach.github.io/rulecad-archive/m/flexure-sampler/)
+
+### A leaf spring on its block, at rest and pressed (pressed) 0.1.0
+
+2026-10-30 · `flexures/spring:pressed` in bench: A leaf spring (40 × 1.26 × 8 mm, PLA) on its block, drawn pressed 15 mm sideways by the elastica: the tip has come 2.5 mm nearer the block and turned. From the flexure bench (@rulecad/flexures).
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/spring-pressed/)
+
+[![A leaf spring on its block, at rest and pressed (pressed) 0.1.0](m/spring-pressed/preview.png)](https://jonibach.github.io/rulecad-archive/m/spring-pressed/)
+
 ### Bin: optimised lattice wall 0.1.0
 
 2026-10-29 · `showcase/bin` in bench: Second attempt, at 5% of the cylinder (about 17% of the wall): four legs rise from the foot ring into pointed arches that meet under the rim, like a crown. One piece, nothing in mid-air, no overhang past 45° (the design's ledge under the rim slopes a touch steeper than 45°). 664 g of PLA; leant on 4,240 N/mm, kicked 54 N/mm; 300 steps in an hour on the faster solver, not settled, and 17% of the kept rim had nothing under it before the ledge. On 6 mm cells the optimiser can't bridge (its reach rounds to zero).
