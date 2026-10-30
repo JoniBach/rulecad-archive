@@ -2,7 +2,7 @@
 
 ## Experiments
 
-- **[Bin: a lattice wall for the X1C's whole build volume](experiments/bin/)** (2026-10-30): At 5% of the cylinder, four legs become pointed arches under the rim; the share, not the method, made the first attempt solid. [On the site](https://jonibach.github.io/rulecad-archive/experiments/bin/)
+- **[Bin: a lattice wall for the X1C's whole build volume](experiments/bin/)** (2026-10-30): At 5% four legs become pointed arches; at 8% diagonals brace them and the rim is reached: settled, print-ready, 1.06 kg. [On the site](https://jonibach.github.io/rulecad-archive/experiments/bin/)
 - **[The force inverter: a mechanism grown from a block](experiments/inverter/)** (2026-10-30): The first generated compliant mechanism; its point hinges, and the robust formulation that gives it real ones. [On the site](https://jonibach.github.io/rulecad-archive/experiments/inverter/)
 - **[Tree stand: from stool to goblet to Y to tree](experiments/tree/)** (2026-10-30): Where the loads sit decides whether a part branches; finer cells with bridges gave a lattice canopy, stiffer and print-ready. [On the site](https://jonibach.github.io/rulecad-archive/experiments/tree/)
 - **[Bracket bench: four wall brackets of equal mass](experiments/bracket-bench/)** (2026-10-28): Optimised brackets predicted 1.5 times as stiff as a plain web; what printing without supports costs. [On the site](https://jonibach.github.io/rulecad-archive/experiments/bracket-bench/)
@@ -17,6 +17,14 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
+
+### Bin: optimised lattice wall 0.1.0
+
+2026-10-30 · `showcase/bin` in bench: Third attempt, 8% of the space: a lattice wall settled at step 211, one piece, printable without supports
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/bin-3/)
+
+[![Bin: optimised lattice wall 0.1.0](m/bin-3/preview.png)](https://jonibach.github.io/rulecad-archive/m/bin-3/)
 
 ### Tree stand: optimised 0.1.0
 

@@ -1,5 +1,14 @@
 [
   {
+    "slug": "bin-3",
+    "date": "2026-10-30",
+    "ref": "showcase/bin",
+    "title": "Bin: optimised lattice wall 0.1.0",
+    "note": "Third attempt, 8% of the space: a lattice wall settled at step 211, one piece, printable without supports",
+    "source": "bench",
+    "picture": true
+  },
+  {
     "slug": "tree-6",
     "date": "2026-10-30",
     "ref": "showcase/tree",
