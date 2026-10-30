@@ -4,7 +4,7 @@
 
 - **[Bin: a lattice wall for the X1C's whole build volume](experiments/bin/)** (2026-10-30): At 5% of the cylinder, four legs become pointed arches under the rim; the share, not the method, made the first attempt solid. [On the site](https://jonibach.github.io/rulecad-archive/experiments/bin/)
 - **[The force inverter: a mechanism grown from a block](experiments/inverter/)** (2026-10-30): The first generated compliant mechanism; its point hinges, and the robust formulation that gives it real ones. [On the site](https://jonibach.github.io/rulecad-archive/experiments/inverter/)
-- **[Tree stand: from stool to goblet to Y to tree](experiments/tree/)** (2026-10-29): Where the loads sit decides whether a part branches; the fifth attempt is complete and print-ready. [On the site](https://jonibach.github.io/rulecad-archive/experiments/tree/)
+- **[Tree stand: from stool to goblet to Y to tree](experiments/tree/)** (2026-10-30): Where the loads sit decides whether a part branches; finer cells with bridges gave a lattice canopy, stiffer and print-ready. [On the site](https://jonibach.github.io/rulecad-archive/experiments/tree/)
 - **[Bracket bench: four wall brackets of equal mass](experiments/bracket-bench/)** (2026-10-28): Optimised brackets predicted 1.5 times as stiff as a plain web; what printing without supports costs. [On the site](https://jonibach.github.io/rulecad-archive/experiments/bracket-bench/)
 - **[L-bracket: stiffest against stress-limited](experiments/lbracket/)** (2026-10-28): Stress limits cut the peak stress by 46% for the same material. [On the site](https://jonibach.github.io/rulecad-archive/experiments/lbracket/)
 - **[Lever bench: four levers of equal mass](experiments/lever-bench/)** (2026-10-28): The optimised lever predicted 27 times as stiff as a lightened plate. [On the site](https://jonibach.github.io/rulecad-archive/experiments/lever-bench/)
@@ -17,6 +17,14 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
+
+### Tree stand: optimised 0.1.0
+
+2026-10-30 · `showcase/tree` in bench: Sixth attempt, 1.5 mm cells with the bridged overhang filter: converged at step 347, one piece, printable without supports
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/tree-6/)
+
+[![Tree stand: optimised 0.1.0](m/tree-6/preview.png)](https://jonibach.github.io/rulecad-archive/m/tree-6/)
 
 ### Flexure sampler: seven flexures at three thicknesses, on two rails 0.1.0
 

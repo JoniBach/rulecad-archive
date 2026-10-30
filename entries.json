@@ -1,5 +1,14 @@
 [
   {
+    "slug": "tree-6",
+    "date": "2026-10-30",
+    "ref": "showcase/tree",
+    "title": "Tree stand: optimised 0.1.0",
+    "note": "Sixth attempt, 1.5 mm cells with the bridged overhang filter: converged at step 347, one piece, printable without supports",
+    "source": "bench",
+    "picture": true
+  },
+  {
     "slug": "flexure-sampler",
     "date": "2026-10-30",
     "ref": "flexures/sampler",

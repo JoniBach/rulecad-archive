@@ -1,10 +1,10 @@
-# Tree stand: from stool to goblet to Y
+# Tree stand: from stool to goblet to Y to tree
 
-**29 October 2026 · @rulecad/cad 0.7.11 · `examples/bench/projects/showcase/problems/tree.json`**
+**29–30 October 2026 · @rulecad/cad 0.7.11 · `examples/bench/projects/showcase/problems/tree.json`**
 
-The aim was a part that branches like a tree. A stand fits in a 60 × 60 × 70 mm box and prints as it's used: feet on the bed and a 50 mm plate on top, with nothing starting in mid-air (a lesson from the [twisted tube](../twist/)). The space is 32 × 32 × 40 cells of 2 mm, the struts are at least 5 mm thick, and it prints without supports. Three attempts changed only where the feet and loads sit, and how much material there is.
+The aim was a part that branches like a tree. A stand fits in a 60 × 60 × 70 mm box and prints as it's used: feet on the bed and a 50 mm plate on top, with nothing starting in mid-air (a lesson from the [twisted tube](../twist/)). The space is 32 × 32 × 40 cells of 2 mm (40 × 40 × 48 cells of 1.5 mm in the sixth attempt), the struts are at least 5 mm thick, and it prints without supports. The attempts changed only where the feet and loads sit, how much material there is, and how fine the cells are.
 
-![The fifth attempt, from six sides](picture.png)
+![The sixth attempt, from six sides](picture.png)
 
 | Attempt | Feet | Loads | Material | Shape | Stiffness down / sideways | Run time | Model |
 |---|---|---|---|---|---|---|---|
@@ -13,6 +13,7 @@ The aim was a part that branches like a tree. A stand fits in a 60 × 60 × 70 m
 | 3 | 8 mm out, a trunk | 50 N at 3 points round the edge, between the feet, the push | 10% | A Y: a trunk splitting into three arms | 6,910 / 387 N/mm | 87 min | [Open in 3D](https://jonibach.github.io/rulecad-archive/m/tree-3/) |
 | 4 | as 3, kept regions held up, the faster solver | as 3 | 10% | A tree: a trunk, branches fanning under the plate; one foot left loose | 3,960 / 194 N/mm | 22 min | [Open in 3D](https://jonibach.github.io/rulecad-archive/m/tree-4/) |
 | 5 | as 4 | as 3, the push from three directions | 10% | A tree from all three feet: complete, print-ready | 4,380 / 126–133 N/mm | 50 min | [Open in 3D](https://jonibach.github.io/rulecad-archive/m/tree-5/) |
+| 6 | as 4, cells of 1.5 mm, bridges allowed | as 5 | 10% | A trunk from the three feet opening into a lattice canopy; one piece, print-ready, settled at step 347 | 4,670 / 189–193 N/mm | 115 min | [Open in 3D](https://jonibach.github.io/rulecad-archive/m/tree-6/) |
 
 ## Findings
 
@@ -24,10 +25,12 @@ The aim was a part that branches like a tree. A stand fits in a 60 × 60 × 70 m
 - **Building from the bed upward worked.** In all three attempts, the only cells with nothing below them are in the underside of the plate, with bridges of 2.6–3.3 mm. There were no icicles.
 - **Holding the plate up costs stiffness.** With a kept cell that nothing holds up costing the optimiser (attempt 4), the branches fan out under the whole plate: bridges of 2.6 mm instead of 7.9, nothing in mid-air, at 57% of attempt 3's stiffness for the same material.
 - **A kept foot the loads don't need is left loose.** Attempt 4's trunk grows from two feet; the third sits unattached. The loads must need every support: with a sideways push from three directions (attempt 5), all three feet carry a leg, and the part passes every print check.
+- **Finer cells and bridges give a canopy, not more branches.** At 1.5 mm with the printer's 5 mm bridges allowed, the three legs merge into one trunk and open under the plate into a lattice of short struts, each a bridge no wider than 3.5 mm. It is 7% stiffer downward and 45% stiffer sideways than attempt 5 on the same material, settled by itself at step 347, and the only check note is a 0.3 × 0.9 mm underside sliver, smaller than a print line.
 - **There are still specks.** The third attempt has four loose specks of 1–2 cells. Drawing a part should drop pieces that aren't connected.
 - **The twist report is wrong.** Attempt 2 reported its twist as moving 7.65 × 10¹³ mm.
 
 ## Next
 
 - Fix the code: drop loose pieces; have `cad check` flag islands and parts in several pieces; report twisting loads as an angle; save runs so they can be replayed.
-- A tree with longer branches: loads further out than the trunk is tall, or a lower plate. Finer cells would let the arms split more than once.
+- A tree with longer branches: loads further out than the trunk is tall, or a lower plate. Finer cells on their own did not make the arms split more than once; they made a canopy.
+- Ignore undersides narrower than a print line in `cad check`.
