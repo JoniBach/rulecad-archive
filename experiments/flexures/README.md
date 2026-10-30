@@ -44,7 +44,7 @@ Modulus along the layers: PLA 2,680 MPa, PETG 1,810 MPa. Travel is to 2% strain.
 | Leaf with stops, 40 mm, two lines | 0.050 N/mm | 0.034 N/mm | stops at 20 mm of the 25 the limit allows |
 | Contact-aided leaf, stop bar to 20 mm, 2 mm off | 0.050 N/mm, then 0.40 N/mm from 6.4 mm | 0.034, then 0.27 | 12.7 mm |
 | Parallelogram, 30 mm links on two-line notch hinges | 2.5 N/mm at the coupler | 1.7 N/mm | 2.2 mm |
-| Tweezers, 40 mm two-line spring, 50 mm arms | 0.25 N/mm at the fingers | 0.17 N/mm | jaws meet at 10 mm, 1.6% strain |
+| Tweezers, 40 mm two-line spring, 50 mm arms | 0.20 N/mm at the fingers | 0.13 N/mm | jaws meet at 10 mm, 1.6% strain |
 
 ## How to measure
 
