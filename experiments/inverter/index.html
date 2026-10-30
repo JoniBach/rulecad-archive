@@ -1,0 +1,22 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The force inverter: a mechanism grown from a block</title>
+<meta property="og:title" content="The force inverter: a mechanism grown from a block">
+<meta property="og:image" content="https://jonibach.github.io/rulecad-archive/experiments/inverter/picture.png">
+<style>body { font-family: system-ui, sans-serif; margin: 0; background: #111; color: #ddd; line-height: 1.5; }
+  main, header, section { max-width: 72rem; margin: 0 auto; padding: 1rem 1.25rem; } main { max-width: 52rem; }
+  a { color: #8cf; } img { max-width: 100%; border-radius: 6px; } code { color: #bbb; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.9rem; margin: 1rem 0; } th, td { border-bottom: 1px solid #333; padding: 0.4rem 0.5rem; text-align: left; vertical-align: top; }</style>
+<main>
+<p><a href="../../">← rulecad archive</a></p>
+<h1>The force inverter: a mechanism grown from a block</h1>
+<p><strong>30 October 2026 · @rulecad/topopt 0.2.8 · <code>packages/topopt/reference/inverter.mjs</code></strong></p>
+<p>The classic first test of compliant-mechanism synthesis (Sigmund 1997). A 40 × 20 mm block of PLA, 4 mm thick, is held at its two left corners and pushed to the right at the middle of its left edge with 10 N, against a spring of 2.7 N/mm. The right edge's middle should move to the left, against a spring of its own. The optimiser is given 30% of the block and asked for the layout that moves the output furthest.</p>
+<p><img src="picture.png" alt="The force inverter"></p>
+<p>It makes the X: two arms from the input to the corners, two from the corners to the output, and two more across. Pushed 5.8 mm to the right at the input, the output moves 1.7 mm to the left: an advantage of 0.29. An even block moves its right edge the way it is pushed; the optimiser reverses it in about 25 steps and spends the rest sharpening. 228 steps on 0.5 mm cells (3,200 of them), 29 seconds.</p>
+<h2>What's wrong with it</h2>
+<p>The grey cells show where the material really is: the arms meet at hinges a single cell wide and about 30% full. That's what mechanism synthesis does when nothing stops it: a point hinge is the most compliant joint there is, so the optimiser makes them, and the drawn outline (smoothed, at half density) drops them, leaving blobs. Printed as drawn, this part is six pieces. The fixes are known: a minimum width for every member (the robust formulation, which optimises eroded and dilated copies of the design together), or a strain limit, which punishes the hinge's strain. That's the next step before any generated mechanism is printed.</p>
+<h2>Settings</h2>
+<table><tr><th></th><th></th></tr><tr><td>Space</td><td>40 × 20 mm, 4 mm thick, PLA (E 2,680 MPa)</td></tr><tr><td>Held</td><td>the two left corners, 1 mm squares</td></tr><tr><td>Input</td><td>10 N to the right at the left edge's middle (a 1 × 2 mm patch), against 2.7 N/mm</td></tr><tr><td>Output</td><td>the right edge's middle, to the left, against 2.7 N/mm</td></tr><tr><td>Material</td><td>30% of the space, members at least 1.5 mm (a filter of three cells)</td></tr><tr><td>Result</td><td>1.70 mm out for 5.85 mm in; 29.7% of the space; 228 steps, settled</td></tr></table>
+</main>
