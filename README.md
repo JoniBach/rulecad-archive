@@ -3,7 +3,7 @@
 ## Experiments
 
 - **[Bin: a lattice wall for the X1C's whole build volume](experiments/bin/)** (2026-10-30): At 5% of the cylinder, four legs become pointed arches under the rim; the share, not the method, made the first attempt solid. [On the site](https://jonibach.github.io/rulecad-archive/experiments/bin/)
-- **[The force inverter: a mechanism grown from a block](experiments/inverter/)** (2026-10-30): Pushed right at one edge, the other edge moves left: the first generated compliant mechanism, with its point hinges in view. [On the site](https://jonibach.github.io/rulecad-archive/experiments/inverter/)
+- **[The force inverter: a mechanism grown from a block](experiments/inverter/)** (2026-10-30): The first generated compliant mechanism; its point hinges, and the robust formulation that gives it real ones. [On the site](https://jonibach.github.io/rulecad-archive/experiments/inverter/)
 - **[Tree stand: from stool to goblet to Y to tree](experiments/tree/)** (2026-10-29): Where the loads sit decides whether a part branches; the fifth attempt is complete and print-ready. [On the site](https://jonibach.github.io/rulecad-archive/experiments/tree/)
 - **[Bracket bench: four wall brackets of equal mass](experiments/bracket-bench/)** (2026-10-28): Optimised brackets predicted 1.5 times as stiff as a plain web; what printing without supports costs. [On the site](https://jonibach.github.io/rulecad-archive/experiments/bracket-bench/)
 - **[L-bracket: stiffest against stress-limited](experiments/lbracket/)** (2026-10-28): Stress limits cut the peak stress by 46% for the same material. [On the site](https://jonibach.github.io/rulecad-archive/experiments/lbracket/)
