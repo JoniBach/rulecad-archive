@@ -4,7 +4,7 @@
 
 - **[Bin: a lattice wall for the X1C's whole build volume](experiments/bin/)** (2026-10-30): At 5% four legs become pointed arches; at 8% diagonals brace them and the rim is reached: settled, print-ready, 1.06 kg. [On the site](https://jonibach.github.io/rulecad-archive/experiments/bin/)
 - **[Flexure samplers: twenty-two flexures and mechanisms to measure](experiments/flexures/)** (2026-10-30): Four printed plates with every flexure in the library and its predicted stiffness and travel; measured, they give the material its strain limit. [On the site](https://jonibach.github.io/rulecad-archive/experiments/flexures/)
-- **[Guitar hanger: a wall mount grown from two screws to a cradle](experiments/guitar/)** (2026-10-30): A Telecaster hanger grown from two screw bosses to two arm pads: an A-frame with a window, settled in 52 minutes, every check passing. [On the site](https://jonibach.github.io/rulecad-archive/experiments/guitar/)
+- **[Guitar hanger: a wall mount grown from two screws to a cradle](experiments/guitar/)** (2026-10-30): A Telecaster hanger grown from two screw bosses to two arm pads; the second attempt keeps the neck's channel and the screw columns empty, settled in 57 minutes, every check passing. [On the site](https://jonibach.github.io/rulecad-archive/experiments/guitar/)
 - **[The force inverter: a mechanism grown from a block](experiments/inverter/)** (2026-10-30): The first generated compliant mechanism; its point hinges, and the robust formulation that gives it real ones. [On the site](https://jonibach.github.io/rulecad-archive/experiments/inverter/)
 - **[Tree stand: from stool to goblet to Y to tree](experiments/tree/)** (2026-10-30): Where the loads sit decides whether a part branches; finer cells with bridges gave a lattice canopy, stiffer and print-ready. [On the site](https://jonibach.github.io/rulecad-archive/experiments/tree/)
 - **[Bracket bench: four wall brackets of equal mass](experiments/bracket-bench/)** (2026-10-28): Optimised brackets predicted 1.5 times as stiff as a plain web; what printing without supports costs. [On the site](https://jonibach.github.io/rulecad-archive/experiments/bracket-bench/)
@@ -19,6 +19,14 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
+
+### Guitar hanger: optimised 0.1.0
+
+2026-10-30 · `showcase/guitar` in bench: Second attempt: the neck's channel between the arms and a driver column over each screw kept empty; settled at step 252, every check passing
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/guitar-2/)
+
+[![Guitar hanger: optimised 0.1.0](m/guitar-2/preview.png)](https://jonibach.github.io/rulecad-archive/m/guitar-2/)
 
 ### Flexure sampler 4: travel stops, a curved leaf, a contact-aided leaf, a parallelogram and tweezers 0.1.0
 

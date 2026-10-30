@@ -1,5 +1,14 @@
 [
   {
+    "slug": "guitar-2",
+    "date": "2026-10-30",
+    "ref": "showcase/guitar",
+    "title": "Guitar hanger: optimised 0.1.0",
+    "note": "Second attempt: the neck's channel between the arms and a driver column over each screw kept empty; settled at step 252, every check passing",
+    "source": "bench",
+    "picture": true
+  },
+  {
     "slug": "flexure-sampler-4",
     "date": "2026-10-30",
     "ref": "flexures/sampler4",
