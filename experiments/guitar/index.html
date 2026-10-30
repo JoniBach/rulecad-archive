@@ -1,0 +1,34 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guitar hanger: a wall mount grown from two screws to a cradle</title>
+<meta property="og:title" content="Guitar hanger: a wall mount grown from two screws to a cradle">
+<meta property="og:image" content="https://jonibach.github.io/rulecad-archive/experiments/guitar/picture.png">
+<style>body { font-family: system-ui, sans-serif; margin: 0; background: #111; color: #ddd; line-height: 1.5; }
+  main, header, section { max-width: 72rem; margin: 0 auto; padding: 1rem 1.25rem; } main { max-width: 52rem; }
+  a { color: #8cf; } img { max-width: 100%; border-radius: 6px; } code { color: #bbb; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.9rem; margin: 1rem 0; } th, td { border-bottom: 1px solid #333; padding: 0.4rem 0.5rem; text-align: left; vertical-align: top; }</style>
+<main>
+<p><a href="../../">← rulecad archive</a></p>
+<h1>Guitar hanger: a wall mount grown from two screws to a cradle</h1>
+<p><strong>30 October 2026 · @rulecad/cad 0.7.16 · <code>examples/bench/projects/showcase/problems/guitar.json</code></strong></p>
+<p>The first showcase part meant for daily use: a wall hanger for a six-string Telecaster, hung by its neck. The neck sits in a U just below the headstock, which rests on the U's two arms. The part prints lying on its back, so z is out from the wall and y up it, and nothing is drawn but what the problem keeps: two screw bosses on the wall, 90 mm apart, and two arm pads 52 mm apart (a Telecaster neck is 42 mm at the nut, leaving room for a foam strip each side, and the headstock is wider). The optimiser grows the arms from the bosses to the pads against three cases on the pads: the guitar hanging (4 kg with a margin), a tug away from the wall, and a knock sideways. 12% of a 110 × 130 × 70 mm space on 2.5 mm cells (86,000 after padding), struts at least 6.5 mm, printable without supports in +z.</p>
+<p><img src="picture.png" alt="The hanger from six sides"></p>
+<table><tr><th>Case</th><th>Load</th><th>Moves</th><th>Stiffness</th></tr><tr><td>Hanging</td><td>40 N down the wall, shared by the pads</td><td>0.0035 mm</td><td>11,600 N/mm</td></tr><tr><td>Tugged</td><td>the weight plus 20 N away from the wall</td><td>0.0040 mm</td><td>11,200 N/mm</td></tr><tr><td>Knocked</td><td>the weight plus 15 N sideways</td><td>0.0055 mm</td><td>7,730 N/mm</td></tr></table>
+<p>Settled by itself at step 234, in 52 minutes. 120 cm³, 151 g of PLA. <a href="https://jonibach.github.io/rulecad-archive/m/guitar/">Open in 3D</a>.</p>
+<h2>Findings</h2>
+<ul><li><strong>An A-frame, not a plate.</strong> With only the bosses kept, the optimiser made a sloping trunk from the lower screw up</li></ul>
+<p>  to the arms, and a short post down to the upper screw under the pads, with a window between them. Both screws   work: every cell above the upper boss is used, two thirds of those above the lower one.</p>
+<ul><li><strong>The arms rise at the overhang limit.</strong> From the trunk the two arms fan out to the pads at 45°, which is the</li></ul>
+<p>  printer's rule, so the U's shape comes from the printer as much as from the loads.</p>
+<ul><li><strong>Kept pads need a roof underneath.</strong> The pads' flat undersides were reached by struts from one side only, and</li></ul>
+<p>  <code>cad check</code> saw an 8.7 mm bridge. The design adds a gable under each pad, a touch steeper than 45° (as the bin's   ledge), and every check passes.</p>
+<ul><li><strong>Booleans mind their winding.</strong> The gable's polygon was first drawn clockwise, which made the prism inside-out and</li></ul>
+<p>  cut the pads instead of filling under them: the check reported a 139 mm bridge, which is how it was found.</p>
+<ul><li><strong>Stiff where it counts.</strong> 11,600 N/mm hanging means 4 kg moves the pads by three thousandths of a millimetre;</li></ul>
+<p>  the knock, sideways across the arms, is the softest case at two thirds of that.</p>
+<h2>Next</h2>
+<ul><li>Print it, pad the arms, hang the guitar: the first optimised part on a wall.</li><li>A variant with one screw and a wider boss, if a single fixing is enough: the tug and the knock are what the lower</li></ul>
+<p>  screw is for.</p>
+<ul><li>A second hanger for a bass or an acoustic: only the gap and the weight change.</li></ul>
+</main>

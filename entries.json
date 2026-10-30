@@ -1,5 +1,14 @@
 [
   {
+    "slug": "guitar",
+    "date": "2026-10-30",
+    "ref": "showcase/guitar",
+    "title": "Guitar hanger: optimised 0.1.0",
+    "note": "A wall hanger that cradles a Telecaster's neck: grown from two screw bosses to the two pads the headstock rests on, against the guitar's weight, a tug and a knock; settled at step 234, printable lying on its back",
+    "source": "bench",
+    "picture": true
+  },
+  {
     "slug": "flexure-joints",
     "date": "2026-10-30",
     "ref": "flexures/joints",

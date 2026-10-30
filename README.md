@@ -4,6 +4,7 @@
 
 - **[Bin: a lattice wall for the X1C's whole build volume](experiments/bin/)** (2026-10-30): At 5% four legs become pointed arches; at 8% diagonals brace them and the rim is reached: settled, print-ready, 1.06 kg. [On the site](https://jonibach.github.io/rulecad-archive/experiments/bin/)
 - **[Flexure samplers: eighteen flexures and mechanisms to measure](experiments/flexures/)** (2026-10-30): Three printed plates with every flexure in the library and its predicted stiffness and travel; measured, they give the material its strain limit. [On the site](https://jonibach.github.io/rulecad-archive/experiments/flexures/)
+- **[Guitar hanger: a wall mount grown from two screws to a cradle](experiments/guitar/)** (2026-10-30): A Telecaster hanger grown from two screw bosses to two arm pads: an A-frame with a window, settled in 52 minutes, every check passing. [On the site](https://jonibach.github.io/rulecad-archive/experiments/guitar/)
 - **[The force inverter: a mechanism grown from a block](experiments/inverter/)** (2026-10-30): The first generated compliant mechanism; its point hinges, and the robust formulation that gives it real ones. [On the site](https://jonibach.github.io/rulecad-archive/experiments/inverter/)
 - **[Tree stand: from stool to goblet to Y to tree](experiments/tree/)** (2026-10-30): Where the loads sit decides whether a part branches; finer cells with bridges gave a lattice canopy, stiffer and print-ready. [On the site](https://jonibach.github.io/rulecad-archive/experiments/tree/)
 - **[Bracket bench: four wall brackets of equal mass](experiments/bracket-bench/)** (2026-10-28): Optimised brackets predicted 1.5 times as stiff as a plain web; what printing without supports costs. [On the site](https://jonibach.github.io/rulecad-archive/experiments/bracket-bench/)
@@ -18,6 +19,14 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
+
+### Guitar hanger: optimised 0.1.0
+
+2026-10-30 · `showcase/guitar` in bench: A wall hanger that cradles a Telecaster's neck: grown from two screw bosses to the two pads the headstock rests on, against the guitar's weight, a tug and a knock; settled at step 234, printable lying on its back
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/guitar/)
+
+[![Guitar hanger: optimised 0.1.0](m/guitar/preview.png)](https://jonibach.github.io/rulecad-archive/m/guitar/)
 
 ### Joints that aren't flexures: a pin joint printed in place, and a snap pin with its socket 0.1.0
 
