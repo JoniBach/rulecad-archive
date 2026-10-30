@@ -1,5 +1,14 @@
 [
   {
+    "slug": "flexure-joints",
+    "date": "2026-10-30",
+    "ref": "flexures/joints",
+    "title": "Joints that aren't flexures: a pin joint printed in place, and a snap pin with its socket 0.1.0",
+    "note": "Joints that aren't flexures, for comparison: a pin joint printed in place that breaks free with a twist, and a snap pin standing beside its socket",
+    "source": "bench",
+    "picture": true
+  },
+  {
     "slug": "flexure-sampler-3",
     "date": "2026-10-30",
     "ref": "flexures/sampler3",

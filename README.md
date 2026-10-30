@@ -19,6 +19,14 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
+### Joints that aren't flexures: a pin joint printed in place, and a snap pin with its socket 0.1.0
+
+2026-10-30 · `flexures/joints` in bench: Joints that aren't flexures, for comparison: a pin joint printed in place that breaks free with a twist, and a snap pin standing beside its socket
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/flexure-joints/)
+
+[![Joints that aren't flexures: a pin joint printed in place, and a snap pin with its socket 0.1.0](m/flexure-joints/preview.png)](https://jonibach.github.io/rulecad-archive/m/flexure-joints/)
+
 ### Flexure sampler 3: a folded guide, a cartwheel pivot, an elliptical hinge, two snap hooks and a ratchet 0.1.0
 
 2026-10-30 · `flexures/sampler3` in bench: Things that click, turn and hold: a folded-beam guide, a cartwheel pivot, an elliptical notch hinge, two snap hooks under catch lips, and a ratchet wheel to pin on a boss beside its pawl
