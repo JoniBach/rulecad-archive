@@ -1,5 +1,14 @@
 [
   {
+    "slug": "flexure-sampler-2",
+    "date": "2026-10-30",
+    "ref": "flexures/sampler2",
+    "title": "Flexure sampler 2: a compound guide, a constant-force mechanism and a LET joint, on one rail 0.1.0",
+    "note": "Three mechanisms on one rail: a compound parallel guide (no drop), a constant-force slider-crank with a leaf coupler and filament pins, and a LET joint cut into a six-layer sheet",
+    "source": "bench",
+    "picture": true
+  },
+  {
     "slug": "bin-3",
     "date": "2026-10-30",
     "ref": "showcase/bin",

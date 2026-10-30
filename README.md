@@ -18,6 +18,14 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
+### Flexure sampler 2: a compound guide, a constant-force mechanism and a LET joint, on one rail 0.1.0
+
+2026-10-30 · `flexures/sampler2` in bench: Three mechanisms on one rail: a compound parallel guide (no drop), a constant-force slider-crank with a leaf coupler and filament pins, and a LET joint cut into a six-layer sheet
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/flexure-sampler-2/)
+
+[![Flexure sampler 2: a compound guide, a constant-force mechanism and a LET joint, on one rail 0.1.0](m/flexure-sampler-2/preview.png)](https://jonibach.github.io/rulecad-archive/m/flexure-sampler-2/)
+
 ### Bin: optimised lattice wall 0.1.0
 
 2026-10-30 · `showcase/bin` in bench: Third attempt, 8% of the space: a lattice wall settled at step 211, one piece, printable without supports
