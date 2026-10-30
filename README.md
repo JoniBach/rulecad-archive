@@ -3,7 +3,7 @@
 ## Experiments
 
 - **[Bin: a lattice wall for the X1C's whole build volume](experiments/bin/)** (2026-10-30): At 5% four legs become pointed arches; at 8% diagonals brace them and the rim is reached: settled, print-ready, 1.06 kg. [On the site](https://jonibach.github.io/rulecad-archive/experiments/bin/)
-- **[Flexure samplers: eighteen flexures and mechanisms to measure](experiments/flexures/)** (2026-10-30): Three printed plates with every flexure in the library and its predicted stiffness and travel; measured, they give the material its strain limit. [On the site](https://jonibach.github.io/rulecad-archive/experiments/flexures/)
+- **[Flexure samplers: twenty-two flexures and mechanisms to measure](experiments/flexures/)** (2026-10-30): Four printed plates with every flexure in the library and its predicted stiffness and travel; measured, they give the material its strain limit. [On the site](https://jonibach.github.io/rulecad-archive/experiments/flexures/)
 - **[Guitar hanger: a wall mount grown from two screws to a cradle](experiments/guitar/)** (2026-10-30): A Telecaster hanger grown from two screw bosses to two arm pads: an A-frame with a window, settled in 52 minutes, every check passing. [On the site](https://jonibach.github.io/rulecad-archive/experiments/guitar/)
 - **[The force inverter: a mechanism grown from a block](experiments/inverter/)** (2026-10-30): The first generated compliant mechanism; its point hinges, and the robust formulation that gives it real ones. [On the site](https://jonibach.github.io/rulecad-archive/experiments/inverter/)
 - **[Tree stand: from stool to goblet to Y to tree](experiments/tree/)** (2026-10-30): Where the loads sit decides whether a part branches; finer cells with bridges gave a lattice canopy, stiffer and print-ready. [On the site](https://jonibach.github.io/rulecad-archive/experiments/tree/)
@@ -19,6 +19,14 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
+
+### Flexure sampler 4: travel stops, a contact-aided leaf, a parallelogram and tweezers 0.1.0
+
+2026-10-30 · `flexures/sampler4` in bench: Stops and mechanisms made compliant: a leaf with travel stops where the strain limit says, a contact-aided leaf with two rates, a parallelogram four-bar on notch hinges, and tweezers on a post
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/flexure-sampler-4/)
+
+[![Flexure sampler 4: travel stops, a contact-aided leaf, a parallelogram and tweezers 0.1.0](m/flexure-sampler-4/preview.png)](https://jonibach.github.io/rulecad-archive/m/flexure-sampler-4/)
 
 ### Guitar hanger: optimised 0.1.0
 

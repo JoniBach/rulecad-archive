@@ -1,8 +1,8 @@
-# Flexure samplers: eighteen flexures and mechanisms to measure
+# Flexure samplers: twenty-two flexures and mechanisms to measure
 
-**30 October 2026 · @rulecad/flexures 0.1.4 · `examples/bench/projects/flexures` · measurements to come**
+**30 October 2026 · @rulecad/flexures 0.1.6 · `examples/bench/projects/flexures` · measurements to come**
 
-Three plates, printed flat, with every flexure in `@rulecad/flexures` bending in the plane of the bed (within its
+Four plates, printed flat, with every flexure in `@rulecad/flexures` bending in the plane of the bed (within its
 layers), except the LET joint, which folds up out of it. Each has a predicted stiffness and a predicted travel to 2%
 strain from beam theory and the pseudo-rigid-body model. Measured, they become the material's strain limit and a
 check on the models. One plate of each in PLA and in PETG, 100% infill, 0.2 mm layers, 0.42 mm lines.
@@ -14,6 +14,7 @@ check on the models. One plate of each in PLA and in PETG, 100% infill, 0.2 mm l
 | 1 | Leaf springs at two, three and four lines; a parallel guide; a serpentine spring; two notch hinges; a bistable beam; two living hinges | [Open in 3D](https://jonibach.github.io/rulecad-archive/m/flexure-sampler/) |
 | 2 | A compound parallel guide; a constant-force slider-crank with a leaf coupler, pinned with filament; a LET joint six layers thick | [Open in 3D](https://jonibach.github.io/rulecad-archive/m/flexure-sampler-2/) |
 | 3 | A folded-beam guide; a cartwheel pivot; an elliptical notch hinge; two snap hooks under catch lips, square and sloped; a ratchet wheel and pawl | [Open in 3D](https://jonibach.github.io/rulecad-archive/m/flexure-sampler-3/) |
+| 4 | A leaf with travel stops where the strain limit says; a contact-aided leaf with two rates; a parallelogram four-bar on notch hinges; tweezers | [Open in 3D](https://jonibach.github.io/rulecad-archive/m/flexure-sampler-4/) |
 
 ## Predictions
 
@@ -40,6 +41,10 @@ Modulus along the layers: PLA 2,680 MPa, PETG 1,810 MPa. Travel is to 2% strain.
 | Snap hook, 15 mm, 1.5 mm undercut, square back | 4.8 N to deflect, 5.1 N to insert, holds | 3.2 N, 3.4 N, holds | 1.3% strain at the undercut |
 | Snap hook, sloped back at 60° | as above; 20 N to pull out | 13.6 N to pull out | 1.3% |
 | Ratchet, 24 teeth of 1.2 mm, 20 mm pawl | 0.95 N to lift, 0.73 N per click at the rim | 0.64 N, 0.50 N | 0.4% |
+| Leaf with stops, 40 mm, two lines | 0.050 N/mm | 0.034 N/mm | stops at 20 mm of the 25 the limit allows |
+| Contact-aided leaf, stop bar to 20 mm, 2 mm off | 0.050 N/mm, then 0.40 N/mm from 6.4 mm | 0.034, then 0.27 | 12.7 mm |
+| Parallelogram, 30 mm links on two-line notch hinges | 2.5 N/mm at the coupler | 1.7 N/mm | 2.2 mm |
+| Tweezers, 40 mm two-line spring, 50 mm arms | 0.25 N/mm at the fingers | 0.17 N/mm | jaws meet at 10 mm, 1.6% strain |
 
 ## How to measure
 
@@ -50,7 +55,9 @@ the angle is the travel at the arm's end over the arm's length. The constant-for
 its tab, pin it, push the slider block along its line and read the force every 2 mm. The LET joint: fold the outer
 panel up, and note where it whitens first (the bridges, the model says). The third plate: push the folded guide's shuttle toward the rail; push the cartwheel's arm and the elliptical
 hinge's arm sideways; push each hook's tip clear of its lip and let it click back; pin the ratchet wheel and turn it
-by the rim. Readings go in `results.json` beside the project, in the fields the file names.
+by the rim. The fourth plate: push the stopped leaf to its post and look for whitening; hang weights on the contact-aided
+leaf and watch its rate change at 6 mm; push the parallelogram's coupler sideways; squeeze the tweezers shut.
+Readings go in `results.json` beside the project, in the fields the file names.
 
 ## Findings
 

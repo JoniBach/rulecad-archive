@@ -1,5 +1,14 @@
 [
   {
+    "slug": "flexure-sampler-4",
+    "date": "2026-10-30",
+    "ref": "flexures/sampler4",
+    "title": "Flexure sampler 4: travel stops, a contact-aided leaf, a parallelogram and tweezers 0.1.0",
+    "note": "Stops and mechanisms made compliant: a leaf with travel stops where the strain limit says, a contact-aided leaf with two rates, a parallelogram four-bar on notch hinges, and tweezers on a post",
+    "source": "bench",
+    "picture": true
+  },
+  {
     "slug": "guitar",
     "date": "2026-10-30",
     "ref": "showcase/guitar",
