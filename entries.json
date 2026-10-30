@@ -1,5 +1,14 @@
 [
   {
+    "slug": "flexure-sampler-3",
+    "date": "2026-10-30",
+    "ref": "flexures/sampler3",
+    "title": "Flexure sampler 3: a folded guide, a cartwheel pivot, an elliptical hinge, two snap hooks and a ratchet 0.1.0",
+    "note": "Things that click, turn and hold: a folded-beam guide, a cartwheel pivot, an elliptical notch hinge, two snap hooks under catch lips, and a ratchet wheel to pin on a boss beside its pawl",
+    "source": "bench",
+    "picture": true
+  },
+  {
     "slug": "flexure-sampler-2",
     "date": "2026-10-30",
     "ref": "flexures/sampler2",
