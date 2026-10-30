@@ -20,13 +20,21 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
-### Flexure sampler 4: travel stops, a contact-aided leaf, a parallelogram and tweezers 0.1.0
+### Flexure sampler 4: travel stops, a curved leaf, a contact-aided leaf, a parallelogram and tweezers 0.1.0
 
-2026-10-30 · `flexures/sampler4` in bench: Stops and mechanisms made compliant: a leaf with travel stops where the strain limit says, a contact-aided leaf with two rates, a parallelogram four-bar on notch hinges, and tweezers on a post
+2026-10-30 · `flexures/sampler4` in bench: Stops and mechanisms made compliant: a leaf with travel stops where the strain limit says, a pre-curved leaf, a contact-aided leaf with two rates, a parallelogram four-bar on notch hinges, and tweezers on a post
 
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/flexure-sampler-4/)
 
-[![Flexure sampler 4: travel stops, a contact-aided leaf, a parallelogram and tweezers 0.1.0](m/flexure-sampler-4/preview.png)](https://jonibach.github.io/rulecad-archive/m/flexure-sampler-4/)
+[![Flexure sampler 4: travel stops, a curved leaf, a contact-aided leaf, a parallelogram and tweezers 0.1.0](m/flexure-sampler-4/preview.png)](https://jonibach.github.io/rulecad-archive/m/flexure-sampler-4/)
+
+### Flexure sampler 3: a folded guide, a cartwheel pivot, an elliptical hinge, two snap hooks and a ratchet 0.1.0
+
+2026-10-30 · `flexures/sampler3` in bench: Things that click, turn and hold: a folded-beam guide, a cartwheel pivot, an elliptical notch hinge, two snap hooks under catch lips (gaps widened to the fit plus a margin after the first print fused them), and a ratchet wheel to pin on a boss beside its pawl
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/flexure-sampler-3/)
+
+[![Flexure sampler 3: a folded guide, a cartwheel pivot, an elliptical hinge, two snap hooks and a ratchet 0.1.0](m/flexure-sampler-3/preview.png)](https://jonibach.github.io/rulecad-archive/m/flexure-sampler-3/)
 
 ### Guitar hanger: optimised 0.1.0
 
@@ -43,14 +51,6 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/flexure-joints/)
 
 [![Joints that aren't flexures: a pin joint printed in place, and a snap pin with its socket 0.1.0](m/flexure-joints/preview.png)](https://jonibach.github.io/rulecad-archive/m/flexure-joints/)
-
-### Flexure sampler 3: a folded guide, a cartwheel pivot, an elliptical hinge, two snap hooks and a ratchet 0.1.0
-
-2026-10-30 · `flexures/sampler3` in bench: Things that click, turn and hold: a folded-beam guide, a cartwheel pivot, an elliptical notch hinge, two snap hooks under catch lips, and a ratchet wheel to pin on a boss beside its pawl
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/flexure-sampler-3/)
-
-[![Flexure sampler 3: a folded guide, a cartwheel pivot, an elliptical hinge, two snap hooks and a ratchet 0.1.0](m/flexure-sampler-3/preview.png)](https://jonibach.github.io/rulecad-archive/m/flexure-sampler-3/)
 
 ### Flexure sampler 2: a compound guide, a constant-force mechanism and a LET joint, on one rail 0.1.0
 

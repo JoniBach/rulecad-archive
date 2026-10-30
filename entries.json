@@ -3,8 +3,17 @@
     "slug": "flexure-sampler-4",
     "date": "2026-10-30",
     "ref": "flexures/sampler4",
-    "title": "Flexure sampler 4: travel stops, a contact-aided leaf, a parallelogram and tweezers 0.1.0",
-    "note": "Stops and mechanisms made compliant: a leaf with travel stops where the strain limit says, a contact-aided leaf with two rates, a parallelogram four-bar on notch hinges, and tweezers on a post",
+    "title": "Flexure sampler 4: travel stops, a curved leaf, a contact-aided leaf, a parallelogram and tweezers 0.1.0",
+    "note": "Stops and mechanisms made compliant: a leaf with travel stops where the strain limit says, a pre-curved leaf, a contact-aided leaf with two rates, a parallelogram four-bar on notch hinges, and tweezers on a post",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "flexure-sampler-3",
+    "date": "2026-10-30",
+    "ref": "flexures/sampler3",
+    "title": "Flexure sampler 3: a folded guide, a cartwheel pivot, an elliptical hinge, two snap hooks and a ratchet 0.1.0",
+    "note": "Things that click, turn and hold: a folded-beam guide, a cartwheel pivot, an elliptical notch hinge, two snap hooks under catch lips (gaps widened to the fit plus a margin after the first print fused them), and a ratchet wheel to pin on a boss beside its pawl",
     "source": "bench",
     "picture": true
   },
@@ -23,15 +32,6 @@
     "ref": "flexures/joints",
     "title": "Joints that aren't flexures: a pin joint printed in place, and a snap pin with its socket 0.1.0",
     "note": "Joints that aren't flexures, for comparison: a pin joint printed in place that breaks free with a twist, and a snap pin standing beside its socket",
-    "source": "bench",
-    "picture": true
-  },
-  {
-    "slug": "flexure-sampler-3",
-    "date": "2026-10-30",
-    "ref": "flexures/sampler3",
-    "title": "Flexure sampler 3: a folded guide, a cartwheel pivot, an elliptical hinge, two snap hooks and a ratchet 0.1.0",
-    "note": "Things that click, turn and hold: a folded-beam guide, a cartwheel pivot, an elliptical notch hinge, two snap hooks under catch lips, and a ratchet wheel to pin on a boss beside its pawl",
     "source": "bench",
     "picture": true
   },
