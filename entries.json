@@ -1,5 +1,41 @@
 [
   {
+    "slug": "launcher-rig",
+    "date": "2026-10-31",
+    "ref": "launcher/rig",
+    "title": "The action with its sled: cocked, and run forward to its rest",
+    "note": "The action on its test base with the sled cocked: bow at full draw, sear, trigger on its living hinge",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "launcher-magazine",
+    "date": "2026-10-31",
+    "ref": "launcher/magazine:full",
+    "title": "The magazine insert: follower, serpentine spring and a snap-in cap in one piece (full) 0.1.0",
+    "note": "The magazine insert, squeezed as it sits over a full stack: follower, serpentine, cap with snap hooks",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "launcher-sled",
+    "date": "2026-10-31",
+    "ref": "launcher/sled",
+    "title": "The sled: pushed by the bow, it pushes the disc 0.1.0",
+    "note": "The sled: plate and nose under the magazine, a rod back through the grip to the tab the bow pushes, and the cocking ring",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "launcher-disc",
+    "date": "2026-10-31",
+    "ref": "launcher/disc",
+    "title": "The disc: what the launcher throws 0.1.0",
+    "note": "The disc the launcher throws: 30 × 2 mm, chamfered, a dimple on top",
+    "source": "bench",
+    "picture": true
+  },
+  {
     "slug": "guitar-2",
     "date": "2026-10-31",
     "ref": "showcase/guitar",

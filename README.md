@@ -20,6 +20,38 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
+### The action with its sled: cocked, and run forward to its rest
+
+2026-10-31 · `launcher/rig` in bench: The action on its test base with the sled cocked: bow at full draw, sear, trigger on its living hinge
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-rig/)
+
+[![The action with its sled: cocked, and run forward to its rest](m/launcher-rig/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-rig/)
+
+### The magazine insert: follower, serpentine spring and a snap-in cap in one piece (full) 0.1.0
+
+2026-10-31 · `launcher/magazine:full` in bench: The magazine insert, squeezed as it sits over a full stack: follower, serpentine, cap with snap hooks
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-magazine/)
+
+[![The magazine insert: follower, serpentine spring and a snap-in cap in one piece (full) 0.1.0](m/launcher-magazine/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-magazine/)
+
+### The sled: pushed by the bow, it pushes the disc 0.1.0
+
+2026-10-31 · `launcher/sled` in bench: The sled: plate and nose under the magazine, a rod back through the grip to the tab the bow pushes, and the cocking ring
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-sled/)
+
+[![The sled: pushed by the bow, it pushes the disc 0.1.0](m/launcher-sled/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-sled/)
+
+### The disc: what the launcher throws 0.1.0
+
+2026-10-31 · `launcher/disc` in bench: The disc the launcher throws: 30 × 2 mm, chamfered, a dimple on top
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-disc/)
+
+[![The disc: what the launcher throws 0.1.0](m/launcher-disc/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-disc/)
+
 ### Guitar hanger: optimised 0.1.0
 
 2026-10-31 · `showcase/guitar` in bench: Second attempt: the neck's channel and a driver column over each screw kept empty; drawn at print resolution and sliced clean: no islands in 350 layers
