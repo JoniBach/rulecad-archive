@@ -21,6 +21,14 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
+### Launcher fit test: chamber, sled, free-standing leaves and pins at three clearances each 0.1.0
+
+2026-10-31 · `launcher/fittest` in bench: Fit test before the launcher's redesign: disc and sled channels, free-standing leaves and pins, three clearances each, labelled
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-fittest/)
+
+[![Launcher fit test: chamber, sled, free-standing leaves and pins at three clearances each 0.1.0](m/launcher-fittest/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-fittest/)
+
 ### The disc launcher: the frame with its two cartridges pinned in, the sled, the magazine insert and a disc, at rest
 
 2026-10-31 · `launcher/launcher` in bench: The launcher at rest, about 127 × 112 × 26 mm: the frame, two cartridges pinned in, the sled, the magazine insert and a disc; every fit checked

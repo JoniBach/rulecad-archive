@@ -1,5 +1,14 @@
 [
   {
+    "slug": "launcher-fittest",
+    "date": "2026-10-31",
+    "ref": "launcher/fittest",
+    "title": "Launcher fit test: chamber, sled, free-standing leaves and pins at three clearances each 0.1.0",
+    "note": "Fit test before the launcher's redesign: disc and sled channels, free-standing leaves and pins, three clearances each, labelled",
+    "source": "bench",
+    "picture": true
+  },
+  {
     "slug": "launcher-2",
     "date": "2026-10-31",
     "ref": "launcher/launcher",
