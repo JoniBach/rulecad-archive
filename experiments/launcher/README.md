@@ -96,6 +96,11 @@ Models: [the frame](https://jonibach.github.io/rulecad-archive/m/launcher-frame/
   snap-in cap that a firm pull lifts out to reload.
 - **Anchors' refs are directions.** The assembly placed the sled rotated wrong until its anchor's `ref` was a
   direction rather than a point; the overlap check found it, and a quick intersection said where.
+- **Check the projectile's way out.** The first cartridge design passed every check with a solid wall across the
+  muzzle: nothing checked the disc's exit. The assembly now holds a disc half out of the muzzle, which must overlap
+  nothing; re-closing the muzzle makes it fail.
+- **A late change can bury a pin.** The palm swell, added after the pins, covered the back strap's pin head; a
+  1 mm press-fit allowance hid it. The allowance is now 0.3 mm, what a barb needs.
 - **Pins go through walls, not floors.** A tray's floor faces outward, so a pin through it points into air; a
   pistol's pins cross its frame, and so do these.
 - **A part as a load needs a centre.** Loads and supports given as parts of another object (new for this problem)

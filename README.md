@@ -23,7 +23,7 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 
 ### The disc launcher: the frame with its two cartridges pinned in, the sled, the magazine insert and a disc; cocked, and run forward to its rest
 
-2026-10-31 · `launcher/launcher` in bench: The launcher as cartridges in a frame, cocked: twelve parts, every fit checked
+2026-10-31 · `launcher/launcher` in bench: The launcher as cartridges in a frame, cocked: thirteen parts, every fit checked, a disc leaving the muzzle
 
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-2/)
 
@@ -31,11 +31,19 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 
 ### The barrel cartridge: the slot the sled and the disc run in, with the magazine column over its mouth 0.1.0
 
-2026-10-31 · `launcher/barrel` in bench: The barrel cartridge: the slot, the magazine column, the hollow for the pins
+2026-10-31 · `launcher/barrel` in bench: The barrel cartridge: the slot out through the muzzle, the magazine column, the hollow for the pins
 
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-barrel/)
 
 [![The barrel cartridge: the slot the sled and the disc run in, with the magazine column over its mouth 0.1.0](m/launcher-barrel/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-barrel/)
+
+### The frame: grip with a palm swell, receiver and trigger guard round two cavities the cartridges pin into 0.1.0
+
+2026-10-31 · `launcher/frame` in bench: The frame: a rounded skin round two cavities, a palm swell, the trigger guard, the muzzle's opening, six pin holes; prints on its back plate
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-frame/)
+
+[![The frame: grip with a palm swell, receiver and trigger guard round two cavities the cartridges pin into 0.1.0](m/launcher-frame/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-frame/)
 
 ### The action cartridge: bow, sear and trigger printed in place in a tray that pins into the frame (cocked) 0.1.0
 
@@ -44,14 +52,6 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-action/)
 
 [![The action cartridge: bow, sear and trigger printed in place in a tray that pins into the frame (cocked) 0.1.0](m/launcher-action/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-action/)
-
-### The frame: grip with a palm swell, receiver and trigger guard round two cavities the cartridges pin into 0.1.0
-
-2026-10-31 · `launcher/frame` in bench: The frame: a rounded skin round two cavities, a palm swell, the trigger guard, six pin holes; prints on its back plate
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-frame/)
-
-[![The frame: grip with a palm swell, receiver and trigger guard round two cavities the cartridges pin into 0.1.0](m/launcher-frame/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-frame/)
 
 ### The disc launcher: the body on its optimised frame with the bow at full draw, the sled, the magazine insert, a disc at the mouth, and the lid
 
