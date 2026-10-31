@@ -23,11 +23,35 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 
 ### The disc launcher: the frame with its two cartridges pinned in, the sled, the magazine insert and a disc; cocked, and run forward to its rest
 
-2026-10-31 · `launcher/launcher` in bench: The launcher as cartridges in a frame, cocked: thirteen parts, every fit checked, a disc leaving the muzzle
+2026-10-31 · `launcher/launcher` in bench: The launcher, scaled down to about 115 × 110 × 26 mm, cocked: thirteen parts, every fit checked in three poses
 
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-2/)
 
 [![The disc launcher: the frame with its two cartridges pinned in, the sled, the magazine insert and a disc; cocked, and run forward to its rest](m/launcher-2/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-2/)
+
+### The disc: what the launcher throws 0.1.0
+
+2026-10-31 · `launcher/disc` in bench: The disc: 20 × 2 mm, chamfered, a dimple on top
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-disc/)
+
+[![The disc: what the launcher throws 0.1.0](m/launcher-disc/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-disc/)
+
+### The sled: pushed by the bow, it pushes the disc 0.1.0
+
+2026-10-31 · `launcher/sled` in bench: The sled: plate and nose under the magazine, a rod back to the tab the bow pushes, and the cocking ring
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-sled/)
+
+[![The sled: pushed by the bow, it pushes the disc 0.1.0](m/launcher-sled/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-sled/)
+
+### The magazine insert: follower, serpentine spring and a snap-in cap in one piece 0.1.0
+
+2026-10-31 · `launcher/magazine` in bench: The magazine insert as printed: follower, open serpentine and a snap-in cap
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-magazine/)
+
+[![The magazine insert: follower, serpentine spring and a snap-in cap in one piece 0.1.0](m/launcher-magazine/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-magazine/)
 
 ### The barrel cartridge: the slot the sled and the disc run in, with the magazine column over its mouth 0.1.0
 
@@ -37,21 +61,21 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 
 [![The barrel cartridge: the slot the sled and the disc run in, with the magazine column over its mouth 0.1.0](m/launcher-barrel/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-barrel/)
 
+### The action cartridge: bow, sear and trigger printed in place in a tray that pins into the frame 0.1.0
+
+2026-10-31 · `launcher/action` in bench: The action cartridge as printed: the bow straight, the sear and the trigger; the assembly's cocked pose bends the bow
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-action/)
+
+[![The action cartridge: bow, sear and trigger printed in place in a tray that pins into the frame 0.1.0](m/launcher-action/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-action/)
+
 ### The frame: grip with a palm swell, receiver and trigger guard round two cavities the cartridges pin into 0.1.0
 
-2026-10-31 · `launcher/frame` in bench: The frame: a rounded skin round two cavities, a palm swell, the trigger guard, the muzzle's opening, six pin holes; prints on its back plate
+2026-10-31 · `launcher/frame` in bench: The frame, scaled down: 110 × 107 × 26 mm, a rounded skin round two cavities, a palm swell, the trigger guard, the muzzle, six teardrop pin holes
 
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-frame/)
 
 [![The frame: grip with a palm swell, receiver and trigger guard round two cavities the cartridges pin into 0.1.0](m/launcher-frame/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-frame/)
-
-### The action cartridge: bow, sear and trigger printed in place in a tray that pins into the frame (cocked) 0.1.0
-
-2026-10-31 · `launcher/action:cocked` in bench: The action cartridge at full draw: bow, sear and trigger printed in place in a tray
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-action/)
-
-[![The action cartridge: bow, sear and trigger printed in place in a tray that pins into the frame (cocked) 0.1.0](m/launcher-action/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-action/)
 
 ### The disc launcher: the body on its optimised frame with the bow at full draw, the sled, the magazine insert, a disc at the mouth, and the lid
 
@@ -76,30 +100,6 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-rig/)
 
 [![The action with its sled: cocked, and run forward to its rest](m/launcher-rig/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-rig/)
-
-### The magazine insert: follower, serpentine spring and a snap-in cap in one piece (full) 0.1.0
-
-2026-10-31 · `launcher/magazine:full` in bench: The magazine insert, squeezed as it sits over a full stack: follower, serpentine, cap with snap hooks
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-magazine/)
-
-[![The magazine insert: follower, serpentine spring and a snap-in cap in one piece (full) 0.1.0](m/launcher-magazine/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-magazine/)
-
-### The sled: pushed by the bow, it pushes the disc 0.1.0
-
-2026-10-31 · `launcher/sled` in bench: The sled: plate and nose under the magazine, a rod back through the grip to the tab the bow pushes, and the cocking ring
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-sled/)
-
-[![The sled: pushed by the bow, it pushes the disc 0.1.0](m/launcher-sled/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-sled/)
-
-### The disc: what the launcher throws 0.1.0
-
-2026-10-31 · `launcher/disc` in bench: The disc the launcher throws: 30 × 2 mm, chamfered, a dimple on top
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-disc/)
-
-[![The disc: what the launcher throws 0.1.0](m/launcher-disc/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-disc/)
 
 ### Guitar hanger: optimised 0.1.0
 

@@ -4,7 +4,34 @@
     "date": "2026-10-31",
     "ref": "launcher/launcher",
     "title": "The disc launcher: the frame with its two cartridges pinned in, the sled, the magazine insert and a disc; cocked, and run forward to its rest",
-    "note": "The launcher as cartridges in a frame, cocked: thirteen parts, every fit checked, a disc leaving the muzzle",
+    "note": "The launcher, scaled down to about 115 × 110 × 26 mm, cocked: thirteen parts, every fit checked in three poses",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "launcher-disc",
+    "date": "2026-10-31",
+    "ref": "launcher/disc",
+    "title": "The disc: what the launcher throws 0.1.0",
+    "note": "The disc: 20 × 2 mm, chamfered, a dimple on top",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "launcher-sled",
+    "date": "2026-10-31",
+    "ref": "launcher/sled",
+    "title": "The sled: pushed by the bow, it pushes the disc 0.1.0",
+    "note": "The sled: plate and nose under the magazine, a rod back to the tab the bow pushes, and the cocking ring",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "launcher-magazine",
+    "date": "2026-10-31",
+    "ref": "launcher/magazine",
+    "title": "The magazine insert: follower, serpentine spring and a snap-in cap in one piece 0.1.0",
+    "note": "The magazine insert as printed: follower, open serpentine and a snap-in cap",
     "source": "bench",
     "picture": true
   },
@@ -18,20 +45,20 @@
     "picture": true
   },
   {
-    "slug": "launcher-frame",
+    "slug": "launcher-action",
     "date": "2026-10-31",
-    "ref": "launcher/frame",
-    "title": "The frame: grip with a palm swell, receiver and trigger guard round two cavities the cartridges pin into 0.1.0",
-    "note": "The frame: a rounded skin round two cavities, a palm swell, the trigger guard, the muzzle's opening, six pin holes; prints on its back plate",
+    "ref": "launcher/action",
+    "title": "The action cartridge: bow, sear and trigger printed in place in a tray that pins into the frame 0.1.0",
+    "note": "The action cartridge as printed: the bow straight, the sear and the trigger; the assembly's cocked pose bends the bow",
     "source": "bench",
     "picture": true
   },
   {
-    "slug": "launcher-action",
+    "slug": "launcher-frame",
     "date": "2026-10-31",
-    "ref": "launcher/action:cocked",
-    "title": "The action cartridge: bow, sear and trigger printed in place in a tray that pins into the frame (cocked) 0.1.0",
-    "note": "The action cartridge at full draw: bow, sear and trigger printed in place in a tray",
+    "ref": "launcher/frame",
+    "title": "The frame: grip with a palm swell, receiver and trigger guard round two cavities the cartridges pin into 0.1.0",
+    "note": "The frame, scaled down: 110 × 107 × 26 mm, a rounded skin round two cavities, a palm swell, the trigger guard, the muzzle, six teardrop pin holes",
     "source": "bench",
     "picture": true
   },
@@ -59,33 +86,6 @@
     "ref": "launcher/rig",
     "title": "The action with its sled: cocked, and run forward to its rest",
     "note": "The action on its test base with the sled cocked: bow at full draw, sear, trigger on its living hinge",
-    "source": "bench",
-    "picture": true
-  },
-  {
-    "slug": "launcher-magazine",
-    "date": "2026-10-31",
-    "ref": "launcher/magazine:full",
-    "title": "The magazine insert: follower, serpentine spring and a snap-in cap in one piece (full) 0.1.0",
-    "note": "The magazine insert, squeezed as it sits over a full stack: follower, serpentine, cap with snap hooks",
-    "source": "bench",
-    "picture": true
-  },
-  {
-    "slug": "launcher-sled",
-    "date": "2026-10-31",
-    "ref": "launcher/sled",
-    "title": "The sled: pushed by the bow, it pushes the disc 0.1.0",
-    "note": "The sled: plate and nose under the magazine, a rod back through the grip to the tab the bow pushes, and the cocking ring",
-    "source": "bench",
-    "picture": true
-  },
-  {
-    "slug": "launcher-disc",
-    "date": "2026-10-31",
-    "ref": "launcher/disc",
-    "title": "The disc: what the launcher throws 0.1.0",
-    "note": "The disc the launcher throws: 30 × 2 mm, chamfered, a dimple on top",
     "source": "bench",
     "picture": true
   },

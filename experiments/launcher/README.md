@@ -80,6 +80,20 @@ Models: [the frame](https://jonibach.github.io/rulecad-archive/m/launcher-frame/
 [the barrel cartridge](https://jonibach.github.io/rulecad-archive/m/launcher-barrel/) ·
 [the whole launcher](https://jonibach.github.io/rulecad-archive/m/launcher-2/).
 
+## Third pass: smaller, and flexures bent by the pose
+
+The cartridge design was 170 × 140 × 41 mm: too big for a hand. Two rules set its size: the disc stands across the
+pistol, so its diameter sets the thickness, and the stored energy sets the bow's length, which sets the grip's
+height. A 20 mm disc (0.8 g) and 0.05 J over a 15 mm draw make a 50 mm bow, and the launcher about 115 × 110 × 26 mm,
+with the disc still leaving at about 6 m/s. The pins had been sized for a 3 mm skin on a 6 mm frame, so their barbs
+never cleared the cartridges' walls; the skin and the pins now share one rule. Their holes are teardrops, so they
+print.
+
+The cocked cartridge first sent was drawn with its bow bent, as it would have printed: a spring that stores nothing.
+In cad, an assembly's pose can now set its items' variables (`"cocked": { "run": …, "action.travel": 15 }`), so a
+flexure is drawn bent in the pose and printed straight; the magazine's spring is squeezed the same way. A fired pose
+(trigger pulled) found the sear's tooth tipping into its slit's edge as it drops, which a static pose never would.
+
 ## Findings
 
 - **A slit's roof is a bridge.** The sled's tab had to hang through the barrel's floor along its whole run, and the
