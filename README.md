@@ -22,7 +22,7 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 
 ### Guitar hanger: optimised 0.1.0
 
-2026-10-30 · `showcase/guitar` in bench: Second attempt: the neck's channel between the arms and a driver column over each screw kept empty; settled at step 252, every check passing
+2026-10-31 · `showcase/guitar` in bench: Second attempt: the neck's channel and a driver column over each screw kept empty; drawn at print resolution and sliced clean: no islands in 350 layers
 
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/guitar-2/)
 
