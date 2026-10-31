@@ -59,6 +59,27 @@ run.
 Models: [the body](https://jonibach.github.io/rulecad-archive/m/launcher-body/) ·
 [the whole launcher, cocked](https://jonibach.github.io/rulecad-archive/m/launcher/).
 
+## Second design: cartridges in a frame
+
+The morning's review found the body wanting: it relied on being pinned to flat plates, its grip was a box, the
+cocking rod could not be fitted through a closed hole, and the lid covered the trigger guard. Real pistols are
+modules pinned into a frame, so the launcher became one: an **action cartridge** (a tray with the bow, sear and
+trigger printed in place, a window in its floor and a gap in its bottom wall for the finger), a **barrel cartridge**
+(the slot, a hollow for the pins' barbs, the magazine column with the cap's notches), and a **frame** (the trays'
+outlines grown by a 6 mm rounded skin, a cavity for each, a palm swell behind the grip, the trigger guard, a notch
+for the rod), all held by six library snap pins pushed in from the frame's edges through its skin and a tray's wall,
+their barbs clicking out inside the trays where nothing moves. Every part prints flat without supports; the frame
+prints on its back plate, and hilt-down as well, since no roof spans a cavity.
+
+![The launcher cocked: frame, cartridges, sled, insert and a disc](launcher.png)
+
+`cad check launcher/launcher` passes in both poses with twelve parts: no overlaps, each cartridge a fit in its
+cavity, the sled a fit in its slot and off the back plate it rolls along, every pin within its press fit.
+Models: [the frame](https://jonibach.github.io/rulecad-archive/m/launcher-frame/) ·
+[the action cartridge, cocked](https://jonibach.github.io/rulecad-archive/m/launcher-action/) ·
+[the barrel cartridge](https://jonibach.github.io/rulecad-archive/m/launcher-barrel/) ·
+[the whole launcher](https://jonibach.github.io/rulecad-archive/m/launcher-2/).
+
 ## Findings
 
 - **A slit's roof is a bridge.** The sled's tab had to hang through the barrel's floor along its whole run, and the
@@ -75,6 +96,8 @@ Models: [the body](https://jonibach.github.io/rulecad-archive/m/launcher-body/) 
   snap-in cap that a firm pull lifts out to reload.
 - **Anchors' refs are directions.** The assembly placed the sled rotated wrong until its anchor's `ref` was a
   direction rather than a point; the overlap check found it, and a quick intersection said where.
+- **Pins go through walls, not floors.** A tray's floor faces outward, so a pin through it points into air; a
+  pistol's pins cross its frame, and so do these.
 - **A part as a load needs a centre.** Loads and supports given as parts of another object (new for this problem)
   lacked the point the solver's resultant wants; cad now gives them their box's centre.
 

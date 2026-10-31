@@ -1,5 +1,41 @@
 [
   {
+    "slug": "launcher-2",
+    "date": "2026-10-31",
+    "ref": "launcher/launcher",
+    "title": "The disc launcher: the frame with its two cartridges pinned in, the sled, the magazine insert and a disc; cocked, and run forward to its rest",
+    "note": "The launcher as cartridges in a frame, cocked: twelve parts, every fit checked",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "launcher-barrel",
+    "date": "2026-10-31",
+    "ref": "launcher/barrel",
+    "title": "The barrel cartridge: the slot the sled and the disc run in, with the magazine column over its mouth 0.1.0",
+    "note": "The barrel cartridge: the slot, the magazine column, the hollow for the pins",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "launcher-action",
+    "date": "2026-10-31",
+    "ref": "launcher/action:cocked",
+    "title": "The action cartridge: bow, sear and trigger printed in place in a tray that pins into the frame (cocked) 0.1.0",
+    "note": "The action cartridge at full draw: bow, sear and trigger printed in place in a tray",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "launcher-frame",
+    "date": "2026-10-31",
+    "ref": "launcher/frame",
+    "title": "The frame: grip with a palm swell, receiver and trigger guard round two cavities the cartridges pin into 0.1.0",
+    "note": "The frame: a rounded skin round two cavities, a palm swell, the trigger guard, six pin holes; prints on its back plate",
+    "source": "bench",
+    "picture": true
+  },
+  {
     "slug": "launcher",
     "date": "2026-10-31",
     "ref": "launcher/launcher",

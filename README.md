@@ -2,7 +2,7 @@
 
 ## Experiments
 
-- **[Disc launcher: a toy pistol whose springs, sear, trigger and feeder are printed flexures](experiments/launcher/)** (2026-10-31): Five printed parts: a leaf bow in the grip, a snap-hook sear, a trigger on a living hinge, a serpentine magazine feeder with a snap-in cap, all sized from one rule set, round a frame the optimiser laid out. [On the site](https://jonibach.github.io/rulecad-archive/experiments/launcher/)
+- **[Disc launcher: a toy pistol whose springs, sear, trigger and feeder are printed flexures](experiments/launcher/)** (2026-10-31): A leaf bow, a snap-hook sear, a trigger on a living hinge and a serpentine feeder, all sized from one rule set; first as one optimised body, then as two cartridges pinned into a frame. [On the site](https://jonibach.github.io/rulecad-archive/experiments/launcher/)
 - **[Bin: a lattice wall for the X1C's whole build volume](experiments/bin/)** (2026-10-30): At 5% four legs become pointed arches; at 8% diagonals brace them and the rim is reached: settled, print-ready, 1.06 kg. [On the site](https://jonibach.github.io/rulecad-archive/experiments/bin/)
 - **[Flexure samplers: twenty-two flexures and mechanisms to measure](experiments/flexures/)** (2026-10-30): Four printed plates with every flexure in the library and its predicted stiffness and travel; measured, they give the material its strain limit. [On the site](https://jonibach.github.io/rulecad-archive/experiments/flexures/)
 - **[Guitar hanger: a wall mount grown from two screws to a cradle](experiments/guitar/)** (2026-10-30): A Telecaster hanger grown from two screw bosses to two arm pads; the second attempt keeps the neck's channel and the screw columns empty, settled in 57 minutes, every check passing. [On the site](https://jonibach.github.io/rulecad-archive/experiments/guitar/)
@@ -20,6 +20,38 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
+
+### The disc launcher: the frame with its two cartridges pinned in, the sled, the magazine insert and a disc; cocked, and run forward to its rest
+
+2026-10-31 · `launcher/launcher` in bench: The launcher as cartridges in a frame, cocked: twelve parts, every fit checked
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-2/)
+
+[![The disc launcher: the frame with its two cartridges pinned in, the sled, the magazine insert and a disc; cocked, and run forward to its rest](m/launcher-2/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-2/)
+
+### The barrel cartridge: the slot the sled and the disc run in, with the magazine column over its mouth 0.1.0
+
+2026-10-31 · `launcher/barrel` in bench: The barrel cartridge: the slot, the magazine column, the hollow for the pins
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-barrel/)
+
+[![The barrel cartridge: the slot the sled and the disc run in, with the magazine column over its mouth 0.1.0](m/launcher-barrel/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-barrel/)
+
+### The action cartridge: bow, sear and trigger printed in place in a tray that pins into the frame (cocked) 0.1.0
+
+2026-10-31 · `launcher/action:cocked` in bench: The action cartridge at full draw: bow, sear and trigger printed in place in a tray
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-action/)
+
+[![The action cartridge: bow, sear and trigger printed in place in a tray that pins into the frame (cocked) 0.1.0](m/launcher-action/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-action/)
+
+### The frame: grip with a palm swell, receiver and trigger guard round two cavities the cartridges pin into 0.1.0
+
+2026-10-31 · `launcher/frame` in bench: The frame: a rounded skin round two cavities, a palm swell, the trigger guard, six pin holes; prints on its back plate
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-frame/)
+
+[![The frame: grip with a palm swell, receiver and trigger guard round two cavities the cartridges pin into 0.1.0](m/launcher-frame/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-frame/)
 
 ### The disc launcher: the body on its optimised frame with the bow at full draw, the sled, the magazine insert, a disc at the mouth, and the lid
 
