@@ -1,0 +1,47 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Disc launcher: a toy pistol whose springs, sear, trigger and feeder are printed flexures</title>
+<meta property="og:title" content="Disc launcher: a toy pistol whose springs, sear, trigger and feeder are printed flexures">
+<meta property="og:image" content="https://jonibach.github.io/rulecad-archive/experiments/launcher/picture.png">
+<style>body { font-family: system-ui, sans-serif; margin: 0; background: #111; color: #ddd; line-height: 1.5; }
+  main, header, section { max-width: 72rem; margin: 0 auto; padding: 1rem 1.25rem; } main { max-width: 52rem; }
+  a { color: #8cf; } img { max-width: 100%; border-radius: 6px; } code { color: #bbb; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.9rem; margin: 1rem 0; } th, td { border-bottom: 1px solid #333; padding: 0.4rem 0.5rem; text-align: left; vertical-align: top; }</style>
+<main>
+<p><a href="../../">← rulecad archive</a></p>
+<h1>Disc launcher: a toy pistol whose springs, sear, trigger and feeder are printed flexures</h1>
+<p><strong>31 October 2026 · @rulecad/cad 0.7.17, @rulecad/flexures 0.1.7 · <code>examples/bench/projects/launcher/</code></strong></p>
+<p>The first mechanism built from the flexure library rather than for it: a pistol that throws 30 mm printed discs. Everything that moves is a flexure from <code>@rulecad/flexures</code>, sized from one rule set (<code>rules/launcher.json</code>) by the library's sizing functions, printed in place in a body whose frame the optimiser laid out round the pockets the mechanism needs. Five printed parts: the body, the sled, the magazine insert, the lid, and discs. Built overnight from the plan agreed the evening before; the decisions taken on the way are in the project's README.</p>
+<p><img src="picture.png" alt="The body on its optimised frame, from six sides"></p>
+<h2>The mechanism</h2>
+<table><tr><th>Part</th><th>Flexure</th><th>Sized by</th><th>Result</th></tr><tr><td>Bow</td><td>one leaf standing in the grip, a bead on its tip</td><td><code>size.leaf</code> for 16 N at 25 mm, 28 mm wide</td><td>77 × 2.52 × 28 mm, 1.57% strain at full draw</td></tr><tr><td>Sear</td><td>a leaf under the barrel's floor with a tooth into the slot</td><td><code>snapHookModel</code>, 25 × 1.26 × 11.3 mm, 1.5 mm undercut</td><td>1.2 N to deflect, square back holds the draw; 1.3% strain at the trigger's lift</td></tr><tr><td>Trigger pivot</td><td>a living hinge</td><td><code>size.livingHinge</code> for 6 mm over a 50 mm arm</td><td>3.15 × 0.84 mm strip; about 3 N of the pull</td></tr><tr><td>Magazine feeder</td><td>a serpentine</td><td><code>serpentineModel</code>, 30 × 0.84 × 14 mm, 7 turns</td><td>0.9 N on the last disc, 2 N on six</td></tr><tr><td>Magazine cap</td><td>two snap hooks into notches in the column walls</td><td><code>snapHookModel</code>, 20 × 1.26 × 14 mm, 2.4 mm barb, 30° faces</td><td>12 N to seat or lift; 1.1% strain</td></tr><tr><td>Lid</td><td>four snap pins into bosses</td><td><code>snapPin</code></td><td>sockets with a 45° cavity roof the barbs seat on</td></tr></table>
+<p>The energy sets the bow: 0.2 J stored over a 25 mm draw is 16 N at full draw, and a PLA leaf stores about 38 mJ per cm³ at 1.6% strain whatever its shape, so the stored energy sets the leaf's volume and the travel its length. With a guessed 30% reaching the disc (the sled and the leaf's moving share weigh three times the disc) it leaves under the 0.08 J a hard projectile may carry in the toy standards. The disc is pushed off its centre line and rolls along the lid, so it leaves spinning and flies flat.</p>
+<p>Models: <a href="https://jonibach.github.io/rulecad-archive/m/launcher-rig/">the action rig, cocked</a> · <a href="https://jonibach.github.io/rulecad-archive/m/launcher-sled/">the sled</a> · <a href="https://jonibach.github.io/rulecad-archive/m/launcher-magazine/">the magazine insert</a> · <a href="https://jonibach.github.io/rulecad-archive/m/launcher-disc/">the disc</a> · the body and the whole launcher below.</p>
+<h2>The frame</h2>
+<p><code>problems/frame.json</code> takes the body's outline as its space, keeps the bed wall and every mount (the leaf's root block, the slot's walls, the posts the sear and the hinge grow from, the stops, the column walls, the back wall, the lid's bosses), and leaves the flexures' sweeps, the slot, the column and the trigger's room empty: all three are named parts of the body's <code>regions</code> variant, built without the problem it feeds (a problem variable set to <code>none</code>, new in cad). Held at the grip's straps; loaded by the bow at full draw, a knock on the muzzle sideways and printable in +z, 3 mm cells (52 × 44 × 12), 30% of the space, 120 steps. A first run at 2.5 mm with four cases (a downward knock and one on the magazine as well) took three minutes a step: the conjugate gradients needed about 400 iterations a solve, ten times the guitar's, with a one-cell-thick kept bed wall under big empty pockets; two cases at 3 mm run at 40 seconds a step.</p>
+<table><tr><th>Case</th><th>Load</th><th>Result</th></tr><tr><td>cocked</td><td>the bow's 16 N pulling the leaf's root back, the sled pushing the sear's post forward</td><td>turns 0.004° under the couple: 336 N·m a degree</td></tr><tr><td>knocked</td><td>50 N sideways on the muzzle</td><td>moves 1.36 mm: 36.9 N/mm</td></tr></table>
+<p>130 cm³, 164 g of PLA at 30% of the space, in 57 minutes; stopped at 120 steps before it settled. Drawn at print resolution and sliced, the body passes every check: one piece, no islands in 166 layers, the three bridges under 3 mm. Most of the 30% is what was kept (the bed wall alone is a tenth of the space); the optimiser's own material is a shell round the pockets and the barrel, thin where the loads are small. The muzzle's 1.4 mm under a 50 N knock is the barrel being 16 mm tall past the column: a taller barrel or a lower volume fraction with more steps is the next run.</p>
+<p>Models: <a href="https://jonibach.github.io/rulecad-archive/m/launcher-body/">the body</a> · <a href="https://jonibach.github.io/rulecad-archive/m/launcher/">the whole launcher, cocked</a>.</p>
+<h2>Findings</h2>
+<ul><li><strong>A slit's roof is a bridge.</strong> The sled's tab had to hang through the barrel's floor along its whole run, and the</li></ul>
+<p>  floor above a 37 mm slit is a 37 mm bridge. The floor is left out over the run; the sled rides the ceiling, its   rod the floor either side of the gap. The lid closes the top of every pocket, so nothing else needed a roof.</p>
+<ul><li><strong>A leaning leaf touches below its tip.</strong> At full draw the leaf leans 30°, so a vertical tab met it below the tip</li></ul>
+<p>  and the draw was more than the tip's travel. A bead along the tip makes the contact the tip's whatever the lean.</p>
+<ul><li><strong>The leaf belongs in the grip.</strong> In front of the trigger it clashed with the guard at full draw and hung a deep</li></ul>
+<p>  block under the barrel; behind it, bending away, it is the grip's spine and the guard is free.</p>
+<ul><li><strong>Notch hinges can't turn a trigger.</strong> At the 7° the finger's travel needs, every notch hinge was over 4% strain;</li></ul>
+<p>  the living hinge turns it at 1.6%.</p>
+<ul><li><strong>Printed-in-place springs can't be preloaded.</strong> A feeder printed in the column can't press the last disc, since</li></ul>
+<p>  its rest shape would lie where the discs go. The feeder is a separate insert, squeezed in after the discs, with a   snap-in cap that a firm pull lifts out to reload.</p>
+<ul><li><strong>Anchors' refs are directions.</strong> The assembly placed the sled rotated wrong until its anchor's <code>ref</code> was a</li></ul>
+<p>  direction rather than a point; the overlap check found it, and a quick intersection said where.</p>
+<ul><li><strong>A part as a load needs a centre.</strong> Loads and supports given as parts of another object (new for this problem)</li></ul>
+<p>  lacked the point the solver's resultant wants; cad now gives them their box's centre.</p>
+<h2>Next</h2>
+<ul><li>Print the rig first: the bow's draw, the sear's click and the trigger's pull are the numbers to measure, against</li></ul>
+<p>  the 16 N, 1.2 N and 8 N the rules say.</p>
+<ul><li>Time a disc: the 30% is a guess, and the spin from the off-centre push is unmeasured.</li><li>The sled weighs about twice the disc; a lighter rod (a lattice, or a thinner section with ribs) would send more of</li></ul>
+<p>  the energy down the barrel.</p>
+<ul><li>A safety: a second leaf across the trigger's swing, pushed aside by the thumb.</li></ul>
+</main>

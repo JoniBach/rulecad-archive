@@ -1,5 +1,23 @@
 [
   {
+    "slug": "launcher",
+    "date": "2026-10-31",
+    "ref": "launcher/launcher",
+    "title": "The disc launcher: the body on its optimised frame with the bow at full draw, the sled, the magazine insert, a disc at the mouth, and the lid",
+    "note": "The whole launcher, cocked: the body on its optimised frame with the bow at full draw, the sled, the magazine insert, a disc at the mouth and the lid",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "launcher-body",
+    "date": "2026-10-31",
+    "ref": "launcher/body",
+    "title": "The body: bow, sear and trigger printed in place, the magazine column and the barrel, on an optimised frame 0.1.0",
+    "note": "The body on its optimised frame: bow, sear and trigger printed in place, the magazine column, the barrel; 164 g, every check passing",
+    "source": "bench",
+    "picture": true
+  },
+  {
     "slug": "launcher-rig",
     "date": "2026-10-31",
     "ref": "launcher/rig",

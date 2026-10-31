@@ -2,6 +2,7 @@
 
 ## Experiments
 
+- **[Disc launcher: a toy pistol whose springs, sear, trigger and feeder are printed flexures](experiments/launcher/)** (2026-10-31): Five printed parts: a leaf bow in the grip, a snap-hook sear, a trigger on a living hinge, a serpentine magazine feeder with a snap-in cap, all sized from one rule set, round a frame the optimiser laid out. [On the site](https://jonibach.github.io/rulecad-archive/experiments/launcher/)
 - **[Bin: a lattice wall for the X1C's whole build volume](experiments/bin/)** (2026-10-30): At 5% four legs become pointed arches; at 8% diagonals brace them and the rim is reached: settled, print-ready, 1.06 kg. [On the site](https://jonibach.github.io/rulecad-archive/experiments/bin/)
 - **[Flexure samplers: twenty-two flexures and mechanisms to measure](experiments/flexures/)** (2026-10-30): Four printed plates with every flexure in the library and its predicted stiffness and travel; measured, they give the material its strain limit. [On the site](https://jonibach.github.io/rulecad-archive/experiments/flexures/)
 - **[Guitar hanger: a wall mount grown from two screws to a cradle](experiments/guitar/)** (2026-10-30): A Telecaster hanger grown from two screw bosses to two arm pads; the second attempt keeps the neck's channel and the screw columns empty, settled in 57 minutes, every check passing. [On the site](https://jonibach.github.io/rulecad-archive/experiments/guitar/)
@@ -19,6 +20,22 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
+
+### The disc launcher: the body on its optimised frame with the bow at full draw, the sled, the magazine insert, a disc at the mouth, and the lid
+
+2026-10-31 · `launcher/launcher` in bench: The whole launcher, cocked: the body on its optimised frame with the bow at full draw, the sled, the magazine insert, a disc at the mouth and the lid
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher/)
+
+[![The disc launcher: the body on its optimised frame with the bow at full draw, the sled, the magazine insert, a disc at the mouth, and the lid](m/launcher/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher/)
+
+### The body: bow, sear and trigger printed in place, the magazine column and the barrel, on an optimised frame 0.1.0
+
+2026-10-31 · `launcher/body` in bench: The body on its optimised frame: bow, sear and trigger printed in place, the magazine column, the barrel; 164 g, every check passing
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-body/)
+
+[![The body: bow, sear and trigger printed in place, the magazine column and the barrel, on an optimised frame 0.1.0](m/launcher-body/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-body/)
 
 ### The action with its sled: cocked, and run forward to its rest
 
