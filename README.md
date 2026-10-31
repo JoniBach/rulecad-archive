@@ -23,7 +23,7 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 
 ### The disc launcher: the frame with its two cartridges pinned in, the sled, the magazine insert and a disc; cocked, and run forward to its rest
 
-2026-10-31 · `launcher/launcher` in bench: The launcher, scaled down to about 115 × 110 × 26 mm, cocked: thirteen parts, every fit checked in three poses
+2026-10-31 · `launcher/launcher` in bench: The launcher, scaled down to about 115 × 110 × 26 mm, at rest: pick cocked or fired and the bow bends; thirteen parts, every fit checked in three poses
 
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-2/)
 
