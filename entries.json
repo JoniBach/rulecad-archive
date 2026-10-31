@@ -3,8 +3,8 @@
     "slug": "launcher-2",
     "date": "2026-10-31",
     "ref": "launcher/launcher",
-    "title": "The disc launcher: the frame with its two cartridges pinned in, the sled, the magazine insert and a disc; cocked, and run forward to its rest",
-    "note": "The launcher, scaled down to about 115 × 110 × 26 mm, at rest: pick cocked or fired and the bow bends; thirteen parts, every fit checked in three poses",
+    "title": "The disc launcher: the frame with its two cartridges pinned in, the sled, the magazine insert and a disc, at rest",
+    "note": "The launcher at rest, about 127 × 112 × 26 mm: the frame, two cartridges pinned in, the sled, the magazine insert and a disc; every fit checked",
     "source": "bench",
     "picture": true
   },
@@ -63,29 +63,11 @@
     "picture": true
   },
   {
-    "slug": "launcher",
-    "date": "2026-10-31",
-    "ref": "launcher/launcher",
-    "title": "The disc launcher: the body on its optimised frame with the bow at full draw, the sled, the magazine insert, a disc at the mouth, and the lid",
-    "note": "The whole launcher, cocked: the body on its optimised frame with the bow at full draw, the sled, the magazine insert, a disc at the mouth and the lid",
-    "source": "bench",
-    "picture": true
-  },
-  {
     "slug": "launcher-body",
     "date": "2026-10-31",
     "ref": "launcher/body",
     "title": "The body: bow, sear and trigger printed in place, the magazine column and the barrel, on an optimised frame 0.1.0",
     "note": "The body on its optimised frame: bow, sear and trigger printed in place, the magazine column, the barrel; 164 g, every check passing",
-    "source": "bench",
-    "picture": true
-  },
-  {
-    "slug": "launcher-rig",
-    "date": "2026-10-31",
-    "ref": "launcher/rig",
-    "title": "The action with its sled: cocked, and run forward to its rest",
-    "note": "The action on its test base with the sled cocked: bow at full draw, sear, trigger on its living hinge",
     "source": "bench",
     "picture": true
   },

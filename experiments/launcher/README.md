@@ -27,8 +27,7 @@ guessed 30% reaching the disc (the sled and the leaf's moving share weigh three 
 0.08 J a hard projectile may carry in the toy standards. The disc is pushed off its centre line and rolls along the
 lid, so it leaves spinning and flies flat.
 
-Models: [the action rig, cocked](https://jonibach.github.io/rulecad-archive/m/launcher-rig/) ·
-[the sled](https://jonibach.github.io/rulecad-archive/m/launcher-sled/) ·
+Models: [the sled](https://jonibach.github.io/rulecad-archive/m/launcher-sled/) ·
 [the magazine insert](https://jonibach.github.io/rulecad-archive/m/launcher-magazine/) ·
 [the disc](https://jonibach.github.io/rulecad-archive/m/launcher-disc/) · the body and the whole launcher below.
 
@@ -46,7 +45,7 @@ cases at 3 mm run at 40 seconds a step.
 
 | Case | Load | Result |
 |---|---|---|
-| cocked | the bow's 16 N pulling the leaf's root back, the sled pushing the sear's post forward | turns 0.004° under the couple: 336 N·m a degree |
+| full draw | the bow's 16 N pulling the leaf's root back, the sled pushing the sear's post forward | turns 0.004° under the couple: 336 N·m a degree |
 | knocked | 50 N sideways on the muzzle | moves 1.36 mm: 36.9 N/mm |
 
 130 cm³, 164 g of PLA at 30% of the space, in 57 minutes; stopped at 120 steps before it settled. Drawn at print
@@ -56,8 +55,7 @@ a shell round the pockets and the barrel, thin where the loads are small. The mu
 the barrel being 16 mm tall past the column: a taller barrel or a lower volume fraction with more steps is the next
 run.
 
-Models: [the body](https://jonibach.github.io/rulecad-archive/m/launcher-body/) ·
-[the whole launcher, cocked](https://jonibach.github.io/rulecad-archive/m/launcher/).
+Model: [the body](https://jonibach.github.io/rulecad-archive/m/launcher-body/).
 
 ## Second design: cartridges in a frame
 
@@ -71,12 +69,12 @@ for the rod), all held by six library snap pins pushed in from the frame's edges
 their barbs clicking out inside the trays where nothing moves. Every part prints flat without supports; the frame
 prints on its back plate, and hilt-down as well, since no roof spans a cavity.
 
-![The launcher cocked: frame, cartridges, sled, insert and a disc](launcher.png)
+![The launcher at rest: frame, cartridges, sled, insert and a disc](launcher.png)
 
 `cad check launcher/launcher` passes in both poses with twelve parts: no overlaps, each cartridge a fit in its
 cavity, the sled a fit in its slot and off the back plate it rolls along, every pin within its press fit.
 Models: [the frame](https://jonibach.github.io/rulecad-archive/m/launcher-frame/) ·
-[the action cartridge, cocked](https://jonibach.github.io/rulecad-archive/m/launcher-action/) ·
+[the action cartridge](https://jonibach.github.io/rulecad-archive/m/launcher-action/) ·
 [the barrel cartridge](https://jonibach.github.io/rulecad-archive/m/launcher-barrel/) ·
 [the whole launcher](https://jonibach.github.io/rulecad-archive/m/launcher-2/).
 
@@ -89,10 +87,11 @@ with the disc still leaving at about 6 m/s. The pins had been sized for a 3 mm s
 never cleared the cartridges' walls; the skin and the pins now share one rule. Their holes are teardrops, so they
 print.
 
-The cocked cartridge first sent was drawn with its bow bent, as it would have printed: a spring that stores nothing.
-In cad, an assembly's pose can now set its items' variables (`"cocked": { "run": …, "action.travel": 15 }`), so a
-flexure is drawn bent in the pose and printed straight; the magazine's spring is squeezed the same way. A fired pose
-(trigger pulled) found the sear's tooth tipping into its slit's edge as it drops, which a static pose never would.
+The first cartridge links showed the bow bent, as if cocked, which is how it would have printed: a spring that
+stores nothing. Every model is now at rest, as printed and assembled: the cocked and fired poses are gone, and the
+check that a disc can leave the muzzle has its own assembly (`launcher/exit`), so no model shows a disc mid-shot.
+The magazine's spring is still drawn squeezed in its column, by the assembly's pose (`"magazine.compression"`), while
+the insert itself prints open.
 
 ## Findings
 
