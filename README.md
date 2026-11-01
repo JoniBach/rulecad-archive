@@ -22,13 +22,13 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
-### Thin RP2040 module 0.3.0
+### Thin RP2040 module 0.3.1
 
-2026-11-01 · `thin-picro/module` in thin-picro: 48.5 x 21.0 mm: corners like the RP2040-Zero, header holes and long pads on every pin
+2026-11-01 · `thin-picro/module` in thin-picro: 49.5 x 21.0 mm: RP2040-Zero corners, pads level, a pin's usual gap at each corner
 
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
 
-[![Thin RP2040 module 0.3.0](m/thin-rp2040-module/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
+[![Thin RP2040 module 0.3.1](m/thin-rp2040-module/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
 
 ### Launcher action, flat: a pusher on a tapered two-leaf spring, a trigger that is its own sear, printed in one piece on its side 0.1.0
 

@@ -3,8 +3,8 @@
     "slug": "thin-rp2040-module",
     "date": "2026-11-01",
     "ref": "thin-picro/module",
-    "title": "Thin RP2040 module 0.3.0",
-    "note": "48.5 x 21.0 mm: corners like the RP2040-Zero, header holes and long pads on every pin",
+    "title": "Thin RP2040 module 0.3.1",
+    "note": "49.5 x 21.0 mm: RP2040-Zero corners, pads level, a pin's usual gap at each corner",
     "source": "thin-picro",
     "picture": true
   },
