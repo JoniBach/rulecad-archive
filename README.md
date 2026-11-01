@@ -21,6 +21,14 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
+### Thin RP2040 module 0.1.0
+
+2026-11-01 · `thin-picro/module` in thin-picro: Sea-Picro's RP2040 circuit, redrawn long and thin for keyboards: 50.8 x 21 mm, 4 layers, 31 castellated pins on three sides, USB-C on the fourth. Passes every check; not yet made.
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
+
+[![Thin RP2040 module 0.1.0](m/thin-rp2040-module/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
+
 ### Launcher fit test: chamber, sled, free-standing leaves and pins at three clearances each 0.1.0
 
 2026-10-31 · `launcher/fittest` in bench: Fit test before the launcher's redesign: disc and sled channels, free-standing leaves and pins, three clearances each, labelled
