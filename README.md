@@ -23,7 +23,7 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 
 ### Thin RP2040 module 0.1.0
 
-2026-11-01 · `thin-picro/module` in thin-picro: Sea-Picro's RP2040 circuit, redrawn long and thin for keyboards: 50.8 x 21 mm, 4 layers, 31 castellated pins on three sides, USB-C on the fourth. Passes every check; not yet made.
+2026-11-01 · `thin-picro/module` in thin-picro: Sea-Picro's RP2040 circuit, redrawn long and thin for keyboards: 50.8 x 21 mm, 4 layers, 31 castellated pins on three sides, USB-C on the fourth, parts in 3D. Passes every check; not yet made.
 
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
 
