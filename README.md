@@ -22,6 +22,14 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
+### Launcher action, flat: a pusher on a tapered two-leaf spring, a trigger that is its own sear, printed in one piece on its side 0.1.0
+
+2026-11-01 · `launcher/flat` in bench: The launcher's action as one flat print: a pusher on a tapered two-leaf spring with rounded roots, a trigger that is its own sear, checked through its whole cycle and by finite elements
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-flat/)
+
+[![Launcher action, flat: a pusher on a tapered two-leaf spring, a trigger that is its own sear, printed in one piece on its side 0.1.0](m/launcher-flat/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-flat/)
+
 ### Thin RP2040 module 0.2.0
 
 2026-11-01 · `thin-picro/module` in thin-picro: 19.0 mm across: pins on one 2.54 mm grid, the end columns down to the corners, half holes only
@@ -29,14 +37,6 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
 
 [![Thin RP2040 module 0.2.0](m/thin-rp2040-module/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
-
-### Launcher action, flat: a pusher on a two-leaf spring, a trigger that is its own sear, printed in one piece on its side 0.1.0
-
-2026-11-01 · `launcher/flat` in bench: The launcher's action as one flat print: a pusher on a two-leaf spring, a trigger that is its own sear (a catch with bite), checked through its whole sequence
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-flat/)
-
-[![Launcher action, flat: a pusher on a two-leaf spring, a trigger that is its own sear, printed in one piece on its side 0.1.0](m/launcher-flat/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-flat/)
 
 ### Launcher fit test: chamber, sled, free-standing leaves and pins at three clearances each 0.1.0
 

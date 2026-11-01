@@ -18,14 +18,17 @@
 <p>In the animation the frame is grey, the parts that move are blue, and the springs, drawn bent, are orange.</p>
 <h2>The action</h2>
 <ul><li><strong>The spring:</strong> two leaves standing up the grip, joined at the top by the pusher. That is a parallel guide: the</li></ul>
-<p>  pusher moves straight back, and both leaves store the energy.</p>
+<p>  pusher moves straight back, and both leaves store the energy. The leaves taper toward their middles, where they   bend least, and flare into their blocks in rounds.</p>
 <ul><li><strong>The pusher:</strong> a bar along the top, a tab out of the back to cock it, a tooth underneath.</li><li><strong>The trigger is its own sear:</strong> a lever hanging on a leaf hinge, its arm reaching forward to a hook. Cocking drags</li></ul>
 <p>  the tooth over the hook's ramp and pushes the trigger aside. Drawn a little past, the hook springs up, and the   pusher settles back onto its catch.</p>
 <ul><li><strong>A catch with bite:</strong> the catch leans back 15°, so the spring's push presses the hook in. Pulling the trigger</li></ul>
 <p>  presses the pusher back a little as the hook comes down.</p>
 <ul><li><strong>Hard stops:</strong> the back wall stops the pusher, and the grip's front wall stops the trigger, each before its</li></ul>
 <p>  flexure's strain limit.</p>
-<table><tr><th></th><th>Size</th><th>At work</th></tr><tr><td>Spring</td><td>two leaves 87.8 × 2.1 mm, 14 mm wide</td><td>8.3 N and 50 mJ at a 12 mm stroke; 0.98% strain, stopped at 13.1 mm before its limit of 15.3 mm</td></tr><tr><td>Trigger hinge</td><td>a leaf 21.5 × 0.84 mm</td><td>lets the pusher go once moved 2.6 mm; a full pull is 3.3 mm, stopped at 3.9 mm before its limit of 4.6 mm</td></tr><tr><td>Catch</td><td>2 mm deep, leaning back 15°</td><td>holds at any friction over 0.01</td></tr></table>
+<ul><li><strong>No square corners:</strong> the trigger's hinge leaf is rounded into the frame and the blade, and every inside corner of</li></ul>
+<p>  the frame, the pusher and the trigger is rounded.</p>
+<table><tr><th></th><th>Size</th><th>At work</th></tr><tr><td>Spring</td><td>two leaves 2.52 mm thick at their ends, tapering toward their middles, 14 mm wide, 2.5 mm rounds</td><td>8.75 N and 55 mJ drawn; a peak of 1.06% strain by finite elements, stopped at 13.0 mm</td></tr><tr><td>Trigger hinge</td><td>a leaf 26 × 0.84 mm, 1 mm rounds</td><td>lets the pusher go once moved 2.3 mm; a peak of 0.86% at a full pull, stopped at 4.9 mm</td></tr><tr><td>Catch</td><td>2 mm deep, leaning back 15°</td><td>holds at any friction over 0.03</td></tr></table>
+<p>The limit is 1.25% strain.</p>
 <p>The flexures are PETG. Its strength over its stiffness is 1.9% strain, against PLA's 1.5%: the first launcher sized its PLA spring at 2%, past where PLA yields.</p>
 <h2>What rulecad does now</h2>
 <ul><li><strong>Displacement first.</strong> The spring is sized from its travel, as the BYU blaster paper (PLOS ONE, 2026) argues. The</li></ul>
@@ -36,7 +39,9 @@
 <p>  time. A latch is pushed aside by what drives it, as far as it must.</p>
 <ul><li><strong>Jams and catches.</strong> A face too steep to push aside jams the driver. A catch must hold even when the plastic is</li></ul>
 <p>  slippery, at a friction of 0.1. A ramp must still pass when it is sticky, at 0.5.</p>
-<ul><li><strong>Hard stops.</strong> Each flexure must meet something before its strain limit.</li></ul>
+<ul><li><strong>Hard stops.</strong> Each flexure must meet something before its strain limit.</li><li><strong>The real peak strain.</strong> Each flexure, with a band of each body it meets, is solved by finite elements at the</li></ul>
+<p>  travel it reaches. A peak at a square inside corner fails, because the strain there has no bound.</p>
+<p>The first version had square corners wherever a leaf met a block. Beam theory said the spring saw 0.98%. The finite-element check found 2.37% at the corner, nearly twice the limit, and 1.77% in the hinge: both would have bent for good on the first cock. Tapered leaves and rounds brought them to 1.06% and 0.86%.</p>
 <p>Each check was tested by breaking the design on purpose: a steep ramp, a short trigger pull, a hook that can't reach, a missing stop, a catch leaning the wrong way, and a block 0.1 mm from a leaf. Each fails with its reason. The 2D geometry moved to Manifold's Clipper2: JSCAD's 2D booleans returned garbage on that last case and let it pass.</p>
 <h2>Still to do</h2>
 <ul><li>The printer's gap for parts printed in place is an estimate, 0.3 mm. The fit test plate measures it.</li><li>The disc's channel, the magazine and a grip shaped for the hand. The frame here is a plain box round the mechanism.</li><li>A print.</li></ul>

@@ -16,7 +16,8 @@ In the animation the frame is grey, the parts that move are blue, and the spring
 ## The action
 
 - **The spring:** two leaves standing up the grip, joined at the top by the pusher. That is a parallel guide: the
-  pusher moves straight back, and both leaves store the energy.
+  pusher moves straight back, and both leaves store the energy. The leaves taper toward their middles, where they
+  bend least, and flare into their blocks in rounds.
 - **The pusher:** a bar along the top, a tab out of the back to cock it, a tooth underneath.
 - **The trigger is its own sear:** a lever hanging on a leaf hinge, its arm reaching forward to a hook. Cocking drags
   the tooth over the hook's ramp and pushes the trigger aside. Drawn a little past, the hook springs up, and the
@@ -25,12 +26,16 @@ In the animation the frame is grey, the parts that move are blue, and the spring
   presses the pusher back a little as the hook comes down.
 - **Hard stops:** the back wall stops the pusher, and the grip's front wall stops the trigger, each before its
   flexure's strain limit.
+- **No square corners:** the trigger's hinge leaf is rounded into the frame and the blade, and every inside corner of
+  the frame, the pusher and the trigger is rounded.
 
 | | Size | At work |
 |---|---|---|
-| Spring | two leaves 87.8 × 2.1 mm, 14 mm wide | 8.3 N and 50 mJ at a 12 mm stroke; 0.98% strain, stopped at 13.1 mm before its limit of 15.3 mm |
-| Trigger hinge | a leaf 21.5 × 0.84 mm | lets the pusher go once moved 2.6 mm; a full pull is 3.3 mm, stopped at 3.9 mm before its limit of 4.6 mm |
-| Catch | 2 mm deep, leaning back 15° | holds at any friction over 0.01 |
+| Spring | two leaves 2.52 mm thick at their ends, tapering toward their middles, 14 mm wide, 2.5 mm rounds | 8.75 N and 55 mJ drawn; a peak of 1.06% strain by finite elements, stopped at 13.0 mm |
+| Trigger hinge | a leaf 26 × 0.84 mm, 1 mm rounds | lets the pusher go once moved 2.3 mm; a peak of 0.86% at a full pull, stopped at 4.9 mm |
+| Catch | 2 mm deep, leaning back 15° | holds at any friction over 0.03 |
+
+The limit is 1.25% strain.
 
 The flexures are PETG. Its strength over its stiffness is 1.9% strain, against PLA's 1.5%: the first launcher sized
 its PLA spring at 2%, past where PLA yields.
@@ -47,6 +52,12 @@ its PLA spring at 2%, past where PLA yields.
 - **Jams and catches.** A face too steep to push aside jams the driver. A catch must hold even when the plastic is
   slippery, at a friction of 0.1. A ramp must still pass when it is sticky, at 0.5.
 - **Hard stops.** Each flexure must meet something before its strain limit.
+- **The real peak strain.** Each flexure, with a band of each body it meets, is solved by finite elements at the
+  travel it reaches. A peak at a square inside corner fails, because the strain there has no bound.
+
+The first version had square corners wherever a leaf met a block. Beam theory said the spring saw 0.98%. The
+finite-element check found 2.37% at the corner, nearly twice the limit, and 1.77% in the hinge: both would have bent
+for good on the first cock. Tapered leaves and rounds brought them to 1.06% and 0.86%.
 
 Each check was tested by breaking the design on purpose: a steep ramp, a short trigger pull, a hook that can't
 reach, a missing stop, a catch leaning the wrong way, and a block 0.1 mm from a leaf. Each fails with its reason.
