@@ -23,6 +23,14 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
+### Launcher action, in line: a pusher between two curved arms shaped by the beam solver, in a flooded frame with a pull ring and a barrel closed both faces, printed in one piece on its side 0.4.0
+
+2026-11-02 · `launcher/inline` in bench: Barrel closed both faces: a bridge over the stem, a floor under it that the stem arches over at 45°; 0.5 mm room; flooded frame, pull ring. Arms shaped by the beam solver: 47.8 mJ at 11.75 mm, 1.03% peak strain (FE). PETG, on its side, 12.2 mm tall. No catch yet.
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-inline/)
+
+[![Launcher action, in line: a pusher between two curved arms shaped by the beam solver, in a flooded frame with a pull ring and a barrel closed both faces, printed in one piece on its side 0.4.0](m/launcher-inline/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-inline/)
+
 ### Modular station concept, 48 mm: print plate
 
 2026-11-02 · `concept48/print` in hardware: Every part on one bed, each its own object, ready to print
@@ -38,14 +46,6 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/station-concept-48/)
 
 [![Modular station concept, 48 mm](m/station-concept-48/preview.png)](https://jonibach.github.io/rulecad-archive/m/station-concept-48/)
-
-### Launcher action, in line: a pusher between two curved arms shaped by the beam solver, in a flooded frame with a pull ring and a bridged barrel, printed in one piece on its side 0.3.0
-
-2026-11-02 · `launcher/inline` in bench: Bridged barrel: two bridges over the stem's channel on the top layers; 0.5 mm room round the arms and pusher; flooded frame, pull ring. Arms shaped by the beam solver: 47.8 mJ at 11.75 mm, 1.03% peak strain (FE). PETG, on its side, 12.2 mm tall. No catch yet.
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-inline/)
-
-[![Launcher action, in line: a pusher between two curved arms shaped by the beam solver, in a flooded frame with a pull ring and a bridged barrel, printed in one piece on its side 0.3.0](m/launcher-inline/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-inline/)
 
 ### Thin RP2040 module (with-headers) 0.4.1
 
