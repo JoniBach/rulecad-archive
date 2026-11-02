@@ -23,21 +23,21 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
-### Thin RP2040 module (with-headers) 0.4.0
+### Thin RP2040 module (with-headers) 0.4.1
 
 2026-11-02 · `thin-picro/module:with-headers` in thin-picro: The thin module fitted with 2.54 mm pin headers (3D only; the board is the same)
 
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module-headers/)
 
-[![Thin RP2040 module (with-headers) 0.4.0](m/thin-rp2040-module-headers/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module-headers/)
+[![Thin RP2040 module (with-headers) 0.4.1](m/thin-rp2040-module-headers/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module-headers/)
 
-### Thin RP2040 module 0.4.0
+### Thin RP2040 module 0.4.1
 
-2026-11-02 · `thin-picro/module` in thin-picro: 49.5 x 21.0 mm: RP2040-Zero corners, two M2 mounting holes
+2026-11-02 · `thin-picro/module` in thin-picro: 48.1 x 21.0 mm: header holes where Sea-Picro has them, RP2040-Zero corners, two M2 holes
 
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
 
-[![Thin RP2040 module 0.4.0](m/thin-rp2040-module/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
+[![Thin RP2040 module 0.4.1](m/thin-rp2040-module/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
 
 ### A wave spring: a plunger on legs joined by round bends, squashed in a channel until it stacks solid 0.1.0
 
