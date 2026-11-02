@@ -1,20 +1,20 @@
 [
   {
+    "slug": "launcher-inline",
+    "date": "2026-11-02",
+    "ref": "launcher/inline",
+    "title": "Launcher action, in line: a pusher between two curved arms shaped by the beam solver, in a flooded frame with a pull ring, printed in one piece on its side 0.2.0",
+    "note": "Flooded frame, pull ring on the stem, stem in a sliding-fit barrel through the handle; arms shaped by the beam solver: 47.8 mJ at 11.75 mm, 1.03% peak strain (FE). PETG, on its side, 12.2 mm tall. No catch yet: finger through the ring, pull, let go.",
+    "source": "bench",
+    "picture": true
+  },
+  {
     "slug": "station-concept-48",
     "date": "2026-11-02",
     "ref": "concept48/station",
     "title": "Modular station concept, 48 mm",
     "note": "Rough casing concept: core, pods and a compact pack",
     "source": "hardware",
-    "picture": true
-  },
-  {
-    "slug": "launcher-inline",
-    "date": "2026-11-02",
-    "ref": "launcher/inline",
-    "title": "Launcher action, in line: a pusher drawn back between two curved arms, shaped by the beam solver, printed in one piece on its side 0.1.1",
-    "note": "In-line spring pack: pusher between two arms shaped by the beam solver. 52.8 mJ at 12 mm draw, 0.97% peak strain (FE). PETG, on its side, 10 mm tall. No catch yet: pinch the tab inside the yoke, pull and let go.",
-    "source": "bench",
     "picture": true
   },
   {

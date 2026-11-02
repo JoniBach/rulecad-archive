@@ -23,6 +23,14 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
+### Launcher action, in line: a pusher between two curved arms shaped by the beam solver, in a flooded frame with a pull ring, printed in one piece on its side 0.2.0
+
+2026-11-02 · `launcher/inline` in bench: Flooded frame, pull ring on the stem, stem in a sliding-fit barrel through the handle; arms shaped by the beam solver: 47.8 mJ at 11.75 mm, 1.03% peak strain (FE). PETG, on its side, 12.2 mm tall. No catch yet: finger through the ring, pull, let go.
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-inline/)
+
+[![Launcher action, in line: a pusher between two curved arms shaped by the beam solver, in a flooded frame with a pull ring, printed in one piece on its side 0.2.0](m/launcher-inline/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-inline/)
+
 ### Modular station concept, 48 mm
 
 2026-11-02 · `concept48/station` in hardware: Rough casing concept: core, pods and a compact pack
@@ -30,14 +38,6 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/station-concept-48/)
 
 [![Modular station concept, 48 mm](m/station-concept-48/preview.png)](https://jonibach.github.io/rulecad-archive/m/station-concept-48/)
-
-### Launcher action, in line: a pusher drawn back between two curved arms, shaped by the beam solver, printed in one piece on its side 0.1.1
-
-2026-11-02 · `launcher/inline` in bench: In-line spring pack: pusher between two arms shaped by the beam solver. 52.8 mJ at 12 mm draw, 0.97% peak strain (FE). PETG, on its side, 10 mm tall. No catch yet: pinch the tab inside the yoke, pull and let go.
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-inline/)
-
-[![Launcher action, in line: a pusher drawn back between two curved arms, shaped by the beam solver, printed in one piece on its side 0.1.1](m/launcher-inline/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-inline/)
 
 ### Thin RP2040 module (with-headers) 0.4.1
 
