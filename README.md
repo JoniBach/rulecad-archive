@@ -24,13 +24,13 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
-### Launcher action, in line: a pusher between two curved arms shaped by the beam solver, in a flooded frame with a pull ring and a barrel closed both faces, printed in one piece on its side 0.4.0
+### Launcher action, in line: a pusher between two curved arms shaped by the beam solver, in a flooded frame with a pull ring and a barrel closed both faces, printed in one piece on its side 0.5.0
 
-2026-11-02 · `launcher/inline` in bench: Barrel closed both faces: a bridge over the stem, a floor under it that the stem arches over at 45°; 0.5 mm room; flooded frame, pull ring. Arms shaped by the beam solver: 47.8 mJ at 11.75 mm, 1.03% peak strain (FE). PETG, on its side, 12.2 mm tall. No catch yet.
+2026-11-02 · `launcher/inline` in bench: Webbed frame (5 mm round everything that moves, 39% less), barrel closed both faces (bridge over the stem, floor under it arched over at 45°), 0.5 mm room, pull ring. Arms shaped by the beam solver: 47.8 mJ at 11.75 mm, 1.03% peak strain (FE). PETG, on its side, 12.2 mm tall. No catch yet.
 
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-inline/)
 
-[![Launcher action, in line: a pusher between two curved arms shaped by the beam solver, in a flooded frame with a pull ring and a barrel closed both faces, printed in one piece on its side 0.4.0](m/launcher-inline/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-inline/)
+[![Launcher action, in line: a pusher between two curved arms shaped by the beam solver, in a flooded frame with a pull ring and a barrel closed both faces, printed in one piece on its side 0.5.0](m/launcher-inline/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-inline/)
 
 ### Modular station concept, 48 mm: print plate
 
