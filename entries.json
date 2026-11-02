@@ -1,5 +1,14 @@
 [
   {
+    "slug": "station-concept-48",
+    "date": "2026-11-02",
+    "ref": "concept48/station",
+    "title": "Modular station concept, 48 mm",
+    "note": "Rough casing concept: core, pods and a compact pack",
+    "source": "hardware",
+    "picture": true
+  },
+  {
     "slug": "launcher-inline",
     "date": "2026-11-02",
     "ref": "launcher/inline",

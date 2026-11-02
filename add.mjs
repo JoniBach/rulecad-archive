@@ -1,7 +1,7 @@
 // Adds a model to the archive from a rulecad workspace: its picture (cad preview) and a page that opens it in the
 // viewer (cad link), so its link is short.
 //
-//   node add.mjs <workspace> <project>/<object[:variant]> [--slug name] [--note "what it is"]
+//   node add.mjs <workspace> <project>/<object[:variant]> [--slug name] [--note "what it is"] [--no-rules]
 //
 // Then commit and push: the link is https://jonibach.github.io/rulecad-archive/m/<slug>/
 import fs from 'node:fs';
@@ -15,7 +15,7 @@ const opt = (k) => { const i = rest.indexOf(`--${k}`); return i >= 0 ? rest[i + 
 const cad = (...a) => execFileSync('npx', ['cad', ...a], { cwd: path.resolve(ws), encoding: 'utf8', maxBuffer: 1 << 28 });
 
 const date = new Date().toISOString().slice(0, 10), slug = opt('slug') || `${date}-${ref.replace(/[/:]/g, '-')}`;
-const line = cad('link', ref, '--md', '--long').split('\n').find((l) => l.includes('](https://'));
+const line = cad('link', ref, '--md', '--long', ...(rest.includes('--no-rules') ? ['--no-rules'] : [])).split('\n').find((l) => l.includes('](https://'));
 const [, title] = line.match(/\*\*(.+?)\*\*/) || [, ref], [, url] = line.match(/\]\((https:\/\/[^)]+)\)/);
 const picture = cad('preview', ref).trim().split('\n').reverse().find((l) => /\.png$/.test(l.trim()))?.trim();
 fs.mkdirSync(dirOf(slug), { recursive: true });

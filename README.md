@@ -23,6 +23,14 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
+### Modular station concept, 48 mm
+
+2026-11-02 · `concept48/station` in hardware: Rough casing concept: core, pods and a compact pack
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/station-concept-48/)
+
+[![Modular station concept, 48 mm](m/station-concept-48/preview.png)](https://jonibach.github.io/rulecad-archive/m/station-concept-48/)
+
 ### Launcher action, in line: a pusher drawn back between two curved arms, shaped by the beam solver, printed in one piece on its side 0.1.1
 
 2026-11-02 · `launcher/inline` in bench: In-line spring pack: pusher between two arms shaped by the beam solver. 52.8 mJ at 12 mm draw, 0.97% peak strain (FE). PETG, on its side, 10 mm tall. No catch yet: pinch the tab inside the yoke, pull and let go.
