@@ -2,6 +2,7 @@
 
 ## Experiments
 
+- **[Mechanisms solved as they would behave: beams that bend, parts that touch, a hand, and a shot](experiments/mechanism-physics/)** (2026-11-02): A large-deflection beam solver, contact, force curves, firing in time and a wave spring, built overnight for printed compliant mechanisms; a key with a tactile click and a wave spring as test pieces, and what it found in the launcher. [On the site](https://jonibach.github.io/rulecad-archive/experiments/mechanism-physics/)
 - **[Flat launcher action: a mechanism printed on its side, checked through its whole cycle](experiments/flat-launcher/)** (2026-11-01): The disc launcher's action redrawn as one flat print, the way working printed blasters are made, with new checks for print-in-place gaps, jams, catches that hold and hard stops, and an animation of the cycle. [On the site](https://jonibach.github.io/rulecad-archive/experiments/flat-launcher/)
 - **[Disc launcher: a toy pistol whose springs, sear, trigger and feeder are printed flexures](experiments/launcher/)** (2026-10-31): A leaf bow, a snap-hook sear, a trigger on a living hinge and a serpentine feeder, all sized from one rule set; first as one optimised body, then as two cartridges pinned into a frame. [On the site](https://jonibach.github.io/rulecad-archive/experiments/launcher/)
 - **[Bin: a lattice wall for the X1C's whole build volume](experiments/bin/)** (2026-10-30): At 5% four legs become pointed arches; at 8% diagonals brace them and the rim is reached: settled, print-ready, 1.06 kg. [On the site](https://jonibach.github.io/rulecad-archive/experiments/bin/)
@@ -22,6 +23,30 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
+### A wave spring: a plunger on legs joined by round bends, squashed in a channel until it stacks solid 0.1.0
+
+2026-11-02 · `mechanisms/wave` in bench
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/mechanisms-wave/)
+
+[![A wave spring: a plunger on legs joined by round bends, squashed in a channel until it stacks solid 0.1.0](m/mechanisms-wave/preview.png)](https://jonibach.github.io/rulecad-archive/m/mechanisms-wave/)
+
+### A printed key with a tactile click: a stem on a two-leaf guide, a bump riding past a bump on a leaf 0.1.0
+
+2026-11-02 · `mechanisms/key` in bench
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/mechanisms-key/)
+
+[![A printed key with a tactile click: a stem on a two-leaf guide, a bump riding past a bump on a leaf 0.1.0](m/mechanisms-key/preview.png)](https://jonibach.github.io/rulecad-archive/m/mechanisms-key/)
+
+### Launcher action, flat: a pusher on a tapered two-leaf spring, a trigger that is its own sear, printed in one piece on its side 0.1.0
+
+2026-11-02 · `launcher/flat` in bench
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-flat/)
+
+[![Launcher action, flat: a pusher on a tapered two-leaf spring, a trigger that is its own sear, printed in one piece on its side 0.1.0](m/launcher-flat/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-flat/)
+
 ### Thin RP2040 module (with-headers) 0.4.0
 
 2026-11-02 · `thin-picro/module:with-headers` in thin-picro: The thin module fitted with 2.54 mm pin headers (3D only; the board is the same)
@@ -37,14 +62,6 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
 
 [![Thin RP2040 module 0.4.0](m/thin-rp2040-module/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
-
-### Launcher action, flat: a pusher on a tapered two-leaf spring, a trigger that is its own sear, printed in one piece on its side 0.1.0
-
-2026-11-01 · `launcher/flat` in bench: The launcher's action as one flat print: a pusher on a tapered two-leaf spring with rounded roots, a trigger that is its own sear, checked through its whole cycle and by finite elements
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-flat/)
-
-[![Launcher action, flat: a pusher on a tapered two-leaf spring, a trigger that is its own sear, printed in one piece on its side 0.1.0](m/launcher-flat/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-flat/)
 
 ### Launcher fit test: chamber, sled, free-standing leaves and pins at three clearances each 0.1.0
 

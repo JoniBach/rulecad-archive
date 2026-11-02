@@ -1,0 +1,38 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mechanisms solved as they would behave: beams that bend, parts that touch, a hand, and a shot</title>
+<meta property="og:title" content="Mechanisms solved as they would behave: beams that bend, parts that touch, a hand, and a shot">
+<meta property="og:image" content="https://jonibach.github.io/rulecad-archive/experiments/mechanism-physics/picture.png">
+<style>body { font-family: system-ui, sans-serif; margin: 0; background: #111; color: #ddd; line-height: 1.5; }
+  main, header, section { max-width: 72rem; margin: 0 auto; padding: 1rem 1.25rem; } main { max-width: 52rem; }
+  a { color: #8cf; } img { max-width: 100%; border-radius: 6px; } code { color: #bbb; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.9rem; margin: 1rem 0; } th, td { border-bottom: 1px solid #333; padding: 0.4rem 0.5rem; text-align: left; vertical-align: top; }</style>
+<main>
+<p><a href="../../">← rulecad archive</a></p>
+<h1>Mechanisms solved as they would behave</h1>
+<p><strong>2 November 2026 · @rulecad/flexures lamina · <code>examples/bench/projects/mechanisms/</code></strong></p>
+<p>Until now rulecad checked a mechanism by moving each joint the way a simple model says and looking for collisions. That missed what matters most in a printed compliant mechanism: how far its springs really bend, how hard it is to work, and whether a latch really holds. This adds the physics.</p>
+<p><img src="key.svg" alt="A printed key: pressed, its bump rides past the click leaf's and the force falls"></p>
+<h2>What it does</h2>
+<ul><li><strong>Beams that bend as far as they bend.</strong> Each flexure becomes a chain of short beam elements along its centreline,</li></ul>
+<p>  solved for equilibrium on its total energy. It agrees with beam theory at small deflections, with the exact bent   shape of a leaf to 0.1% at large ones, and buckles a column at the Euler load.</p>
+<ul><li><strong>Parts that touch.</strong> Every part touches what it meets, flexures themselves included: a wave spring's legs meet as</li></ul>
+<p>  it stacks solid. The walls each part sees are worked out once as a distance grid, which made a latch's check go   from 7 minutes to 12 seconds.</p>
+<ul><li><strong>A hand.</strong> It drives the joints a step changes, holds what it had, and lets go gradually of the rest, so a latch</li></ul>
+<p>  catching or a spring firing comes out of the physics. The hand's force along a step is the force curve.</p>
+<ul><li><strong>Requirements on the curve.</strong> A key can ask for its peak force and its click, the share the force falls after it.</li><li><strong>A shot.</strong> Let go and stepped through time, every body and beam with its mass: the speeds, and the disc's exit</li></ul>
+<p>  speed and energy.</p>
+<ul><li><strong>A wave spring and a pivot pair.</strong> Legs joined by round bends; two leaves whose lines meet at a point the part</li></ul>
+<p>  turns about.</p>
+<h2>The test pieces</h2>
+<table><tr><th></th><th>What it is</th><th>What the physics says</th></tr><tr><td><a href="https://jonibach.github.io/rulecad-archive/m/mechanisms-key/">Key</a></td><td>A stem on a tapered guide, a bump riding past a bump on a click leaf</td><td>Peaks at 1.48 N, then falls 29%: a click. Every flexure within its limit and stopped by the frame</td></tr><tr><td><a href="https://jonibach.github.io/rulecad-archive/m/mechanisms-wave/">Wave spring</a></td><td>A plunger on legs joined by round bends, in a channel</td><td>0.49 N over 8 mm; its real peak strain is at the bends, 1.7 times beam theory; past solid its force climbs steeply</td></tr></table>
+<p><img src="wave.svg" alt="The wave spring squashed in its channel"></p>
+<p>A push-push latch (press, it stays; press again, it comes back) is started but doesn't work yet. A heart-shaped track is a loop the pin runs round, so the heart in its middle can't join the frame anywhere in the plane: printed flat in one layer, it comes loose. It needs a floor under the track, with parts at different heights.</p>
+<h2>What it found in the launcher</h2>
+<ul><li><strong>The trigger can't hold the cock.</strong> Its hanging leaf hinge is soft sideways, and the pusher's push on the catch</li></ul>
+<p>  swings the trigger forward until the hook slips off. The old check missed it by treating the hinge as a fixed pivot.</p>
+<ul><li><strong>The shot.</strong> Drawn back, trigger pulled, let go: the pusher reaches 2.3 m/s and the disc leaves at 3.5 m/s with</li></ul>
+<p>  4.8 mJ, 9% of the 54.5 mJ stored. Most of the energy stays in the pusher and the springs.</p>
+<p>Write-up of the launcher's flat action: <a href="https://jonibach.github.io/rulecad-archive/experiments/flat-launcher/">Flat launcher action</a></p>
+</main>

@@ -1,5 +1,32 @@
 [
   {
+    "slug": "mechanisms-wave",
+    "date": "2026-11-02",
+    "ref": "mechanisms/wave",
+    "title": "A wave spring: a plunger on legs joined by round bends, squashed in a channel until it stacks solid 0.1.0",
+    "note": "",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "mechanisms-key",
+    "date": "2026-11-02",
+    "ref": "mechanisms/key",
+    "title": "A printed key with a tactile click: a stem on a two-leaf guide, a bump riding past a bump on a leaf 0.1.0",
+    "note": "",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "launcher-flat",
+    "date": "2026-11-02",
+    "ref": "launcher/flat",
+    "title": "Launcher action, flat: a pusher on a tapered two-leaf spring, a trigger that is its own sear, printed in one piece on its side 0.1.0",
+    "note": "",
+    "source": "bench",
+    "picture": true
+  },
+  {
     "slug": "thin-rp2040-module-headers",
     "date": "2026-11-02",
     "ref": "thin-picro/module:with-headers",
@@ -15,15 +42,6 @@
     "title": "Thin RP2040 module 0.4.0",
     "note": "49.5 x 21.0 mm: RP2040-Zero corners, two M2 mounting holes",
     "source": "thin-picro",
-    "picture": true
-  },
-  {
-    "slug": "launcher-flat",
-    "date": "2026-11-01",
-    "ref": "launcher/flat",
-    "title": "Launcher action, flat: a pusher on a tapered two-leaf spring, a trigger that is its own sear, printed in one piece on its side 0.1.0",
-    "note": "The launcher's action as one flat print: a pusher on a tapered two-leaf spring with rounded roots, a trigger that is its own sear, checked through its whole cycle and by finite elements",
-    "source": "bench",
     "picture": true
   },
   {

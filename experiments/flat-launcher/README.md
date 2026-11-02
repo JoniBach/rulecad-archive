@@ -63,6 +63,18 @@ Each check was tested by breaking the design on purpose: a steep ramp, a short t
 reach, a missing stop, a catch leaning the wrong way, and a block 0.1 mm from a leaf. Each fails with its reason.
 The 2D geometry moved to Manifold's Clipper2: JSCAD's 2D booleans returned garbage on that last case and let it pass.
 
+## What the physics says (2 November)
+
+Solved as it would behave, with large-deflection beams, contact and a hand working it:
+
+- **The trigger can't hold the cock.** The hanging leaf hinge is stiff to turn but soft sideways, so the pusher's
+  push on the catch, about 8 N, swings the trigger forward until the hook slips off. Expect a print to fire as soon as
+  the tab is let go. It needs a pivot that's stiff sideways.
+- **The shot.** Drawn back with the trigger pulled and let go, the pusher reaches 2.3 m/s and the disc leaves at
+  3.5 m/s with 4.8 mJ: 9% of the 54.5 mJ stored. The animation ends with the shot in slow motion.
+
+More: [Mechanisms solved as they would behave](https://jonibach.github.io/rulecad-archive/experiments/mechanism-physics/)
+
 ## Still to do
 
 - The printer's gap for parts printed in place is an estimate, 0.3 mm. The fit test plate measures it.
