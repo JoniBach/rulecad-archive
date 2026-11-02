@@ -23,6 +23,14 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
+### Modular station concept, 48 mm: print plate
+
+2026-11-02 · `concept48/print` in hardware: Every part on one bed, each its own object, ready to print
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/station-concept-48-print/)
+
+[![Modular station concept, 48 mm: print plate](m/station-concept-48-print/preview.png)](https://jonibach.github.io/rulecad-archive/m/station-concept-48-print/)
+
 ### Modular station concept, 48 mm
 
 2026-11-02 · `concept48/station` in hardware: Rough casing concept: core, pods and a compact pack
