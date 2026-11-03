@@ -24,6 +24,14 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
+### Launcher action, in line: a pusher between two curved arms shaped by the beam solver, a flooded frame, the disc flat in a roofed slot, the stem trapped in a guide, a hooked sear on one flexure and a trigger blade, printed in one piece on its side 0.7.0
+
+2026-11-03 · `launcher/inline` in bench: 0.7.0: a hooked sear on one curve flexure catches a tooth under the pull ring; a trigger blade lets it go (1.5 N against 7.3 N held). Corner holes for snap-pinned plates.
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-inline/)
+
+[![Launcher action, in line: a pusher between two curved arms shaped by the beam solver, a flooded frame, the disc flat in a roofed slot, the stem trapped in a guide, a hooked sear on one flexure and a trigger blade, printed in one piece on its side 0.7.0](m/launcher-inline/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-inline/)
+
 ### Thin RP2040 module (with-headers) 0.5.0
 
 2026-11-03 · `thin-picro/module:with-headers` in thin-picro: The thin module fitted with 2.54 mm pin headers (3D only; the board is the same)
@@ -39,14 +47,6 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
 
 [![Thin RP2040 module 0.5.0](m/thin-rp2040-module/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
-
-### Launcher action, in line: a pusher between two curved arms shaped by the beam solver, a flooded frame, the disc flat in a roofed slot, the stem trapped in a guide, printed in one piece on its side 0.6.0
-
-2026-11-03 · `launcher/inline` in bench: 0.6.0: the disc flat in a slot under a bridged 21 mm roof that ties the front (frame bends 0.03 mm under the arms' pull); arms rooted at the back, reshaped; the stem 8 mm, trapped by a 45° ridge in a groove through the handle (0.00 mm across the plane under 1 N). PETG, on its side, 10.6 mm tall. Still weak.
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-inline/)
-
-[![Launcher action, in line: a pusher between two curved arms shaped by the beam solver, a flooded frame, the disc flat in a roofed slot, the stem trapped in a guide, printed in one piece on its side 0.6.0](m/launcher-inline/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-inline/)
 
 ### Modular station concept, 48 mm: print plate
 
