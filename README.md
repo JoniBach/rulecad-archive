@@ -25,6 +25,14 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
+### Launcher action, in line: a pusher between two curved arms shaped by the beam solver, a flooded frame, the disc flat in a roofed slot, the stem trapped in a guide, a hooked sear on one flexure and a trigger blade, printed in one piece on its side 0.8.0
+
+2026-11-03 · `launcher/inline` in bench: Work in progress (branch trigger-wip): catch over the stem ahead of the ring, trigger block and shaped hinge in the frame's room above the ring. Cocks, holds and lets go in the simulation; pull heavy (6.5 N), not yet printable.
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-inline-wip/)
+
+[![Launcher action, in line: a pusher between two curved arms shaped by the beam solver, a flooded frame, the disc flat in a roofed slot, the stem trapped in a guide, a hooked sear on one flexure and a trigger blade, printed in one piece on its side 0.8.0](m/launcher-inline-wip/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-inline-wip/)
+
 ### Thin RP2040 module (with-headers) 0.5.1
 
 2026-11-03 · `thin-picro/module:with-headers` in thin-picro: The thin module fitted with 2.54 mm pin headers (3D only; the board is the same)
