@@ -1,0 +1,49 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Launcher trigger: catching a strong spring and letting it go at once</title>
+<meta property="og:title" content="Launcher trigger: catching a strong spring and letting it go at once">
+<meta property="og:image" content="https://jonibach.github.io/rulecad-archive/experiments/launcher-trigger/picture.png">
+<style>body { font-family: system-ui, sans-serif; margin: 0; background: #111; color: #ddd; line-height: 1.5; }
+  main, header, section { max-width: 72rem; margin: 0 auto; padding: 1rem 1.25rem; } main { max-width: 52rem; }
+  a { color: #8cf; } img { max-width: 100%; border-radius: 6px; } code { color: #bbb; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.9rem; margin: 1rem 0; } th, td { border-bottom: 1px solid #333; padding: 0.4rem 0.5rem; text-align: left; vertical-align: top; }</style>
+<main>
+<p><a href="../../">← rulecad archive</a></p>
+<h1>Launcher trigger: catching a strong spring and letting it go at once</h1>
+<p><strong>3 November 2026 · work in progress · <code>examples/bench/projects/launcher/objects/inline</code> · code on branch <code>trigger-wip</code></strong></p>
+<p>The in-line launcher (0.6.0) had a spring, a frame and a barrel, but no catch. The goal: a compliant catch that holds a much stronger spring than today's, and a trigger that lets it go in an instant, all simulated as one sequence: draw, catch, hold, pull, release and shot.</p>
+<h2>What rulecad gained for it</h2>
+<ul><li><strong>Friction in the simulation.</strong> Coulomb friction (μ 0.3 for printed PETG on PETG) at every contact, so a trigger</li></ul>
+<p>  pulls against what its sear drags.</p>
+<ul><li><strong>One sequence.</strong> The step that lets the catch go starts the shot, so the trigger's pull, the force the catch held</li></ul>
+<p>  and the time until the disc leaves come from one run.</p>
+<ul><li><strong>Where the finger pulls.</strong> The force is measured at the trigger's face, not the part's middle.</li><li><strong>Springs that are hinges.</strong> The curve shaper can make a spring that turns about a chosen point, and that stays</li></ul>
+<p>  stiff along a given load line (&quot;hold&quot;): a hinge that is also a strut.</p>
+<ul><li><strong>Holes for plates.</strong> Fastener holes in solid bosses, for snap-pinned plates either side, should a frame need them.</li></ul>
+<h2>The principle</h2>
+<p>The sear hangs on a flexure that lies on the line the tooth pushes along. The spring's pull is then that flexure's tension, not a bend, and a strip of PETG carries hundreds of newtons in tension. The catch holds however strong the spring, and turning the sear off the tooth costs only friction and the hinge's own stiffness.</p>
+<h2>0. Version 0.7.0, published: a blade at the back corner</h2>
+<p><img src="0-v0.7.0.png" alt="0.7.0"></p>
+<p>A tooth under the pull ring, the sear on one straight 12 mm flexure, a 40 mm trigger blade out of the frame's bottom corner. In the simulation the catch holds 7.3 N, and a 1.47 N pull over 4.2 mm lets it go. The disc leaves 7.7 ms later at 2.3 m/s. <a href="../../m/launcher-inline/">The model</a>.</p>
+<p>What was wrong, in the user's words: it sat in a corner instead of the open space ahead of the ring; the blade was a thin stick, not a trigger; the hinge was a plain strip, not a shaped spring.</p>
+<h2>1. The catch ahead of the ring, a blade into a guard</h2>
+<p><img src="1-guard-blade.png" alt="The first rework, annotated by the user"></p>
+<p>The tooth moved under the stem ahead of the ring, the hinge was shaped by the solver, and a guard loop was added below the frame. The user ringed the hinge and the head: far too little material, it would snap.</p>
+<h2>2. A solid trigger body in a guard</h2>
+<p><img src="2-guard-block.png" alt="A solid trigger block, with the user's sketch of a better one"></p>
+<p>The trigger became one solid block. Still too slim for the room (the user drew the body it should be, like the BYU blaster's), and the guard added volume the frame didn't need.</p>
+<p><img src="2-guard-block-crossed.png" alt="Crossed out: work in the space there is"></p>
+<p>The user's point: the frame already has room. Generate the springs inside it, not new volume around it.</p>
+<p><img src="byu-reference.jpg" alt="The BYU / Mark Rober one-piece compliant blaster"></p>
+<h2>3. Inside the frame, above the ring</h2>
+<p><img src="3-above-ring.png" alt="The trigger in the room above the ring"></p>
+<p>The tooth on the stem's top, the sear and trigger one block in the room above the ring, the hinge shaped in the room behind it, the finger's room kept open ahead. It cocks, holds and lets go in the simulation, but:</p>
+<ul><li><strong>The pull is heavy:</strong> 6.5 N against a 7.3 N catch. In that window a finger pushes only about 13 mm from the hinge's</li></ul>
+<p>  middle, where the blade had 40.</p>
+<ul><li><strong>The hook only just holds:</strong> it needs friction over 0.11.</li><li><strong>A regression:</strong> the flood now cuts room round the parts along their planned paths only. That stopped a frameless</li></ul>
+<p>  first pass from carving the frame where the catch tipped the pusher, but the arms then fail their finite-element   check (1.64% against 1.25%).</p>
+<h2>Next: two stages</h2>
+<p>The user's suggestion: mount the trigger like the pusher, on two springs rooted in different places, for a firm hold and a long pull. That makes a two-stage catch, all inside the frame:</p>
+<p>1. <strong>The sear,</strong> small and solid, on its tension hinge, carries the spring's pull. Its face tips it open under load,    and only a blocker stops it. 2. <strong>The trigger,</strong> a big block in the room above the ring on two shaped arms, pulled back a long way. Its edge is the    blocker. Pulled, the blocker slides off and the spring flips the sear open: the finger fights only the blocker's    friction, a fraction of the spring's pull. 3. <strong>A pawl for a tooth:</strong> a short stiff flexure on the stem flexes under the sear as it's drawn and springs up behind    it. Under load it's pushed end-on. That lets the sear stay blocked while it's drawn.</p>
+</main>
