@@ -58,6 +58,8 @@ The user's point: the frame already has room. Generate the springs inside it, no
 
 ![The trigger in the room above the ring](3-above-ring.png)
 
+![Its sequence as simulated: drawn, caught, the trigger pushed, let go, fired](sequence.svg)
+
 The tooth on the stem's top, the sear and trigger one block in the room above the ring, the hinge shaped in the room
 behind it, the finger's room kept open ahead. It cocks, holds and lets go in the simulation, but:
 
