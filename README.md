@@ -24,6 +24,22 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
+### Thin RP2040 module (with-headers) 0.5.1
+
+2026-11-03 · `thin-picro/module:with-headers` in thin-picro: The thin module fitted with 2.54 mm pin headers (3D only; the board is the same)
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module-headers/)
+
+[![Thin RP2040 module (with-headers) 0.5.1](m/thin-rp2040-module-headers/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module-headers/)
+
+### Thin RP2040 module 0.5.1
+
+2026-11-03 · `thin-picro/module` in thin-picro: 59.7 x 21.0 mm: end columns 3 keys apart, grouped pins, an SPI display header; passes every check
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
+
+[![Thin RP2040 module 0.5.1](m/thin-rp2040-module/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
+
 ### Launcher action, in line: a pusher between two curved arms shaped by the beam solver, a flooded frame, the disc flat in a roofed slot, the stem trapped in a guide, a hooked sear on one flexure and a trigger blade, printed in one piece on its side 0.7.0
 
 2026-11-03 · `launcher/inline` in bench: 0.7.0: a hooked sear on one curve flexure catches a tooth under the pull ring; a trigger blade lets it go (1.5 N against 7.3 N held). Corner holes for snap-pinned plates.
@@ -31,22 +47,6 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-inline/)
 
 [![Launcher action, in line: a pusher between two curved arms shaped by the beam solver, a flooded frame, the disc flat in a roofed slot, the stem trapped in a guide, a hooked sear on one flexure and a trigger blade, printed in one piece on its side 0.7.0](m/launcher-inline/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-inline/)
-
-### Thin RP2040 module (with-headers) 0.5.0
-
-2026-11-03 · `thin-picro/module:with-headers` in thin-picro: The thin module fitted with 2.54 mm pin headers (3D only; the board is the same)
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module-headers/)
-
-[![Thin RP2040 module (with-headers) 0.5.0](m/thin-rp2040-module-headers/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module-headers/)
-
-### Thin RP2040 module 0.5.0
-
-2026-11-03 · `thin-picro/module` in thin-picro: 59.7 x 21.0 mm: end columns 3 keys apart, grouped pins, an SPI display header; one overlap to fix in KiCad before ordering
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
-
-[![Thin RP2040 module 0.5.0](m/thin-rp2040-module/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
 
 ### Modular station concept, 48 mm: print plate
 
