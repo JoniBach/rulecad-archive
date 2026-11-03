@@ -1,5 +1,23 @@
 [
   {
+    "slug": "thin-rp2040-module-headers",
+    "date": "2026-11-03",
+    "ref": "thin-picro/module:with-headers",
+    "title": "Thin RP2040 module (with-headers) 0.5.0",
+    "note": "The thin module fitted with 2.54 mm pin headers (3D only; the board is the same)",
+    "source": "thin-picro",
+    "picture": true
+  },
+  {
+    "slug": "thin-rp2040-module",
+    "date": "2026-11-03",
+    "ref": "thin-picro/module",
+    "title": "Thin RP2040 module 0.5.0",
+    "note": "59.7 x 21.0 mm: end columns 3 keys apart, grouped pins, an SPI display header; one overlap to fix in KiCad before ordering",
+    "source": "thin-picro",
+    "picture": true
+  },
+  {
     "slug": "launcher-inline",
     "date": "2026-11-03",
     "ref": "launcher/inline",
@@ -24,24 +42,6 @@
     "title": "Modular station concept, 48 mm",
     "note": "Rough casing concept: core, pods and a compact pack",
     "source": "hardware",
-    "picture": true
-  },
-  {
-    "slug": "thin-rp2040-module-headers",
-    "date": "2026-11-02",
-    "ref": "thin-picro/module:with-headers",
-    "title": "Thin RP2040 module (with-headers) 0.4.1",
-    "note": "The thin module fitted with 2.54 mm pin headers (3D only; the board is the same)",
-    "source": "thin-picro",
-    "picture": true
-  },
-  {
-    "slug": "thin-rp2040-module",
-    "date": "2026-11-02",
-    "ref": "thin-picro/module",
-    "title": "Thin RP2040 module 0.4.1",
-    "note": "48.1 x 21.0 mm: header holes where Sea-Picro has them, RP2040-Zero corners, two M2 holes",
-    "source": "thin-picro",
     "picture": true
   },
   {

@@ -24,6 +24,22 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
+### Thin RP2040 module (with-headers) 0.5.0
+
+2026-11-03 · `thin-picro/module:with-headers` in thin-picro: The thin module fitted with 2.54 mm pin headers (3D only; the board is the same)
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module-headers/)
+
+[![Thin RP2040 module (with-headers) 0.5.0](m/thin-rp2040-module-headers/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module-headers/)
+
+### Thin RP2040 module 0.5.0
+
+2026-11-03 · `thin-picro/module` in thin-picro: 59.7 x 21.0 mm: end columns 3 keys apart, grouped pins, an SPI display header; one overlap to fix in KiCad before ordering
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
+
+[![Thin RP2040 module 0.5.0](m/thin-rp2040-module/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
+
 ### Launcher action, in line: a pusher between two curved arms shaped by the beam solver, a flooded frame, the disc flat in a roofed slot, the stem trapped in a guide, printed in one piece on its side 0.6.0
 
 2026-11-03 · `launcher/inline` in bench: 0.6.0: the disc flat in a slot under a bridged 21 mm roof that ties the front (frame bends 0.03 mm under the arms' pull); arms rooted at the back, reshaped; the stem 8 mm, trapped by a 45° ridge in a groove through the handle (0.00 mm across the plane under 1 N). PETG, on its side, 10.6 mm tall. Still weak.
@@ -47,22 +63,6 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/station-concept-48/)
 
 [![Modular station concept, 48 mm](m/station-concept-48/preview.png)](https://jonibach.github.io/rulecad-archive/m/station-concept-48/)
-
-### Thin RP2040 module (with-headers) 0.4.1
-
-2026-11-02 · `thin-picro/module:with-headers` in thin-picro: The thin module fitted with 2.54 mm pin headers (3D only; the board is the same)
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module-headers/)
-
-[![Thin RP2040 module (with-headers) 0.4.1](m/thin-rp2040-module-headers/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module-headers/)
-
-### Thin RP2040 module 0.4.1
-
-2026-11-02 · `thin-picro/module` in thin-picro: 48.1 x 21.0 mm: header holes where Sea-Picro has them, RP2040-Zero corners, two M2 holes
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
-
-[![Thin RP2040 module 0.4.1](m/thin-rp2040-module/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
 
 ### A wave spring: a plunger on legs joined by round bends, squashed in a channel until it stacks solid 0.1.0
 
