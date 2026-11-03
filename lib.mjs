@@ -27,7 +27,8 @@ const go = document.getElementById('go'); go.href = ${JSON.stringify(url.match(/
 </script>
 `);
   if (picture) thumb(slug);
-  const entry = { slug, date, ref, title, note, source, picture };
+  const player = fs.existsSync(path.join(dir, 'play.html')); // a mechanism's sequence, to play (play.mjs)
+  const entry = { slug, date, ref, title, note, source, picture, ...(player ? { player } : {}) };
   const all = [entry, ...entries().filter((e) => e.slug !== slug)].sort((a, b) => b.date.localeCompare(a.date));
   fs.writeFileSync(file, JSON.stringify(all, null, 2) + '\n');
   render(all);
@@ -35,7 +36,7 @@ const go = document.getElementById('go'); go.href = ${JSON.stringify(url.match(/
 }
 
 function render(all) {
-  const rows = all.map((e) => `### ${e.title}\n\n${e.date} · \`${e.ref}\` in ${e.source}${e.note ? `: ${e.note}` : ''}\n\n[Open in 3D](${BASE}/m/${e.slug}/)${e.picture ? `\n\n[![${e.title}](m/${e.slug}/preview.png)](${BASE}/m/${e.slug}/)` : ''}\n`);
+  const rows = all.map((e) => `### ${e.title}\n\n${e.date} · \`${e.ref}\` in ${e.source}${e.note ? `: ${e.note}` : ''}\n\n[Open in 3D](${BASE}/m/${e.slug}/)${e.player ? ` · [Play its sequence](${BASE}/m/${e.slug}/play.html)` : ''}${e.picture ? `\n\n[![${e.title}](m/${e.slug}/preview.png)](${BASE}/m/${e.slug}/)` : ''}\n`);
   const ex = experiments();
   experimentPages(ex);
   const exRows = ex.map((e) => `- **[${e.title}](experiments/${e.slug}/)** (${e.date}): ${e.summary}. [On the site](${BASE}/experiments/${e.slug}/)`).join('\n');
@@ -59,7 +60,7 @@ function page(all, ex = []) {
   <a href="m/${e.slug}/">${e.picture ? `<img src="m/${e.slug}/${img}" alt="" loading="lazy">` : '<div class="none">no picture</div>'}</a>
   <h3><a href="m/${e.slug}/">${esc(e.title)}</a></h3>
   <p>${e.date} · <code>${esc(e.ref)}</code>${e.note ? ` · ${esc(e.note)}` : ''}</p>
-  <p class="links"><a href="m/${e.slug}/">Open in 3D</a>${e.picture ? ` · <a href="m/${e.slug}/preview.png">Picture</a>` : ''}</p>
+  <p class="links"><a href="m/${e.slug}/">Open in 3D</a>${e.player ? ` · <a href="m/${e.slug}/play.html">Play</a>` : ''}${e.picture ? ` · <a href="m/${e.slug}/preview.png">Picture</a>` : ''}</p>
 </article>`;
   };
   return `<!doctype html>
@@ -93,6 +94,14 @@ ${list.map(card).join('\n')}
 `;
 }
 export const rebuild = () => render(entries());
+// A mechanism's player (cad animate's page, data and SVG) put with its model, and the entry marked so its pages link it
+export function attachPlayer(slug, files) {
+  const dir = dirOf(slug);
+  for (const [from, to] of Object.entries(files)) if (from && fs.existsSync(from)) fs.copyFileSync(from, path.join(dir, to));
+  const all = entries().map((e) => (e.slug === slug ? { ...e, player: fs.existsSync(path.join(dir, 'play.html')) } : e));
+  fs.writeFileSync(file, JSON.stringify(all, null, 2) + '\n');
+  render(all);
+}
 
 // ---------- experiments ----------
 // experiments/<slug>/: README.md (the write-up; GitHub shows it as it is), meta.json ({ title, date, summary }) and

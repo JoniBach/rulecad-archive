@@ -6,7 +6,8 @@
     "title": "Launcher action, in line: a pusher between two curved arms shaped by the beam solver, a flooded frame, the disc flat in a roofed slot, the stem trapped in a guide, a hooked sear on one flexure and a trigger blade, printed in one piece on its side 0.8.0",
     "note": "Work in progress (branch trigger-wip): catch over the stem ahead of the ring, trigger block and shaped hinge in the frame's room above the ring. Cocks, holds and lets go in the simulation; pull heavy (6.5 N), not yet printable.",
     "source": "bench",
-    "picture": true
+    "picture": true,
+    "player": true
   },
   {
     "slug": "thin-rp2040-module-headers",
@@ -69,7 +70,8 @@
     "title": "A printed key with a tactile click: a stem on a two-leaf guide, a bump riding past a bump on a leaf 0.1.0",
     "note": "",
     "source": "bench",
-    "picture": true
+    "picture": true,
+    "player": true
   },
   {
     "slug": "launcher-flat",

@@ -29,7 +29,7 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 
 2026-11-03 · `launcher/inline` in bench: Work in progress (branch trigger-wip): catch over the stem ahead of the ring, trigger block and shaped hinge in the frame's room above the ring. Cocks, holds and lets go in the simulation; pull heavy (6.5 N), not yet printable.
 
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-inline-wip/)
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-inline-wip/) · [Play its sequence](https://jonibach.github.io/rulecad-archive/m/launcher-inline-wip/play.html)
 
 [![Launcher action, in line: a pusher between two curved arms shaped by the beam solver, a flooded frame, the disc flat in a roofed slot, the stem trapped in a guide, a hooked sear on one flexure and a trigger blade, printed in one piece on its side 0.8.0](m/launcher-inline-wip/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-inline-wip/)
 
@@ -85,7 +85,7 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 
 2026-11-02 · `mechanisms/key` in bench
 
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/mechanisms-key/)
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/mechanisms-key/) · [Play its sequence](https://jonibach.github.io/rulecad-archive/m/mechanisms-key/play.html)
 
 [![A printed key with a tactile click: a stem on a two-leaf guide, a bump riding past a bump on a leaf 0.1.0](m/mechanisms-key/preview.png)](https://jonibach.github.io/rulecad-archive/m/mechanisms-key/)
 
