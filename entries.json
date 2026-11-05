@@ -1,18 +1,18 @@
 [
   {
     "slug": "thin-rp2040-module-headers",
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "ref": "thin-picro/module:with-headers",
-    "title": "Thin RP2040 module (with-headers) 0.6.1",
+    "title": "Thin RP2040 module (with-headers) 0.6.2",
     "note": "The thin module fitted with 2.54 mm pin headers (3D only; the board is the same)",
     "source": "thin-picro",
     "picture": true
   },
   {
     "slug": "thin-rp2040-module",
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "ref": "thin-picro/module",
-    "title": "Thin RP2040 module 0.6.1",
+    "title": "Thin RP2040 module 0.6.2",
     "note": "59.7 x 21.0 mm: end columns 3 keys apart, grouped pins with GND at both ends of the bottom row, an SPI display header, routed tracks smoothed; passes every check",
     "source": "thin-picro",
     "picture": true
