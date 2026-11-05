@@ -27,7 +27,7 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 
 ### Launcher action, in line: a pusher between two curved arms shaped by the beam solver, a flooded frame, the disc flat in a roofed slot, the pull ring on top, a solid trigger that is its own sear on a hinge carrying the pull, printed in one piece on its side 0.9.0
 
-2026-11-05 · `launcher/inline` in bench: 0.9.0: the draw split from the shot. A light shuttle between the arms carries a filled triangular tooth, caught at its front by the trigger; a slide with the pull ring hooks the shuttle's tail with a stout leaning lip and goes home on its own spring, guided by a frame tongue in a slot up its tail. The disc's channel is open over the top; no guides.
+2026-11-05 · `launcher/inline` in bench: 0.9.0: the draw split from the shot. A light shuttle between the arms carries a filled triangular tooth, caught at its front by the trigger; a slide with the pull ring hooks the shuttle's stout tail with a 5 mm leaning lip and goes home on its own spring, guided by a frame tongue in a slot up its tail. The disc's channel is open over the top; no guides.
 
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-inline/) · [Play its sequence](https://jonibach.github.io/rulecad-archive/m/launcher-inline/play.html)
 
