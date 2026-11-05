@@ -25,6 +25,14 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
+### Launcher action, in line: a pusher between two curved arms shaped by the beam solver, a flooded frame, the disc flat in a roofed slot, the pull ring on top, a solid trigger that is its own sear on a hinge carrying the pull, printed in one piece on its side (catch) 0.9.0
+
+2026-11-05 · `launcher/inline:catch` in bench: 0.9.0 catch test piece: the front half alone (the arms, the shuttle, the catch with its hook leaning 6°, the trigger and the disc's channel, a strip across its front). Draw the shuttle back by the slot in its tail, with a finger or a pin.
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-inline-catch/) · [Play its sequence](https://jonibach.github.io/rulecad-archive/m/launcher-inline-catch/play.html)
+
+[![Launcher action, in line: a pusher between two curved arms shaped by the beam solver, a flooded frame, the disc flat in a roofed slot, the pull ring on top, a solid trigger that is its own sear on a hinge carrying the pull, printed in one piece on its side (catch) 0.9.0](m/launcher-inline-catch/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-inline-catch/)
+
 ### Launcher action, in line: a pusher between two curved arms shaped by the beam solver, a flooded frame, the disc flat in a roofed slot, the pull ring on top, a solid trigger that is its own sear on a hinge carrying the pull, printed in one piece on its side 0.9.0
 
 2026-11-05 · `launcher/inline` in bench: 0.9.0: the draw split from the shot. A light shuttle between the arms carries a filled triangular tooth, caught at its front by the trigger (the hook leaning 6°, so it lets go cleanly); the slide with the pull ring is linked to it for good by a 4 mm pin in a slot up the shuttle's tail, standing on the bed and hung from a strap over the tail. A floor strip joins the disc's ledges at the barrel's front. Draw 7.7 N, trip 4.4 N, the disc leaves at 3.7 m/s. No guides.
@@ -32,14 +40,6 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-inline/) · [Play its sequence](https://jonibach.github.io/rulecad-archive/m/launcher-inline/play.html)
 
 [![Launcher action, in line: a pusher between two curved arms shaped by the beam solver, a flooded frame, the disc flat in a roofed slot, the pull ring on top, a solid trigger that is its own sear on a hinge carrying the pull, printed in one piece on its side 0.9.0](m/launcher-inline/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-inline/)
-
-### Launcher action, in line: a pusher between two curved arms shaped by the beam solver, a flooded frame, the disc flat in a roofed slot, the pull ring on top, a solid trigger that is its own sear on a hinge carrying the pull, printed in one piece on its side (catch) 0.9.0
-
-2026-11-05 · `launcher/inline:catch` in bench: 0.9.0 catch test piece: the front half alone (the arms, the shuttle, the catch, the trigger and the disc's channel, open over the top). Draw the shuttle back by the slot in its tail, with a finger or a pin. A clean trigger with the finger's hollow open.
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-inline-catch/) · [Play its sequence](https://jonibach.github.io/rulecad-archive/m/launcher-inline-catch/play.html)
-
-[![Launcher action, in line: a pusher between two curved arms shaped by the beam solver, a flooded frame, the disc flat in a roofed slot, the pull ring on top, a solid trigger that is its own sear on a hinge carrying the pull, printed in one piece on its side (catch) 0.9.0](m/launcher-inline-catch/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-inline-catch/)
 
 ### Thin RP2040 module (with-headers) 0.6.2
 
