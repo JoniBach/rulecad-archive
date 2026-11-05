@@ -1,5 +1,25 @@
 [
   {
+    "slug": "launcher-inline-catch",
+    "date": "2026-11-05",
+    "ref": "launcher/inline:catch",
+    "title": "Launcher action, in line: a pusher between two curved arms shaped by the beam solver, a flooded frame, the disc flat in a roofed slot, the pull ring on top, a solid trigger that is its own sear on a hinge carrying the pull, printed in one piece on its side (catch) 0.9.0",
+    "note": "0.9.0 catch test piece: the front half alone (the arms, the shuttle, the catch, the trigger and the disc's tunnel), drawn back by a pin in a knob on the shuttle's tail. Every check passes: trip 5.9 N, the disc leaves at 5.4 m/s with 29% of the 40 mJ stored.",
+    "source": "bench",
+    "picture": true,
+    "player": true
+  },
+  {
+    "slug": "launcher-inline",
+    "date": "2026-11-05",
+    "ref": "launcher/inline",
+    "title": "Launcher action, in line: a pusher between two curved arms shaped by the beam solver, a flooded frame, the disc flat in a roofed slot, the pull ring on top, a solid trigger that is its own sear on a hinge carrying the pull, printed in one piece on its side 0.9.0",
+    "note": "0.9.0: the draw split from the shot. A light shuttle between the arms carries a filled triangular tooth, caught at its front by the trigger; a slide with the pull ring hooks the shuttle's tail with a leaning lip and goes home on its own spring, guided by a frame tongue in a slot up its tail. Every check passes: draw 7.7 N, trip 6.0 N, the disc leaves at 3.9 m/s with 14% of the 41 mJ stored.",
+    "source": "bench",
+    "picture": true,
+    "player": true
+  },
+  {
     "slug": "thin-rp2040-module-headers",
     "date": "2026-11-05",
     "ref": "thin-picro/module:with-headers",
@@ -16,16 +36,6 @@
     "note": "59.7 x 21.0 mm: end columns 3 keys apart, grouped pins with GND at both ends of the bottom row, an SPI display header, routed tracks smoothed; passes every check",
     "source": "thin-picro",
     "picture": true
-  },
-  {
-    "slug": "launcher-inline",
-    "date": "2026-11-03",
-    "ref": "launcher/inline",
-    "title": "Launcher action, in line: a pusher between two curved arms shaped by the beam solver, a flooded frame, the disc flat in a roofed slot, the pull ring on top, a solid trigger that is its own sear on a hinge carrying the pull, printed in one piece on its side 0.8.1",
-    "note": "0.8.1: every spring end sits fully in the part it joins. The hinge's tip now ends in a seat, a rounded shoulder on the trigger square to the hinge, instead of hanging half out of its top edge. Holds 7.0 N, lets go at 2.8 N after 1.1 mm; the disc leaves at 1.8 m/s. Corner holes for snap-pinned plates.",
-    "source": "bench",
-    "picture": true,
-    "player": true
   },
   {
     "slug": "launcher-inline-wip",
