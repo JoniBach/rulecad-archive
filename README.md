@@ -27,7 +27,7 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 
 ### Launcher action, in line: a pusher between two curved arms shaped by the beam solver, a flooded frame, the disc flat in a roofed slot, the pull ring on top, a solid trigger that is its own sear on a hinge carrying the pull, printed in one piece on its side (catch) 0.9.0
 
-2026-11-05 · `launcher/inline:catch` in bench: 0.9.0 catch test piece: the front half alone (the arms, the shuttle, the catch, the trigger and the disc's tunnel), drawn back by a pin in a knob on the shuttle's tail. Every check passes: trip 5.9 N, the disc leaves at 5.4 m/s with 29% of the 40 mJ stored.
+2026-11-05 · `launcher/inline:catch` in bench: 0.9.0 catch test piece: the front half alone (the arms, the shuttle, the catch, the trigger and the disc's channel, open over the top), drawn back by a pin in a knob on the shuttle's tail.
 
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-inline-catch/) · [Play its sequence](https://jonibach.github.io/rulecad-archive/m/launcher-inline-catch/play.html)
 
