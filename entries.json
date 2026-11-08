@@ -1,11 +1,11 @@
 [
   {
-    "slug": "gears-focus-slider",
+    "slug": "gears-strap-tensioner",
     "date": "2026-11-08",
-    "ref": "home/slider",
-    "title": "Focus slider",
-    "note": "A rack and pinion: a 14-tooth pinion with a knob on an axle printed with the base, the rack sliding against a guide, 43.98 mm a turn. 13 g of PLA. Worked example 8; not printed yet",
-    "source": "worked-examples",
+    "ref": "gears/tensioner",
+    "title": "Strap tensioner",
+    "note": "A crank through two herringbone stages (6 : 1, module 1.25) to a spool held by a ratchet, on a skeleton frame with printed pins; the pawl held on its post by two push pins. Sized for a 100 N strap at about 2×: 4.6 N at the crank. 86 g of PLA. Not printed yet",
+    "source": "bench",
     "picture": true
   },
   {
@@ -13,17 +13,17 @@
     "date": "2026-11-08",
     "ref": "home/winder",
     "title": "Spool winder",
-    "note": "A planetary gearbox, 4 : 1: the crank on the carrier, the spool on the sun, teeth from planetary() (18/18/54), every planet in phase, on a spoked case. 28 g of PLA. Worked example 9; not printed yet",
+    "note": "A planetary gearbox, 4 : 1: the crank on the carrier, the spool on the sun, teeth from planetary() (18/18/54), every planet in phase; the ring held to the spoked case by two push pins. 28 g of PLA. Worked example 9; not printed yet",
     "source": "worked-examples",
     "picture": true
   },
   {
-    "slug": "gears-strap-tensioner",
+    "slug": "gears-focus-slider",
     "date": "2026-11-08",
-    "ref": "gears/tensioner",
-    "title": "Strap tensioner",
-    "note": "A crank through two herringbone stages (6 : 1, module 1.25) to a spool held by a ratchet, on a skeleton frame with printed pins. Sized for a 100 N strap at about 2×: 4.6 N at the crank. 86 g of PLA. Not printed yet",
-    "source": "bench",
+    "ref": "home/slider",
+    "title": "Focus slider",
+    "note": "A rack and pinion: a 14-tooth pinion with a knob on an axle printed with the base, the rack sliding against a guide, 43.98 mm a turn. 13 g of PLA. Worked example 8; not printed yet",
+    "source": "worked-examples",
     "picture": true
   },
   {
