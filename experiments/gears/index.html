@@ -1,0 +1,47 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gears from rules: spur to bevel, checked before they're printed</title>
+<meta property="og:title" content="Gears from rules: spur to bevel, checked before they're printed">
+<meta property="og:image" content="https://jonibach.github.io/rulecad-archive/experiments/gears/picture.png">
+<style>body { font-family: system-ui, sans-serif; margin: 0; background: #111; color: #ddd; line-height: 1.5; }
+  main, header, section { max-width: 72rem; margin: 0 auto; padding: 1rem 1.25rem; } main { max-width: 52rem; }
+  a { color: #8cf; } img { max-width: 100%; border-radius: 6px; } code { color: #bbb; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.9rem; margin: 1rem 0; } th, td { border-bottom: 1px solid #333; padding: 0.4rem 0.5rem; text-align: left; vertical-align: top; }</style>
+<main>
+<p><a href="../../">← rulecad archive</a></p>
+<h1>Gears from rules: spur to bevel, checked before they're printed</h1>
+<p><strong>8 November 2026 · @rulecad/gears 0.3.0, cad 0.7.36 · pull requests <a href="https://github.com/JoniBach/rulecad/pull/140">140</a> to <a href="https://github.com/JoniBach/rulecad/pull/143">143</a> · measurements to come</strong></p>
+<p>The kit could make parts that bend (flexures) and parts that turn on joints (assemblies), but not carry a turn from one place to another with a ratio. Gears are what printers do best: a spur gear prints flat on the bed, its teeth in the layers, with no supports. This is the first night's work, every number drawn from the module, the teeth and the pressure angle, and each one checked against something it doesn't assume.</p>
+<p><img src="pair.png" alt="Eighteen teeth on thirty, module 2: the pair in phase, and the mesh close up"></p>
+<h2>What rulecad gained for it</h2>
+<ul><li><strong><code>@rulecad/gears</code>.</strong> Spur gears, racks and ring gears from the involute, each tooth's root rounded (0.38 module,</li></ul>
+<p>  ISO 53) and its tip rounded, the bed face chamfered against elephant's foot. Helical and herringbone gears, worms and   their wheels, and straight bevel gears by Tredgold's construction. Bad input refused by name; an undercut pinion   refused with the profile shift that fixes it.</p>
+<ul><li><strong>How a pair meshes.</strong> Centre distance, ratio, contact ratio, and the phase that puts a tooth in a gap.</li></ul>
+<p>  <code>planetary()</code> finds teeth for a ratio that also put together.</p>
+<ul><li><strong>Gears in assemblies.</strong> A joint's <code>mesh</code> follows its mate in phase, read from where the two gears really are; a</li></ul>
+<p>  <code>planetary</code> turns a whole gearbox from its driver. <code>--sweep</code> turns the train and looks for teeth that touch.</p>
+<ul><li><strong>The mesh measured, not just reckoned.</strong> The drawn teeth turned through a pitch, the driven gear turned each way</li></ul>
+<p>  until the outlines meet: the play, the transmission error, and any interference.</p>
+<ul><li><strong>Tooth strength.</strong> The Lewis equation for a first number, and one tooth analysed by finite elements for the</li></ul>
+<p>  fillet's concentration Lewis leaves out.</p>
+<h2>The geometry, drawn</h2>
+<p>Each picture is <code>diagram()</code>: the pair in phase on the left; on the right, the mesh close up with the pitch circles (dashed, rolling on each other at the pitch point), the base circles each flank unwinds from (dotted), the line of action, and the stretch of it where the teeth touch (red). That stretch over the base pitch is the contact ratio.</p>
+<p><img src="rack.png" alt="The focus slider's pinion on its rack"></p>
+<p><img src="ring.png" alt="The spool winder's planet in its ring"></p>
+<h2>Predicted</h2>
+<table><tr><th>What</th><th>Predicted</th><th>How</th></tr><tr><td>Play between 18 and 30 teeth, module 1</td><td>0.150 to 0.152 mm (0.15 drawn)</td><td>measured from the drawn teeth</td></tr><tr><td>The same, axes 0.2 mm apart</td><td>0.30 mm</td><td>measured (reckoned 2 Δa tan α more: 0.296)</td></tr><tr><td>The same, axes 0.2 mm closer</td><td>9 µm: tight; 0.3 mm closer, they jam</td><td>measured</td></tr><tr><td>Transmission error, 18 on 30</td><td>1 µm across a tooth</td><td>measured</td></tr><tr><td>Root stress, 18 teeth at 0.4 N·m, 6 mm wide</td><td>1.33 × Lewis (40 teeth: 1.25 ×)</td><td>finite elements, settled within 2%</td></tr><tr><td>Focus slider</td><td>43.98 mm a turn of the knob</td><td>π × 14 teeth × module 1</td></tr><tr><td>Spool winder</td><td>4 turns of the spool a turn of the crank</td><td>sun 18, planets 18 × 3, ring 54</td></tr><tr><td>A single-start worm, module 1, 10 mm</td><td>locks (5.71° lead under 14° of friction at μ 0.25); 27% efficient</td><td>Dudley, Shigley</td></tr></table>
+<h2>Measured</h2>
+<p>To come. The <a href="https://jonibach.github.io/rulecad-archive/m/gears-sampler-plate/">sampler plate</a> and <a href="https://jonibach.github.io/rulecad-archive/m/gears-sampler-gears/">its gears</a> answer the first question: what backlash turns freely at each module on the X1C, and the smallest module whose teeth print whole. Those become the kit's defaults, with the plate as their source. Then the <a href="https://jonibach.github.io/rulecad-archive/m/gears-focus-slider/">focus slider</a> (travel a turn, play) and the <a href="https://jonibach.github.io/rulecad-archive/m/gears-spool-winder/">spool winder</a> (does it turn freely, what does it take to turn).</p>
+<h2>What went wrong on the way</h2>
+<ul><li><strong>False clashes.</strong> JSCAD's 3D intersection read a sun gear 2.7 mm³ into a planet 0.07 mm away (its backlash), and a</li></ul>
+<p>  planet 0.4 mm above a case as 1.3 mm³ into it. Overlaps are now measured with Manifold, and a JSCAD volume is kept   only if an exact test says the surfaces cross. This touches every assembly check, not just gears.</p>
+<ul><li><strong>A rule that failed what was fine.</strong> The centre-distance check called axes 0.01 mm too close jammed. The</li></ul>
+<p>  measurement showed 0.2 mm closer still leaves play with 0.15 mm of backlash; the rule now follows the backlash.</p>
+<ul><li><strong>Bevels.</strong> Scaling the spur profile toward the apex left a pair 0.5 mm³ into each other even at the best phase. A</li></ul>
+<p>  scan of phases showed the phase was right and the shape wasn't; drawn on the back cone by Tredgold's construction,   they clear.</p>
+<ul><li><strong>A slider that would run off its rack.</strong> The first layout put the rack's end near the pinion at rest; the sweep</li></ul>
+<p>  looks for collisions, not for teeth leaving each other, so it passed. The rack is now centred under the knob.</p>
+<h2>Still to do</h2>
+<p>Print-in-place gearboxes (a carrier can't print over the planets; a compound planetary with two rings and no carrier is the likely answer), and a two-stage herringbone reduction into the flexures ratchet.</p>
+</main>

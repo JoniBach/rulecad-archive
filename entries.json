@@ -1,5 +1,41 @@
 [
   {
+    "slug": "gears-focus-slider",
+    "date": "2026-11-08",
+    "ref": "home/slider",
+    "title": "Focus slider",
+    "note": "A rack and pinion from @rulecad/gears: a 14-tooth pinion (shifted 0.2) with a knob, 43.98 mm of travel a turn, the slide following the knob in phase. Worked example 8; not printed yet",
+    "source": "worked-examples",
+    "picture": true
+  },
+  {
+    "slug": "gears-sampler-gears",
+    "date": "2026-11-08",
+    "ref": "gears/sampler-gears",
+    "title": "Gear sampler: the gears 0.1.0",
+    "note": "The sampler's 26 gears, a row a module, dotted by backlash (one dot 0.1 mm, two 0.2, three 0.3). Not printed yet",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "gears-sampler-plate",
+    "date": "2026-11-08",
+    "ref": "gears/sampler",
+    "title": "Gear sampler: the plate 0.1.0",
+    "note": "Pins for twelve pairs of 17-tooth gears (modules 0.8 to 2, backlash 0.1 to 0.3 mm), labelled; a rack and a ring printed in. Print with the sampler's gears, record which pairs turn freely: it sets the kit's default backlash. Not printed yet",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "gears-spool-winder",
+    "date": "2026-11-08",
+    "ref": "home/winder",
+    "title": "Spool winder",
+    "note": "A planetary gearbox, 4 : 1: the crank on the carrier, the spool on the sun, teeth from planetary() (18/18/54), every planet in phase. Worked example 9; not printed yet",
+    "source": "worked-examples",
+    "picture": true
+  },
+  {
     "slug": "launcher-inline-catch",
     "date": "2026-11-07",
     "ref": "launcher/inline:catch",

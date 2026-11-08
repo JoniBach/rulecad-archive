@@ -2,6 +2,7 @@
 
 ## Experiments
 
+- **[Gears from rules: spur to bevel, checked before they're printed](experiments/gears/)** (2026-11-08): @rulecad/gears: involute spur gears, racks, rings, helical and herringbone gears, planetaries, worms and bevels from their module and teeth; meshed in phase in assemblies, measured from their drawn teeth, and their teeth analysed by finite elements. A sampler plate to print, a focus slider and a spool winder; measurements to come. [On the site](https://jonibach.github.io/rulecad-archive/experiments/gears/)
 - **[Launcher trigger: catching a strong spring and letting it go at once](experiments/launcher-trigger/)** (2026-11-03): Work in progress on the in-line launcher's catch and trigger: a sear whose hinge carries the spring's pull as tension, four layouts tried and what each taught, and the two-stage catch being built next. [On the site](https://jonibach.github.io/rulecad-archive/experiments/launcher-trigger/)
 - **[In-line launcher: a cut through the stem's bridge and floor](experiments/launcher-inline-section/)** (2026-11-02): Down the middle of the stem: the bridge prints over it with a 0.6 mm gap, and the stem arches over the floor at 45°. Nothing joins the frame to the pusher.. [On the site](https://jonibach.github.io/rulecad-archive/experiments/launcher-inline-section/)
 - **[Mechanisms solved as they would behave: beams that bend, parts that touch, a hand, and a shot](experiments/mechanism-physics/)** (2026-11-02): A large-deflection beam solver, contact, force curves, firing in time and a wave spring, built overnight for printed compliant mechanisms; a key with a tactile click and a wave spring as test pieces, and what it found in the launcher. [On the site](https://jonibach.github.io/rulecad-archive/experiments/mechanism-physics/)
@@ -24,6 +25,38 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
+
+### Focus slider
+
+2026-11-08 · `home/slider` in worked-examples: A rack and pinion from @rulecad/gears: a 14-tooth pinion (shifted 0.2) with a knob, 43.98 mm of travel a turn, the slide following the knob in phase. Worked example 8; not printed yet
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/gears-focus-slider/)
+
+[![Focus slider](m/gears-focus-slider/preview.png)](https://jonibach.github.io/rulecad-archive/m/gears-focus-slider/)
+
+### Gear sampler: the gears 0.1.0
+
+2026-11-08 · `gears/sampler-gears` in bench: The sampler's 26 gears, a row a module, dotted by backlash (one dot 0.1 mm, two 0.2, three 0.3). Not printed yet
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/gears-sampler-gears/)
+
+[![Gear sampler: the gears 0.1.0](m/gears-sampler-gears/preview.png)](https://jonibach.github.io/rulecad-archive/m/gears-sampler-gears/)
+
+### Gear sampler: the plate 0.1.0
+
+2026-11-08 · `gears/sampler` in bench: Pins for twelve pairs of 17-tooth gears (modules 0.8 to 2, backlash 0.1 to 0.3 mm), labelled; a rack and a ring printed in. Print with the sampler's gears, record which pairs turn freely: it sets the kit's default backlash. Not printed yet
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/gears-sampler-plate/)
+
+[![Gear sampler: the plate 0.1.0](m/gears-sampler-plate/preview.png)](https://jonibach.github.io/rulecad-archive/m/gears-sampler-plate/)
+
+### Spool winder
+
+2026-11-08 · `home/winder` in worked-examples: A planetary gearbox, 4 : 1: the crank on the carrier, the spool on the sun, teeth from planetary() (18/18/54), every planet in phase. Worked example 9; not printed yet
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/gears-spool-winder/)
+
+[![Spool winder](m/gears-spool-winder/preview.png)](https://jonibach.github.io/rulecad-archive/m/gears-spool-winder/)
 
 ### Launcher action, in line: a pusher between two curved arms shaped by the beam solver, a flooded frame, the disc flat in a roofed slot, the pull ring on top, a solid trigger that is its own sear on a hinge carrying the pull, printed in one piece on its side (catch) 0.9.3
 
