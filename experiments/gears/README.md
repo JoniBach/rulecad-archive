@@ -46,6 +46,7 @@ action, and the stretch of it where the teeth touch (red). That stretch over the
 | Focus slider | 43.98 mm a turn of the knob | π × 14 teeth × module 1 |
 | Spool winder | 4 turns of the spool a turn of the crank | sun 18, planets 18 × 3, ring 54 |
 | A single-start worm, module 1, 10 mm | locks (5.71° lead under 14° of friction at μ 0.25); 27% efficient | Dudley, Shigley |
+| Strap tensioner, 100 N strap on a 10 mm spool | 4.6 N at the 40 mm crank; worst teeth 5.4× under PLA (Lewis), 1.29× that by finite elements; the pawl clicks at 4 N and holds 50 N (buckles at 85 N) | the ratio, `strength`, `toothStress`, `ratchetModel`, Euler |
 
 ## Measured
 
@@ -53,8 +54,9 @@ To come. The [sampler plate](https://jonibach.github.io/rulecad-archive/m/gears-
 [its gears](https://jonibach.github.io/rulecad-archive/m/gears-sampler-gears/) answer the first question: what backlash
 turns freely at each module on the X1C, and the smallest module whose teeth print whole. Those become the kit's
 defaults, with the plate as their source. Then the [focus slider](https://jonibach.github.io/rulecad-archive/m/gears-focus-slider/)
-(travel a turn, play) and the [spool winder](https://jonibach.github.io/rulecad-archive/m/gears-spool-winder/) (does it
-turn freely, what does it take to turn).
+(travel a turn, play), the [spool winder](https://jonibach.github.io/rulecad-archive/m/gears-spool-winder/) (does it
+turn freely, what does it take to turn), and the [strap tensioner](https://jonibach.github.io/rulecad-archive/m/gears-strap-tensioner/)
+(the pull it holds before the pawl gives, the force on the crank).
 
 ## What went wrong on the way
 
@@ -66,10 +68,15 @@ turn freely, what does it take to turn).
 - **Bevels.** Scaling the spur profile toward the apex left a pair 0.5 mm³ into each other even at the best phase. A
   scan of phases showed the phase was right and the shape wasn't; drawn on the back cone by Tredgold's construction,
   they clear.
+- **A pawl that would have folded.** The tensioner's first pawl, three lines thick, holds the spool end-on as a
+  column: it buckles at 11 N against the 50 N a 100 N strap puts on it. Six lines: 85 N.
+- **Parts that needed supports.** The tensioner's crank arm stood 36 mm out from its shaft, and its second pinion
+  began a millimetre up on air. The arm is now its own part, printed flat; the pinion's teeth run straight down onto
+  the gear below.
 - **A slider that would run off its rack.** The first layout put the rack's end near the pinion at rest; the sweep
   looks for collisions, not for teeth leaving each other, so it passed. The rack is now centred under the knob.
 
 ## Still to do
 
 Print-in-place gearboxes (a carrier can't print over the planets; a compound planetary with two rings and no carrier
-is the likely answer), and a two-stage herringbone reduction into the flexures ratchet.
+is the likely answer), and the tensioner's pawl checked as a flexure through the ratchet's turn (its seat is set by eye).

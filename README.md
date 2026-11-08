@@ -26,6 +26,14 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
+### Strap tensioner
+
+2026-11-08 · `gears/tensioner` in bench: A crank through two herringbone stages (6 : 1) to a spool held by a ratchet and a flexure pawl; every mesh in phase and measured, every part printable without supports. Predicted: 4.6 N at the crank for a 100 N strap. Not printed yet
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/gears-strap-tensioner/)
+
+[![Strap tensioner](m/gears-strap-tensioner/preview.png)](https://jonibach.github.io/rulecad-archive/m/gears-strap-tensioner/)
+
 ### Focus slider
 
 2026-11-08 · `home/slider` in worked-examples: A rack and pinion from @rulecad/gears: a 14-tooth pinion (shifted 0.2) with a knob, 43.98 mm of travel a turn, the slide following the knob in phase. Worked example 8; not printed yet

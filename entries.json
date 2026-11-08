@@ -1,5 +1,14 @@
 [
   {
+    "slug": "gears-strap-tensioner",
+    "date": "2026-11-08",
+    "ref": "gears/tensioner",
+    "title": "Strap tensioner",
+    "note": "A crank through two herringbone stages (6 : 1) to a spool held by a ratchet and a flexure pawl; every mesh in phase and measured, every part printable without supports. Predicted: 4.6 N at the crank for a 100 N strap. Not printed yet",
+    "source": "bench",
+    "picture": true
+  },
+  {
     "slug": "gears-focus-slider",
     "date": "2026-11-08",
     "ref": "home/slider",
