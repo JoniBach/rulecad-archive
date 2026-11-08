@@ -26,6 +26,22 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
+### Strap tensioner
+
+2026-11-08 · `gears/tensioner` in bench: A crank through two herringbone stages (6 : 1) to a spool held by a ratchet, on a frame: three 4 mm rods, the pawl on a post outside every gear. Every mesh in phase and measured, every printed part prints without supports. Predicted: 4.6 N at the crank for a 100 N strap. Not printed yet
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/gears-strap-tensioner/)
+
+[![Strap tensioner](m/gears-strap-tensioner/preview.png)](https://jonibach.github.io/rulecad-archive/m/gears-strap-tensioner/)
+
+### Gear sampler, mounted
+
+2026-11-08 · `gears/sampler-mounted` in bench: The gear sampler put together: every gear on the pin its label names, each pair meshed (play as drawn: 0.1, 0.2, 0.3 mm), the rack sliding on its rail and the ring turning in its lip, each driven by its pinion. Turn any pair in the viewer; download it to print. Not printed yet
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/gears-sampler-mounted/)
+
+[![Gear sampler, mounted](m/gears-sampler-mounted/preview.png)](https://jonibach.github.io/rulecad-archive/m/gears-sampler-mounted/)
+
 ### Spool winder
 
 2026-11-08 · `home/winder` in worked-examples: A planetary gearbox, 4 : 1: the crank on the carrier, the spool on the sun, teeth from planetary() (18/18/54), every planet in phase; the carrier drawn as it prints, a handle pressed into its arm. Worked example 9; not printed yet
@@ -50,14 +66,6 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 
 [![Thin RP2040 module 0.7.0](m/thin-rp2040-module/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
 
-### Strap tensioner
-
-2026-11-08 · `gears/tensioner` in bench: A crank through two herringbone stages (6 : 1) to a spool held by a ratchet and a flexure pawl; every mesh in phase and measured, every part printable without supports. Predicted: 4.6 N at the crank for a 100 N strap. Not printed yet
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/gears-strap-tensioner/)
-
-[![Strap tensioner](m/gears-strap-tensioner/preview.png)](https://jonibach.github.io/rulecad-archive/m/gears-strap-tensioner/)
-
 ### Focus slider
 
 2026-11-08 · `home/slider` in worked-examples: A rack and pinion from @rulecad/gears: a 14-tooth pinion (shifted 0.2) with a knob, 43.98 mm of travel a turn, the slide following the knob in phase. Worked example 8; not printed yet
@@ -65,22 +73,6 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/gears-focus-slider/)
 
 [![Focus slider](m/gears-focus-slider/preview.png)](https://jonibach.github.io/rulecad-archive/m/gears-focus-slider/)
-
-### Gear sampler: the gears 0.1.0
-
-2026-11-08 · `gears/sampler-gears` in bench: The sampler's 26 gears, a row a module, dotted by backlash (one dot 0.1 mm, two 0.2, three 0.3). Not printed yet
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/gears-sampler-gears/)
-
-[![Gear sampler: the gears 0.1.0](m/gears-sampler-gears/preview.png)](https://jonibach.github.io/rulecad-archive/m/gears-sampler-gears/)
-
-### Gear sampler: the plate 0.1.0
-
-2026-11-08 · `gears/sampler` in bench: Pins for twelve pairs of 17-tooth gears (modules 0.8 to 2, backlash 0.1 to 0.3 mm), labelled; a rack and a ring printed in. Print with the sampler's gears, record which pairs turn freely: it sets the kit's default backlash. Not printed yet
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/gears-sampler-plate/)
-
-[![Gear sampler: the plate 0.1.0](m/gears-sampler-plate/preview.png)](https://jonibach.github.io/rulecad-archive/m/gears-sampler-plate/)
 
 ### Launcher action, in line: a pusher between two curved arms shaped by the beam solver, a flooded frame, the disc flat in a roofed slot, the pull ring on top, a solid trigger that is its own sear on a hinge carrying the pull, printed in one piece on its side (catch) 0.9.3
 

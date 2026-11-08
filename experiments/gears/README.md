@@ -34,11 +34,6 @@ action, and the stretch of it where the teeth touch (red). That stretch over the
 
 ![The spool winder's planet in its ring](ring.png)
 
-## Print files
-
-[All sixteen parts as Bambu Studio 3MFs](gears-print-files.zip) (3.5 MB): a folder for each model and a README. Every
-part checks printable with no supports, as exported. Print the winder's planet three times.
-
 ## Turning
 
 Each train from above, every gear its printed outline turning at its true ratio from the phase the check computes
@@ -64,8 +59,8 @@ Each train from above, every gear its printed outline turning at its true ratio 
 
 ## Measured
 
-To come. The [sampler plate](https://jonibach.github.io/rulecad-archive/m/gears-sampler-plate/) and
-[its gears](https://jonibach.github.io/rulecad-archive/m/gears-sampler-gears/) answer the first question: what backlash
+To come. The [gear sampler](https://jonibach.github.io/rulecad-archive/m/gears-sampler-mounted/) (the plate with every gear on its
+pin: turn any pair, or download it to print) answers the first question: what backlash
 turns freely at each module on the X1C, and the smallest module whose teeth print whole. Those become the kit's
 defaults, with the plate as their source. Then the [focus slider](https://jonibach.github.io/rulecad-archive/m/gears-focus-slider/)
 (travel a turn, play), the [spool winder](https://jonibach.github.io/rulecad-archive/m/gears-spool-winder/) (does it
@@ -87,6 +82,10 @@ turn freely, what does it take to turn), and the [strap tensioner](https://jonib
 - **Parts that needed supports.** The tensioner's crank arm stood 36 mm out from its shaft, and its second pinion
   began a millimetre up on air. The arm is now its own part, printed flat; the pinion's teeth run straight down onto
   the gear below.
+- **A sampler whose rack and ring couldn't move.** They were printed into the plate with their pinions on fixed pins,
+  so nothing could turn; putting the gears on their pins in an assembly showed it. They are loose now, on a rail and in
+  a lip. Mounting it also found a sign error that put a rack half a tooth out for a pinion of an odd number of teeth.
+- **A tensioner with nothing holding it.** Its shafts stood in mid-air; it now has a frame, rods and a post for the pawl.
 - **A slider that would run off its rack.** The first layout put the rack's end near the pinion at rest; the sweep
   looks for collisions, not for teeth leaving each other, so it passed. The rack is now centred under the knob.
 
