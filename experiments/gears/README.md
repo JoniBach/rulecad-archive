@@ -55,7 +55,7 @@ Each train from above, every gear its printed outline turning at its true ratio 
 | Focus slider | 43.98 mm a turn of the knob | π × 14 teeth × module 1 |
 | Spool winder | 4 turns of the spool a turn of the crank | sun 18, planets 18 × 3, ring 54 |
 | A single-start worm, module 1, 10 mm | locks (5.71° lead under 14° of friction at μ 0.25); 27% efficient | Dudley, Shigley |
-| Strap tensioner, 100 N strap on a 10 mm spool | 4.6 N at the 40 mm crank; worst teeth 5.4× under PLA (Lewis), 1.29× that by finite elements; the pawl clicks at 4 N and holds 50 N (buckles at 85 N) | the ratio, `strength`, `toothStress`, `ratchetModel`, Euler |
+| Strap tensioner, 100 N strap on a 10 mm spool | 4.6 N at the 40 mm crank; worst teeth 2.8× under PLA (Lewis), 2.2× by finite elements; the pawl clicks at 3.3 N and holds 50 N (buckles at 97 N); 86 g of PLA | the ratio, `strength`, `toothStress`, `ratchetModel`, Euler |
 
 ## Measured
 
@@ -85,6 +85,9 @@ turn freely, what does it take to turn), and the [strap tensioner](https://jonib
 - **A sampler whose rack and ring couldn't move.** They were printed into the plate with their pinions on fixed pins,
   so nothing could turn; putting the gears on their pins in an assembly showed it. They are loose now, on a rail and in
   a lip. Mounting it also found a sign error that put a rack half a tooth out for a pinion of an odd number of teeth.
+- **Designs far larger than they needed.** The first sampler was a 240 × 233 mm plate (227 g), the tensioner 249 g
+  with gears 5× stronger than its load. Each is now sized from its load to about twice, and the printer's floors:
+  sampler 59 g, tensioner 86 g, winder 28 g, slider 13 g.
 - **A tensioner with nothing holding it.** Its shafts stood in mid-air; it now has a frame, rods and a post for the pawl.
 - **A slider that would run off its rack.** The first layout put the rack's end near the pinion at rest; the sweep
   looks for collisions, not for teeth leaving each other, so it passed. The rack is now centred under the knob.

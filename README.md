@@ -26,37 +26,37 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
-### Strap tensioner
-
-2026-11-08 · `gears/tensioner` in bench: A crank through two herringbone stages (6 : 1) to a spool held by a ratchet, on a frame: the gears turn on 6 mm pins printed with it, the pawl stands on a post outside every gear. Every mesh in phase and measured, every part prints without supports. Predicted: 4.6 N at the crank for a 100 N strap. Not printed yet
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/gears-strap-tensioner/)
-
-[![Strap tensioner](m/gears-strap-tensioner/preview.png)](https://jonibach.github.io/rulecad-archive/m/gears-strap-tensioner/)
-
 ### Focus slider
 
-2026-11-08 · `home/slider` in worked-examples: A rack and pinion from @rulecad/gears: a 14-tooth pinion (shifted 0.2) with a knob on an axle printed with the base, the rack sliding against a guide, 43.98 mm of travel a turn, in phase. Worked example 8; not printed yet
+2026-11-08 · `home/slider` in worked-examples: A rack and pinion: a 14-tooth pinion with a knob on an axle printed with the base, the rack sliding against a guide, 43.98 mm a turn. 13 g of PLA. Worked example 8; not printed yet
 
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/gears-focus-slider/)
 
 [![Focus slider](m/gears-focus-slider/preview.png)](https://jonibach.github.io/rulecad-archive/m/gears-focus-slider/)
 
-### Gear sampler, mounted
-
-2026-11-08 · `gears/sampler-mounted` in bench: The gear sampler put together: every gear on the pin its label names, each pair meshed (play as drawn: 0.1, 0.2, 0.3 mm), the rack sliding on its rail and the ring turning in its lip, each driven by its pinion. Turn any pair in the viewer; download it to print. Not printed yet
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/gears-sampler-mounted/)
-
-[![Gear sampler, mounted](m/gears-sampler-mounted/preview.png)](https://jonibach.github.io/rulecad-archive/m/gears-sampler-mounted/)
-
 ### Spool winder
 
-2026-11-08 · `home/winder` in worked-examples: A planetary gearbox, 4 : 1: the crank on the carrier, the spool on the sun, teeth from planetary() (18/18/54), every planet in phase; the carrier drawn as it prints, a handle pressed into its arm. Worked example 9; not printed yet
+2026-11-08 · `home/winder` in worked-examples: A planetary gearbox, 4 : 1: the crank on the carrier, the spool on the sun, teeth from planetary() (18/18/54), every planet in phase, on a spoked case. 28 g of PLA. Worked example 9; not printed yet
 
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/gears-spool-winder/)
 
 [![Spool winder](m/gears-spool-winder/preview.png)](https://jonibach.github.io/rulecad-archive/m/gears-spool-winder/)
+
+### Strap tensioner
+
+2026-11-08 · `gears/tensioner` in bench: A crank through two herringbone stages (6 : 1, module 1.25) to a spool held by a ratchet, on a skeleton frame with printed pins. Sized for a 100 N strap at about 2×: 4.6 N at the crank. 86 g of PLA. Not printed yet
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/gears-strap-tensioner/)
+
+[![Strap tensioner](m/gears-strap-tensioner/preview.png)](https://jonibach.github.io/rulecad-archive/m/gears-strap-tensioner/)
+
+### Gear sampler, mounted
+
+2026-11-08 · `gears/sampler-mounted` in bench: The gear sampler put together: nine pairs (modules 0.8, 1, 1.5 by backlash 0.1, 0.2, 0.3 mm) on a ladder frame, each pair meshed at the play it was drawn with, a rack on its rail and a ring in its lip. 59 g of PLA. Not printed yet
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/gears-sampler-mounted/)
+
+[![Gear sampler, mounted](m/gears-sampler-mounted/preview.png)](https://jonibach.github.io/rulecad-archive/m/gears-sampler-mounted/)
 
 ### Thin RP2040 module (with-headers) 0.7.0
 
