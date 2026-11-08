@@ -34,6 +34,15 @@ action, and the stretch of it where the teeth touch (red). That stretch over the
 
 ![The spool winder's planet in its ring](ring.png)
 
+## Turning
+
+Each train from above, every gear its printed outline turning at its true ratio from the phase the check computes
+(open one to play it):
+
+- [The focus slider](focus-slider-turning.svg): the knob half a turn each way, the rack following.
+- [The spool winder](spool-winder-turning.svg): the carrier once round, the sun four times, every planet in phase.
+- [The strap tensioner](strap-tensioner-turning.svg): two stages, six to one, the ratchet passing under its pawl.
+
 ## Predicted
 
 | What | Predicted | How |

@@ -1,5 +1,14 @@
 [
   {
+    "slug": "gears-spool-winder",
+    "date": "2026-11-08",
+    "ref": "home/winder",
+    "title": "Spool winder",
+    "note": "A planetary gearbox, 4 : 1: the crank on the carrier, the spool on the sun, teeth from planetary() (18/18/54), every planet in phase; the carrier drawn as it prints, a handle pressed into its arm. Worked example 9; not printed yet",
+    "source": "worked-examples",
+    "picture": true
+  },
+  {
     "slug": "thin-rp2040-module-headers",
     "date": "2026-11-08",
     "ref": "thin-picro/module:with-headers",
@@ -51,15 +60,6 @@
     "title": "Gear sampler: the plate 0.1.0",
     "note": "Pins for twelve pairs of 17-tooth gears (modules 0.8 to 2, backlash 0.1 to 0.3 mm), labelled; a rack and a ring printed in. Print with the sampler's gears, record which pairs turn freely: it sets the kit's default backlash. Not printed yet",
     "source": "bench",
-    "picture": true
-  },
-  {
-    "slug": "gears-spool-winder",
-    "date": "2026-11-08",
-    "ref": "home/winder",
-    "title": "Spool winder",
-    "note": "A planetary gearbox, 4 : 1: the crank on the carrier, the spool on the sun, teeth from planetary() (18/18/54), every planet in phase. Worked example 9; not printed yet",
-    "source": "worked-examples",
     "picture": true
   },
   {

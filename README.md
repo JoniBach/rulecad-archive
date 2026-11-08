@@ -26,6 +26,14 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
+### Spool winder
+
+2026-11-08 · `home/winder` in worked-examples: A planetary gearbox, 4 : 1: the crank on the carrier, the spool on the sun, teeth from planetary() (18/18/54), every planet in phase; the carrier drawn as it prints, a handle pressed into its arm. Worked example 9; not printed yet
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/gears-spool-winder/)
+
+[![Spool winder](m/gears-spool-winder/preview.png)](https://jonibach.github.io/rulecad-archive/m/gears-spool-winder/)
+
 ### Thin RP2040 module (with-headers) 0.7.0
 
 2026-11-08 · `thin-picro/module:with-headers` in thin-picro: The thin module fitted with 2.54 mm pin headers (3D only; the board is the same)
@@ -73,14 +81,6 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/gears-sampler-plate/)
 
 [![Gear sampler: the plate 0.1.0](m/gears-sampler-plate/preview.png)](https://jonibach.github.io/rulecad-archive/m/gears-sampler-plate/)
-
-### Spool winder
-
-2026-11-08 · `home/winder` in worked-examples: A planetary gearbox, 4 : 1: the crank on the carrier, the spool on the sun, teeth from planetary() (18/18/54), every planet in phase. Worked example 9; not printed yet
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/gears-spool-winder/)
-
-[![Spool winder](m/gears-spool-winder/preview.png)](https://jonibach.github.io/rulecad-archive/m/gears-spool-winder/)
 
 ### Launcher action, in line: a pusher between two curved arms shaped by the beam solver, a flooded frame, the disc flat in a roofed slot, the pull ring on top, a solid trigger that is its own sear on a hinge carrying the pull, printed in one piece on its side (catch) 0.9.3
 
