@@ -34,6 +34,11 @@ action, and the stretch of it where the teeth touch (red). That stretch over the
 
 ![The spool winder's planet in its ring](ring.png)
 
+## Print files
+
+[All sixteen parts as Bambu Studio 3MFs](gears-print-files.zip) (3.5 MB): a folder for each model and a README. Every
+part checks printable with no supports, as exported. Print the winder's planet three times.
+
 ## Turning
 
 Each train from above, every gear its printed outline turning at its true ratio from the phase the check computes
