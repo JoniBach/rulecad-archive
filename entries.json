@@ -1,5 +1,23 @@
 [
   {
+    "slug": "thin-rp2040-module-headers",
+    "date": "2026-11-08",
+    "ref": "thin-picro/module:with-headers",
+    "title": "Thin RP2040 module (with-headers) 0.7.0",
+    "note": "The thin module fitted with 2.54 mm pin headers (3D only; the board is the same)",
+    "source": "thin-picro",
+    "picture": true
+  },
+  {
+    "slug": "thin-rp2040-module",
+    "date": "2026-11-08",
+    "ref": "thin-picro/module",
+    "title": "Thin RP2040 module 0.7.0",
+    "note": "59.7 x 21.0 mm: end columns 3 keys apart, grouped pins, an SPI display header, routed tracks smoothed; passes every check, JLCPCB's via rules and KiCad's design-rule check",
+    "source": "thin-picro",
+    "picture": true
+  },
+  {
     "slug": "gears-strap-tensioner",
     "date": "2026-11-08",
     "ref": "gears/tensioner",
@@ -63,24 +81,6 @@
     "source": "bench",
     "picture": true,
     "player": true
-  },
-  {
-    "slug": "thin-rp2040-module-headers",
-    "date": "2026-11-05",
-    "ref": "thin-picro/module:with-headers",
-    "title": "Thin RP2040 module (with-headers) 0.6.2",
-    "note": "The thin module fitted with 2.54 mm pin headers (3D only; the board is the same)",
-    "source": "thin-picro",
-    "picture": true
-  },
-  {
-    "slug": "thin-rp2040-module",
-    "date": "2026-11-05",
-    "ref": "thin-picro/module",
-    "title": "Thin RP2040 module 0.6.2",
-    "note": "59.7 x 21.0 mm: end columns 3 keys apart, grouped pins with GND at both ends of the bottom row, an SPI display header, routed tracks smoothed; passes every check",
-    "source": "thin-picro",
-    "picture": true
   },
   {
     "slug": "launcher-inline-wip",

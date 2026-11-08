@@ -26,6 +26,22 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
+### Thin RP2040 module (with-headers) 0.7.0
+
+2026-11-08 · `thin-picro/module:with-headers` in thin-picro: The thin module fitted with 2.54 mm pin headers (3D only; the board is the same)
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module-headers/)
+
+[![Thin RP2040 module (with-headers) 0.7.0](m/thin-rp2040-module-headers/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module-headers/)
+
+### Thin RP2040 module 0.7.0
+
+2026-11-08 · `thin-picro/module` in thin-picro: 59.7 x 21.0 mm: end columns 3 keys apart, grouped pins, an SPI display header, routed tracks smoothed; passes every check, JLCPCB's via rules and KiCad's design-rule check
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
+
+[![Thin RP2040 module 0.7.0](m/thin-rp2040-module/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
+
 ### Strap tensioner
 
 2026-11-08 · `gears/tensioner` in bench: A crank through two herringbone stages (6 : 1) to a spool held by a ratchet and a flexure pawl; every mesh in phase and measured, every part printable without supports. Predicted: 4.6 N at the crank for a 100 N strap. Not printed yet
@@ -81,22 +97,6 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/launcher-inline/) · [Play its sequence](https://jonibach.github.io/rulecad-archive/m/launcher-inline/play.html)
 
 [![Launcher action, in line: a pusher between two curved arms shaped by the beam solver, a flooded frame, the disc flat in a roofed slot, the pull ring on top, a solid trigger that is its own sear on a hinge carrying the pull, printed in one piece on its side 0.9.3](m/launcher-inline/preview.png)](https://jonibach.github.io/rulecad-archive/m/launcher-inline/)
-
-### Thin RP2040 module (with-headers) 0.6.2
-
-2026-11-05 · `thin-picro/module:with-headers` in thin-picro: The thin module fitted with 2.54 mm pin headers (3D only; the board is the same)
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module-headers/)
-
-[![Thin RP2040 module (with-headers) 0.6.2](m/thin-rp2040-module-headers/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module-headers/)
-
-### Thin RP2040 module 0.6.2
-
-2026-11-05 · `thin-picro/module` in thin-picro: 59.7 x 21.0 mm: end columns 3 keys apart, grouped pins with GND at both ends of the bottom row, an SPI display header, routed tracks smoothed; passes every check
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
-
-[![Thin RP2040 module 0.6.2](m/thin-rp2040-module/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
 
 ### Launcher action, in line: a pusher between two curved arms shaped by the beam solver, a flooded frame, the disc flat in a roofed slot, the stem trapped in a guide, a hooked sear on one flexure and a trigger blade, printed in one piece on its side 0.8.0
 
