@@ -28,7 +28,7 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 
 ### Strap tensioner
 
-2026-11-08 · `gears/tensioner` in bench: A crank through two herringbone stages (6 : 1, module 1.25) to a spool held by a ratchet, on a skeleton frame with printed pins; the pawl held on its post by two push pins. Sized for a 100 N strap at about 2×: 4.6 N at the crank. 86 g of PLA. Not printed yet
+2026-11-08 · `gears/tensioner` in bench: A crank through two herringbone stages (6 : 1, module 1.25) to a spool held by a ratchet, on a skeleton frame with printed pins; the pawl on two push pins; the crank arm seated over the shaft's flat. Sized for a 100 N strap at about 2×: 4.6 N at the crank. 86 g of PLA
 
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/gears-strap-tensioner/)
 
