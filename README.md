@@ -28,11 +28,19 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 
 ### Strap tensioner
 
-2026-11-08 · `gears/tensioner` in bench: A crank through two herringbone stages (6 : 1) to a spool held by a ratchet, on a frame: three 4 mm rods, the pawl on a post outside every gear. Every mesh in phase and measured, every printed part prints without supports. Predicted: 4.6 N at the crank for a 100 N strap. Not printed yet
+2026-11-08 · `gears/tensioner` in bench: A crank through two herringbone stages (6 : 1) to a spool held by a ratchet, on a frame: the gears turn on 6 mm pins printed with it, the pawl stands on a post outside every gear. Every mesh in phase and measured, every part prints without supports. Predicted: 4.6 N at the crank for a 100 N strap. Not printed yet
 
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/gears-strap-tensioner/)
 
 [![Strap tensioner](m/gears-strap-tensioner/preview.png)](https://jonibach.github.io/rulecad-archive/m/gears-strap-tensioner/)
+
+### Focus slider
+
+2026-11-08 · `home/slider` in worked-examples: A rack and pinion from @rulecad/gears: a 14-tooth pinion (shifted 0.2) with a knob on an axle printed with the base, the rack sliding against a guide, 43.98 mm of travel a turn, in phase. Worked example 8; not printed yet
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/gears-focus-slider/)
+
+[![Focus slider](m/gears-focus-slider/preview.png)](https://jonibach.github.io/rulecad-archive/m/gears-focus-slider/)
 
 ### Gear sampler, mounted
 
@@ -65,14 +73,6 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
 
 [![Thin RP2040 module 0.7.0](m/thin-rp2040-module/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
-
-### Focus slider
-
-2026-11-08 · `home/slider` in worked-examples: A rack and pinion from @rulecad/gears: a 14-tooth pinion (shifted 0.2) with a knob, 43.98 mm of travel a turn, the slide following the knob in phase. Worked example 8; not printed yet
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/gears-focus-slider/)
-
-[![Focus slider](m/gears-focus-slider/preview.png)](https://jonibach.github.io/rulecad-archive/m/gears-focus-slider/)
 
 ### Launcher action, in line: a pusher between two curved arms shaped by the beam solver, a flooded frame, the disc flat in a roofed slot, the pull ring on top, a solid trigger that is its own sear on a hinge carrying the pull, printed in one piece on its side (catch) 0.9.3
 

@@ -4,8 +4,17 @@
     "date": "2026-11-08",
     "ref": "gears/tensioner",
     "title": "Strap tensioner",
-    "note": "A crank through two herringbone stages (6 : 1) to a spool held by a ratchet, on a frame: three 4 mm rods, the pawl on a post outside every gear. Every mesh in phase and measured, every printed part prints without supports. Predicted: 4.6 N at the crank for a 100 N strap. Not printed yet",
+    "note": "A crank through two herringbone stages (6 : 1) to a spool held by a ratchet, on a frame: the gears turn on 6 mm pins printed with it, the pawl stands on a post outside every gear. Every mesh in phase and measured, every part prints without supports. Predicted: 4.6 N at the crank for a 100 N strap. Not printed yet",
     "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "gears-focus-slider",
+    "date": "2026-11-08",
+    "ref": "home/slider",
+    "title": "Focus slider",
+    "note": "A rack and pinion from @rulecad/gears: a 14-tooth pinion (shifted 0.2) with a knob on an axle printed with the base, the rack sliding against a guide, 43.98 mm of travel a turn, in phase. Worked example 8; not printed yet",
+    "source": "worked-examples",
     "picture": true
   },
   {
@@ -45,15 +54,6 @@
     "picture": true
   },
   {
-    "slug": "gears-focus-slider",
-    "date": "2026-11-08",
-    "ref": "home/slider",
-    "title": "Focus slider",
-    "note": "A rack and pinion from @rulecad/gears: a 14-tooth pinion (shifted 0.2) with a knob, 43.98 mm of travel a turn, the slide following the knob in phase. Worked example 8; not printed yet",
-    "source": "worked-examples",
-    "picture": true
-  },
-  {
     "slug": "launcher-inline-catch",
     "date": "2026-11-07",
     "ref": "launcher/inline:catch",
@@ -68,7 +68,7 @@
     "date": "2026-11-07",
     "ref": "launcher/inline",
     "title": "Launcher action, in line: a pusher between two curved arms shaped by the beam solver, a flooded frame, the disc flat in a roofed slot, the pull ring on top, a solid trigger that is its own sear on a hinge carrying the pull, printed in one piece on its side 0.9.3",
-    "note": "0.9.3: the strap pockets' ceilings slant in at 45\u00b0 beside the slots, so no ledge prints flat in the air over a strap",
+    "note": "0.9.3: the strap pockets' ceilings slant in at 45° beside the slots, so no ledge prints flat in the air over a strap",
     "source": "bench",
     "picture": true,
     "player": true
@@ -143,7 +143,7 @@
     "date": "2026-10-31",
     "ref": "launcher/launcher",
     "title": "The disc launcher: the frame with its two cartridges pinned in, the sled, the magazine insert and a disc, at rest",
-    "note": "The launcher at rest, about 127 \u00d7 112 \u00d7 26 mm: the frame, two cartridges pinned in, the sled, the magazine insert and a disc; every fit checked",
+    "note": "The launcher at rest, about 127 × 112 × 26 mm: the frame, two cartridges pinned in, the sled, the magazine insert and a disc; every fit checked",
     "source": "bench",
     "picture": true
   },
@@ -152,7 +152,7 @@
     "date": "2026-10-31",
     "ref": "launcher/disc",
     "title": "The disc: what the launcher throws 0.1.0",
-    "note": "The disc: 20 \u00d7 2 mm, chamfered, a dimple on top",
+    "note": "The disc: 20 × 2 mm, chamfered, a dimple on top",
     "source": "bench",
     "picture": true
   },
@@ -197,7 +197,7 @@
     "date": "2026-10-31",
     "ref": "launcher/frame",
     "title": "The frame: grip with a palm swell, receiver and trigger guard round two cavities the cartridges pin into 0.1.0",
-    "note": "The frame, scaled down: 110 \u00d7 107 \u00d7 26 mm, a rounded skin round two cavities, a palm swell, the trigger guard, the muzzle, six teardrop pin holes",
+    "note": "The frame, scaled down: 110 × 107 × 26 mm, a rounded skin round two cavities, a palm swell, the trigger guard, the muzzle, six teardrop pin holes",
     "source": "bench",
     "picture": true
   },
@@ -287,7 +287,7 @@
     "date": "2026-10-30",
     "ref": "flexures/sampler",
     "title": "Flexure sampler: seven flexures at three thicknesses, on two rails 0.1.0",
-    "note": "The flexure sampler: seven kinds of flexure at two, three and four lines thick on two rails, 152 \u00d7 122 \u00d7 8 mm, printed flat so every one bends within its layers. Each has a predicted stiffness and travel to 2% strain to measure against.",
+    "note": "The flexure sampler: seven kinds of flexure at two, three and four lines thick on two rails, 152 × 122 × 8 mm, printed flat so every one bends within its layers. Each has a predicted stiffness and travel to 2% strain to measure against.",
     "source": "bench",
     "picture": true
   },
@@ -296,7 +296,7 @@
     "date": "2026-10-30",
     "ref": "flexures/spring:pressed",
     "title": "A leaf spring on its block, at rest and pressed (pressed) 0.1.0",
-    "note": "A leaf spring (40 \u00d7 1.26 \u00d7 8 mm, PLA) on its block, drawn pressed 15 mm sideways by the elastica: the tip has come 2.5 mm nearer the block and turned. From the flexure bench (@rulecad/flexures).",
+    "note": "A leaf spring (40 × 1.26 × 8 mm, PLA) on its block, drawn pressed 15 mm sideways by the elastica: the tip has come 2.5 mm nearer the block and turned. From the flexure bench (@rulecad/flexures).",
     "source": "bench",
     "picture": true
   },
@@ -305,7 +305,7 @@
     "date": "2026-10-29",
     "ref": "showcase/bin",
     "title": "Bin: optimised lattice wall 0.1.0",
-    "note": "Second attempt, at 5% of the cylinder (about 17% of the wall): four legs rise from the foot ring into pointed arches that meet under the rim, like a crown. One piece, nothing in mid-air, no overhang past 45\u00b0 (the design's ledge under the rim slopes a touch steeper than 45\u00b0). 664 g of PLA; leant on 4,240 N/mm, kicked 54 N/mm; 300 steps in an hour on the faster solver, not settled, and 17% of the kept rim had nothing under it before the ledge. On 6 mm cells the optimiser can't bridge (its reach rounds to zero).",
+    "note": "Second attempt, at 5% of the cylinder (about 17% of the wall): four legs rise from the foot ring into pointed arches that meet under the rim, like a crown. One piece, nothing in mid-air, no overhang past 45° (the design's ledge under the rim slopes a touch steeper than 45°). 664 g of PLA; leant on 4,240 N/mm, kicked 54 N/mm; 300 steps in an hour on the faster solver, not settled, and 17% of the kept rim had nothing under it before the ledge. On 6 mm cells the optimiser can't bridge (its reach rounds to zero).",
     "source": "bench",
     "picture": true
   },
@@ -314,7 +314,7 @@
     "date": "2026-10-29",
     "ref": "showcase/tree",
     "title": "Tree stand: optimised 0.1.0",
-    "note": "Fifth attempt, complete and print-ready: a trunk from all three feet, branching into a canopy under the plate. With a sideways push from three directions every foot is needed. One piece, nothing in mid-air, no overhang past 45\u00b0, bridges 2.6 mm; 32 g of PLA, 4,380 N/mm down, 126\u2013133 N/mm sideways; 300 steps in 50 min on the faster solver.",
+    "note": "Fifth attempt, complete and print-ready: a trunk from all three feet, branching into a canopy under the plate. With a sideways push from three directions every foot is needed. One piece, nothing in mid-air, no overhang past 45°, bridges 2.6 mm; 32 g of PLA, 4,380 N/mm down, 126–133 N/mm sideways; 300 steps in 50 min on the faster solver.",
     "source": "bench",
     "picture": true
   },
@@ -323,7 +323,7 @@
     "date": "2026-10-29",
     "ref": "showcase/tree",
     "title": "Tree stand: optimised 0.1.0",
-    "note": "Fourth attempt, on the faster solver with kept regions held up: the trunk splits into branches that fan out under the plate, and every bridge is short (2.6 mm), nothing starts in mid-air, no overhang past 45\u00b0. But the trunk grows from two feet and the third, kept, sits loose: the loads never needed it. 10% of the space, 3,960 N/mm down; 300 steps, not settled, 22 min.",
+    "note": "Fourth attempt, on the faster solver with kept regions held up: the trunk splits into branches that fan out under the plate, and every bridge is short (2.6 mm), nothing starts in mid-air, no overhang past 45°. But the trunk grows from two feet and the third, kept, sits loose: the loads never needed it. 10% of the space, 3,960 N/mm down; 300 steps, not settled, 22 min.",
     "source": "bench",
     "picture": true
   },
@@ -332,7 +332,7 @@
     "date": "2026-10-29",
     "ref": "showcase/bin",
     "title": "Bin: optimised lattice wall 0.1.0",
-    "note": "First attempt, too heavy and not yet support-free: 230 \u00d7 250 mm, a wall that's mostly solid with tall pointed-arch windows (the 45\u00b0 rule's own shape), about 2 kg of PLA. The 15% share counted the whole cylinder, the empty inside too, so it filled half the wall; about 4\u20135% would give a lattice. Leant on: 35,700 N/mm; kicked: 1,380 N/mm. The print check still finds 523 mm\u00b2 past 45\u00b0 and two tips under the rim. 246 steps on 76,800 cells of 6 mm in about 4 hours.",
+    "note": "First attempt, too heavy and not yet support-free: 230 × 250 mm, a wall that's mostly solid with tall pointed-arch windows (the 45° rule's own shape), about 2 kg of PLA. The 15% share counted the whole cylinder, the empty inside too, so it filled half the wall; about 4–5% would give a lattice. Leant on: 35,700 N/mm; kicked: 1,380 N/mm. The print check still finds 523 mm² past 45° and two tips under the rim. 246 steps on 76,800 cells of 6 mm in about 4 hours.",
     "source": "bench",
     "picture": true
   },
@@ -341,7 +341,7 @@
     "date": "2026-10-29",
     "ref": "showcase/tree",
     "title": "Tree stand: optimised 0.1.0",
-    "note": "Third attempt: a Y. A trunk rises from the feet and splits into three arms under the plate, one to each load. 10% of the space, three loads between the feet, no twist. In one piece apart from four specks of 1\u20132 cells, no overhangs past 45\u00b0, bridges 3.3 mm; 32 g of PLA; 239 steps in 87 min.",
+    "note": "Third attempt: a Y. A trunk rises from the feet and splits into three arms under the plate, one to each load. 10% of the space, three loads between the feet, no twist. In one piece apart from four specks of 1–2 cells, no overhangs past 45°, bridges 3.3 mm; 32 g of PLA; 239 steps in 87 min.",
     "source": "bench",
     "picture": true
   },
@@ -350,7 +350,7 @@
     "date": "2026-10-29",
     "ref": "showcase/tree",
     "title": "Tree stand: optimised 0.1.0",
-    "note": "Second attempt: a goblet, not a tree. With the feet together as a trunk and the load round the plate's edge, it grew a cone flaring out at 45\u00b0 to the plate. The twisting case and six evenly spaced loads favour a closed shell over separate branches. In one piece, no overhangs past 45\u00b0, bridges 2.6 mm; 48 g of PLA; 266 steps in 55 min.",
+    "note": "Second attempt: a goblet, not a tree. With the feet together as a trunk and the load round the plate's edge, it grew a cone flaring out at 45° to the plate. The twisting case and six evenly spaced loads favour a closed shell over separate branches. In one piece, no overhangs past 45°, bridges 2.6 mm; 48 g of PLA; 266 steps in 55 min.",
     "source": "bench",
     "picture": true
   },
@@ -368,7 +368,7 @@
     "date": "2026-10-28",
     "ref": "showcase/twist",
     "title": "Twisted tube: optimised 0.1.0",
-    "note": "Second attempt, in one piece: 25% of a 40 \u00d7 80 mm cylinder with struts at least 5 mm thick. The wall opens into diamond windows running round it in a spiral. 249 steps on 23,040 cells of 2 mm in 19 min; printable standing up, 32 g of PLA.",
+    "note": "Second attempt, in one piece: 25% of a 40 × 80 mm cylinder with struts at least 5 mm thick. The wall opens into diamond windows running round it in a spiral. 249 steps on 23,040 cells of 2 mm in 19 min; printable standing up, 32 g of PLA.",
     "source": "bench",
     "picture": true
   },
@@ -377,7 +377,7 @@
     "date": "2026-10-28",
     "ref": "showcase/twist",
     "title": "Twisted tube, first attempt: falls apart",
-    "note": "Failed: the struts came out one cell thick, and a one-cell strut at 45\u00b0 on a cube grid touches only at edges, so the part fell into 11 pieces with many thin, non-solid bits. Settings: 15% of a 40 \u00d7 80 mm cylinder, filter 3 mm on 2 mm cells. Rerun with a 5 mm filter and 25% material.",
+    "note": "Failed: the struts came out one cell thick, and a one-cell strut at 45° on a cube grid touches only at edges, so the part fell into 11 pieces with many thin, non-solid bits. Settings: 15% of a 40 × 80 mm cylinder, filter 3 mm on 2 mm cells. Rerun with a 5 mm filter and 25% material.",
     "source": "bench",
     "picture": true
   },
