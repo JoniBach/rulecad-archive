@@ -1,5 +1,23 @@
 [
   {
+    "slug": "thin-rp2040-module-headers",
+    "date": "2026-11-09",
+    "ref": "thin-picro/module:with-headers",
+    "title": "Thin RP2040 module (with-headers) 0.7.1",
+    "note": "The thin module fitted with 2.54 mm pin headers (3D only; the board is the same)",
+    "source": "thin-picro",
+    "picture": true
+  },
+  {
+    "slug": "thin-rp2040-module",
+    "date": "2026-11-09",
+    "ref": "thin-picro/module",
+    "title": "Thin RP2040 module 0.7.1",
+    "note": "59.7 x 21.0 mm: end columns 3 keys apart, grouped pins, an SPI display header; fab files plotted and checked by KiCad, every check passing. Not yet built",
+    "source": "thin-picro",
+    "picture": true
+  },
+  {
     "slug": "2026-11-09-arm-arm",
     "date": "2026-11-09",
     "ref": "arm/arm",
@@ -123,24 +141,6 @@
     "title": "Gear sampler, mounted",
     "note": "The gear sampler put together: nine pairs (modules 0.8, 1, 1.5 by backlash 0.1, 0.2, 0.3 mm) on a ladder frame, each pair meshed at the play it was drawn with, a rack on its rail and a ring in its lip. 59 g of PLA. Not printed yet",
     "source": "bench",
-    "picture": true
-  },
-  {
-    "slug": "thin-rp2040-module-headers",
-    "date": "2026-11-08",
-    "ref": "thin-picro/module:with-headers",
-    "title": "Thin RP2040 module (with-headers) 0.7.0",
-    "note": "The thin module fitted with 2.54 mm pin headers (3D only; the board is the same)",
-    "source": "thin-picro",
-    "picture": true
-  },
-  {
-    "slug": "thin-rp2040-module",
-    "date": "2026-11-08",
-    "ref": "thin-picro/module",
-    "title": "Thin RP2040 module 0.7.0",
-    "note": "59.7 x 21.0 mm: end columns 3 keys apart, grouped pins, an SPI display header, routed tracks smoothed; passes every check, JLCPCB's via rules and KiCad's design-rule check",
-    "source": "thin-picro",
     "picture": true
   },
   {
