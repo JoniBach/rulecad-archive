@@ -1,0 +1,5 @@
+{
+  "title": "Benchmarks for a robot joint: every estimate, measured",
+  "date": "2026-11-09",
+  "summary": "Small parts with plain first layers that measure what a printed robot joint rests on: fits, backlash, a stepper's real torque, what a mesh passes on, and a 38:1 shoulder's play, twist and repeatability"
+}

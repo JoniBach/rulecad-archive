@@ -1,5 +1,68 @@
 [
   {
+    "slug": "bench-input-lever",
+    "date": "2026-11-09",
+    "ref": "benchmarks/input-lever",
+    "title": "Shoulder input lever 0.1.0",
+    "note": "A printed copy of the motor's shaft on a lever, to turn the shoulder's sun by hand.",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "bench-shoulder",
+    "date": "2026-11-09",
+    "ref": "benchmarks/shoulder-test",
+    "title": "Robot shoulder on the test stand",
+    "note": "The 38:1 compound planetary on the stand: solid base, dial and pointer.",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "bench-mesh-rig",
+    "date": "2026-11-09",
+    "ref": "benchmarks/mesh-rig-test",
+    "title": "Mesh rig on the stand",
+    "note": "One spur pair with a lever each, for what a printed mesh passes on.",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "bench-servo-stand",
+    "date": "2026-11-09",
+    "ref": "benchmarks/servo-test",
+    "title": "SG90 on its stand",
+    "note": "An SG90 in a solid block, with a 60 mm arm.",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "bench-motor-stand",
+    "date": "2026-11-09",
+    "ref": "benchmarks/motor-test",
+    "title": "17HS4401 on the test stand",
+    "note": "A 17HS4401 on a stand, with a dial and a 100 mm arm: holding, detent, speed and heat.",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "bench-gear-card",
+    "date": "2026-11-09",
+    "ref": "benchmarks/card-mounted",
+    "title": "Gear card, mounted",
+    "note": "Nine gear pairs on one solid card: three modules, three backlashes. Measures 1 and 2.",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "bench-fit-bar",
+    "date": "2026-11-09",
+    "ref": "benchmarks/fit-bar",
+    "title": "Fit bar 0.1.0",
+    "note": "Stepped holes, D-bores and M3 pilots in one solid block: measures 3, 4 and 5.",
+    "source": "bench",
+    "picture": true
+  },
+  {
     "slug": "motors-robot-shoulder",
     "date": "2026-11-09",
     "ref": "home/shoulder",

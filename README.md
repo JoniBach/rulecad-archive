@@ -2,6 +2,7 @@
 
 ## Experiments
 
+- **[Benchmarks for a robot joint: every estimate, measured](experiments/benchmarks/)** (2026-11-09): Small parts with plain first layers that measure what a printed robot joint rests on: fits, backlash, a stepper's real torque, what a mesh passes on, and a 38:1 shoulder's play, twist and repeatability. [On the site](https://jonibach.github.io/rulecad-archive/experiments/benchmarks/)
 - **[Motors from rules: mounted, driven, and checked before they're bought](experiments/motors/)** (2026-11-09): @rulecad/motors: steppers, gear motors, servos and a brushless motor from their datasheets, with mounts, D-bores and torque curves; motors driving joints in assemblies, checked for torque, speed, holding and heat. A motorised focus slider and a robot shoulder through a 38:1 compound planetary; measurements to come. [On the site](https://jonibach.github.io/rulecad-archive/experiments/motors/)
 - **[Gears from rules: spur to bevel, checked before they're printed](experiments/gears/)** (2026-11-08): @rulecad/gears: involute spur gears, racks, rings, helical and herringbone gears, planetaries, worms and bevels from their module and teeth; meshed in phase in assemblies, measured from their drawn teeth, and their teeth analysed by finite elements. A sampler plate to print, a focus slider and a spool winder; measurements to come. [On the site](https://jonibach.github.io/rulecad-archive/experiments/gears/)
 - **[Launcher trigger: catching a strong spring and letting it go at once](experiments/launcher-trigger/)** (2026-11-03): Work in progress on the in-line launcher's catch and trigger: a sear whose hinge carries the spring's pull as tension, four layouts tried and what each taught, and the two-stage catch being built next. [On the site](https://jonibach.github.io/rulecad-archive/experiments/launcher-trigger/)
@@ -26,6 +27,62 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
+
+### Shoulder input lever 0.1.0
+
+2026-11-09 · `benchmarks/input-lever` in bench: A printed copy of the motor's shaft on a lever, to turn the shoulder's sun by hand.
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/bench-input-lever/)
+
+[![Shoulder input lever 0.1.0](m/bench-input-lever/preview.png)](https://jonibach.github.io/rulecad-archive/m/bench-input-lever/)
+
+### Robot shoulder on the test stand
+
+2026-11-09 · `benchmarks/shoulder-test` in bench: The 38:1 compound planetary on the stand: solid base, dial and pointer.
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/bench-shoulder/)
+
+[![Robot shoulder on the test stand](m/bench-shoulder/preview.png)](https://jonibach.github.io/rulecad-archive/m/bench-shoulder/)
+
+### Mesh rig on the stand
+
+2026-11-09 · `benchmarks/mesh-rig-test` in bench: One spur pair with a lever each, for what a printed mesh passes on.
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/bench-mesh-rig/)
+
+[![Mesh rig on the stand](m/bench-mesh-rig/preview.png)](https://jonibach.github.io/rulecad-archive/m/bench-mesh-rig/)
+
+### SG90 on its stand
+
+2026-11-09 · `benchmarks/servo-test` in bench: An SG90 in a solid block, with a 60 mm arm.
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/bench-servo-stand/)
+
+[![SG90 on its stand](m/bench-servo-stand/preview.png)](https://jonibach.github.io/rulecad-archive/m/bench-servo-stand/)
+
+### 17HS4401 on the test stand
+
+2026-11-09 · `benchmarks/motor-test` in bench: A 17HS4401 on a stand, with a dial and a 100 mm arm: holding, detent, speed and heat.
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/bench-motor-stand/)
+
+[![17HS4401 on the test stand](m/bench-motor-stand/preview.png)](https://jonibach.github.io/rulecad-archive/m/bench-motor-stand/)
+
+### Gear card, mounted
+
+2026-11-09 · `benchmarks/card-mounted` in bench: Nine gear pairs on one solid card: three modules, three backlashes. Measures 1 and 2.
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/bench-gear-card/)
+
+[![Gear card, mounted](m/bench-gear-card/preview.png)](https://jonibach.github.io/rulecad-archive/m/bench-gear-card/)
+
+### Fit bar 0.1.0
+
+2026-11-09 · `benchmarks/fit-bar` in bench: Stepped holes, D-bores and M3 pilots in one solid block: measures 3, 4 and 5.
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/bench-fit-bar/)
+
+[![Fit bar 0.1.0](m/bench-fit-bar/preview.png)](https://jonibach.github.io/rulecad-archive/m/bench-fit-bar/)
 
 ### Robot shoulder
 
