@@ -17,12 +17,18 @@
 </style>
 <header>
   <h1>rulecad archive</h1>
-  <p>93 models made with <a href="https://github.com/JoniBach/rulecad">rulecad</a>. Open one in 3D to turn it and download STL or 3MF.</p>
-  <nav><a href="#experiments">experiments</a><a href="#gears">gears</a><a href="#home">home</a><a href="#thin-picro">thin-picro</a><a href="#launcher">launcher</a><a href="#concept48">concept48</a><a href="#mechanisms">mechanisms</a><a href="#showcase">showcase</a><a href="#flexures">flexures</a><a href="#bench">bench</a><a href="#lbracket">lbracket</a><a href="#legion-go-mx">legion-go-mx</a><a href="#lever">lever</a><a href="#legion-go">legion-go</a><a href="#keyboard">keyboard</a></nav>
+  <p>95 models made with <a href="https://github.com/JoniBach/rulecad">rulecad</a>. Open one in 3D to turn it and download STL or 3MF.</p>
+  <nav><a href="#experiments">experiments</a><a href="#home">home</a><a href="#gears">gears</a><a href="#thin-picro">thin-picro</a><a href="#launcher">launcher</a><a href="#concept48">concept48</a><a href="#mechanisms">mechanisms</a><a href="#showcase">showcase</a><a href="#flexures">flexures</a><a href="#bench">bench</a><a href="#lbracket">lbracket</a><a href="#legion-go-mx">legion-go-mx</a><a href="#lever">lever</a><a href="#legion-go">legion-go</a><a href="#keyboard">keyboard</a></nav>
 </header>
 <section id="experiments">
 <h2>Experiments</h2>
 <div class="grid">
+<article>
+  <a href="experiments/motors/"><img src="experiments/motors/picture.png" alt="" loading="lazy" style="object-fit:contain"></a>
+  <h3><a href="experiments/motors/">Motors from rules: mounted, driven, and checked before they're bought</a></h3>
+  <p>2026-11-09 · @rulecad/motors: steppers, gear motors, servos and a brushless motor from their datasheets, with mounts, D-bores and torque curves; motors driving joints in assemblies, checked for torque, speed, holding and heat. A motorised focus slider and a robot shoulder through a 38:1 compound planetary; measurements to come</p>
+  <p class="links"><a href="experiments/motors/">Results</a></p>
+</article>
 <article>
   <a href="experiments/gears/"><img src="experiments/gears/picture.png" alt="" loading="lazy" style="object-fit:contain"></a>
   <h3><a href="experiments/gears/">Gears from rules: spur to bevel, checked before they're printed</a></h3>
@@ -121,6 +127,35 @@
 </article>
 </div>
 </section>
+<section id="home">
+<h2>home</h2>
+<div class="grid">
+<article>
+  <a href="m/motors-robot-shoulder/"><img src="m/motors-robot-shoulder/thumb.jpg" alt="" loading="lazy"></a>
+  <h3><a href="m/motors-robot-shoulder/">Robot shoulder</a></h3>
+  <p>2026-11-09 · <code>home/shoulder</code> · A NEMA 17 through a 38:1 compound planetary: 7.4 N m at the output, 500 g at 150 mm with ten times to spare, holds unpowered.</p>
+  <p class="links"><a href="m/motors-robot-shoulder/">Open in 3D</a> · <a href="m/motors-robot-shoulder/preview.png">Picture</a></p>
+</article>
+<article>
+  <a href="m/motors-focus-slider/"><img src="m/motors-focus-slider/thumb.jpg" alt="" loading="lazy"></a>
+  <h3><a href="m/motors-focus-slider/">Motorised focus slider</a></h3>
+  <p>2026-11-09 · <code>home/driven</code> · A focus slider on a 28BYJ-48 stepper: 4.7 N at the slide against the 1 N it pushes, 6.4 mm/s, holds with the power off.</p>
+  <p class="links"><a href="m/motors-focus-slider/">Open in 3D</a> · <a href="m/motors-focus-slider/preview.png">Picture</a></p>
+</article>
+<article>
+  <a href="m/gears-spool-winder/"><img src="m/gears-spool-winder/thumb.jpg" alt="" loading="lazy"></a>
+  <h3><a href="m/gears-spool-winder/">Spool winder</a></h3>
+  <p>2026-11-08 · <code>home/winder</code> · A planetary gearbox, 4 : 1: the crank on the carrier, the spool on the sun, teeth from planetary() (18/18/54), every planet in phase; the ring held to the spoked case by two push pins. 28 g of PLA. Worked example 9; not printed yet</p>
+  <p class="links"><a href="m/gears-spool-winder/">Open in 3D</a> · <a href="m/gears-spool-winder/preview.png">Picture</a></p>
+</article>
+<article>
+  <a href="m/gears-focus-slider/"><img src="m/gears-focus-slider/thumb.jpg" alt="" loading="lazy"></a>
+  <h3><a href="m/gears-focus-slider/">Focus slider</a></h3>
+  <p>2026-11-08 · <code>home/slider</code> · A rack and pinion: a 14-tooth pinion with a knob on an axle printed with the base, the rack sliding against a guide, 43.98 mm a turn. 13 g of PLA. Worked example 8; not printed yet</p>
+  <p class="links"><a href="m/gears-focus-slider/">Open in 3D</a> · <a href="m/gears-focus-slider/preview.png">Picture</a></p>
+</article>
+</div>
+</section>
 <section id="gears">
 <h2>gears</h2>
 <div class="grid">
@@ -135,23 +170,6 @@
   <h3><a href="m/gears-sampler-mounted/">Gear sampler, mounted</a></h3>
   <p>2026-11-08 · <code>gears/sampler-mounted</code> · The gear sampler put together: nine pairs (modules 0.8, 1, 1.5 by backlash 0.1, 0.2, 0.3 mm) on a ladder frame, each pair meshed at the play it was drawn with, a rack on its rail and a ring in its lip. 59 g of PLA. Not printed yet</p>
   <p class="links"><a href="m/gears-sampler-mounted/">Open in 3D</a> · <a href="m/gears-sampler-mounted/preview.png">Picture</a></p>
-</article>
-</div>
-</section>
-<section id="home">
-<h2>home</h2>
-<div class="grid">
-<article>
-  <a href="m/gears-spool-winder/"><img src="m/gears-spool-winder/thumb.jpg" alt="" loading="lazy"></a>
-  <h3><a href="m/gears-spool-winder/">Spool winder</a></h3>
-  <p>2026-11-08 · <code>home/winder</code> · A planetary gearbox, 4 : 1: the crank on the carrier, the spool on the sun, teeth from planetary() (18/18/54), every planet in phase; the ring held to the spoked case by two push pins. 28 g of PLA. Worked example 9; not printed yet</p>
-  <p class="links"><a href="m/gears-spool-winder/">Open in 3D</a> · <a href="m/gears-spool-winder/preview.png">Picture</a></p>
-</article>
-<article>
-  <a href="m/gears-focus-slider/"><img src="m/gears-focus-slider/thumb.jpg" alt="" loading="lazy"></a>
-  <h3><a href="m/gears-focus-slider/">Focus slider</a></h3>
-  <p>2026-11-08 · <code>home/slider</code> · A rack and pinion: a 14-tooth pinion with a knob on an axle printed with the base, the rack sliding against a guide, 43.98 mm a turn. 13 g of PLA. Worked example 8; not printed yet</p>
-  <p class="links"><a href="m/gears-focus-slider/">Open in 3D</a> · <a href="m/gears-focus-slider/preview.png">Picture</a></p>
 </article>
 </div>
 </section>

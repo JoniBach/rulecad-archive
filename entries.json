@@ -1,5 +1,23 @@
 [
   {
+    "slug": "motors-robot-shoulder",
+    "date": "2026-11-09",
+    "ref": "home/shoulder",
+    "title": "Robot shoulder",
+    "note": "A NEMA 17 through a 38:1 compound planetary: 7.4 N m at the output, 500 g at 150 mm with ten times to spare, holds unpowered.",
+    "source": "ws",
+    "picture": true
+  },
+  {
+    "slug": "motors-focus-slider",
+    "date": "2026-11-09",
+    "ref": "home/driven",
+    "title": "Motorised focus slider",
+    "note": "A focus slider on a 28BYJ-48 stepper: 4.7 N at the slide against the 1 N it pushes, 6.4 mm/s, holds with the power off.",
+    "source": "ws",
+    "picture": true
+  },
+  {
     "slug": "gears-strap-tensioner",
     "date": "2026-11-08",
     "ref": "gears/tensioner",

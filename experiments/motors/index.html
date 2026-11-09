@@ -1,0 +1,28 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Motors from rules: mounted, driven, and checked before they're bought</title>
+<meta property="og:title" content="Motors from rules: mounted, driven, and checked before they're bought">
+<meta property="og:image" content="https://jonibach.github.io/rulecad-archive/experiments/motors/picture.png">
+<style>body { font-family: system-ui, sans-serif; margin: 0; background: #111; color: #ddd; line-height: 1.5; }
+  main, header, section { max-width: 72rem; margin: 0 auto; padding: 1rem 1.25rem; } main { max-width: 52rem; }
+  a { color: #8cf; } img { max-width: 100%; border-radius: 6px; } code { color: #bbb; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.9rem; margin: 1rem 0; } th, td { border-bottom: 1px solid #333; padding: 0.4rem 0.5rem; text-align: left; vertical-align: top; }</style>
+<main>
+<p><a href="../../">← rulecad archive</a></p>
+<h1>Motors from rules: mounted, driven, and checked before they're bought</h1>
+<p><strong>9 November 2026 · @rulecad/motors 0.1.2, cad 0.7.40 · pull requests <a href="https://github.com/JoniBach/rulecad/pull/166">166</a>, <a href="https://github.com/JoniBach/rulecad/pull/167">167</a> and <a href="https://github.com/JoniBach/rulecad/pull/168">168</a>.</strong></p>
+<p>Gears gave the kit a way to carry a turn from one place to another. Motors give it somewhere for the turn to come from, and the question a machine actually asks: will this motor move this load, and will it stay put when the power goes off?</p>
+<p>Nothing here has been printed yet. Every figure below is predicted, and a table of predicted against measured will go here once it has.</p>
+<p><img src="picture.png" alt="The robot shoulder: a NEMA 17 under a 38:1 compound planetary"></p>
+<h2>What rulecad gained for it</h2>
+<ul><li><strong>Seven motors as open data</strong> in <code>@rulecad/rules</code>: NEMA 17 and 14 steppers, the 28BYJ-48, an N20 gear motor, SG90 and MG90S servos, and a 2204 gimbal motor. Each figure says how far to trust it and where it comes from, and hobby motors that vary between makers are marked <code>community</code> or <code>estimate</code>.</li><li><strong>A shared vocabulary</strong>, <code>cad rules check</code> to hold every rule set to it, and <code>cad rules draw</code> for a dimension drawing to compare with the datasheet by eye.</li><li><strong><code>@rulecad/motors</code></strong>: the solid, the mount a part subtracts, a D-bore that's only flat where the shaft is, and <code>performance()</code>: the torque and speed at the output, through a ratio and an efficiency, and what the answer rests on.</li><li><strong>A motor as an assembly item</strong>: it drives a joint, and whatever meshes with that joint moves with it. In the viewer a stepper's slider moves in its own steps.</li><li><strong>Loads, and checks against them</strong>: a torque, a force or a mass carried at an anchor, whose torque follows the pose. Torque, speed, holding with the power on and off, the case against the plastic's softening point, the plate at the screws, and a shaft read from the bore as drawn.</li><li><strong><code>compoundPlanetary</code></strong>: two rings a few teeth apart, 30 to 200:1 in one stage.</li></ul>
+<p><img src="nema17.svg" alt="The NEMA 17's rule set, drawn from its figures for comparing with the datasheet"></p>
+<p><img src="curve.svg" alt="The shoulder's NEMA 17 through 38:1: torque against speed, with its working point and the load"></p>
+<h2>The models</h2>
+<table><tr><th>Model</th><th>What the check says</th></tr><tr><td><a href="../../m/motors-focus-slider/">Motorised focus slider</a></td><td>A 28BYJ-48 on the pinion: 4.7 N at the slide against the 1 N it pushes, 6.4 mm/s, held by the gearbox's own friction with the power off</td></tr><tr><td><a href="../../m/motors-robot-shoulder/">Robot shoulder</a></td><td>A NEMA 17 through 38:1: 7.4 N m at the output, ten times what 500 g at 150 mm needs, a turn in 7.6 s at 300 rpm of motor, held with the power off by gears under 50% efficient</td></tr></table>
+<h2>What went wrong</h2>
+<ul><li><strong>Profile shift couldn't make a split ring.</strong> The plan was one set of planets on two rings with the odd one cut with a shift. Moving a ring three teeth at these sizes needs a shift of nearly two modules, far past what a tooth takes. Stepped planets, whose two steps differ by as many teeth as the rings do, keep one centre distance with no shift at all, and every tooth count a multiple of the planets keeps them in phase.</li><li><strong>The first press fit split every hub.</strong> A 0.05 mm press on a 5 mm shaft is 2% strain, past what PLA takes, and the hoop-stress check said so even on a wall 8 mm thick. It's 0.02 mm now.</li><li><strong>A motor's shaft rotated into the bore.</strong> A D-bore drawn at the pose it was assembled in overlaps a shaft that hasn't turned to meet it, so the check reads the flat from the bore instead of requiring the two to line up.</li></ul>
+<h2>Not done yet</h2>
+<p>How far a whole part bends under the motor isn't checked (it needs to know what holds the part), the print-in-place version of the joint isn't drawn, and nothing has been measured.</p>
+</main>

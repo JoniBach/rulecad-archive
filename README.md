@@ -2,6 +2,7 @@
 
 ## Experiments
 
+- **[Motors from rules: mounted, driven, and checked before they're bought](experiments/motors/)** (2026-11-09): @rulecad/motors: steppers, gear motors, servos and a brushless motor from their datasheets, with mounts, D-bores and torque curves; motors driving joints in assemblies, checked for torque, speed, holding and heat. A motorised focus slider and a robot shoulder through a 38:1 compound planetary; measurements to come. [On the site](https://jonibach.github.io/rulecad-archive/experiments/motors/)
 - **[Gears from rules: spur to bevel, checked before they're printed](experiments/gears/)** (2026-11-08): @rulecad/gears: involute spur gears, racks, rings, helical and herringbone gears, planetaries, worms and bevels from their module and teeth; meshed in phase in assemblies, measured from their drawn teeth, and their teeth analysed by finite elements. A sampler plate to print, a focus slider and a spool winder; measurements to come. [On the site](https://jonibach.github.io/rulecad-archive/experiments/gears/)
 - **[Launcher trigger: catching a strong spring and letting it go at once](experiments/launcher-trigger/)** (2026-11-03): Work in progress on the in-line launcher's catch and trigger: a sear whose hinge carries the spring's pull as tension, four layouts tried and what each taught, and the two-stage catch being built next. [On the site](https://jonibach.github.io/rulecad-archive/experiments/launcher-trigger/)
 - **[In-line launcher: a cut through the stem's bridge and floor](experiments/launcher-inline-section/)** (2026-11-02): Down the middle of the stem: the bridge prints over it with a 0.6 mm gap, and the stem arches over the floor at 45°. Nothing joins the frame to the pusher.. [On the site](https://jonibach.github.io/rulecad-archive/experiments/launcher-inline-section/)
@@ -25,6 +26,22 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
+
+### Robot shoulder
+
+2026-11-09 · `home/shoulder` in ws: A NEMA 17 through a 38:1 compound planetary: 7.4 N m at the output, 500 g at 150 mm with ten times to spare, holds unpowered.
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/motors-robot-shoulder/)
+
+[![Robot shoulder](m/motors-robot-shoulder/preview.png)](https://jonibach.github.io/rulecad-archive/m/motors-robot-shoulder/)
+
+### Motorised focus slider
+
+2026-11-09 · `home/driven` in ws: A focus slider on a 28BYJ-48 stepper: 4.7 N at the slide against the 1 N it pushes, 6.4 mm/s, holds with the power off.
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/motors-focus-slider/)
+
+[![Motorised focus slider](m/motors-focus-slider/preview.png)](https://jonibach.github.io/rulecad-archive/m/motors-focus-slider/)
 
 ### Strap tensioner
 

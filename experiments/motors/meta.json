@@ -1,0 +1,5 @@
+{
+  "title": "Motors from rules: mounted, driven, and checked before they're bought",
+  "date": "2026-11-09",
+  "summary": "@rulecad/motors: steppers, gear motors, servos and a brushless motor from their datasheets, with mounts, D-bores and torque curves; motors driving joints in assemblies, checked for torque, speed, holding and heat. A motorised focus slider and a robot shoulder through a 38:1 compound planetary; measurements to come"
+}
