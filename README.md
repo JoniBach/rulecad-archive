@@ -28,6 +28,14 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
+### SCARA arm that draws
+
+2026-11-09 · `arm/arm` in bench
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/2026-11-09-arm-arm/)
+
+[![SCARA arm that draws](m/2026-11-09-arm-arm/preview.png)](https://jonibach.github.io/rulecad-archive/m/2026-11-09-arm-arm/)
+
 ### Shoulder input lever 0.1.0
 
 2026-11-09 · `benchmarks/input-lever` in bench: A printed copy of the motor's shaft on a lever, to turn the shoulder's sun by hand.

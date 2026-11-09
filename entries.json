@@ -1,5 +1,14 @@
 [
   {
+    "slug": "2026-11-09-arm-arm",
+    "date": "2026-11-09",
+    "ref": "arm/arm",
+    "title": "SCARA arm that draws",
+    "note": "",
+    "source": "bench",
+    "picture": true
+  },
+  {
     "slug": "bench-input-lever",
     "date": "2026-11-09",
     "ref": "benchmarks/input-lever",
