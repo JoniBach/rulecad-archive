@@ -1,5 +1,14 @@
 [
   {
+    "slug": "bench-seats-coupon",
+    "date": "2026-11-10",
+    "ref": "benchmarks/seats-coupon",
+    "title": "Seats coupon 0.1.0",
+    "note": "",
+    "source": "bench",
+    "picture": true
+  },
+  {
     "slug": "2026-11-10-arm-gripper-check",
     "date": "2026-11-10",
     "ref": "arm/gripper-check",

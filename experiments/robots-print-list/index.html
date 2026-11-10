@@ -1,0 +1,46 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What to print to test the robots: benchmarks, then the arm, then the leg</title>
+<meta property="og:title" content="What to print to test the robots: benchmarks, then the arm, then the leg">
+<meta property="og:image" content="https://jonibach.github.io/rulecad-archive/experiments/robots-print-list/picture.png">
+<style>body { font-family: system-ui, sans-serif; margin: 0; background: #111; color: #ddd; line-height: 1.5; }
+  main, header, section { max-width: 72rem; margin: 0 auto; padding: 1rem 1.25rem; } main { max-width: 52rem; }
+  a { color: #8cf; } img { max-width: 100%; border-radius: 6px; } code { color: #bbb; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.9rem; margin: 1rem 0; } th, td { border-bottom: 1px solid #333; padding: 0.4rem 0.5rem; text-align: left; vertical-align: top; }</style>
+<main>
+<p><a href="../../">← rulecad archive</a></p>
+<h1>What to print to test the robots</h1>
+<p><strong>10 November 2026.</strong> Everything the kit says about these machines is a prediction until it has been measured. This is the list of what to print, in order, and what each print settles. Three GitHub issues stay open until it's done: <a href="https://github.com/JoniBach/rulecad/issues/190">the arm draws (190)</a>, <a href="https://github.com/JoniBach/rulecad/issues/197">the arm lifts (197)</a> and <a href="https://github.com/JoniBach/rulecad/issues/202">the leg stands and steps (202)</a>.</p>
+<p>Each link below opens the model, with its parts to download. Print in PLA at 0.2 mm layers, four walls and 25% infill unless it says otherwise, and keep to one spool. Masses are solid figures, so a slicer's infill makes them lighter.</p>
+<p><img src="picture.png" alt="A leg on its test stand"></p>
+<h2>Stage 1: the benchmarks (about 320 g)</h2>
+<p>Print these before any machine. The numbers are the rows of the <a href="https://github.com/JoniBach/rulecad/blob/main/examples/bench/projects/benchmarks/MEASURE.md">measuring sheet</a>, which says how to take each one.</p>
+<table><tr><th>Order</th><th>Print</th><th>Mass</th><th>Measures</th><th>Needed for</th></tr><tr><td>1</td><td><a href="../../m/bench-fit-bar/">Fit bar</a></td><td>31 g</td><td>3, 4, 5: D-bore, hole shrinkage, M3 pilots</td><td>Every machine</td></tr><tr><td>2</td><td><a href="../../m/bench-seats-coupon/">Seats coupon</a>, with a 608 bearing</td><td>about 38 g</td><td>21: bearing press and slip</td><td>Every machine</td></tr><tr><td>3</td><td><a href="../../m/bench-motor-stand/">Motor stand</a></td><td>74 g</td><td>6 to 11: holding, detent, torque at speed, heat</td><td>Every machine</td></tr><tr><td>4</td><td><a href="../../m/bench-shoulder/">Shoulder</a> and <a href="../../m/bench-input-lever/">input lever</a></td><td>117 g</td><td>12 to 18: efficiency, holding, play, twist, repeatability, speed</td><td>Every machine</td></tr><tr><td>5</td><td><a href="../../m/bench-mesh-rig/">Mesh rig</a></td><td>42 g</td><td>12, one mesh on its own</td><td>Useful, not essential</td></tr><tr><td>6</td><td><a href="../../m/bench-servo-stand/">Servo stand</a></td><td>18 g</td><td>19, 20: servo stall torque and size</td><td>Pen lift and gripper</td></tr></table>
+<p>The <a href="../../m/bench-gear-card/">gear card</a> is only needed if the printer hasn't been tested for backlash yet (measurements 1 and 2).</p>
+<p><strong>The measurements that matter most are 14 (play), 15 (twist) and 17 (repeatability).</strong> The arm's predicted 0.244 mm at the pen assumes 0.02° of play. With no bias on the gears, the drawn backlash alone is about 1.2 mm at the far corner. If the shoulder measures badly, stop here and fix the gearbox before printing the arm.</p>
+<p>Write each result back, and the predictions move:</p>
+<p>``<code>sh npx cad measured arm/arm arm.play_shoulder=0.05 --source &quot;bench test 14&quot; npx cad measured arm/arm arm.twist_shoulder=0.02 --source &quot;bench test 15&quot; </code>``</p>
+<p>(Those two numbers are examples: use what you measure.)</p>
+<h2>Stage 2: the arm draws (issue 190)</h2>
+<table><tr><th>Print</th><th>Mass</th><th>Notes</th></tr><tr><td><a href="../../m/2026-11-09-arm-arm/">The drawing arm</a>, bed one: base, housing, upper arm, bridge, both outputs and the rest of its plate</td><td>331 g</td><td>About 6 hours</td></tr><tr><td>Bed two: forearm, spindle, the suns and the remaining planets</td><td>about 76 g</td><td></td></tr><tr><td>Holder</td><td>32 g</td><td><strong>In PETG, on its own:</strong> it's a flexure</td></tr></table>
+<p><code>npx cad plates arm/arm</code> writes the two beds. The total is about 439 g and 8 hours.</p>
+<p><strong>Buy:</strong> NEMA 17 (17HS4401), NEMA 14, SG90, one 6800 bearing, two 10T85 endstops, two DRV8825 drivers, CNC Shield V3, Uno, a 24 V supply of 2.2 A or more, rubber bands, a pen, AWG 24 and AWG 26 wire. M3 screws aren't counted by the list yet, so keep an assortment to hand.</p>
+<p><strong>Set both drivers to 0.5 A,</strong> which is 0.25 V on a DRV8825's trimmer. Read the sense resistor on yours first.</p>
+<p><strong>Test:</strong> home it, then run the calibration drawing from <code>npx cad plot arm/arm --calibrate</code>. Measure the 100 mm square's sides and diagonals and each circle's roundness, and draw the square five times for repeatability. Weigh the printed parts too: the list's grams should be within 10%.</p>
+<h2>Stage 3: the arm lifts (issue 197)</h2>
+<p>The same parts, on the same base, bolted upright: <a href="../../m/2026-11-10-arm-arm-upright/">the upright arm</a>.</p>
+<table><tr><th>Print</th><th>Mass</th><th>Notes</th></tr><tr><td><a href="../../m/2026-11-10-arm-gripper-check/">Gripper</a></td><td>37 g</td><td><strong>In PETG.</strong> Rated for 50 g at 2×</td></tr><tr><td>Spindle, again</td><td>7 g</td><td><strong>In PETG, or use steel:</strong> a stall at 0.8 A is 19 MPa against PLA's 22</td></tr></table>
+<p><strong>Buy:</strong> a second SG90, and a dial indicator.</p>
+<p><strong>Before running it:</strong> set both drivers to 0.8 A (0.4 V on a DRV8825). With the gripper on, the elbow is limited to 140°. Its home switch sits at 160°, so move the switch and its flag first, or the elbow can't home.</p>
+<table><tr><th>Test</th><th>Against</th></tr><tr><td>Add payload at the tool until a motor skips</td><td><code>motor.torque</code>: 2.65 times over at 100 g</td></tr><tr><td>Power off, add payload until it drops</td><td><code>motor.holds</code></td></tr><tr><td>Drop at the tool under 100 g at full stretch, by dial indicator</td><td><code>link.deflection</code>: 1.83 mm from coarse cells, about 0.6 mm by hand</td></tr><tr><td>Push sideways at the shoulder and watch the wobble</td><td><code>joint.moment</code></td></tr><tr><td>Time a move across the volume</td><td><code>task.time</code></td></tr></table>
+<p>The Z axis in the examples isn't needed for this test.</p>
+<h2>Stage 4: the leg stands and steps (issue 202)</h2>
+<p><a href="../../m/2026-11-10-leg-stand/">A leg on a test stand</a>: 471 g, about 9 hours. Its gearbox parts print the same as the arm's. The motors, drivers, shield and supply can move across from the arm.</p>
+<p><strong>Buy:</strong> two LM8UU bearings, two 8 mm rods, a kitchen scale, and a second 6800 bearing unless you move the arm's across.</p>
+<table><tr><th>Test</th><th>Against</th></tr><tr><td>Weight on the foot until a motor skips</td><td><code>motor.torque</code>: 0.45 N m at the knee for a 1.5 kg robot's half share</td></tr><tr><td>Power off, weight until it gives</td><td><code>motor.holds</code></td></tr><tr><td>The foot's path by camera or pointer</td><td>the planned swing, 15 mm of clearance</td></tr><tr><td>The step's time</td><td>the gait's period</td></tr></table>
+<p>The quadruped in the examples is a design only, and isn't part of these tests.</p>
+<h2>In total</h2>
+<p>About 320 g of benchmarks, 483 g for the arm, gripper and spare spindle, and 471 g for the leg: <strong>around 1.3 kg of filament and about 23 hours of printing</strong>, mostly PLA with a small amount of PETG. The print times are estimates from each part's volume.</p>
+<p>Each result goes back with <code>npx cad measured</code>, and <code>npx cad history arm/arm</code> shows predicted against measured.</p>
+</main>
