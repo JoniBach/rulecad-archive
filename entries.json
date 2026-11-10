@@ -1,5 +1,32 @@
 [
   {
+    "slug": "2026-11-10-arm-gripper-check",
+    "date": "2026-11-10",
+    "ref": "arm/gripper-check",
+    "title": "Gripper: closing check",
+    "note": "",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "2026-11-10-arm-arm-upright",
+    "date": "2026-11-10",
+    "ref": "arm/arm-upright",
+    "title": "The arm upright: it lifts",
+    "note": "",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "2026-11-10-leg-stand",
+    "date": "2026-11-10",
+    "ref": "leg/stand",
+    "title": "A leg on a test stand",
+    "note": "",
+    "source": "bench",
+    "picture": true
+  },
+  {
     "slug": "thin-rp2040-module-headers",
     "date": "2026-11-09",
     "ref": "thin-picro/module:with-headers",

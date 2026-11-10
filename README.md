@@ -2,6 +2,7 @@
 
 ## Experiments
 
+- **[An arm that draws, then lifts, then a leg: checked before it's printed](experiments/robots/)** (2026-11-10): A SCARA arm sized from its task, the same parts upright with a gripper and a Z axis, and a leg from the arm's gearbox, with reach, speed, an error budget, bearing and link loads, wiring, a shopping list and a build page from one assembly. Predictions only so far: nothing has been printed or moved. [On the site](https://jonibach.github.io/rulecad-archive/experiments/robots/)
 - **[Benchmarks for a robot joint: every estimate, measured](experiments/benchmarks/)** (2026-11-09): Small parts with plain first layers that measure what a printed robot joint rests on: fits, backlash, a stepper's real torque, what a mesh passes on, and a 38:1 shoulder's play, twist and repeatability. [On the site](https://jonibach.github.io/rulecad-archive/experiments/benchmarks/)
 - **[Motors from rules: mounted, driven, and checked before they're bought](experiments/motors/)** (2026-11-09): @rulecad/motors: steppers, gear motors, servos and a brushless motor from their datasheets, with mounts, D-bores and torque curves; motors driving joints in assemblies, checked for torque, speed, holding and heat. A motorised focus slider and a robot shoulder through a 38:1 compound planetary; measurements to come. [On the site](https://jonibach.github.io/rulecad-archive/experiments/motors/)
 - **[Gears from rules: spur to bevel, checked before they're printed](experiments/gears/)** (2026-11-08): @rulecad/gears: involute spur gears, racks, rings, helical and herringbone gears, planetaries, worms and bevels from their module and teeth; meshed in phase in assemblies, measured from their drawn teeth, and their teeth analysed by finite elements. A sampler plate to print, a focus slider and a spool winder; measurements to come. [On the site](https://jonibach.github.io/rulecad-archive/experiments/gears/)
@@ -27,6 +28,30 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
+
+### Gripper: closing check
+
+2026-11-10 · `arm/gripper-check` in bench
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/2026-11-10-arm-gripper-check/)
+
+[![Gripper: closing check](m/2026-11-10-arm-gripper-check/preview.png)](https://jonibach.github.io/rulecad-archive/m/2026-11-10-arm-gripper-check/)
+
+### The arm upright: it lifts
+
+2026-11-10 · `arm/arm-upright` in bench
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/2026-11-10-arm-arm-upright/)
+
+[![The arm upright: it lifts](m/2026-11-10-arm-arm-upright/preview.png)](https://jonibach.github.io/rulecad-archive/m/2026-11-10-arm-arm-upright/)
+
+### A leg on a test stand
+
+2026-11-10 · `leg/stand` in bench
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/2026-11-10-leg-stand/)
+
+[![A leg on a test stand](m/2026-11-10-leg-stand/preview.png)](https://jonibach.github.io/rulecad-archive/m/2026-11-10-leg-stand/)
 
 ### Thin RP2040 module (with-headers) 0.7.1
 
