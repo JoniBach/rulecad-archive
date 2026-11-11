@@ -30,6 +30,22 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
+### Thin RP2040 module (with-headers) 0.7.1
+
+2026-11-11 · `thin-picro/module:with-headers` in thin-picro: The thin module fitted with 2.54 mm pin headers (3D only; the board is the same)
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module-headers/)
+
+[![Thin RP2040 module (with-headers) 0.7.1](m/thin-rp2040-module-headers/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module-headers/)
+
+### Thin RP2040 module 0.7.1
+
+2026-11-11 · `thin-picro/module` in thin-picro: 59.7 x 21.0 mm: end columns 3 keys apart, grouped pins, an SPI display header; fab files plotted and checked by KiCad, every check passing, the JLCPCB zip in the link. Not yet built
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
+
+[![Thin RP2040 module 0.7.1](m/thin-rp2040-module/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
+
 ### Seats coupon 0.1.0
 
 2026-11-10 · `benchmarks/seats-coupon` in bench
@@ -61,22 +77,6 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/2026-11-10-leg-stand/)
 
 [![A leg on a test stand](m/2026-11-10-leg-stand/preview.png)](https://jonibach.github.io/rulecad-archive/m/2026-11-10-leg-stand/)
-
-### Thin RP2040 module (with-headers) 0.7.1
-
-2026-11-09 · `thin-picro/module:with-headers` in thin-picro: The thin module fitted with 2.54 mm pin headers (3D only; the board is the same)
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module-headers/)
-
-[![Thin RP2040 module (with-headers) 0.7.1](m/thin-rp2040-module-headers/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module-headers/)
-
-### Thin RP2040 module 0.7.1
-
-2026-11-09 · `thin-picro/module` in thin-picro: 59.7 x 21.0 mm: end columns 3 keys apart, grouped pins, an SPI display header; fab files plotted and checked by KiCad, every check passing. Not yet built
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
-
-[![Thin RP2040 module 0.7.1](m/thin-rp2040-module/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
 
 ### SCARA arm that draws
 

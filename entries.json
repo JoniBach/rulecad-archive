@@ -1,5 +1,23 @@
 [
   {
+    "slug": "thin-rp2040-module-headers",
+    "date": "2026-11-11",
+    "ref": "thin-picro/module:with-headers",
+    "title": "Thin RP2040 module (with-headers) 0.7.1",
+    "note": "The thin module fitted with 2.54 mm pin headers (3D only; the board is the same)",
+    "source": "thin-picro",
+    "picture": true
+  },
+  {
+    "slug": "thin-rp2040-module",
+    "date": "2026-11-11",
+    "ref": "thin-picro/module",
+    "title": "Thin RP2040 module 0.7.1",
+    "note": "59.7 x 21.0 mm: end columns 3 keys apart, grouped pins, an SPI display header; fab files plotted and checked by KiCad, every check passing, the JLCPCB zip in the link. Not yet built",
+    "source": "thin-picro",
+    "picture": true
+  },
+  {
     "slug": "bench-seats-coupon",
     "date": "2026-11-10",
     "ref": "benchmarks/seats-coupon",
@@ -33,24 +51,6 @@
     "title": "A leg on a test stand",
     "note": "",
     "source": "bench",
-    "picture": true
-  },
-  {
-    "slug": "thin-rp2040-module-headers",
-    "date": "2026-11-09",
-    "ref": "thin-picro/module:with-headers",
-    "title": "Thin RP2040 module (with-headers) 0.7.1",
-    "note": "The thin module fitted with 2.54 mm pin headers (3D only; the board is the same)",
-    "source": "thin-picro",
-    "picture": true
-  },
-  {
-    "slug": "thin-rp2040-module",
-    "date": "2026-11-09",
-    "ref": "thin-picro/module",
-    "title": "Thin RP2040 module 0.7.1",
-    "note": "59.7 x 21.0 mm: end columns 3 keys apart, grouped pins, an SPI display header; fab files plotted and checked by KiCad, every check passing. Not yet built",
-    "source": "thin-picro",
     "picture": true
   },
   {
