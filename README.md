@@ -30,6 +30,14 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
+### Motorised spool winder
+
+2026-11-13 · `home/winder-driven` in ws3: The spool winder with an N20 on the sun: the spool on the carrier, 4:1, 2.25 times the torque a 10 N strap needs on a 150:1 N20; draft PR 208
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/2026-11-13-winder-driven/)
+
+[![Motorised spool winder](m/2026-11-13-winder-driven/preview.png)](https://jonibach.github.io/rulecad-archive/m/2026-11-13-winder-driven/)
+
 ### A leg on a test stand
 
 2026-11-13 · `leg/stand` in bench
