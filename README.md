@@ -30,6 +30,14 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
+### XIAO core, 32 mm
+
+2026-11-13 · `xiaocore/core` in hardware: A 32 mm core for a XIAO ESP32-C6: a four-layer carrier board with spring contacts on every side and spring pins to a wall seat underneath, in a shell with a two-clip lid. Poses show the lid and board going in.
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/xiao-core-32/)
+
+[![XIAO core, 32 mm](m/xiao-core-32/preview.png)](https://jonibach.github.io/rulecad-archive/m/xiao-core-32/)
+
 ### Motorised spool winder
 
 2026-11-13 · `home/winder-driven` in ws3: The spool winder with an N20 on the sun: the spool on the carrier, 4:1, 2.25 times the torque a 10 N strap needs on a 150:1 N20; draft PR 208

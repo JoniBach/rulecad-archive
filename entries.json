@@ -1,5 +1,14 @@
 [
   {
+    "slug": "xiao-core-32",
+    "date": "2026-11-13",
+    "ref": "xiaocore/core",
+    "title": "XIAO core, 32 mm",
+    "note": "A 32 mm core for a XIAO ESP32-C6: a four-layer carrier board with spring contacts on every side and spring pins to a wall seat underneath, in a shell with a two-clip lid. Poses show the lid and board going in.",
+    "source": "hardware",
+    "picture": true
+  },
+  {
     "slug": "2026-11-13-winder-driven",
     "date": "2026-11-13",
     "ref": "home/winder-driven",
