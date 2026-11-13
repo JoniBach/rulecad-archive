@@ -28,6 +28,28 @@ Nothing here has been printed yet. Every figure below is predicted, and a table 
 | [Motorised focus slider](../../m/motors-focus-slider/) | A 28BYJ-48 on the pinion: 4.7 N at the slide against the 1 N it pushes, 6.4 mm/s, held by the gearbox's own friction with the power off |
 | [Robot shoulder](../../m/motors-robot-shoulder/) | A NEMA 17 through 38:1: 7.4 N m at the output, ten times what 500 g at 150 mm needs, a turn in 7.6 s at 300 rpm of motor, held with the power off by gears under 50% efficient |
 
+## At work
+
+Added on 13 November 2026, in rulecad pull requests [208](https://github.com/JoniBach/rulecad/pull/208) and [211](https://github.com/JoniBach/rulecad/pull/211). Also added: the [motorised spool winder](../../m/2026-11-13-winder-driven/), an N20 on the sun of the hand winder's planetary, with the spool on the carrier.
+
+`cad animate` turns the drive, cut across the shafts through the gears' teeth. The shoulder has two cuts. The first shows the sun and the planets inside the ring that's held. The second shows the planets inside the output ring, which turns 57° while the motor turns six times.
+
+![The robot shoulder's compound planetary, cut through both rings and turning](shoulder-drive.svg)
+
+![The motorised winder's planetary: the planets roll round the held ring and carry the reel](winder-drive.svg)
+
+`cad preview --check` labels the torque where it starts and where it arrives, with the margin and whether the joint holds unpowered.
+
+![The shoulder's check view: 0.417 N m at the motor's shaft, 7.44 N m at the output, 10.1 times the load, held unpowered](shoulder-check.png)
+
+![The winder's check view: 0.45 N m at the reel, 2.25 times the load, and no figure yet for holding unpowered](winder-check.png)
+
+`cad preview` also draws each motor's curve and the torque through its train.
+
+![The winder's N20 through 4:1: torque against speed, the working point and the load](winder-curve.svg)
+
+![The winder's torque, stage by stage, against what the load needs](winder-train.svg)
+
 ## What went wrong
 
 - **Profile shift couldn't make a split ring.** The plan was one set of planets on two rings with the odd one cut with a shift. Moving a ring three teeth at these sizes needs a shift of nearly two modules, far past what a tooth takes. Stepped planets, whose two steps differ by as many teeth as the rings do, keep one centre distance with no shift at all, and every tooth count a multiple of the planets keeps them in phase.
@@ -36,4 +58,4 @@ Nothing here has been printed yet. Every figure below is predicted, and a table 
 
 ## Not done yet
 
-How far a whole part bends under the motor isn't checked (it needs to know what holds the part), the print-in-place version of the joint isn't drawn, and nothing has been measured.
+How far a whole part bends under the motor is checked now ([pull request 209](https://github.com/JoniBach/rulecad/pull/209)). The print-in-place version of the joint isn't drawn yet, and nothing has been measured.

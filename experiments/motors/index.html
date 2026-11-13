@@ -21,8 +21,19 @@
 <p><img src="curve.svg" alt="The shoulder's NEMA 17 through 38:1: torque against speed, with its working point and the load"></p>
 <h2>The models</h2>
 <table><tr><th>Model</th><th>What the check says</th></tr><tr><td><a href="../../m/motors-focus-slider/">Motorised focus slider</a></td><td>A 28BYJ-48 on the pinion: 4.7 N at the slide against the 1 N it pushes, 6.4 mm/s, held by the gearbox's own friction with the power off</td></tr><tr><td><a href="../../m/motors-robot-shoulder/">Robot shoulder</a></td><td>A NEMA 17 through 38:1: 7.4 N m at the output, ten times what 500 g at 150 mm needs, a turn in 7.6 s at 300 rpm of motor, held with the power off by gears under 50% efficient</td></tr></table>
+<h2>At work</h2>
+<p>Added on 13 November 2026, in rulecad pull requests <a href="https://github.com/JoniBach/rulecad/pull/208">208</a> and <a href="https://github.com/JoniBach/rulecad/pull/211">211</a>. Also added: the <a href="../../m/2026-11-13-winder-driven/">motorised spool winder</a>, an N20 on the sun of the hand winder's planetary, with the spool on the carrier.</p>
+<p><code>cad animate</code> turns the drive, cut across the shafts through the gears' teeth. The shoulder has two cuts. The first shows the sun and the planets inside the ring that's held. The second shows the planets inside the output ring, which turns 57° while the motor turns six times.</p>
+<p><img src="shoulder-drive.svg" alt="The robot shoulder's compound planetary, cut through both rings and turning"></p>
+<p><img src="winder-drive.svg" alt="The motorised winder's planetary: the planets roll round the held ring and carry the reel"></p>
+<p><code>cad preview --check</code> labels the torque where it starts and where it arrives, with the margin and whether the joint holds unpowered.</p>
+<p><img src="shoulder-check.png" alt="The shoulder's check view: 0.417 N m at the motor's shaft, 7.44 N m at the output, 10.1 times the load, held unpowered"></p>
+<p><img src="winder-check.png" alt="The winder's check view: 0.45 N m at the reel, 2.25 times the load, and no figure yet for holding unpowered"></p>
+<p><code>cad preview</code> also draws each motor's curve and the torque through its train.</p>
+<p><img src="winder-curve.svg" alt="The winder's N20 through 4:1: torque against speed, the working point and the load"></p>
+<p><img src="winder-train.svg" alt="The winder's torque, stage by stage, against what the load needs"></p>
 <h2>What went wrong</h2>
 <ul><li><strong>Profile shift couldn't make a split ring.</strong> The plan was one set of planets on two rings with the odd one cut with a shift. Moving a ring three teeth at these sizes needs a shift of nearly two modules, far past what a tooth takes. Stepped planets, whose two steps differ by as many teeth as the rings do, keep one centre distance with no shift at all, and every tooth count a multiple of the planets keeps them in phase.</li><li><strong>The first press fit split every hub.</strong> A 0.05 mm press on a 5 mm shaft is 2% strain, past what PLA takes, and the hoop-stress check said so even on a wall 8 mm thick. It's 0.02 mm now.</li><li><strong>A motor's shaft rotated into the bore.</strong> A D-bore drawn at the pose it was assembled in overlaps a shaft that hasn't turned to meet it, so the check reads the flat from the bore instead of requiring the two to line up.</li></ul>
 <h2>Not done yet</h2>
-<p>How far a whole part bends under the motor isn't checked (it needs to know what holds the part), the print-in-place version of the joint isn't drawn, and nothing has been measured.</p>
+<p>How far a whole part bends under the motor is checked now (<a href="https://github.com/JoniBach/rulecad/pull/209">pull request 209</a>). The print-in-place version of the joint isn't drawn yet, and nothing has been measured.</p>
 </main>
