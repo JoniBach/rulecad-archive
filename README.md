@@ -30,6 +30,62 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
+### A leg on a test stand
+
+2026-11-13 · `leg/stand` in bench
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/2026-11-10-leg-stand/)
+
+[![A leg on a test stand](m/2026-11-10-leg-stand/preview.png)](https://jonibach.github.io/rulecad-archive/m/2026-11-10-leg-stand/)
+
+### Gripper: closing check
+
+2026-11-13 · `arm/gripper-check` in bench
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/2026-11-10-arm-gripper-check/)
+
+[![Gripper: closing check](m/2026-11-10-arm-gripper-check/preview.png)](https://jonibach.github.io/rulecad-archive/m/2026-11-10-arm-gripper-check/)
+
+### The arm upright: it lifts
+
+2026-11-13 · `arm/arm-upright` in bench
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/2026-11-10-arm-arm-upright/)
+
+[![The arm upright: it lifts](m/2026-11-10-arm-arm-upright/preview.png)](https://jonibach.github.io/rulecad-archive/m/2026-11-10-arm-arm-upright/)
+
+### SCARA arm that draws
+
+2026-11-13 · `arm/arm` in bench
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/2026-11-09-arm-arm/)
+
+[![SCARA arm that draws](m/2026-11-09-arm-arm/preview.png)](https://jonibach.github.io/rulecad-archive/m/2026-11-09-arm-arm/)
+
+### Shoulder input lever 0.1.0
+
+2026-11-13 · `benchmarks/input-lever` in bench: A printed copy of the motor's shaft on a lever, to turn the shoulder's sun by hand.
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/bench-input-lever/)
+
+[![Shoulder input lever 0.1.0](m/bench-input-lever/preview.png)](https://jonibach.github.io/rulecad-archive/m/bench-input-lever/)
+
+### 17HS4401 on the test stand
+
+2026-11-13 · `benchmarks/motor-test` in bench: A 17HS4401 on a stand, with a dial and a 100 mm arm: holding, detent, speed and heat.
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/bench-motor-stand/)
+
+[![17HS4401 on the test stand](m/bench-motor-stand/preview.png)](https://jonibach.github.io/rulecad-archive/m/bench-motor-stand/)
+
+### Robot shoulder on the test stand
+
+2026-11-13 · `benchmarks/shoulder-test` in bench: The 38:1 compound planetary on the stand: solid base, dial and pointer.
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/bench-shoulder/)
+
+[![Robot shoulder on the test stand](m/bench-shoulder/preview.png)](https://jonibach.github.io/rulecad-archive/m/bench-shoulder/)
+
 ### Thin RP2040 module (with-headers) 0.7.1
 
 2026-11-11 · `thin-picro/module:with-headers` in thin-picro: The thin module fitted with 2.54 mm pin headers (3D only; the board is the same)
@@ -54,54 +110,6 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 
 [![Seats coupon 0.1.0](m/bench-seats-coupon/preview.png)](https://jonibach.github.io/rulecad-archive/m/bench-seats-coupon/)
 
-### Gripper: closing check
-
-2026-11-10 · `arm/gripper-check` in bench
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/2026-11-10-arm-gripper-check/)
-
-[![Gripper: closing check](m/2026-11-10-arm-gripper-check/preview.png)](https://jonibach.github.io/rulecad-archive/m/2026-11-10-arm-gripper-check/)
-
-### The arm upright: it lifts
-
-2026-11-10 · `arm/arm-upright` in bench
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/2026-11-10-arm-arm-upright/)
-
-[![The arm upright: it lifts](m/2026-11-10-arm-arm-upright/preview.png)](https://jonibach.github.io/rulecad-archive/m/2026-11-10-arm-arm-upright/)
-
-### A leg on a test stand
-
-2026-11-10 · `leg/stand` in bench
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/2026-11-10-leg-stand/)
-
-[![A leg on a test stand](m/2026-11-10-leg-stand/preview.png)](https://jonibach.github.io/rulecad-archive/m/2026-11-10-leg-stand/)
-
-### SCARA arm that draws
-
-2026-11-09 · `arm/arm` in bench
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/2026-11-09-arm-arm/)
-
-[![SCARA arm that draws](m/2026-11-09-arm-arm/preview.png)](https://jonibach.github.io/rulecad-archive/m/2026-11-09-arm-arm/)
-
-### Shoulder input lever 0.1.0
-
-2026-11-09 · `benchmarks/input-lever` in bench: A printed copy of the motor's shaft on a lever, to turn the shoulder's sun by hand.
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/bench-input-lever/)
-
-[![Shoulder input lever 0.1.0](m/bench-input-lever/preview.png)](https://jonibach.github.io/rulecad-archive/m/bench-input-lever/)
-
-### Robot shoulder on the test stand
-
-2026-11-09 · `benchmarks/shoulder-test` in bench: The 38:1 compound planetary on the stand: solid base, dial and pointer.
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/bench-shoulder/)
-
-[![Robot shoulder on the test stand](m/bench-shoulder/preview.png)](https://jonibach.github.io/rulecad-archive/m/bench-shoulder/)
-
 ### Mesh rig on the stand
 
 2026-11-09 · `benchmarks/mesh-rig-test` in bench: One spur pair with a lever each, for what a printed mesh passes on.
@@ -117,14 +125,6 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/bench-servo-stand/)
 
 [![SG90 on its stand](m/bench-servo-stand/preview.png)](https://jonibach.github.io/rulecad-archive/m/bench-servo-stand/)
-
-### 17HS4401 on the test stand
-
-2026-11-09 · `benchmarks/motor-test` in bench: A 17HS4401 on a stand, with a dial and a 100 mm arm: holding, detent, speed and heat.
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/bench-motor-stand/)
-
-[![17HS4401 on the test stand](m/bench-motor-stand/preview.png)](https://jonibach.github.io/rulecad-archive/m/bench-motor-stand/)
 
 ### Gear card, mounted
 

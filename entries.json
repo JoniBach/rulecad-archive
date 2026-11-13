@@ -1,5 +1,68 @@
 [
   {
+    "slug": "2026-11-10-leg-stand",
+    "date": "2026-11-13",
+    "ref": "leg/stand",
+    "title": "A leg on a test stand",
+    "note": "",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "2026-11-10-arm-gripper-check",
+    "date": "2026-11-13",
+    "ref": "arm/gripper-check",
+    "title": "Gripper: closing check",
+    "note": "",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "2026-11-10-arm-arm-upright",
+    "date": "2026-11-13",
+    "ref": "arm/arm-upright",
+    "title": "The arm upright: it lifts",
+    "note": "",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "2026-11-09-arm-arm",
+    "date": "2026-11-13",
+    "ref": "arm/arm",
+    "title": "SCARA arm that draws",
+    "note": "",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "bench-input-lever",
+    "date": "2026-11-13",
+    "ref": "benchmarks/input-lever",
+    "title": "Shoulder input lever 0.1.0",
+    "note": "A printed copy of the motor's shaft on a lever, to turn the shoulder's sun by hand.",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "bench-motor-stand",
+    "date": "2026-11-13",
+    "ref": "benchmarks/motor-test",
+    "title": "17HS4401 on the test stand",
+    "note": "A 17HS4401 on a stand, with a dial and a 100 mm arm: holding, detent, speed and heat.",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "bench-shoulder",
+    "date": "2026-11-13",
+    "ref": "benchmarks/shoulder-test",
+    "title": "Robot shoulder on the test stand",
+    "note": "The 38:1 compound planetary on the stand: solid base, dial and pointer.",
+    "source": "bench",
+    "picture": true
+  },
+  {
     "slug": "thin-rp2040-module-headers",
     "date": "2026-11-11",
     "ref": "thin-picro/module:with-headers",
@@ -27,60 +90,6 @@
     "picture": true
   },
   {
-    "slug": "2026-11-10-arm-gripper-check",
-    "date": "2026-11-10",
-    "ref": "arm/gripper-check",
-    "title": "Gripper: closing check",
-    "note": "",
-    "source": "bench",
-    "picture": true
-  },
-  {
-    "slug": "2026-11-10-arm-arm-upright",
-    "date": "2026-11-10",
-    "ref": "arm/arm-upright",
-    "title": "The arm upright: it lifts",
-    "note": "",
-    "source": "bench",
-    "picture": true
-  },
-  {
-    "slug": "2026-11-10-leg-stand",
-    "date": "2026-11-10",
-    "ref": "leg/stand",
-    "title": "A leg on a test stand",
-    "note": "",
-    "source": "bench",
-    "picture": true
-  },
-  {
-    "slug": "2026-11-09-arm-arm",
-    "date": "2026-11-09",
-    "ref": "arm/arm",
-    "title": "SCARA arm that draws",
-    "note": "",
-    "source": "bench",
-    "picture": true
-  },
-  {
-    "slug": "bench-input-lever",
-    "date": "2026-11-09",
-    "ref": "benchmarks/input-lever",
-    "title": "Shoulder input lever 0.1.0",
-    "note": "A printed copy of the motor's shaft on a lever, to turn the shoulder's sun by hand.",
-    "source": "bench",
-    "picture": true
-  },
-  {
-    "slug": "bench-shoulder",
-    "date": "2026-11-09",
-    "ref": "benchmarks/shoulder-test",
-    "title": "Robot shoulder on the test stand",
-    "note": "The 38:1 compound planetary on the stand: solid base, dial and pointer.",
-    "source": "bench",
-    "picture": true
-  },
-  {
     "slug": "bench-mesh-rig",
     "date": "2026-11-09",
     "ref": "benchmarks/mesh-rig-test",
@@ -95,15 +104,6 @@
     "ref": "benchmarks/servo-test",
     "title": "SG90 on its stand",
     "note": "An SG90 in a solid block, with a 60 mm arm.",
-    "source": "bench",
-    "picture": true
-  },
-  {
-    "slug": "bench-motor-stand",
-    "date": "2026-11-09",
-    "ref": "benchmarks/motor-test",
-    "title": "17HS4401 on the test stand",
-    "note": "A 17HS4401 on a stand, with a dial and a 100 mm arm: holding, detent, speed and heat.",
     "source": "bench",
     "picture": true
   },
