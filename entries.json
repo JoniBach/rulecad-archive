@@ -1,5 +1,23 @@
 [
   {
+    "slug": "fixings-shelf-bracket",
+    "date": "2026-11-15",
+    "ref": "fix/shelf",
+    "title": "A shelf bracket on its wall plate",
+    "note": "EXAMPLES chapter 15: a shelf bracket on its wall plate, a pilot, an insert boss and two nuts in slots, each screw checked by fasten",
+    "source": "examples",
+    "picture": true
+  },
+  {
+    "slug": "fixings-coupon",
+    "date": "2026-11-15",
+    "ref": "benchmarks/fixings-coupon",
+    "title": "Fixings coupon 0.1.0",
+    "note": "The fixings coupon (MEASURE.md print 7): pilots, insert holes, nut pockets and slots, a counterbore and printed threads, to measure on the X1C",
+    "source": "bench",
+    "picture": true
+  },
+  {
     "slug": "xiao-core-32",
     "date": "2026-11-13",
     "ref": "xiaocore/core",

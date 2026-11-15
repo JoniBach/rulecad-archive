@@ -2,6 +2,7 @@
 
 ## Experiments
 
+- **[Fixings from rules: a bracket screwed on, and the coupon that measures it](experiments/fixings/)** (2026-11-15): @rulecad/fixings in designs (v.fixings) and fasten in assemblies: each screw followed along its axis for its holes, its far end, its length, its thread, its seat, its key and its load. A shelf bracket with a pilot, an insert boss and nuts in slots, and the fixings coupon to print; measurements to come. [On the site](https://jonibach.github.io/rulecad-archive/experiments/fixings/)
 - **[An arm that draws, then lifts, then a leg: checked before it's printed](experiments/robots/)** (2026-11-10): A SCARA arm sized from its task, the same parts upright with a gripper and a Z axis, and a leg from the arm's gearbox, with reach, speed, an error budget, bearing and link loads, wiring, a shopping list and a build page from one assembly. Predictions only so far: nothing has been printed or moved. [On the site](https://jonibach.github.io/rulecad-archive/experiments/robots/)
 - **[What to print to test the robots: benchmarks, then the arm, then the leg](experiments/robots-print-list/)** (2026-11-10): The print list and measurements that settle the robot work's three open tests: the bench parts first, then the arm that draws, the same arm lifting, and a leg on a stand, with what each one needs and what it decides. [On the site](https://jonibach.github.io/rulecad-archive/experiments/robots-print-list/)
 - **[Benchmarks for a robot joint: every estimate, measured](experiments/benchmarks/)** (2026-11-09): Small parts with plain first layers that measure what a printed robot joint rests on: fits, backlash, a stepper's real torque, what a mesh passes on, and a 38:1 shoulder's play, twist and repeatability. [On the site](https://jonibach.github.io/rulecad-archive/experiments/benchmarks/)
@@ -29,6 +30,22 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
+
+### A shelf bracket on its wall plate
+
+2026-11-15 · `fix/shelf` in examples: EXAMPLES chapter 15: a shelf bracket on its wall plate, a pilot, an insert boss and two nuts in slots, each screw checked by fasten
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/fixings-shelf-bracket/)
+
+[![A shelf bracket on its wall plate](m/fixings-shelf-bracket/preview.png)](https://jonibach.github.io/rulecad-archive/m/fixings-shelf-bracket/)
+
+### Fixings coupon 0.1.0
+
+2026-11-15 · `benchmarks/fixings-coupon` in bench: The fixings coupon (MEASURE.md print 7): pilots, insert holes, nut pockets and slots, a counterbore and printed threads, to measure on the X1C
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/fixings-coupon/)
+
+[![Fixings coupon 0.1.0](m/fixings-coupon/preview.png)](https://jonibach.github.io/rulecad-archive/m/fixings-coupon/)
 
 ### XIAO core, 32 mm
 
