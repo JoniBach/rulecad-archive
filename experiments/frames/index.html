@@ -1,0 +1,55 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A frame of beams with a moving axis: cut, drilled, printed and built from one assembly</title>
+<meta property="og:title" content="A frame of beams with a moving axis: cut, drilled, printed and built from one assembly">
+<meta property="og:image" content="https://jonibach.github.io/rulecad-archive/experiments/frames/picture.png">
+<style>body { font-family: system-ui, sans-serif; margin: 0; background: #111; color: #ddd; line-height: 1.5; }
+  main, header, section { max-width: 72rem; margin: 0 auto; padding: 1rem 1.25rem; } main { max-width: 52rem; }
+  a { color: #8cf; } img { max-width: 100%; border-radius: 6px; } code { color: #bbb; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.9rem; margin: 1rem 0; } th, td { border-bottom: 1px solid #333; padding: 0.4rem 0.5rem; text-align: left; vertical-align: top; }</style>
+<main>
+<p><a href="../../">← rulecad archive</a></p>
+<h1>A frame of beams with a moving axis: cut, drilled, printed and built from one assembly</h1>
+<p><strong>17 November 2026 · @rulecad/frames and cad, branch frames-2 of rulecad (issue <a href="https://github.com/JoniBach/rulecad/issues/263">263</a>, plan <a href="https://github.com/JoniBach/rulecad/issues/240">240</a>) · EXAMPLES chapter 16</strong></p>
+<p>A box of aluminium extrusion is the start of many machines: a camera slider, a plotter, a test rig. Drawing one is the easy part. The hard parts are the ones people meet at the bench: which beams to cut to what length, where to drill the access holes, which slot nuts have to be in a slot before a corner closes it, how long each screw is, and what to print. This experiment builds one small frame entirely from a single assembly file and lets the kit work all of that out.</p>
+<p>Nothing here has been cut or printed yet. Every figure below is a prediction, and a table of predicted against measured will go here once there is one.</p>
+<p><img src="picture.png" alt="The box with its carriage at the start of its travel"></p>
+<h2>The model</h2>
+<ul><li><a href="../../m/2026-11-17-frame-box/">A box of 2020 with a moving axis</a>: open it and drag the carriage's slider to sweep</li></ul>
+<p>  it along its axis, 0 to 99.5 mm.</p>
+<p><img src="travel-end.png" alt="The same box with the carriage at the end of its travel"></p>
+<h2>What it is</h2>
+<ul><li>Twelve beams of one profile, MISUMI's 2020 (HFS5-2020), each placed by its two ends: four 200 mm posts, four 260 mm</li></ul>
+<p>  rails along x and four 220 mm rails along y.</p>
+<ul><li>Twelve blind joins (a tapped rail end, a button-head screw hidden in the post's slot, an access hole for the key)</li></ul>
+<p>  and four printed corner brackets on the bottom rails along y.</p>
+<ul><li>A printed foot screwed into each post's tapped end, and a printed end cap pushed onto each top end.</li><li>An axis on the top front rail: two 8 mm rods in printed holders, a printed carriage on two LM8UU bearings, a T8 lead</li></ul>
+<p>  screw driven by a NEMA 17 on a printed motor plate. Every part of it is placed by the guide from the beam's   addresses.</p>
+<ul><li>A printed board plate screwed into the bottom front rail's slot on drop-in nuts.</li></ul>
+<h2>What the checks predict</h2>
+<table><tr><th>Check</th><th>Prediction</th><th>Rests on</th></tr><tr><td>Joins</td><td>all 16 meet their faces square and flush; all 24 beam ends joined or capped</td><td>geometry</td></tr><tr><td>Blind join screws</td><td>M5x12 button, 10 mm into the rail's own thread, 3.68 N m at most on the post's lips</td><td>MISUMI's section; the lips' bearing only (an estimate)</td></tr><tr><td>Carriage travel</td><td>99.5 mm, swept in 12 steps with nothing colliding</td><td>geometry</td></tr><tr><td>Motor</td><td>127 N at the carriage against 20 N asked, 6.36 times over; 80 mm/s</td><td>the motor's and the screw's sets; the nut's friction (an estimate)</td></tr><tr><td>Motor heat</td><td>case at most 53.8 °C at 1.2 A, under PLA's 57 °C</td><td>the maker's temperature rise, scaled by the current squared</td></tr><tr><td>Bearings</td><td>the worse LM8UU takes 2.7 N against its 400 N rating</td><td>the bearing's set</td></tr><tr><td>Brackets</td><td>4.8 mm thick, 4.1 g, 2.86 times under PLA's strength at 100 N</td><td>coarse finite elements, PLA's strength (community figure)</td></tr><tr><td>Squareness</td><td>each side's diagonals 286.36 mm, accept up to 0.91 mm between them</td><td>MISUMI's ±0.5 mm cut tolerance</td></tr><tr><td>Joint stiffness</td><td>blind 1.5 N·m/mrad in bending; bracket 0.095 by finite elements</td><td>estimates until the joint rig (issue 264) measures one</td></tr></table>
+<h2>From the assembly to the bench</h2>
+<ul><li><strong>Cut list.</strong> Seven marks, all twelve beams from one 4000 mm bar with a 1234 mm offcut; a cut-and-drill sheet for</li></ul>
+<p>  each mark.</p>
+<ul><li><strong>Jigs.</strong> Eight printed jigs: a tap guide for the M5 ends, a cut-length stop for each length, two drill guides for</li></ul>
+<p>  the posts' access holes and a squaring corner of each hand.</p>
+<ul><li><strong>Fasteners.</strong> 12 × M5x12 button, 16 × M4x10 cap, 18 drop-in slot nuts, 4 × M5x16 cap, 2 × M4x8 button, and the</li></ul>
+<p>  motor's and the lead nut's screws, with the packs to buy.</p>
+<ul><li><strong>One plate.</strong> All 17 printed parts, 124 g and about 134 minutes, fit one plate of the X1C's 256 mm bed, laid as each</li></ul>
+<p>  prints and checked as one print.</p>
+<ul><li><strong>Build order.</strong> 37 steps from bars to a square frame: the front and back sides built flat and squared by their</li></ul>
+<p>  diagonals, the rails along y, the back side on as one, the frame squared, then everything else mounted.</p>
+<p><img src="plate.png" alt="All 17 printed parts on one plate"></p>
+<h2>Two mistakes, caught</h2>
+<ul><li><strong>A trapped nut.</strong> The board plate on slide-in nuts, in a slot both of whose ends are closed by joins. The check</li></ul>
+<p>  fails (<code>frame.nut</code>) and names the drop-in nut that goes in through the opening; the build order is refused, because   whichever join is made second shuts the nuts in.</p>
+<ul><li><strong>The wrong slot spacing.</strong> The same plate drawn with its holes 30 mm apart, as a 30 series beam's slots are, on a</li></ul>
+<p>  2040 whose slots are 20 mm apart. Each screw fails <code>fasten.slot</code>: 5 mm off its slot's centre line, where its hole   lets it move 0.3 mm.</p>
+<h2>What building it found in the kit</h2>
+<p>Writing the chapter turned up six gaps, each fixed with a test:</p>
+<ul><li>A printed end cap's pegs were counted as overlapping the beam they push into.</li><li>A NEMA 17's 24 mm shaft reached past the coupler's middle into the lead screw.</li><li>The slot nut checks were silent on any frame with a moving axis, because each pose was checked without its screws.</li><li>A rods guide had no way to choose its slot nuts, so on a rail closed at both ends its nuts were shut in.</li><li><code>cad plates</code> could not lay out a frame's printed fittings; now each goes on the plate as it prints.</li><li>The motor's heat check ignored the driver current it advises setting.</li></ul>
+<h2>Still to do</h2>
+<ul><li>The frame's own sag, sway and lowest frequency under the carriage come with the frame checks (issues 265 to 267).</li><li>Each join's stiffness is an estimate until the joint rig (issue 264) measures one.</li><li>The build order mounts the axis's parts in an order to tidy: the carriage before its rods and bearings, and the feet</li></ul>
+<p>  and caps scattered through the last steps.</p>
+</main>

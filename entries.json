@@ -1,5 +1,14 @@
 [
   {
+    "slug": "2026-11-17-frame-box",
+    "date": "2026-11-17",
+    "ref": "frame/box",
+    "title": "A box of 2020 with a moving axis",
+    "note": "A box of 2020 placed by its ends: blind joins, printed brackets, feet and caps, a NEMA 17 driving a carriage on two rods along the top front rail (99.5 mm of travel); drag the carriage's slider to sweep it along its axis",
+    "source": "ws16",
+    "picture": true
+  },
+  {
     "slug": "xiao-core-32",
     "date": "2026-11-13",
     "ref": "xiaocore/core",
