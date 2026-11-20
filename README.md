@@ -33,7 +33,7 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 
 ### The case, every beam printed: base, plate 1
 
-2026-11-20 · `case/printed-base-1` in ws17: The printed case's one plate: 73 PETG parts, 592 g, laid as each prints
+2026-11-20 · `case/printed-base-1` in ws17: The printed case's one plate: 73 PETG parts, 593 g, laid as each prints
 
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/2026-11-20-printed-case-plate/)
 

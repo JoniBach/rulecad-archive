@@ -55,23 +55,30 @@ own weight, sags 0.0032 mm in PETG; the frame's 0.009 mm adds the rails bending 
 | Rail, standing (× 8) | 31.3 or 29.1 | 50 N pulling a nut out of a slot | 3.07 |
 | Cross beam, lying | 33.8 | 100 N pulling a nut out of its slot | 4.2 |
 | Corner bracket (× 16) | 4.5 | 100 N at its screw | 3.09, finite elements |
-| T gusset (× 2) | 9.0 | 100 N at its farthest screw | 5.76, finite elements |
+| T gusset (× 2) | 9.4 | 100 N at its farthest screw | 5.97, finite elements |
 | Board mount | 27.1 | 50 N on the board | 4.62 |
 | Fan mount | 17.5 | 50 N on the fan | 5.65 |
 | Panel clip (× 32) | 1.6 | 30 N pushing the panel out | 2.12 |
 | Foot (× 4) | 4.6 | 250 N down the post | 73.8 |
 | End cap (× 4) | 1.3 | pushed on | |
 
-73 parts, 592 g, about 654 minutes, on one plate of the X1C that prints clean: no overhang past 45°, nothing in
+73 parts, 593 g, about 654 minutes, on one plate of the X1C that prints clean: no overhang past 45°, nothing in
 mid-air. A standing slot's lips at the kit's 100 N pull hold only 1.56 times, so the standing beams are sized for
 50 N, a hand pressing on a closed case.
+
+The cross beam's printable slot has lips that slope underneath, so a drop-in nut seats 3.95 mm under the face, not
+2 mm as in MISUMI's slot, and its thread starts lower. Each gusset has MISUMI's slot under one arm and the printable
+slot under the other, so it is 4.6 mm thick, the least at which a length sold fits both: M4x10 into the rails and
+M4x12 into the cross beam, each with the 3.2 mm of thread a hex nut's height asks. (A first version counted the thread
+from under the lips, and passed an M4x10 into the cross beam with 2.45 mm of thread engaged.)
 
 ![The one plate: the posts and rails standing, the rest lying as each prints](plate.png)
 
 ## Two mistakes the checks catch
 
 - A 300 mm rail printed lying down is longer than the X1C's 256 mm bed: `beam.printable` fails and says to splice it.
-  Two 150 mm halves held by a printed splice plate (3.22 g, 4.4 times under PETG's strength at 100 N) pass.
+  Two 150 mm halves held by a printed splice plate (4.6 mm thick for its M4x12 screws, 3.7 g, 4.88 times under PETG's
+  strength at 100 N) pass.
 - A foot drawn for the aluminium post, an M5 screw for its tap: `fasten.end` fails, saying the printed post's end is an
   M3 captive nut and the screw should be an M3.
 
