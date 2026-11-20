@@ -1,5 +1,23 @@
 [
   {
+    "slug": "thin-module-macropad-rear",
+    "date": "2026-11-20",
+    "ref": "thin-picro/macropad:rear",
+    "title": "Macropad for the thin module (rear) 0.1.0",
+    "note": "3 x 4 keys (MX or Choc v1, soldered), the thin RP2040 module under the top row on pin headers, parts down; 59.7 x 76.9 mm, no bigger than the keys and module; every check passing. Not built yet",
+    "source": "thin-picro",
+    "picture": true
+  },
+  {
+    "slug": "thin-module-macropad-front",
+    "date": "2026-11-20",
+    "ref": "thin-picro/macropad:front",
+    "title": "Macropad for the thin module (front) 0.1.0",
+    "note": "3 x 4 keys (MX or Choc v1, soldered), the thin RP2040 module on top (castellated or on headers), SPI and I2C display sockets; 70.7 x 109.2 mm, two layers, every check passing. Not built yet",
+    "source": "thin-picro",
+    "picture": true
+  },
+  {
     "slug": "xiao-core-32",
     "date": "2026-11-13",
     "ref": "xiaocore/core",

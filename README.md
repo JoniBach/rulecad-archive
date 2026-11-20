@@ -30,6 +30,22 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
+### Macropad for the thin module (rear) 0.1.0
+
+2026-11-20 · `thin-picro/macropad:rear` in thin-picro: 3 x 4 keys (MX or Choc v1, soldered), the thin RP2040 module under the top row on pin headers, parts down; 59.7 x 76.9 mm, no bigger than the keys and module; every check passing. Not built yet
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-module-macropad-rear/)
+
+[![Macropad for the thin module (rear) 0.1.0](m/thin-module-macropad-rear/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-module-macropad-rear/)
+
+### Macropad for the thin module (front) 0.1.0
+
+2026-11-20 · `thin-picro/macropad:front` in thin-picro: 3 x 4 keys (MX or Choc v1, soldered), the thin RP2040 module on top (castellated or on headers), SPI and I2C display sockets; 70.7 x 109.2 mm, two layers, every check passing. Not built yet
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-module-macropad-front/)
+
+[![Macropad for the thin module (front) 0.1.0](m/thin-module-macropad-front/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-module-macropad-front/)
+
 ### XIAO core, 32 mm
 
 2026-11-13 · `xiaocore/core` in hardware: A 32 mm core for a XIAO ESP32-C6: a four-layer carrier board with spring contacts on every side and spring pins to a wall seat underneath, in a shell with a two-clip lid. Poses show the lid and board going in.
