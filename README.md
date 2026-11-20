@@ -2,6 +2,7 @@
 
 ## Experiments
 
+- **[A case of printed beams: a Raspberry Pi 4 case with no bar to buy](experiments/printed-case/)** (2026-11-20): A small case of 2020 beams drawn in aluminium, every beam found printable in PETG, then drawn printed: posts and rails standing up from MISUMI's section, the cross beam lying down from the kit's printable profile, printed brackets, gussets, panels' clips, feet, the board's mount and a fan mount, all on one plate of 73 parts that prints clean. The sag under the board both ways. Predictions only so far: nothing has been printed. [On the site](https://jonibach.github.io/rulecad-archive/experiments/printed-case/)
 - **[An arm that draws, then lifts, then a leg: checked before it's printed](experiments/robots/)** (2026-11-10): A SCARA arm sized from its task, the same parts upright with a gripper and a Z axis, and a leg from the arm's gearbox, with reach, speed, an error budget, bearing and link loads, wiring, a shopping list and a build page from one assembly. Predictions only so far: nothing has been printed or moved. [On the site](https://jonibach.github.io/rulecad-archive/experiments/robots/)
 - **[What to print to test the robots: benchmarks, then the arm, then the leg](experiments/robots-print-list/)** (2026-11-10): The print list and measurements that settle the robot work's three open tests: the bench parts first, then the arm that draws, the same arm lifting, and a leg on a stand, with what each one needs and what it decides. [On the site](https://jonibach.github.io/rulecad-archive/experiments/robots-print-list/)
 - **[Benchmarks for a robot joint: every estimate, measured](experiments/benchmarks/)** (2026-11-09): Small parts with plain first layers that measure what a printed robot joint rests on: fits, backlash, a stepper's real torque, what a mesh passes on, and a 38:1 shoulder's play, twist and repeatability. [On the site](https://jonibach.github.io/rulecad-archive/experiments/benchmarks/)
@@ -29,6 +30,22 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
+
+### The case, every beam printed: base, plate 1
+
+2026-11-20 · `case/printed-base-1` in ws17: The printed case's one plate: 73 PETG parts, 592 g, laid as each prints
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/2026-11-20-printed-case-plate/)
+
+[![The case, every beam printed: base, plate 1](m/2026-11-20-printed-case-plate/preview.png)](https://jonibach.github.io/rulecad-archive/m/2026-11-20-printed-case-plate/)
+
+### The case, every beam printed
+
+2026-11-20 · `case/printed` in ws17: A Raspberry Pi 4 case with every beam printed in PETG: EXAMPLES chapter 17
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/2026-11-20-printed-case/)
+
+[![The case, every beam printed](m/2026-11-20-printed-case/preview.png)](https://jonibach.github.io/rulecad-archive/m/2026-11-20-printed-case/)
 
 ### Macropad for the thin module (rear) 0.1.0
 

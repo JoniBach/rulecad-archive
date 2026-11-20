@@ -1,5 +1,23 @@
 [
   {
+    "slug": "2026-11-20-printed-case-plate",
+    "date": "2026-11-20",
+    "ref": "case/printed-base-1",
+    "title": "The case, every beam printed: base, plate 1",
+    "note": "The printed case's one plate: 73 PETG parts, 592 g, laid as each prints",
+    "source": "ws17",
+    "picture": true
+  },
+  {
+    "slug": "2026-11-20-printed-case",
+    "date": "2026-11-20",
+    "ref": "case/printed",
+    "title": "The case, every beam printed",
+    "note": "A Raspberry Pi 4 case with every beam printed in PETG: EXAMPLES chapter 17",
+    "source": "ws17",
+    "picture": true
+  },
+  {
     "slug": "thin-module-macropad-rear",
     "date": "2026-11-20",
     "ref": "thin-picro/macropad:rear",
