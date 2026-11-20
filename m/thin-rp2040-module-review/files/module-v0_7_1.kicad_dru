@@ -1,0 +1,4 @@
+(version 1)
+(rule "J1: its pads by the edge, as the source has them"
+  (condition "A.Parent == 'J1' && A.Type == 'Pad'")
+  (constraint edge_clearance (min 0mm)))

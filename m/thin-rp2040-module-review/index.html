@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thin RP2040 module review</title>
+<meta property="og:title" content="Thin RP2040 module 0.7.1: design review pack">
+<meta property="og:image" content="https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/board.png">
+<style>
+:root { --bg:#fff; --fg:#1b1b1b; --muted:#5b5b5b; --line:#ddd; --link:#0b57d0; --note:#fff7e0; }
+@media (prefers-color-scheme: dark) { :root { --bg:#141414; --fg:#e8e8e8; --muted:#a8a8a8; --line:#333; --link:#8ab4f8; --note:#2a2414; } }
+body { background:var(--bg); color:var(--fg); font:16px/1.55 system-ui, sans-serif; max-width:46em; margin:2em auto; padding:0 16px; }
+a { color:var(--link); } h1 { font-size:1.6em; margin-bottom:.2em; } h2 { font-size:1.15em; margin-top:2em; border-bottom:1px solid var(--line); padding-bottom:.2em; }
+.sub { color:var(--muted); margin-top:0; } table { border-collapse:collapse; width:100%; } td, th { text-align:left; padding:.3em .6em .3em 0; border-bottom:1px solid var(--line); vertical-align:top; }
+img { max-width:100%; height:auto; border:1px solid var(--line); } .note { background:var(--note); padding:.6em .9em; border-radius:6px; } code { font-size:.92em; }
+</style>
+<h1>Thin RP2040 module 0.7.1: design review pack</h1>
+<p class="sub">A request for an engineer's review before a first build at JLCPCB (10 boards, assembled). 20 November 2026.</p>
+
+<h2>The board</h2>
+<p>A long, thin RP2040 controller for keyboards, 59.7 × 21.0 mm, 4 layers, 1.6 mm. Its circuit is <a href="https://github.com/joshajohnson/sea-picro">Sea-Picro</a>'s (Josh Johnson's open-source RP2040 keyboard controller, CERN-OHL-S), redrawn to a new outline: castellated pins along one long edge and up both ends (the end columns 3 key widths, 57.15 mm, apart), USB-C mid-mounted in a notch on the other long edge, two M2 mounting holes.</p>
+<p>It was made with <a href="https://github.com/JoniBach/rulecad">rulecad</a>: Sea-Picro's KiCad board read in, parts placed by rule, the rest autorouted. Sea-Picro's own tracks and vias round the RP2040 are kept exactly (but for 7 short escapes trimmed back). Inner layers: a GND plane and a 3.3 V plane.</p>
+<p><a href="../thin-rp2040-module/">Open it in 3D</a> (board views, the schematic and the fab zip) · <a href="https://github.com/JoniBach/rulecad/tree/main/examples/thin-picro">source and README, with the full pinout</a></p>
+<p><img src="../thin-rp2040-module/board.png" alt="Both sides of the board"></p>
+
+<h2>Files</h2>
+<table>
+<tr><td><a href="files/module-v0_7_1.kicad_pcb">module-v0_7_1.kicad_pcb</a>, <a href="files/module-v0_7_1.kicad_pro">.kicad_pro</a>, <a href="files/module-v0_7_1.kicad_dru">.kicad_dru</a></td><td>The board in KiCad 10 (download all three into one folder)</td></tr>
+<tr><td><a href="files/module-v0_7_1.kicad_sch">module-v0_7_1.kicad_sch</a></td><td>A schematic generated from the netlist: correct connections, machine-drawn layout. Sea-Picro's own schematic reads better for the circuit</td></tr>
+<tr><td><a href="files/module-v0_7_1-fab.zip">module-v0_7_1-fab.zip</a></td><td>What JLCPCB was sent: Gerbers and drill files plotted by KiCad, BOM and placement (CPL)</td></tr>
+<tr><td><a href="files/kicad-drc-2026-11-20.json">kicad-drc-2026-11-20.json</a></td><td>KiCad's design-rule check of the board, run 20 Nov with zones refilled</td></tr>
+<tr><td><a href="../thin-rp2040-module/schematic.png">schematic.png</a></td><td>The schematic as a picture</td></tr>
+</table>
+
+<h2>What has been checked</h2>
+<ul>
+<li>Every net joins the same pins as Sea-Picro's and no others (plus an added 3V3 pin and two GND pins).</li>
+<li>Decoupling capacitors sit by their power pins, the crystal's capacitors by the crystal.</li>
+<li>JLCPCB's limits for tracks, gaps, vias and castellated holes.</li>
+<li>KiCad's DRC: 0 unconnected items, 3 errors, all the same known one: three VBUS bridge tracks on the back are 0.15 mm from the USB-C notch's edge (0.2 mm required). Sea-Picro's own copper is as close.</li>
+<li>The fab zip matches the KiCad board: drill positions, the USB-C shell's 4 slotted holes, 47 placements matching the BOM.</li>
+</ul>
+
+<h2>As ordered (differs from the files)</h2>
+<table>
+<tr><th>Option</th><th>Ordered</th></tr>
+<tr><td>Layers, thickness, finish</td><td>4, 1.6 mm, ENIG</td></tr>
+<tr><td>Vias</td><td>0.15 mm hole, 0.3 mm pad (router vias); planes' vias 0.25/0.5 mm. 4-wire Kelvin test</td></tr>
+<tr><td>Castellated holes</td><td>Yes, 3 edges</td></tr>
+<tr><td>Assembly</td><td>Standard PCBA, top side, 10 boards, edge rails added by JLCPCB and removed before delivery</td></tr>
+<tr><td>D2 (power LED)</td><td><b>Changed:</b> KT-0603R red, LCSC C2286, in place of the BOM's pink OSK40603C1E (C268294, out of stock). Same 0603 footprint and resistor</td></tr>
+<tr><td>U2 (flash)</td><td>GD25Q64CWIGR, 8 MB (the README's 16 MB is wrong)</td></tr>
+</table>
+
+<h2>Where a second opinion would help most</h2>
+<div class="note">
+<ol>
+<li><b>Autorouted tracks</b> outside Sea-Picro's own area, especially USB D+/D− (not length-matched or impedance-controlled; USB full speed) and the QSPI flash lines.</li>
+<li><b>Placement rotations</b> in the CPL: their match with JLCPCB's part orientation hasn't been checked (pin 1 of U1 to U4, Q1/Q2, Y1; D1/D2 polarity; J1).</li>
+<li><b>The notch edge</b>: VBUS copper 0.15 mm from a milled edge.</li>
+<li><b>Castellated pads</b>: 0.2 mm copper ring (Sea-Picro's), above JLCPCB's minimum and below the 0.25 mm it recommends.</li>
+<li>Anything in power entry (fuse, VBUS diode, 3.3 V regulator) or the level-shifted LED data line (pad 32, LED5V).</li>
+</ol>
+</div>
+
+<h2>Glossary</h2>
+<p><b>Castellated holes</b>: plated holes cut in half by the board edge, so the board solders flat onto another. <b>CPL</b>: component placement list (position and rotation of each part). <b>DRC</b>: design-rule check. <b>ENIG</b>: a flat gold surface finish. <b>QSPI</b>: the RP2040's four-line bus to its external flash.</p>
+
+<h2>Licence</h2>
+<p>CERN Open Hardware Licence v2, Strongly Reciprocal, as Sea-Picro.</p>
+</html>
