@@ -1,14 +1,5 @@
 [
   {
-    "slug": "thin-rp2040-module",
-    "date": "2026-11-20",
-    "ref": "thin-picro/module",
-    "title": "Thin RP2040 module 0.7.2",
-    "note": "0.7.2: tracks finished for the fab (square pad exits, acute corners filled) after an engineer's review; fab files plotted and checked by KiCad, the JLCPCB zip in the link. Not yet built",
-    "source": "thin-picro",
-    "picture": true
-  },
-  {
     "slug": "thin-module-macropad-rear",
     "date": "2026-11-20",
     "ref": "thin-picro/macropad-rear",
@@ -23,6 +14,15 @@
     "ref": "thin-picro/macropad-front",
     "title": "Macropad, module on top: MX keys and a 2.0 in display",
     "note": "Built: 12 MX switches with DSA caps on a through-hole 4 x 3 matrix (a DO-35 per key), the thin module soldered flat above the keys, a 2.0 in ST7789 lying over it in its socket. 67.6 x 105.7 mm board, every check passing, no parts overlapping. Not built yet",
+    "source": "thin-picro",
+    "picture": true
+  },
+  {
+    "slug": "thin-rp2040-module",
+    "date": "2026-11-20",
+    "ref": "thin-picro/module",
+    "title": "Thin RP2040 module 0.7.2",
+    "note": "0.7.2: tracks finished for the fab (square pad exits, acute corners filled) after an engineer's review; fab files plotted and checked by KiCad, the JLCPCB zip in the link. Not yet built",
     "source": "thin-picro",
     "picture": true
   },

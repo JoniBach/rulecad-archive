@@ -30,14 +30,6 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
-### Thin RP2040 module 0.7.2
-
-2026-11-20 · `thin-picro/module` in thin-picro: 0.7.2: tracks finished for the fab (square pad exits, acute corners filled) after an engineer's review; fab files plotted and checked by KiCad, the JLCPCB zip in the link. Not yet built
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
-
-[![Thin RP2040 module 0.7.2](m/thin-rp2040-module/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
-
 ### Macropad, module behind the top row: Choc keys
 
 2026-11-20 · `thin-picro/macropad-rear` in thin-picro: Built: 12 Choc v1 switches with low-profile caps on a through-hole 4 x 3 matrix, the thin module under the top row on pin headers, parts down; 59.7 x 76.9 mm board, 18.3 mm tall, every check passing, no parts overlapping. Not built yet
@@ -53,6 +45,14 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-module-macropad-front/)
 
 [![Macropad, module on top: MX keys and a 2.0 in display](m/thin-module-macropad-front/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-module-macropad-front/)
+
+### Thin RP2040 module 0.7.2
+
+2026-11-20 · `thin-picro/module` in thin-picro: 0.7.2: tracks finished for the fab (square pad exits, acute corners filled) after an engineer's review; fab files plotted and checked by KiCad, the JLCPCB zip in the link. Not yet built
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
+
+[![Thin RP2040 module 0.7.2](m/thin-rp2040-module/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
 
 ### XIAO core, 32 mm
 
