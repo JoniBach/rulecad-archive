@@ -3,7 +3,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Thin RP2040 module review</title>
-<meta property="og:title" content="Thin RP2040 module 0.7.1: design review pack">
+<meta property="og:title" content="Thin RP2040 module 0.7.2: design review pack">
 <meta property="og:image" content="https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/board.png">
 <style>
 :root { --bg:#fff; --fg:#1b1b1b; --muted:#5b5b5b; --line:#ddd; --link:#0b57d0; --note:#fff7e0; }
@@ -13,8 +13,8 @@ a { color:var(--link); } h1 { font-size:1.6em; margin-bottom:.2em; } h2 { font-s
 .sub { color:var(--muted); margin-top:0; } table { border-collapse:collapse; width:100%; } td, th { text-align:left; padding:.3em .6em .3em 0; border-bottom:1px solid var(--line); vertical-align:top; }
 img { max-width:100%; height:auto; border:1px solid var(--line); } .note { background:var(--note); padding:.6em .9em; border-radius:6px; } code { font-size:.92em; }
 </style>
-<h1>Thin RP2040 module 0.7.1: design review pack</h1>
-<p class="sub">A request for an engineer's review before a first build at JLCPCB (10 boards, assembled). 20 November 2026.</p>
+<h1>Thin RP2040 module 0.7.2: design review pack</h1>
+<p class="sub">For an engineer's review before a first build at JLCPCB (10 boards, assembled). 0.7.2 answers the first review (20 November 2026): sharp track angles, and tracks leaving pads at an angle.</p>
 
 <h2>The board</h2>
 <p>A long, thin RP2040 controller for keyboards, 59.7 × 21.0 mm, 4 layers, 1.6 mm. Its circuit is <a href="https://github.com/joshajohnson/sea-picro">Sea-Picro</a>'s (Josh Johnson's open-source RP2040 keyboard controller, CERN-OHL-S), redrawn to a new outline: castellated pins along one long edge and up both ends (the end columns 3 key widths, 57.15 mm, apart), USB-C mid-mounted in a notch on the other long edge, two M2 mounting holes.</p>
@@ -22,12 +22,30 @@ img { max-width:100%; height:auto; border:1px solid var(--line); } .note { backg
 <p><a href="../thin-rp2040-module/">Open it in 3D</a> (board views, the schematic and the fab zip) · <a href="https://github.com/JoniBach/rulecad/tree/main/examples/thin-picro">source and README, with the full pinout</a></p>
 <p><img src="../thin-rp2040-module/board.png" alt="Both sides of the board"></p>
 
+
+<h2>What changed after the first review</h2>
+<p>The first review flagged two things: <b>sharp angles</b> between tracks, and <b>tracks leaving pads at an angle</b> (a small part can tombstone when its tracks pull unevenly). Most came from our router's straightened tracks, which ran at any angle. 0.7.2 adds a finishing pass after routing, applied to every track, Sea-Picro's own included:</p>
+<ul>
+<li><b>Square exits:</b> a track leaving an SMD pad at an angle is redrawn to run straight out of the pad's nearest edge for 0.06 to 0.3 mm before it turns, never closer to other copper than the track it replaces.</li>
+<li><b>Acute corners filled:</b> where two tracks of a net meet at under 90°, a short piece of the same copper is laid across the corner so the notch becomes two obtuse corners; a very sharp one is rejoined square onto the other track instead.</li>
+</ul>
+<table>
+<tr><th>Measured</th><th>0.7.1</th><th>0.7.2</th></tr>
+<tr><td>Tracks crossing an SMD pad's edge at an angle (from the KiCad files, independently)</td><td>75</td><td>15</td></tr>
+<tr><td>Angled exits, as the board checks count them</td><td>89</td><td>16</td></tr>
+<tr><td>Acute corners between tracks</td><td>13</td><td>4</td></tr>
+<tr><td>KiCad DRC errors</td><td>3 (USB-C notch edge)</td><td>3 (the same)</td></tr>
+</table>
+<h2>What's left, for your judgement</h2>
+<p>None of these could change without moving other nets' copper. 12 exits and 1 corner are in Sea-Picro's own layout round the RP2040, which its boards are made with. Of the angled exits, 11 are on two-pad parts (the tombstoning concern): 10 in Sea-Picro's layout, 1 ours (C3).</p>
+<table><tr><th>What</th><th>Pad</th><th>At (mm, board centre, y up)</th><th>Layer</th><th>Whose copper</th></tr><tr><td>Angled exit</td><td>C14 pin1</td><td>-4.8, 4.97</td><td>top</td><td>Sea-Picro original</td></tr><tr><td>Angled exit</td><td>C8 pin1</td><td>-0.55, 0.2</td><td>top</td><td>Sea-Picro original</td></tr><tr><td>Angled exit</td><td>R5 pin1</td><td>1.55, 2.05</td><td>top</td><td>Sea-Picro original</td></tr><tr><td>Angled exit</td><td>R12 pin1</td><td>0.6, 1.1</td><td>top</td><td>Sea-Picro original</td></tr><tr><td>Angled exit</td><td>R6 pin1</td><td>-10.24, -3.44</td><td>top</td><td>Sea-Picro original</td></tr><tr><td>Angled exit</td><td>Y1 pin3</td><td>-0.23, -4.35</td><td>top</td><td>Sea-Picro original</td></tr><tr><td>Angled exit</td><td>C6 pin2</td><td>-0.58, -1.57</td><td>top</td><td>Sea-Picro original</td></tr><tr><td>Angled exit</td><td>C9 pin1</td><td>-10.44, 2.67</td><td>top</td><td>Sea-Picro original</td></tr><tr><td>Angled exit</td><td>R9 pin2</td><td>-0.61, -0.75</td><td>top</td><td>Sea-Picro original</td></tr><tr><td>Angled exit</td><td>U3 pin30</td><td>-3.44, 3.1</td><td>top</td><td>Sea-Picro original</td></tr><tr><td>Angled exit</td><td>R11 pin1</td><td>1.6, 1.14</td><td>top</td><td>Sea-Picro original</td></tr><tr><td>Angled exit</td><td>R14 pin2</td><td>2.6, 0.14</td><td>top</td><td>Sea-Picro original</td></tr><tr><td>Angled exit</td><td>C3 pin1</td><td>12.03, 2.76</td><td>top</td><td>ours (routed)</td></tr><tr><td>Angled exit</td><td>U4 pin4</td><td>-16.6, 5.95</td><td>top</td><td>ours (routed)</td></tr><tr><td>Angled exit</td><td>U1 pin3</td><td>-17.19, -0.74</td><td>top</td><td>ours (routed)</td></tr><tr><td>Angled exit</td><td>J1 pinB6</td><td>13.55, 4.32</td><td>top</td><td>ours (routed)</td></tr><tr><td>Acute corner, 16°</td><td>—</td><td>1.95, -1.25</td><td>top</td><td>Sea-Picro original</td></tr><tr><td>Acute corner, 6°</td><td>—</td><td>14.05, 3.86</td><td>top</td><td>ours (routed)</td></tr><tr><td>Acute corner, 45°</td><td>—</td><td>-13.53, 7.66</td><td>top</td><td>ours (routed)</td></tr><tr><td>Acute corner, 4°</td><td>—</td><td>-14.49, 4.53</td><td>bottom</td><td>ours (routed)</td></tr></table>
+
 <h2>Files</h2>
 <table>
-<tr><td><a href="files/module-v0_7_1.kicad_pcb">module-v0_7_1.kicad_pcb</a>, <a href="files/module-v0_7_1.kicad_pro">.kicad_pro</a>, <a href="files/module-v0_7_1.kicad_dru">.kicad_dru</a></td><td>The board in KiCad 10 (download all three into one folder)</td></tr>
-<tr><td><a href="files/module-v0_7_1.kicad_sch">module-v0_7_1.kicad_sch</a></td><td>A schematic generated from the netlist: correct connections, machine-drawn layout. Sea-Picro's own schematic reads better for the circuit</td></tr>
-<tr><td><a href="files/module-v0_7_1-fab.zip">module-v0_7_1-fab.zip</a></td><td>What JLCPCB was sent: Gerbers and drill files plotted by KiCad, BOM and placement (CPL)</td></tr>
-<tr><td><a href="files/kicad-drc-2026-11-20.json">kicad-drc-2026-11-20.json</a></td><td>KiCad's design-rule check of the board, run 20 Nov with zones refilled</td></tr>
+<tr><td><a href="files/module-v0_7_2.kicad_pcb">module-v0_7_2.kicad_pcb</a>, <a href="files/module-v0_7_2.kicad_pro">.kicad_pro</a>, <a href="files/module-v0_7_2.kicad_dru">.kicad_dru</a></td><td>The board in KiCad 10 (download all three into one folder)</td></tr>
+<tr><td><a href="files/module-v0_7_2.kicad_sch">module-v0_7_2.kicad_sch</a></td><td>A schematic generated from the netlist: correct connections, machine-drawn layout. Sea-Picro's own schematic reads better for the circuit</td></tr>
+<tr><td><a href="files/module-v0_7_2-fab.zip">module-v0_7_2-fab.zip</a></td><td>What JLCPCB was sent: Gerbers and drill files plotted by KiCad, BOM and placement (CPL)</td></tr>
+<tr><td><a href="files/kicad-drc-0.7.2.json">kicad-drc-0.7.2.json</a></td><td>KiCad's design-rule check of the board, of 0.7.2, zones refilled</td></tr>
 <tr><td><a href="../thin-rp2040-module/schematic.png">schematic.png</a></td><td>The schematic as a picture</td></tr>
 </table>
 
@@ -38,6 +56,7 @@ img { max-width:100%; height:auto; border:1px solid var(--line); } .note { backg
 <li>JLCPCB's limits for tracks, gaps, vias and castellated holes.</li>
 <li>KiCad's DRC: 0 unconnected items, 3 errors, all the same known one: three VBUS bridge tracks on the back are 0.15 mm from the USB-C notch's edge (0.2 mm required). Sea-Picro's own copper is as close.</li>
 <li>The fab zip matches the KiCad board: drill positions, the USB-C shell's 4 slotted holes, 47 placements matching the BOM.</li>
+<li>Finish: every other track leaves its pad square, no other acute corners (the list above is what's left).</li>
 </ul>
 
 <h2>As ordered (differs from the files)</h2>
@@ -54,6 +73,7 @@ img { max-width:100%; height:auto; border:1px solid var(--line); } .note { backg
 <h2>Where a second opinion would help most</h2>
 <div class="note">
 <ol>
+<li><b>The spots listed above.</b></li>
 <li><b>Autorouted tracks</b> outside Sea-Picro's own area, especially USB D+/D− (not length-matched or impedance-controlled; USB full speed) and the QSPI flash lines.</li>
 <li><b>Placement rotations</b> in the CPL: their match with JLCPCB's part orientation hasn't been checked (pin 1 of U1 to U4, Q1/Q2, Y1; D1/D2 polarity; J1).</li>
 <li><b>The notch edge</b>: VBUS copper 0.15 mm from a milled edge.</li>

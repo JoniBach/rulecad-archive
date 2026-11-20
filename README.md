@@ -30,21 +30,29 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
-### Macropad for the thin module (rear) 0.1.0
+### Thin RP2040 module 0.7.2
 
-2026-11-20 · `thin-picro/macropad:rear` in thin-picro: 3 x 4 keys (MX or Choc v1, soldered), the thin RP2040 module under the top row on pin headers, parts down; 59.7 x 76.9 mm, no bigger than the keys and module; every check passing. Not built yet
+2026-11-20 · `thin-picro/module` in thin-picro: 0.7.2: tracks finished for the fab (square pad exits, acute corners filled) after an engineer's review; fab files plotted and checked by KiCad, the JLCPCB zip in the link. Not yet built
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
+
+[![Thin RP2040 module 0.7.2](m/thin-rp2040-module/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
+
+### Macropad, module behind the top row: Choc keys
+
+2026-11-20 · `thin-picro/macropad-rear` in thin-picro: Built: 12 Choc v1 switches with low-profile caps on a through-hole 4 x 3 matrix, the thin module under the top row on pin headers, parts down; 59.7 x 76.9 mm board, 18.3 mm tall, every check passing, no parts overlapping. Not built yet
 
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-module-macropad-rear/)
 
-[![Macropad for the thin module (rear) 0.1.0](m/thin-module-macropad-rear/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-module-macropad-rear/)
+[![Macropad, module behind the top row: Choc keys](m/thin-module-macropad-rear/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-module-macropad-rear/)
 
-### Macropad for the thin module (front) 0.1.0
+### Macropad, module on top: MX keys and a 2.0 in display
 
-2026-11-20 · `thin-picro/macropad:front` in thin-picro: 3 x 4 keys (MX or Choc v1, soldered), the thin RP2040 module on top (castellated or on headers), SPI and I2C display sockets; 70.7 x 109.2 mm, two layers, every check passing. Not built yet
+2026-11-20 · `thin-picro/macropad-front` in thin-picro: Built: 12 MX switches with DSA caps on a through-hole 4 x 3 matrix (a DO-35 per key), the thin module soldered flat above the keys, a 2.0 in ST7789 lying over it in its socket. 67.6 x 105.7 mm board, every check passing, no parts overlapping. Not built yet
 
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-module-macropad-front/)
 
-[![Macropad for the thin module (front) 0.1.0](m/thin-module-macropad-front/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-module-macropad-front/)
+[![Macropad, module on top: MX keys and a 2.0 in display](m/thin-module-macropad-front/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-module-macropad-front/)
 
 ### XIAO core, 32 mm
 
@@ -125,14 +133,6 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module-headers/)
 
 [![Thin RP2040 module (with-headers) 0.7.1](m/thin-rp2040-module-headers/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module-headers/)
-
-### Thin RP2040 module 0.7.1
-
-2026-11-11 · `thin-picro/module` in thin-picro: 59.7 x 21.0 mm: end columns 3 keys apart, grouped pins, an SPI display header; fab files plotted and checked by KiCad, every check passing, the JLCPCB zip in the link. Not yet built
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
-
-[![Thin RP2040 module 0.7.1](m/thin-rp2040-module/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
 
 ### Seats coupon 0.1.0
 
