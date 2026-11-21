@@ -2,6 +2,7 @@
 
 ## Experiments
 
+- **[A frame of beams with a moving axis: cut, drilled, printed and built from one assembly](experiments/frames/)** (2026-11-17): A box of 2020 placed by its ends, with blind joins, printed brackets, feet and a NEMA 17 driving a carriage along its top: the cut list from one bar, a sheet per beam, eight jigs, every printed part on one plate, 37 build steps, and a trapped nut and a plate for the wrong slots caught. Predictions only so far: nothing has been cut or printed. [On the site](https://jonibach.github.io/rulecad-archive/experiments/frames/)
 - **[Fixings from rules: a bracket screwed on, and the coupon that measures it](experiments/fixings/)** (2026-11-15): @rulecad/fixings in designs (v.fixings) and fasten in assemblies: each screw followed along its axis for its holes, its far end, its length, its thread, its seat, its key and its load. A shelf bracket with a pilot, an insert boss and nuts in slots, and the fixings coupon to print; measurements to come. [On the site](https://jonibach.github.io/rulecad-archive/experiments/fixings/)
 - **[An arm that draws, then lifts, then a leg: checked before it's printed](experiments/robots/)** (2026-11-10): A SCARA arm sized from its task, the same parts upright with a gripper and a Z axis, and a leg from the arm's gearbox, with reach, speed, an error budget, bearing and link loads, wiring, a shopping list and a build page from one assembly. Predictions only so far: nothing has been printed or moved. [On the site](https://jonibach.github.io/rulecad-archive/experiments/robots/)
 - **[What to print to test the robots: benchmarks, then the arm, then the leg](experiments/robots-print-list/)** (2026-11-10): The print list and measurements that settle the robot work's three open tests: the bench parts first, then the arm that draws, the same arm lifting, and a leg on a stand, with what each one needs and what it decides. [On the site](https://jonibach.github.io/rulecad-archive/experiments/robots-print-list/)
@@ -54,6 +55,14 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-module-macropad-rear/)
 
 [![Macropad, module behind the top row: Choc keys](m/thin-module-macropad-rear/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-module-macropad-rear/)
+
+### A box of 2020 with a moving axis
+
+2026-11-17 · `frame/box` in ws16: A box of 2020 placed by its ends: blind joins, printed brackets, feet and caps, a NEMA 17 driving a carriage on two rods along the top front rail (99.5 mm of travel); drag the carriage's slider to sweep it along its axis
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/2026-11-17-frame-box/)
+
+[![A box of 2020 with a moving axis](m/2026-11-17-frame-box/preview.png)](https://jonibach.github.io/rulecad-archive/m/2026-11-17-frame-box/)
 
 ### A shelf bracket on its wall plate
 
