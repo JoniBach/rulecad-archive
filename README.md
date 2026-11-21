@@ -30,6 +30,14 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
+### Macropad, module on top: MX keys and a 2.0 in display
+
+2026-11-21 · `thin-picro/macropad-front` in thin-picro: Built: 12 MX switches with DSA caps on a through-hole 4 x 3 matrix (a DO-35 per key), the thin module soldered flat above the keys, a 2.0 in ST7789 on a tall socket level with the module's display column, over the module and the top row (1.4 mm over the caps). 67.6 x 97.7 mm board, every check passing. Not built yet
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-module-macropad-front/)
+
+[![Macropad, module on top: MX keys and a 2.0 in display](m/thin-module-macropad-front/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-module-macropad-front/)
+
 ### Macropad, module behind the top row: Choc keys
 
 2026-11-20 · `thin-picro/macropad-rear` in thin-picro: Built: 12 Choc v1 switches with low-profile caps on a through-hole 4 x 3 matrix, the thin module under the top row on pin headers, parts down; 59.7 x 76.9 mm board, 18.3 mm tall, every check passing, no parts overlapping. Not built yet
@@ -37,14 +45,6 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-module-macropad-rear/)
 
 [![Macropad, module behind the top row: Choc keys](m/thin-module-macropad-rear/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-module-macropad-rear/)
-
-### Macropad, module on top: MX keys and a 2.0 in display
-
-2026-11-20 · `thin-picro/macropad-front` in thin-picro: Built: 12 MX switches with DSA caps on a through-hole 4 x 3 matrix (a DO-35 per key), the thin module soldered flat above the keys, a 2.0 in ST7789 lying over it in its socket. 67.6 x 105.7 mm board, every check passing, no parts overlapping. Not built yet
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-module-macropad-front/)
-
-[![Macropad, module on top: MX keys and a 2.0 in display](m/thin-module-macropad-front/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-module-macropad-front/)
 
 ### Thin RP2040 module 0.7.2
 
