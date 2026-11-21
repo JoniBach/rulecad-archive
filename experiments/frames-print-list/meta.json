@@ -1,5 +1,5 @@
 {
-  "title": "What to print to test fixings and frames: four coupons, then a frame",
+  "title": "What to print to test fixings and frames: five coupons, then a frame",
   "date": "2026-11-21",
-  "summary": "The coupons that turn the fixings and frames estimates into measurements: fixings, slot, joint rig and printed beam, with what each needs, what it measures and the command that writes it back"
+  "summary": "The coupons that turn the fixings and frames estimates into measurements: fixings and holds (pins, magnets, printed bolts), slot, joint rig and printed beam, with what each needs, what it measures and the command that writes it back"
 }
