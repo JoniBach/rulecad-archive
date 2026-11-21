@@ -1,5 +1,41 @@
 [
   {
+    "slug": "bench-beam-coupon",
+    "date": "2026-11-21",
+    "ref": "benchmarks/beam-test",
+    "title": "Beam coupon",
+    "note": "Print 10: a printed 1515 beam lying down (k1) and one standing up (k2), 240 mm, on two bars 220 mm apart, for its sag and break (rows 38, 39); once in each plastic",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "bench-joint-rig",
+    "date": "2026-11-21",
+    "ref": "benchmarks/joint-test",
+    "title": "Joint rig",
+    "note": "Print 9: three hangers, the dial arm, the nut puller and a printed corner bracket on a 2020 base beam, for a blind join, a printed bracket, a bought fitting and a slot nut (rows 34 to 37)",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "bench-slot-coupon",
+    "date": "2026-11-21",
+    "ref": "benchmarks/slot-coupon",
+    "title": "Slot coupon 0.1.0",
+    "note": "Print 8: tongues, carriers and printed slots for slot 6 and slot 8 beams, 26 loose pieces (rows 29 to 33)",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "fixings-coupon",
+    "date": "2026-11-21",
+    "ref": "benchmarks/fixings-coupon",
+    "title": "Fixings coupon 0.1.0",
+    "note": "Print 7 on MEASURE.md: pilots, inserts, nut pockets and slots, counterbore, printed threads and flank forms (rows 22 to 28); once in PLA, once in PETG",
+    "source": "bench",
+    "picture": true
+  },
+  {
     "slug": "thin-module-macropad-front",
     "date": "2026-11-21",
     "ref": "thin-picro/macropad-front",
@@ -60,15 +96,6 @@
     "title": "A shelf bracket on its wall plate",
     "note": "EXAMPLES chapter 15: a shelf bracket on its wall plate, a pilot, an insert boss and two nuts in slots, each screw checked by fasten",
     "source": "examples",
-    "picture": true
-  },
-  {
-    "slug": "fixings-coupon",
-    "date": "2026-11-15",
-    "ref": "benchmarks/fixings-coupon",
-    "title": "Fixings coupon 0.1.0",
-    "note": "The fixings coupon (MEASURE.md print 7): pilots, insert holes, nut pockets and slots, a counterbore and printed threads, to measure on the X1C",
-    "source": "bench",
     "picture": true
   },
   {
