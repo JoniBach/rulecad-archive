@@ -2,6 +2,7 @@
 
 ## Experiments
 
+- **[Fixings from rules: a bracket screwed on, and the coupon that measures it](experiments/fixings/)** (2026-11-15): @rulecad/fixings in designs (v.fixings) and fasten in assemblies: each screw followed along its axis for its holes, its far end, its length, its thread, its seat, its key and its load. A shelf bracket with a pilot, an insert boss and nuts in slots, and the fixings coupon to print; measurements to come. [On the site](https://jonibach.github.io/rulecad-archive/experiments/fixings/)
 - **[An arm that draws, then lifts, then a leg: checked before it's printed](experiments/robots/)** (2026-11-10): A SCARA arm sized from its task, the same parts upright with a gripper and a Z axis, and a leg from the arm's gearbox, with reach, speed, an error budget, bearing and link loads, wiring, a shopping list and a build page from one assembly. Predictions only so far: nothing has been printed or moved. [On the site](https://jonibach.github.io/rulecad-archive/experiments/robots/)
 - **[What to print to test the robots: benchmarks, then the arm, then the leg](experiments/robots-print-list/)** (2026-11-10): The print list and measurements that settle the robot work's three open tests: the bench parts first, then the arm that draws, the same arm lifting, and a leg on a stand, with what each one needs and what it decides. [On the site](https://jonibach.github.io/rulecad-archive/experiments/robots-print-list/)
 - **[Benchmarks for a robot joint: every estimate, measured](experiments/benchmarks/)** (2026-11-09): Small parts with plain first layers that measure what a printed robot joint rests on: fits, backlash, a stepper's real torque, what a mesh passes on, and a 38:1 shoulder's play, twist and repeatability. [On the site](https://jonibach.github.io/rulecad-archive/experiments/benchmarks/)
@@ -38,6 +39,14 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 
 [![Macropad, module on top: MX keys and a 2.0 in display](m/thin-module-macropad-front/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-module-macropad-front/)
 
+### Thin RP2040 module 0.7.2
+
+2026-11-20 · `thin-picro/module` in thin-picro: 0.7.2: tracks finished for the fab (square pad exits, acute corners filled) after an engineer's review; fab files plotted and checked by KiCad, the JLCPCB zip in the link. Not yet built
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
+
+[![Thin RP2040 module 0.7.2](m/thin-rp2040-module/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
+
 ### Macropad, module behind the top row: Choc keys
 
 2026-11-20 · `thin-picro/macropad-rear` in thin-picro: Built: 12 Choc v1 switches with low-profile caps on a through-hole 4 x 3 matrix, the thin module under the top row on pin headers, parts down; 59.7 x 76.9 mm board, 18.3 mm tall, every check passing, no parts overlapping. Not built yet
@@ -46,13 +55,21 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 
 [![Macropad, module behind the top row: Choc keys](m/thin-module-macropad-rear/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-module-macropad-rear/)
 
-### Thin RP2040 module 0.7.2
+### A shelf bracket on its wall plate
 
-2026-11-20 · `thin-picro/module` in thin-picro: 0.7.2: tracks finished for the fab (square pad exits, acute corners filled) after an engineer's review; fab files plotted and checked by KiCad, the JLCPCB zip in the link. Not yet built
+2026-11-15 · `fix/shelf` in examples: EXAMPLES chapter 15: a shelf bracket on its wall plate, a pilot, an insert boss and two nuts in slots, each screw checked by fasten
 
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/fixings-shelf-bracket/)
 
-[![Thin RP2040 module 0.7.2](m/thin-rp2040-module/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
+[![A shelf bracket on its wall plate](m/fixings-shelf-bracket/preview.png)](https://jonibach.github.io/rulecad-archive/m/fixings-shelf-bracket/)
+
+### Fixings coupon 0.1.0
+
+2026-11-15 · `benchmarks/fixings-coupon` in bench: The fixings coupon (MEASURE.md print 7): pilots, insert holes, nut pockets and slots, a counterbore and printed threads, to measure on the X1C
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/fixings-coupon/)
+
+[![Fixings coupon 0.1.0](m/fixings-coupon/preview.png)](https://jonibach.github.io/rulecad-archive/m/fixings-coupon/)
 
 ### XIAO core, 32 mm
 
