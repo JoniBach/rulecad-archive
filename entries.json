@@ -1,11 +1,65 @@
 [
   {
+    "slug": "bench-beam-coupon",
+    "date": "2026-11-21",
+    "ref": "benchmarks/beam-test",
+    "title": "Beam coupon",
+    "note": "Print 10: a printed 1515 beam lying down (k1) and one standing up (k2), 240 mm, on two bars 220 mm apart, for its sag and break (rows 38, 39); once in each plastic",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "bench-joint-rig",
+    "date": "2026-11-21",
+    "ref": "benchmarks/joint-test",
+    "title": "Joint rig",
+    "note": "Print 9: three hangers, the dial arm, the nut puller and a printed corner bracket on a 2020 base beam, for a blind join, a printed bracket, a bought fitting and a slot nut (rows 34 to 37)",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "bench-slot-coupon",
+    "date": "2026-11-21",
+    "ref": "benchmarks/slot-coupon",
+    "title": "Slot coupon 0.1.0",
+    "note": "Print 8: tongues, carriers and printed slots for slot 6 and slot 8 beams, 26 loose pieces (rows 29 to 33)",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "fixings-coupon",
+    "date": "2026-11-21",
+    "ref": "benchmarks/fixings-coupon",
+    "title": "Fixings coupon 0.1.0",
+    "note": "Print 7 on MEASURE.md: pilots, inserts, nut pockets and slots, counterbore, printed threads and flank forms (rows 22 to 28); once in PLA, once in PETG",
+    "source": "bench",
+    "picture": true
+  },
+  {
     "slug": "thin-module-macropad-front",
     "date": "2026-11-21",
     "ref": "thin-picro/macropad-front",
     "title": "Macropad, module on top: MX keys and a 2.0 in display",
     "note": "Built: 12 MX switches with DSA caps on a through-hole 4 x 3 matrix (a DO-35 per key), the thin module soldered flat above the keys, a 2.0 in ST7789 on a tall socket level with the module's display column, over the module and the top row (1.4 mm over the caps). 67.6 x 97.7 mm board, every check passing. Not built yet",
     "source": "thin-picro",
+    "picture": true
+  },
+  {
+    "slug": "2026-11-20-printed-case-plate",
+    "date": "2026-11-20",
+    "ref": "case/printed-base-1",
+    "title": "The case, every beam printed: base, plate 1",
+    "note": "The printed case's one plate: 73 PETG parts, 593 g, laid as each prints",
+    "source": "ws17",
+    "picture": true
+  },
+  {
+    "slug": "2026-11-20-printed-case",
+    "date": "2026-11-20",
+    "ref": "case/printed",
+    "title": "The case, every beam printed",
+    "note": "A Raspberry Pi 4 case with every beam printed in PETG: EXAMPLES chapter 17",
+    "source": "ws17",
     "picture": true
   },
   {
@@ -24,6 +78,24 @@
     "title": "Thin RP2040 module 0.7.2",
     "note": "0.7.2: tracks finished for the fab (square pad exits, acute corners filled) after an engineer's review; fab files plotted and checked by KiCad, the JLCPCB zip in the link. Not yet built",
     "source": "thin-picro",
+    "picture": true
+  },
+  {
+    "slug": "2026-11-17-frame-box",
+    "date": "2026-11-17",
+    "ref": "frame/box",
+    "title": "A box of 2020 with a moving axis",
+    "note": "A box of 2020 placed by its ends: blind joins, printed brackets, feet and caps, a NEMA 17 driving a carriage on two rods along the top front rail (99.5 mm of travel); drag the carriage's slider to sweep it along its axis",
+    "source": "ws16",
+    "picture": true
+  },
+  {
+    "slug": "fixings-shelf-bracket",
+    "date": "2026-11-15",
+    "ref": "fix/shelf",
+    "title": "A shelf bracket on its wall plate",
+    "note": "EXAMPLES chapter 15: a shelf bracket on its wall plate, a pilot, an insert boss and two nuts in slots, each screw checked by fasten",
+    "source": "examples",
     "picture": true
   },
   {

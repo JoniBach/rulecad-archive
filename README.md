@@ -2,6 +2,10 @@
 
 ## Experiments
 
+- **[What to print to test fixings and frames: four coupons, then a frame](experiments/frames-print-list/)** (2026-11-21): The coupons that turn the fixings and frames estimates into measurements: fixings, slot, joint rig and printed beam, with what each needs, what it measures and the command that writes it back. [On the site](https://jonibach.github.io/rulecad-archive/experiments/frames-print-list/)
+- **[A case of printed beams: a Raspberry Pi 4 case with no bar to buy](experiments/printed-case/)** (2026-11-20): A small case of 2020 beams drawn in aluminium, every beam found printable in PETG, then drawn printed: posts and rails standing up from MISUMI's section, the cross beam lying down from the kit's printable profile, printed brackets, gussets, panels' clips, feet, the board's mount and a fan mount, all on one plate of 73 parts that prints clean. The sag under the board both ways. Predictions only so far: nothing has been printed. [On the site](https://jonibach.github.io/rulecad-archive/experiments/printed-case/)
+- **[A frame of beams with a moving axis: cut, drilled, printed and built from one assembly](experiments/frames/)** (2026-11-17): A box of 2020 placed by its ends, with blind joins, printed brackets, feet and a NEMA 17 driving a carriage along its top: the cut list from one bar, a sheet per beam, eight jigs, every printed part on one plate, 37 build steps, and a trapped nut and a plate for the wrong slots caught. Predictions only so far: nothing has been cut or printed. [On the site](https://jonibach.github.io/rulecad-archive/experiments/frames/)
+- **[Fixings from rules: a bracket screwed on, and the coupon that measures it](experiments/fixings/)** (2026-11-15): @rulecad/fixings in designs (v.fixings) and fasten in assemblies: each screw followed along its axis for its holes, its far end, its length, its thread, its seat, its key and its load. A shelf bracket with a pilot, an insert boss and nuts in slots, and the fixings coupon to print; measurements to come. [On the site](https://jonibach.github.io/rulecad-archive/experiments/fixings/)
 - **[An arm that draws, then lifts, then a leg: checked before it's printed](experiments/robots/)** (2026-11-10): A SCARA arm sized from its task, the same parts upright with a gripper and a Z axis, and a leg from the arm's gearbox, with reach, speed, an error budget, bearing and link loads, wiring, a shopping list and a build page from one assembly. Predictions only so far: nothing has been printed or moved. [On the site](https://jonibach.github.io/rulecad-archive/experiments/robots/)
 - **[What to print to test the robots: benchmarks, then the arm, then the leg](experiments/robots-print-list/)** (2026-11-10): The print list and measurements that settle the robot work's three open tests: the bench parts first, then the arm that draws, the same arm lifting, and a leg on a stand, with what each one needs and what it decides. [On the site](https://jonibach.github.io/rulecad-archive/experiments/robots-print-list/)
 - **[Benchmarks for a robot joint: every estimate, measured](experiments/benchmarks/)** (2026-11-09): Small parts with plain first layers that measure what a printed robot joint rests on: fits, backlash, a stepper's real torque, what a mesh passes on, and a 38:1 shoulder's play, twist and repeatability. [On the site](https://jonibach.github.io/rulecad-archive/experiments/benchmarks/)
@@ -30,6 +34,38 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
+### Beam coupon
+
+2026-11-21 · `benchmarks/beam-test` in bench: Print 10: a printed 1515 beam lying down (k1) and one standing up (k2), 240 mm, on two bars 220 mm apart, for its sag and break (rows 38, 39); once in each plastic
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/bench-beam-coupon/)
+
+[![Beam coupon](m/bench-beam-coupon/preview.png)](https://jonibach.github.io/rulecad-archive/m/bench-beam-coupon/)
+
+### Joint rig
+
+2026-11-21 · `benchmarks/joint-test` in bench: Print 9: three hangers, the dial arm, the nut puller and a printed corner bracket on a 2020 base beam, for a blind join, a printed bracket, a bought fitting and a slot nut (rows 34 to 37)
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/bench-joint-rig/)
+
+[![Joint rig](m/bench-joint-rig/preview.png)](https://jonibach.github.io/rulecad-archive/m/bench-joint-rig/)
+
+### Slot coupon 0.1.0
+
+2026-11-21 · `benchmarks/slot-coupon` in bench: Print 8: tongues, carriers and printed slots for slot 6 and slot 8 beams, 26 loose pieces (rows 29 to 33)
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/bench-slot-coupon/)
+
+[![Slot coupon 0.1.0](m/bench-slot-coupon/preview.png)](https://jonibach.github.io/rulecad-archive/m/bench-slot-coupon/)
+
+### Fixings coupon 0.1.0
+
+2026-11-21 · `benchmarks/fixings-coupon` in bench: Print 7 on MEASURE.md: pilots, inserts, nut pockets and slots, counterbore, printed threads and flank forms (rows 22 to 28); once in PLA, once in PETG
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/fixings-coupon/)
+
+[![Fixings coupon 0.1.0](m/fixings-coupon/preview.png)](https://jonibach.github.io/rulecad-archive/m/fixings-coupon/)
+
 ### Macropad, module on top: MX keys and a 2.0 in display
 
 2026-11-21 · `thin-picro/macropad-front` in thin-picro: Built: 12 MX switches with DSA caps on a through-hole 4 x 3 matrix (a DO-35 per key), the thin module soldered flat above the keys, a 2.0 in ST7789 on a tall socket level with the module's display column, over the module and the top row (1.4 mm over the caps). 67.6 x 97.7 mm board, every check passing. Not built yet
@@ -37,6 +73,22 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-module-macropad-front/)
 
 [![Macropad, module on top: MX keys and a 2.0 in display](m/thin-module-macropad-front/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-module-macropad-front/)
+
+### The case, every beam printed: base, plate 1
+
+2026-11-20 · `case/printed-base-1` in ws17: The printed case's one plate: 73 PETG parts, 593 g, laid as each prints
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/2026-11-20-printed-case-plate/)
+
+[![The case, every beam printed: base, plate 1](m/2026-11-20-printed-case-plate/preview.png)](https://jonibach.github.io/rulecad-archive/m/2026-11-20-printed-case-plate/)
+
+### The case, every beam printed
+
+2026-11-20 · `case/printed` in ws17: A Raspberry Pi 4 case with every beam printed in PETG: EXAMPLES chapter 17
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/2026-11-20-printed-case/)
+
+[![The case, every beam printed](m/2026-11-20-printed-case/preview.png)](https://jonibach.github.io/rulecad-archive/m/2026-11-20-printed-case/)
 
 ### Macropad, module behind the top row: Choc keys
 
@@ -53,6 +105,22 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
 
 [![Thin RP2040 module 0.7.2](m/thin-rp2040-module/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
+
+### A box of 2020 with a moving axis
+
+2026-11-17 · `frame/box` in ws16: A box of 2020 placed by its ends: blind joins, printed brackets, feet and caps, a NEMA 17 driving a carriage on two rods along the top front rail (99.5 mm of travel); drag the carriage's slider to sweep it along its axis
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/2026-11-17-frame-box/)
+
+[![A box of 2020 with a moving axis](m/2026-11-17-frame-box/preview.png)](https://jonibach.github.io/rulecad-archive/m/2026-11-17-frame-box/)
+
+### A shelf bracket on its wall plate
+
+2026-11-15 · `fix/shelf` in examples: EXAMPLES chapter 15: a shelf bracket on its wall plate, a pilot, an insert boss and two nuts in slots, each screw checked by fasten
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/fixings-shelf-bracket/)
+
+[![A shelf bracket on its wall plate](m/fixings-shelf-bracket/preview.png)](https://jonibach.github.io/rulecad-archive/m/fixings-shelf-bracket/)
 
 ### XIAO core, 32 mm
 
