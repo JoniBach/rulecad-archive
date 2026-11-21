@@ -2,6 +2,7 @@
 
 ## Experiments
 
+- **[A case of printed beams: a Raspberry Pi 4 case with no bar to buy](experiments/printed-case/)** (2026-11-20): A small case of 2020 beams drawn in aluminium, every beam found printable in PETG, then drawn printed: posts and rails standing up from MISUMI's section, the cross beam lying down from the kit's printable profile, printed brackets, gussets, panels' clips, feet, the board's mount and a fan mount, all on one plate of 73 parts that prints clean. The sag under the board both ways. Predictions only so far: nothing has been printed. [On the site](https://jonibach.github.io/rulecad-archive/experiments/printed-case/)
 - **[A frame of beams with a moving axis: cut, drilled, printed and built from one assembly](experiments/frames/)** (2026-11-17): A box of 2020 placed by its ends, with blind joins, printed brackets, feet and a NEMA 17 driving a carriage along its top: the cut list from one bar, a sheet per beam, eight jigs, every printed part on one plate, 37 build steps, and a trapped nut and a plate for the wrong slots caught. Predictions only so far: nothing has been cut or printed. [On the site](https://jonibach.github.io/rulecad-archive/experiments/frames/)
 - **[Fixings from rules: a bracket screwed on, and the coupon that measures it](experiments/fixings/)** (2026-11-15): @rulecad/fixings in designs (v.fixings) and fasten in assemblies: each screw followed along its axis for its holes, its far end, its length, its thread, its seat, its key and its load. A shelf bracket with a pilot, an insert boss and nuts in slots, and the fixings coupon to print; measurements to come. [On the site](https://jonibach.github.io/rulecad-archive/experiments/fixings/)
 - **[An arm that draws, then lifts, then a leg: checked before it's printed](experiments/robots/)** (2026-11-10): A SCARA arm sized from its task, the same parts upright with a gripper and a Z axis, and a leg from the arm's gearbox, with reach, speed, an error budget, bearing and link loads, wiring, a shopping list and a build page from one assembly. Predictions only so far: nothing has been printed or moved. [On the site](https://jonibach.github.io/rulecad-archive/experiments/robots/)
@@ -40,13 +41,21 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 
 [![Macropad, module on top: MX keys and a 2.0 in display](m/thin-module-macropad-front/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-module-macropad-front/)
 
-### Thin RP2040 module 0.7.2
+### The case, every beam printed: base, plate 1
 
-2026-11-20 · `thin-picro/module` in thin-picro: 0.7.2: tracks finished for the fab (square pad exits, acute corners filled) after an engineer's review; fab files plotted and checked by KiCad, the JLCPCB zip in the link. Not yet built
+2026-11-20 · `case/printed-base-1` in ws17: The printed case's one plate: 73 PETG parts, 593 g, laid as each prints
 
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/2026-11-20-printed-case-plate/)
 
-[![Thin RP2040 module 0.7.2](m/thin-rp2040-module/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
+[![The case, every beam printed: base, plate 1](m/2026-11-20-printed-case-plate/preview.png)](https://jonibach.github.io/rulecad-archive/m/2026-11-20-printed-case-plate/)
+
+### The case, every beam printed
+
+2026-11-20 · `case/printed` in ws17: A Raspberry Pi 4 case with every beam printed in PETG: EXAMPLES chapter 17
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/2026-11-20-printed-case/)
+
+[![The case, every beam printed](m/2026-11-20-printed-case/preview.png)](https://jonibach.github.io/rulecad-archive/m/2026-11-20-printed-case/)
 
 ### Macropad, module behind the top row: Choc keys
 
@@ -55,6 +64,14 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-module-macropad-rear/)
 
 [![Macropad, module behind the top row: Choc keys](m/thin-module-macropad-rear/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-module-macropad-rear/)
+
+### Thin RP2040 module 0.7.2
+
+2026-11-20 · `thin-picro/module` in thin-picro: 0.7.2: tracks finished for the fab (square pad exits, acute corners filled) after an engineer's review; fab files plotted and checked by KiCad, the JLCPCB zip in the link. Not yet built
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
+
+[![Thin RP2040 module 0.7.2](m/thin-rp2040-module/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-rp2040-module/)
 
 ### A box of 2020 with a moving axis
 

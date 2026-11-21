@@ -9,12 +9,21 @@
     "picture": true
   },
   {
-    "slug": "thin-rp2040-module",
+    "slug": "2026-11-20-printed-case-plate",
     "date": "2026-11-20",
-    "ref": "thin-picro/module",
-    "title": "Thin RP2040 module 0.7.2",
-    "note": "0.7.2: tracks finished for the fab (square pad exits, acute corners filled) after an engineer's review; fab files plotted and checked by KiCad, the JLCPCB zip in the link. Not yet built",
-    "source": "thin-picro",
+    "ref": "case/printed-base-1",
+    "title": "The case, every beam printed: base, plate 1",
+    "note": "The printed case's one plate: 73 PETG parts, 593 g, laid as each prints",
+    "source": "ws17",
+    "picture": true
+  },
+  {
+    "slug": "2026-11-20-printed-case",
+    "date": "2026-11-20",
+    "ref": "case/printed",
+    "title": "The case, every beam printed",
+    "note": "A Raspberry Pi 4 case with every beam printed in PETG: EXAMPLES chapter 17",
+    "source": "ws17",
     "picture": true
   },
   {
@@ -23,6 +32,15 @@
     "ref": "thin-picro/macropad-rear",
     "title": "Macropad, module behind the top row: Choc keys",
     "note": "Built: 12 Choc v1 switches with low-profile caps on a through-hole 4 x 3 matrix, the thin module under the top row on pin headers, parts down; 59.7 x 76.9 mm board, 18.3 mm tall, every check passing, no parts overlapping. Not built yet",
+    "source": "thin-picro",
+    "picture": true
+  },
+  {
+    "slug": "thin-rp2040-module",
+    "date": "2026-11-20",
+    "ref": "thin-picro/module",
+    "title": "Thin RP2040 module 0.7.2",
+    "note": "0.7.2: tracks finished for the fab (square pad exits, acute corners filled) after an engineer's review; fab files plotted and checked by KiCad, the JLCPCB zip in the link. Not yet built",
     "source": "thin-picro",
     "picture": true
   },
