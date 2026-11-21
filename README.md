@@ -2,7 +2,7 @@
 
 ## Experiments
 
-- **[What to print to test fixings and frames: four coupons, then a frame](experiments/frames-print-list/)** (2026-11-21): The coupons that turn the fixings and frames estimates into measurements: fixings, slot, joint rig and printed beam, with what each needs, what it measures and the command that writes it back. [On the site](https://jonibach.github.io/rulecad-archive/experiments/frames-print-list/)
+- **[What to print to test fixings and frames: five coupons, then a frame](experiments/frames-print-list/)** (2026-11-21): The coupons that turn the fixings and frames estimates into measurements: fixings and holds (pins, magnets, printed bolts), slot, joint rig and printed beam, with what each needs, what it measures and the command that writes it back. [On the site](https://jonibach.github.io/rulecad-archive/experiments/frames-print-list/)
 - **[A case of printed beams: a Raspberry Pi 4 case with no bar to buy](experiments/printed-case/)** (2026-11-20): A small case of 2020 beams drawn in aluminium, every beam found printable in PETG, then drawn printed: posts and rails standing up from MISUMI's section, the cross beam lying down from the kit's printable profile, printed brackets, gussets, panels' clips, feet, the board's mount and a fan mount, all on one plate of 73 parts that prints clean. The sag under the board both ways. Predictions only so far: nothing has been printed. [On the site](https://jonibach.github.io/rulecad-archive/experiments/printed-case/)
 - **[A frame of beams with a moving axis: cut, drilled, printed and built from one assembly](experiments/frames/)** (2026-11-17): A box of 2020 placed by its ends, with blind joins, printed brackets, feet and a NEMA 17 driving a carriage along its top: the cut list from one bar, a sheet per beam, eight jigs, every printed part on one plate, 37 build steps, and a trapped nut and a plate for the wrong slots caught. Predictions only so far: nothing has been cut or printed. [On the site](https://jonibach.github.io/rulecad-archive/experiments/frames/)
 - **[Fixings from rules: a bracket screwed on, and the coupon that measures it](experiments/fixings/)** (2026-11-15): @rulecad/fixings in designs (v.fixings) and fasten in assemblies: each screw followed along its axis for its holes, its far end, its length, its thread, its seat, its key and its load. A shelf bracket with a pilot, an insert boss and nuts in slots, and the fixings coupon to print; measurements to come. [On the site](https://jonibach.github.io/rulecad-archive/experiments/fixings/)
@@ -33,6 +33,14 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
+
+### Holds coupon 0.1.0
+
+2026-11-21 · `benchmarks/holds-coupon` in bench: Printed with the fixings coupon on one plate: printed M8 and M10 bolts and nuts, a pull bolt, snap pins, dowel and filament pin holes, magnet pockets (MEASURE.md rows 40 to 47)
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/bench-holds-coupon/)
+
+[![Holds coupon 0.1.0](m/bench-holds-coupon/preview.png)](https://jonibach.github.io/rulecad-archive/m/bench-holds-coupon/)
 
 ### Beam coupon
 

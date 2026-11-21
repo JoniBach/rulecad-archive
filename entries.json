@@ -1,5 +1,14 @@
 [
   {
+    "slug": "bench-holds-coupon",
+    "date": "2026-11-21",
+    "ref": "benchmarks/holds-coupon",
+    "title": "Holds coupon 0.1.0",
+    "note": "Printed with the fixings coupon on one plate: printed M8 and M10 bolts and nuts, a pull bolt, snap pins, dowel and filament pin holes, magnet pockets (MEASURE.md rows 40 to 47)",
+    "source": "bench",
+    "picture": true
+  },
+  {
     "slug": "bench-beam-coupon",
     "date": "2026-11-21",
     "ref": "benchmarks/beam-test",
