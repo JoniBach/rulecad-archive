@@ -1,5 +1,23 @@
 [
   {
+    "slug": "2026-11-10-arm-arm-upright",
+    "date": "2026-11-22",
+    "ref": "arm/arm-upright",
+    "title": "The arm upright: it lifts",
+    "note": "The same arm upright with the gripper, on the parts in hand: 17HS4401s, 12 V, the pen lift's SG90 moved to the gripper (updated 22 November 2026)",
+    "source": "bench",
+    "picture": true
+  },
+  {
+    "slug": "2026-11-09-arm-arm",
+    "date": "2026-11-22",
+    "ref": "arm/arm",
+    "title": "SCARA arm that draws",
+    "note": "On the parts in hand: a 17HS4401 at both joints, a 12 V bench supply, DRV8825s at 1/8 step, one SG90 (updated 22 November 2026)",
+    "source": "bench",
+    "picture": true
+  },
+  {
     "slug": "thin-module-macropad-rear",
     "date": "2026-11-21",
     "ref": "thin-picro/macropad-rear",
@@ -139,24 +157,6 @@
     "date": "2026-11-13",
     "ref": "arm/gripper-check",
     "title": "Gripper: closing check",
-    "note": "",
-    "source": "bench",
-    "picture": true
-  },
-  {
-    "slug": "2026-11-10-arm-arm-upright",
-    "date": "2026-11-13",
-    "ref": "arm/arm-upright",
-    "title": "The arm upright: it lifts",
-    "note": "",
-    "source": "bench",
-    "picture": true
-  },
-  {
-    "slug": "2026-11-09-arm-arm",
-    "date": "2026-11-13",
-    "ref": "arm/arm",
-    "title": "SCARA arm that draws",
     "note": "",
     "source": "bench",
     "picture": true

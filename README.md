@@ -34,6 +34,22 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
+### The arm upright: it lifts
+
+2026-11-22 · `arm/arm-upright` in bench: The same arm upright with the gripper, on the parts in hand: 17HS4401s, 12 V, the pen lift's SG90 moved to the gripper (updated 22 November 2026)
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/2026-11-10-arm-arm-upright/)
+
+[![The arm upright: it lifts](m/2026-11-10-arm-arm-upright/preview.png)](https://jonibach.github.io/rulecad-archive/m/2026-11-10-arm-arm-upright/)
+
+### SCARA arm that draws
+
+2026-11-22 · `arm/arm` in bench: On the parts in hand: a 17HS4401 at both joints, a 12 V bench supply, DRV8825s at 1/8 step, one SG90 (updated 22 November 2026)
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/2026-11-09-arm-arm/)
+
+[![SCARA arm that draws](m/2026-11-09-arm-arm/preview.png)](https://jonibach.github.io/rulecad-archive/m/2026-11-09-arm-arm/)
+
 ### Macropad, module behind the top row: Choc keys
 
 2026-11-21 · `thin-picro/macropad-rear` in thin-picro: Built: 12 Choc v1 switches with low-profile caps on a through-hole 4 x 3 matrix, the thin module under the top row on pin headers, parts down; 59.7 x 76.9 mm board, 18.3 mm tall, every check passing, no parts overlapping. Not built yet
@@ -161,22 +177,6 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/2026-11-10-arm-gripper-check/)
 
 [![Gripper: closing check](m/2026-11-10-arm-gripper-check/preview.png)](https://jonibach.github.io/rulecad-archive/m/2026-11-10-arm-gripper-check/)
-
-### The arm upright: it lifts
-
-2026-11-13 · `arm/arm-upright` in bench
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/2026-11-10-arm-arm-upright/)
-
-[![The arm upright: it lifts](m/2026-11-10-arm-arm-upright/preview.png)](https://jonibach.github.io/rulecad-archive/m/2026-11-10-arm-arm-upright/)
-
-### SCARA arm that draws
-
-2026-11-13 · `arm/arm` in bench
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/2026-11-09-arm-arm/)
-
-[![SCARA arm that draws](m/2026-11-09-arm-arm/preview.png)](https://jonibach.github.io/rulecad-archive/m/2026-11-09-arm-arm/)
 
 ### Shoulder input lever 0.1.0
 
