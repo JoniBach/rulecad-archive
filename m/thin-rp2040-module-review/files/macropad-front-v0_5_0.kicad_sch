@@ -2,9 +2,9 @@
   (version 20250114)
   (generator circuit-json-to-kicad)
   (generator_version 0.0.1)
-  (uuid 309f7b86-a72d-4278-8d3b-bd0a8a8d0f7a)
+  (uuid d568f858-4b32-448a-819f-fc414901b317)
   (paper
-    A3
+    A2
   )
   (lib_symbols
     (symbol "Device:U_thin_RP2040_module"
@@ -5177,6 +5177,178 @@
       )
       (embedded_fonts no)
     )
+    (symbol "Device:U_1_4_female_header_2_54_mm"
+      (pin_numbers
+        (hide no)
+      )
+      (pin_names
+        (offset 1.27)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U"
+        (id 0)
+        (at 2.032 0 90)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Value" "U"
+        (id 1)
+        (at 0 0 90)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Footprint" "tscircuit:1_4_female_header_2_54_mm"
+        (id 2)
+        (at -1.778 0 90)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property "Datasheet" "~"
+        (id 3)
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property "Description" "Integrated Circuit"
+        (id 4)
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property "ki_keywords" "U IC chip"
+        (id 5)
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property "ki_fp_filters" "*"
+        (id 6)
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (symbol "U_1_4_female_header_2_54_mm_0_1"
+        (polyline
+          (pts
+            (xy -14.25 -4.500000000000001)
+            (xy 14.25 -4.500000000000001)
+            (xy 14.25 4.500000000000001)
+            (xy -14.25 4.500000000000001)
+            (xy -14.25 -4.500000000000001)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (symbol "U_1_4_female_header_2_54_mm_1_1"
+        (pin passive line
+          (at -20.25 1.5000000000000213 0)
+          (length 6)
+          (name "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin passive line
+          (at -20.25 -1.4999999999999947 0)
+          (length 6)
+          (name "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin passive line
+          (at 20.25 -1.4999999999999947 180)
+          (length 6)
+          (name "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin passive line
+          (at 20.25 1.5000000000000213 180)
+          (length 6)
+          (name "4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+      (embedded_fonts no)
+    )
   )
   (sheet_instances
     (path "/"
@@ -5186,17 +5358,17 @@
   (embedded_fonts no)
   (symbol
     (lib_id "Device:U_thin_RP2040_module")
-    (at 91.35 89.1 0)
+    (at 245.85 129.75 0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid e02f6191-9811-437a-9b22-85f5708bfa09)
+    (uuid 703172b4-4f1e-4feb-bcda-2a6d32da4110)
     (fields_autoplaced no)
     (property "Reference" "U1"
       (id 0)
-      (at 77.1 116.55 0)
+      (at 231.6 157.2 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -5206,7 +5378,7 @@
     )
     (property "Value" "thin RP2040 module"
       (id 1)
-      (at 91.35 116.1 0)
+      (at 245.85 156.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -5215,7 +5387,7 @@
     )
     (property "Footprint" ""
       (id 2)
-      (at 89.57199999999999 89.1 90)
+      (at 244.072 129.75 90)
       (effects
         (font
           (size 1.27 1.27)
@@ -5225,7 +5397,7 @@
     )
     (property "Datasheet" "~"
       (id 3)
-      (at 91.35 89.1 0)
+      (at 245.85 129.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -5235,7 +5407,7 @@
     )
     (property "Description" "Integrated Circuit"
       (id 4)
-      (at 91.35 89.1 0)
+      (at 245.85 129.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -5244,95 +5416,95 @@
       )
     )
     (pin "1"
-      (uuid 4953b862-2b31-4180-9e28-60d10d0b61da)
+      (uuid cece5f76-cd14-4398-9119-e870302c73d8)
     )
     (pin "2"
-      (uuid a2d6c5d8-db41-49e4-88c5-bc87a9c6d260)
+      (uuid 6af8e9a9-5ecf-4e5c-ac63-14fe98adc78f)
     )
     (pin "3"
-      (uuid 1aae6ef7-4829-4ded-add9-06b485f36a2d)
+      (uuid c5fa11e7-d107-49db-a1fe-0b6b66b54c7b)
     )
     (pin "6"
-      (uuid 2cdb1443-fe35-4549-8d3c-27e929f1afd2)
+      (uuid 367214ea-329e-4198-a20c-8e2b50b6cf3d)
     )
     (pin "7"
-      (uuid 76b30344-ec7d-4df0-808c-0527697003ef)
+      (uuid 205fc220-d739-44b2-9b4e-2c56d13c9920)
     )
     (pin "8"
-      (uuid 85732a96-274f-4cbb-b0ce-eb1b4d0ac4a2)
+      (uuid 93d65c13-6963-4fd2-a0a2-5346bfab276a)
     )
     (pin "9"
-      (uuid 14785384-192e-45b4-8737-9bbf5133ae65)
+      (uuid d4249c2c-cc98-49fc-987a-ec7f12e9ff23)
     )
     (pin "10"
-      (uuid 421dc0f0-493d-4436-89fb-e59f792ba855)
+      (uuid 7ce46900-916e-4b14-b166-78704e446182)
     )
     (pin "11"
-      (uuid 9cef3936-7e98-4158-b414-f6375956866e)
+      (uuid 8b4b738d-41e5-4356-9969-7f37d79c72e5)
     )
     (pin "12"
-      (uuid d7b50c06-8d82-42e6-b0e3-37d799ae18ef)
+      (uuid c597d5ee-80ec-4757-8830-e083965c55f9)
     )
     (pin "13"
-      (uuid 1a82a00e-6887-4cac-a51e-38d33b7e82fd)
+      (uuid 5733feeb-17ab-4bca-888d-f4b827883879)
     )
     (pin "14"
-      (uuid f1c9f2a2-dac6-4e5c-8a5b-6c8626a1cc58)
+      (uuid 9f03b8ba-d165-4219-9c28-729cbc91ac05)
     )
     (pin "15"
-      (uuid 7596c30c-730c-4067-8c38-43df131177a5)
+      (uuid ade02309-bb13-407b-8254-b6ab807a1222)
     )
     (pin "16"
-      (uuid db32a746-4573-4e23-93c4-b8fb7b697565)
+      (uuid 321906bb-99a7-4620-a5e6-5b218f279787)
     )
     (pin "17"
-      (uuid e989055c-9bf4-4901-92a1-c77fecd4ddc0)
+      (uuid 0654a6d5-0010-4cc6-8c47-89a6c591265d)
     )
     (pin "18"
-      (uuid caa11376-f3a8-403c-abce-27d64eca78aa)
+      (uuid 2bdf2e5d-0f3c-4def-becd-1a1e18cb8dd3)
     )
     (pin "19"
-      (uuid b0555a3e-3092-4fd2-b29c-423f1f88e0ec)
+      (uuid 2ac13c07-1325-4091-a52b-b7a88e84243f)
     )
     (pin "20"
-      (uuid f9bacdab-05b0-4aef-becb-e93c934e6af9)
+      (uuid ac598de1-e114-40ae-9743-62f7b81cc65d)
     )
     (pin "21"
-      (uuid bfcf971f-126e-41e3-8dd1-bfcff999a0d0)
+      (uuid 6486a76a-1be8-4932-8578-c4d23829c9ae)
     )
     (pin "22"
-      (uuid 2e7a818b-ad5e-403d-bdb3-ee0698916b1e)
+      (uuid 982245d9-c0bb-40c3-bb83-c731038b5a59)
     )
     (pin "23"
-      (uuid 306c6e04-f381-4a68-95f9-97658a0ace1a)
+      (uuid 4af44aba-ab40-43b4-9252-3a66400f9c9d)
     )
     (pin "24"
-      (uuid ec145ce1-3018-4e80-8ed5-fc78f93db63b)
+      (uuid 52782e67-4fb3-47aa-b4d0-132144b54eb4)
     )
     (pin "25"
-      (uuid 58a368ea-7ed3-49bc-b52b-87e6eef0e684)
+      (uuid 9bf1c9d5-fad9-4a95-a67c-69b5b66ae9e3)
     )
     (pin "26"
-      (uuid 3b9ae061-10b6-414d-b08d-e0238fc00dd5)
+      (uuid 225ed3c3-54f4-4502-a2d7-2ca137700497)
     )
     (pin "28"
-      (uuid 120d195d-0ee9-417f-bc55-b4f99a74eb79)
+      (uuid dcf732b9-61f4-47f2-9deb-1a97b225fe7b)
     )
     (pin "29"
-      (uuid ff4fe1eb-d405-4e91-9cfc-31b8941b34d5)
+      (uuid 246f7333-0565-4c57-bd53-8104e1aa4dad)
     )
     (pin "30"
-      (uuid 36eaebd1-584d-46b9-994a-31fb59787bf5)
+      (uuid 7b0453f0-5698-48c8-9906-e15989af2718)
     )
     (pin "31"
-      (uuid 20dbc74d-9dc1-4936-a2bb-97f4392f2bbb)
+      (uuid f3b3a3ff-ecb1-4bd3-a782-a64b65e40319)
     )
     (pin "35"
-      (uuid e8099c38-be3b-406c-9021-bf339f96daa7)
+      (uuid e0bb8874-c15c-45d1-b8dd-effcfbf26057)
     )
     (instances
       (project ""
-        (path "/309f7b86-a72d-4278-8d3b-bd0a8a8d0f7a"
+        (path "/d568f858-4b32-448a-819f-fc414901b317"
           (reference "U1")
           (unit 1)
         )
@@ -5341,17 +5513,17 @@
   )
   (symbol
     (lib_id "Device:spst_switch_right")
-    (at 226.35 89.1 0)
+    (at 380.85 129.75 0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid ca72e823-d911-4107-bd5b-94096cbdfac2)
+    (uuid 825faf81-bed2-4363-bee8-599d297ed73f)
     (fields_autoplaced no)
     (property "Reference" "K1"
       (id 0)
-      (at 226.35 85.35 0)
+      (at 380.85 126 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -5361,7 +5533,7 @@
     )
     (property "Value" "Cherry MX or Kailh Choc v1 (PCB mount)"
       (id 1)
-      (at 226.35 92.85 0)
+      (at 380.85 133.5 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -5371,7 +5543,7 @@
     )
     (property "Footprint" ""
       (id 2)
-      (at 224.572 89.1 90)
+      (at 379.072 129.75 90)
       (effects
         (font
           (size 1.27 1.27)
@@ -5381,7 +5553,7 @@
     )
     (property "Datasheet" "~"
       (id 3)
-      (at 226.35 89.1 0)
+      (at 380.85 129.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -5391,7 +5563,7 @@
     )
     (property "Description" "Switch"
       (id 4)
-      (at 226.35 89.1 0)
+      (at 380.85 129.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -5400,14 +5572,14 @@
       )
     )
     (pin "1"
-      (uuid ca8f0d22-0c05-4ceb-b464-d3d194418b4a)
+      (uuid c3c7b364-a978-4849-ae64-db3e92ae4594)
     )
     (pin "2"
-      (uuid be21a1ab-1760-4b68-89c1-18ac2de9dd1b)
+      (uuid e68c64f8-4b61-4887-9178-da0bd3c04e0d)
     )
     (instances
       (project ""
-        (path "/309f7b86-a72d-4278-8d3b-bd0a8a8d0f7a"
+        (path "/d568f858-4b32-448a-819f-fc414901b317"
           (reference "K1")
           (unit 1)
         )
@@ -5416,17 +5588,17 @@
   )
   (symbol
     (lib_id "Device:diode_down")
-    (at 248.85 89.1 0)
+    (at 403.35 129.75 0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid 01821e75-521d-4c83-a12f-c1f85633ef91)
+    (uuid b90bb30e-e841-4ef8-96b4-b3d83c32f280)
     (fields_autoplaced no)
     (property "Reference" "D1"
       (id 0)
-      (at 252.3 88.94999999999999 0)
+      (at 406.8 129.6 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -5436,7 +5608,7 @@
     )
     (property "Value" "1N4148"
       (id 1)
-      (at 244.2 89.1 0)
+      (at 398.7 129.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -5447,7 +5619,7 @@
     )
     (property "Footprint" ""
       (id 2)
-      (at 247.072 89.1 90)
+      (at 401.572 129.75 90)
       (effects
         (font
           (size 1.27 1.27)
@@ -5457,7 +5629,7 @@
     )
     (property "Datasheet" "~"
       (id 3)
-      (at 248.85 89.1 0)
+      (at 403.35 129.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -5467,7 +5639,7 @@
     )
     (property "Description" "Diode"
       (id 4)
-      (at 248.85 89.1 0)
+      (at 403.35 129.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -5476,14 +5648,14 @@
       )
     )
     (pin "1"
-      (uuid 1945edee-872a-47ff-9282-03cea97e97d5)
+      (uuid 49302096-1e9d-453a-a97f-93c30efe800d)
     )
     (pin "2"
-      (uuid dc2b4f9b-c397-412c-93f4-fae9fd3da86b)
+      (uuid 7045283d-4605-4538-bc79-28f86ddb1a6a)
     )
     (instances
       (project ""
-        (path "/309f7b86-a72d-4278-8d3b-bd0a8a8d0f7a"
+        (path "/d568f858-4b32-448a-819f-fc414901b317"
           (reference "D1")
           (unit 1)
         )
@@ -5492,17 +5664,17 @@
   )
   (symbol
     (lib_id "Device:spst_switch_right")
-    (at 271.35 89.1 0)
+    (at 425.85 129.75 0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid ffe2c746-6d44-4fc7-b6d6-5466c07a551d)
+    (uuid e2abb288-475d-4a6d-a769-4455b6a70c39)
     (fields_autoplaced no)
     (property "Reference" "K2"
       (id 0)
-      (at 271.35 85.35 0)
+      (at 425.85 126 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -5512,7 +5684,7 @@
     )
     (property "Value" "Cherry MX or Kailh Choc v1 (PCB mount)"
       (id 1)
-      (at 271.35 92.85 0)
+      (at 425.85 133.5 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -5522,7 +5694,7 @@
     )
     (property "Footprint" ""
       (id 2)
-      (at 269.572 89.1 90)
+      (at 424.072 129.75 90)
       (effects
         (font
           (size 1.27 1.27)
@@ -5532,7 +5704,7 @@
     )
     (property "Datasheet" "~"
       (id 3)
-      (at 271.35 89.1 0)
+      (at 425.85 129.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -5542,7 +5714,7 @@
     )
     (property "Description" "Switch"
       (id 4)
-      (at 271.35 89.1 0)
+      (at 425.85 129.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -5551,14 +5723,14 @@
       )
     )
     (pin "1"
-      (uuid c83a095f-b649-4e98-a936-6ee93d75e4d2)
+      (uuid 26213cfe-8643-4d47-b076-b6c01d6f68eb)
     )
     (pin "2"
-      (uuid 68014747-f0e6-455f-b5da-0f9f833d2246)
+      (uuid 28ce475b-4021-4a91-a853-59f183ca48c6)
     )
     (instances
       (project ""
-        (path "/309f7b86-a72d-4278-8d3b-bd0a8a8d0f7a"
+        (path "/d568f858-4b32-448a-819f-fc414901b317"
           (reference "K2")
           (unit 1)
         )
@@ -5567,17 +5739,17 @@
   )
   (symbol
     (lib_id "Device:diode_down")
-    (at 293.85 89.1 0)
+    (at 448.35 129.75 0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid 1d5a79f6-f9a1-4130-af42-009e48d7e329)
+    (uuid d98aee42-1579-457e-b7e4-6f744d22096f)
     (fields_autoplaced no)
     (property "Reference" "D2"
       (id 0)
-      (at 297.3 88.94999999999999 0)
+      (at 451.8 129.6 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -5587,7 +5759,7 @@
     )
     (property "Value" "1N4148"
       (id 1)
-      (at 289.2 89.1 0)
+      (at 443.7 129.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -5598,7 +5770,7 @@
     )
     (property "Footprint" ""
       (id 2)
-      (at 292.072 89.1 90)
+      (at 446.572 129.75 90)
       (effects
         (font
           (size 1.27 1.27)
@@ -5608,7 +5780,7 @@
     )
     (property "Datasheet" "~"
       (id 3)
-      (at 293.85 89.1 0)
+      (at 448.35 129.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -5618,7 +5790,7 @@
     )
     (property "Description" "Diode"
       (id 4)
-      (at 293.85 89.1 0)
+      (at 448.35 129.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -5627,14 +5799,14 @@
       )
     )
     (pin "1"
-      (uuid 82869a9b-f66e-4ef4-9723-61e4d9dc0dae)
+      (uuid be5e5a8e-84f5-4ec5-a2f8-d769a325470c)
     )
     (pin "2"
-      (uuid e8008d05-e764-4833-85bb-08d972629196)
+      (uuid 691b36e3-b523-4084-a414-ed33ede18cdc)
     )
     (instances
       (project ""
-        (path "/309f7b86-a72d-4278-8d3b-bd0a8a8d0f7a"
+        (path "/d568f858-4b32-448a-819f-fc414901b317"
           (reference "D2")
           (unit 1)
         )
@@ -5643,17 +5815,17 @@
   )
   (symbol
     (lib_id "Device:spst_switch_right")
-    (at 316.35 89.1 0)
+    (at 470.85 129.75 0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid 2093b246-4041-4ddc-aa00-99ee9da765ef)
+    (uuid eff61fee-d8e1-4cdc-8e5a-3e3e95b87118)
     (fields_autoplaced no)
     (property "Reference" "K3"
       (id 0)
-      (at 316.35 85.35 0)
+      (at 470.85 126 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -5663,7 +5835,7 @@
     )
     (property "Value" "Cherry MX or Kailh Choc v1 (PCB mount)"
       (id 1)
-      (at 316.35 92.85 0)
+      (at 470.85 133.5 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -5673,7 +5845,7 @@
     )
     (property "Footprint" ""
       (id 2)
-      (at 314.572 89.1 90)
+      (at 469.072 129.75 90)
       (effects
         (font
           (size 1.27 1.27)
@@ -5683,7 +5855,7 @@
     )
     (property "Datasheet" "~"
       (id 3)
-      (at 316.35 89.1 0)
+      (at 470.85 129.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -5693,7 +5865,7 @@
     )
     (property "Description" "Switch"
       (id 4)
-      (at 316.35 89.1 0)
+      (at 470.85 129.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -5702,14 +5874,14 @@
       )
     )
     (pin "1"
-      (uuid 0976d12e-133c-4673-b964-5d1b6dceab36)
+      (uuid 1b682e20-ae39-4bf5-b72c-716889f1c46c)
     )
     (pin "2"
-      (uuid 1dc0de3c-3171-4793-94ec-e03cb36f66ac)
+      (uuid 80fd1c3a-9743-4120-993d-188ed0abbe6f)
     )
     (instances
       (project ""
-        (path "/309f7b86-a72d-4278-8d3b-bd0a8a8d0f7a"
+        (path "/d568f858-4b32-448a-819f-fc414901b317"
           (reference "K3")
           (unit 1)
         )
@@ -5718,17 +5890,17 @@
   )
   (symbol
     (lib_id "Device:diode_down")
-    (at 338.85 89.1 0)
+    (at 493.35 129.75 0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid 5ba667cf-2342-4ae0-b11d-c629ccaef195)
+    (uuid 7b404d47-43ab-44d0-a378-6369176d9e8e)
     (fields_autoplaced no)
     (property "Reference" "D3"
       (id 0)
-      (at 342.3 88.94999999999999 0)
+      (at 496.8 129.6 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -5738,7 +5910,7 @@
     )
     (property "Value" "1N4148"
       (id 1)
-      (at 334.20000000000005 89.1 0)
+      (at 488.70000000000005 129.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -5749,7 +5921,7 @@
     )
     (property "Footprint" ""
       (id 2)
-      (at 337.072 89.1 90)
+      (at 491.572 129.75 90)
       (effects
         (font
           (size 1.27 1.27)
@@ -5759,7 +5931,7 @@
     )
     (property "Datasheet" "~"
       (id 3)
-      (at 338.85 89.1 0)
+      (at 493.35 129.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -5769,7 +5941,7 @@
     )
     (property "Description" "Diode"
       (id 4)
-      (at 338.85 89.1 0)
+      (at 493.35 129.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -5778,14 +5950,14 @@
       )
     )
     (pin "1"
-      (uuid 588561ca-3ed0-4aa5-a421-99898948c67c)
+      (uuid 04379697-654c-4cfd-b4e2-adfb1beeb9b9)
     )
     (pin "2"
-      (uuid d137e4c2-d97e-4c8c-9ba0-cd358eb76979)
+      (uuid 1e1459b2-44ed-47a0-bb01-ea90d4e2e1a3)
     )
     (instances
       (project ""
-        (path "/309f7b86-a72d-4278-8d3b-bd0a8a8d0f7a"
+        (path "/d568f858-4b32-448a-819f-fc414901b317"
           (reference "D3")
           (unit 1)
         )
@@ -5794,17 +5966,17 @@
   )
   (symbol
     (lib_id "Device:spst_switch_right")
-    (at 226.35 134.1 0)
+    (at 380.85 174.75 0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid 496e0ae3-28ea-4c2c-8fc8-d347d7e26a7e)
+    (uuid e63696ad-52fc-442b-bc6e-f217b5cfc6c7)
     (fields_autoplaced no)
     (property "Reference" "K4"
       (id 0)
-      (at 226.35 130.35 0)
+      (at 380.85 171 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -5814,7 +5986,7 @@
     )
     (property "Value" "Cherry MX or Kailh Choc v1 (PCB mount)"
       (id 1)
-      (at 226.35 137.85 0)
+      (at 380.85 178.5 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -5824,7 +5996,7 @@
     )
     (property "Footprint" ""
       (id 2)
-      (at 224.572 134.1 90)
+      (at 379.072 174.75 90)
       (effects
         (font
           (size 1.27 1.27)
@@ -5834,7 +6006,7 @@
     )
     (property "Datasheet" "~"
       (id 3)
-      (at 226.35 134.1 0)
+      (at 380.85 174.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -5844,7 +6016,7 @@
     )
     (property "Description" "Switch"
       (id 4)
-      (at 226.35 134.1 0)
+      (at 380.85 174.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -5853,14 +6025,14 @@
       )
     )
     (pin "1"
-      (uuid dae835c6-abb2-4f2b-9fda-047a87dd06d3)
+      (uuid 19f8ed68-13d4-46fe-a734-6f9aaf3ee259)
     )
     (pin "2"
-      (uuid 76dcfecd-a50a-41b0-a098-bb00aadaee4e)
+      (uuid e5b7aa74-1b56-4d37-b4ba-981132780a91)
     )
     (instances
       (project ""
-        (path "/309f7b86-a72d-4278-8d3b-bd0a8a8d0f7a"
+        (path "/d568f858-4b32-448a-819f-fc414901b317"
           (reference "K4")
           (unit 1)
         )
@@ -5869,17 +6041,17 @@
   )
   (symbol
     (lib_id "Device:diode_down")
-    (at 248.85 134.1 0)
+    (at 403.35 174.75 0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid f1f24de4-ff78-460f-86b2-acd6dc8a1d88)
+    (uuid 171e3577-01b7-4206-ae0b-715993799569)
     (fields_autoplaced no)
     (property "Reference" "D4"
       (id 0)
-      (at 252.3 133.95 0)
+      (at 406.8 174.6 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -5889,7 +6061,7 @@
     )
     (property "Value" "1N4148"
       (id 1)
-      (at 244.2 134.1 0)
+      (at 398.7 174.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -5900,7 +6072,7 @@
     )
     (property "Footprint" ""
       (id 2)
-      (at 247.072 134.1 90)
+      (at 401.572 174.75 90)
       (effects
         (font
           (size 1.27 1.27)
@@ -5910,7 +6082,7 @@
     )
     (property "Datasheet" "~"
       (id 3)
-      (at 248.85 134.1 0)
+      (at 403.35 174.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -5920,7 +6092,7 @@
     )
     (property "Description" "Diode"
       (id 4)
-      (at 248.85 134.1 0)
+      (at 403.35 174.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -5929,14 +6101,14 @@
       )
     )
     (pin "1"
-      (uuid 729f851e-bc5b-4c79-9004-c2cab8b9f0b1)
+      (uuid 7fd2a9c7-529e-4b5d-9de2-a18805123ba3)
     )
     (pin "2"
-      (uuid a4f341b9-77e2-4b56-85d2-9a69cbf35018)
+      (uuid 78fe3eba-3423-4ecd-9d41-7b6bc8b53f09)
     )
     (instances
       (project ""
-        (path "/309f7b86-a72d-4278-8d3b-bd0a8a8d0f7a"
+        (path "/d568f858-4b32-448a-819f-fc414901b317"
           (reference "D4")
           (unit 1)
         )
@@ -5945,17 +6117,17 @@
   )
   (symbol
     (lib_id "Device:spst_switch_right")
-    (at 271.35 134.1 0)
+    (at 425.85 174.75 0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid d9b79510-b2c9-4cf7-a5dd-950e9c8b2df4)
+    (uuid 32c256af-688f-431f-b9f5-b14ae7107595)
     (fields_autoplaced no)
     (property "Reference" "K5"
       (id 0)
-      (at 271.35 130.35 0)
+      (at 425.85 171 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -5965,7 +6137,7 @@
     )
     (property "Value" "Cherry MX or Kailh Choc v1 (PCB mount)"
       (id 1)
-      (at 271.35 137.85 0)
+      (at 425.85 178.5 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -5975,7 +6147,7 @@
     )
     (property "Footprint" ""
       (id 2)
-      (at 269.572 134.1 90)
+      (at 424.072 174.75 90)
       (effects
         (font
           (size 1.27 1.27)
@@ -5985,7 +6157,7 @@
     )
     (property "Datasheet" "~"
       (id 3)
-      (at 271.35 134.1 0)
+      (at 425.85 174.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -5995,7 +6167,7 @@
     )
     (property "Description" "Switch"
       (id 4)
-      (at 271.35 134.1 0)
+      (at 425.85 174.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6004,14 +6176,14 @@
       )
     )
     (pin "1"
-      (uuid 0cfea85b-2bbd-46be-8f70-99cb6aea98ee)
+      (uuid a8707f8e-cff1-4414-b6bd-7caf26efa324)
     )
     (pin "2"
-      (uuid 4b634c1e-32b1-4362-9bea-1ef5c5bdf300)
+      (uuid 46c2adea-3a27-4d60-ae5a-b4bee56f41c7)
     )
     (instances
       (project ""
-        (path "/309f7b86-a72d-4278-8d3b-bd0a8a8d0f7a"
+        (path "/d568f858-4b32-448a-819f-fc414901b317"
           (reference "K5")
           (unit 1)
         )
@@ -6020,17 +6192,17 @@
   )
   (symbol
     (lib_id "Device:diode_down")
-    (at 293.85 134.1 0)
+    (at 448.35 174.75 0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid bc18f48e-59a2-4081-85b0-f427b6ea1855)
+    (uuid 9ba5d5f1-a9c8-458e-9e44-02b63aed3841)
     (fields_autoplaced no)
     (property "Reference" "D5"
       (id 0)
-      (at 297.3 133.95 0)
+      (at 451.8 174.6 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6040,7 +6212,7 @@
     )
     (property "Value" "1N4148"
       (id 1)
-      (at 289.2 134.1 0)
+      (at 443.7 174.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6051,7 +6223,7 @@
     )
     (property "Footprint" ""
       (id 2)
-      (at 292.072 134.1 90)
+      (at 446.572 174.75 90)
       (effects
         (font
           (size 1.27 1.27)
@@ -6061,7 +6233,7 @@
     )
     (property "Datasheet" "~"
       (id 3)
-      (at 293.85 134.1 0)
+      (at 448.35 174.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6071,7 +6243,7 @@
     )
     (property "Description" "Diode"
       (id 4)
-      (at 293.85 134.1 0)
+      (at 448.35 174.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6080,14 +6252,14 @@
       )
     )
     (pin "1"
-      (uuid 59fb87bc-0eb4-41fc-9854-ad6b1f98bbef)
+      (uuid 7474a006-cd69-4df1-a999-390d14d07beb)
     )
     (pin "2"
-      (uuid 79205a3c-fe0f-4f36-959e-3efccca24ae9)
+      (uuid 06fb2783-b0fe-48a2-9eaf-e2d5b0cd44be)
     )
     (instances
       (project ""
-        (path "/309f7b86-a72d-4278-8d3b-bd0a8a8d0f7a"
+        (path "/d568f858-4b32-448a-819f-fc414901b317"
           (reference "D5")
           (unit 1)
         )
@@ -6096,17 +6268,17 @@
   )
   (symbol
     (lib_id "Device:spst_switch_right")
-    (at 316.35 134.1 0)
+    (at 470.85 174.75 0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid ad5a97e6-d2a1-4b67-87c9-845558a613b8)
+    (uuid 3e05a1f8-5f51-4ef9-a62f-fe2b8cf04845)
     (fields_autoplaced no)
     (property "Reference" "K6"
       (id 0)
-      (at 316.35 130.35 0)
+      (at 470.85 171 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6116,7 +6288,7 @@
     )
     (property "Value" "Cherry MX or Kailh Choc v1 (PCB mount)"
       (id 1)
-      (at 316.35 137.85 0)
+      (at 470.85 178.5 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6126,7 +6298,7 @@
     )
     (property "Footprint" ""
       (id 2)
-      (at 314.572 134.1 90)
+      (at 469.072 174.75 90)
       (effects
         (font
           (size 1.27 1.27)
@@ -6136,7 +6308,7 @@
     )
     (property "Datasheet" "~"
       (id 3)
-      (at 316.35 134.1 0)
+      (at 470.85 174.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6146,7 +6318,7 @@
     )
     (property "Description" "Switch"
       (id 4)
-      (at 316.35 134.1 0)
+      (at 470.85 174.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6155,14 +6327,14 @@
       )
     )
     (pin "1"
-      (uuid 8d5d75d5-59cc-4411-878b-f1e7efe0af41)
+      (uuid 2ca12169-425f-4306-9552-aaec9b68ab9d)
     )
     (pin "2"
-      (uuid c87fbc85-67f5-423d-8fca-ee81afe7685a)
+      (uuid 8a434114-f923-42b0-ae67-39b145f08042)
     )
     (instances
       (project ""
-        (path "/309f7b86-a72d-4278-8d3b-bd0a8a8d0f7a"
+        (path "/d568f858-4b32-448a-819f-fc414901b317"
           (reference "K6")
           (unit 1)
         )
@@ -6171,17 +6343,17 @@
   )
   (symbol
     (lib_id "Device:diode_down")
-    (at 338.85 134.1 0)
+    (at 493.35 174.75 0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid 20a1c0d4-b908-4126-ae1f-f687c3fb2d6e)
+    (uuid 07be314b-33ec-46c5-996b-2dfedfc2a101)
     (fields_autoplaced no)
     (property "Reference" "D6"
       (id 0)
-      (at 342.3 133.95 0)
+      (at 496.8 174.6 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6191,7 +6363,7 @@
     )
     (property "Value" "1N4148"
       (id 1)
-      (at 334.20000000000005 134.1 0)
+      (at 488.70000000000005 174.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6202,7 +6374,7 @@
     )
     (property "Footprint" ""
       (id 2)
-      (at 337.072 134.1 90)
+      (at 491.572 174.75 90)
       (effects
         (font
           (size 1.27 1.27)
@@ -6212,7 +6384,7 @@
     )
     (property "Datasheet" "~"
       (id 3)
-      (at 338.85 134.1 0)
+      (at 493.35 174.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6222,7 +6394,7 @@
     )
     (property "Description" "Diode"
       (id 4)
-      (at 338.85 134.1 0)
+      (at 493.35 174.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6231,14 +6403,14 @@
       )
     )
     (pin "1"
-      (uuid c55fa6c7-2279-4d9e-a935-12101e5291a1)
+      (uuid 948f4667-1ff2-423f-a5b5-c4edd37d74d7)
     )
     (pin "2"
-      (uuid b5965c13-66d2-41b2-b695-f69b0309a54d)
+      (uuid bab89ea1-d7f1-4374-93e9-991b6a44b4bb)
     )
     (instances
       (project ""
-        (path "/309f7b86-a72d-4278-8d3b-bd0a8a8d0f7a"
+        (path "/d568f858-4b32-448a-819f-fc414901b317"
           (reference "D6")
           (unit 1)
         )
@@ -6247,17 +6419,17 @@
   )
   (symbol
     (lib_id "Device:spst_switch_right")
-    (at 226.35 179.1 0)
+    (at 380.85 219.75 0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid 8de8abf0-0140-4458-ad3f-f3cf1eff82cc)
+    (uuid 138ca3fa-4dc9-4ebc-9116-1b422154b2f5)
     (fields_autoplaced no)
     (property "Reference" "K7"
       (id 0)
-      (at 226.35 175.35 0)
+      (at 380.85 216 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6267,7 +6439,7 @@
     )
     (property "Value" "Cherry MX or Kailh Choc v1 (PCB mount)"
       (id 1)
-      (at 226.35 182.85 0)
+      (at 380.85 223.5 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6277,7 +6449,7 @@
     )
     (property "Footprint" ""
       (id 2)
-      (at 224.572 179.1 90)
+      (at 379.072 219.75 90)
       (effects
         (font
           (size 1.27 1.27)
@@ -6287,7 +6459,7 @@
     )
     (property "Datasheet" "~"
       (id 3)
-      (at 226.35 179.1 0)
+      (at 380.85 219.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6297,7 +6469,7 @@
     )
     (property "Description" "Switch"
       (id 4)
-      (at 226.35 179.1 0)
+      (at 380.85 219.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6306,14 +6478,14 @@
       )
     )
     (pin "1"
-      (uuid 1b9cd8f0-3a22-42da-bbcb-224f81c8976d)
+      (uuid 8bcb702d-e4d7-4597-8183-52c9339669ad)
     )
     (pin "2"
-      (uuid 673c9df3-b24f-4727-8195-6433ecf1cf10)
+      (uuid 48f4aee4-a3c4-4518-a3c5-07b5b52ebca9)
     )
     (instances
       (project ""
-        (path "/309f7b86-a72d-4278-8d3b-bd0a8a8d0f7a"
+        (path "/d568f858-4b32-448a-819f-fc414901b317"
           (reference "K7")
           (unit 1)
         )
@@ -6322,17 +6494,17 @@
   )
   (symbol
     (lib_id "Device:diode_down")
-    (at 248.85 179.1 0)
+    (at 403.35 219.75 0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid 1ec0be3a-6958-4c8f-b125-af17a0d03ab4)
+    (uuid 25df7e42-2e2a-4792-bb6b-bc21d0e93ccc)
     (fields_autoplaced no)
     (property "Reference" "D7"
       (id 0)
-      (at 252.3 178.95 0)
+      (at 406.8 219.60000000000002 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6342,7 +6514,7 @@
     )
     (property "Value" "1N4148"
       (id 1)
-      (at 244.2 179.1 0)
+      (at 398.7 219.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6353,7 +6525,7 @@
     )
     (property "Footprint" ""
       (id 2)
-      (at 247.072 179.1 90)
+      (at 401.572 219.75 90)
       (effects
         (font
           (size 1.27 1.27)
@@ -6363,7 +6535,7 @@
     )
     (property "Datasheet" "~"
       (id 3)
-      (at 248.85 179.1 0)
+      (at 403.35 219.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6373,7 +6545,7 @@
     )
     (property "Description" "Diode"
       (id 4)
-      (at 248.85 179.1 0)
+      (at 403.35 219.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6382,14 +6554,14 @@
       )
     )
     (pin "1"
-      (uuid f0b401b6-1ebe-4322-bc1b-71fd7f52f963)
+      (uuid b8c72ff2-d290-4ed5-942e-50fb1b39be75)
     )
     (pin "2"
-      (uuid 7f417924-4d26-4579-8def-82dd7df73a88)
+      (uuid 727761c5-8c05-425c-9326-38f21de41d08)
     )
     (instances
       (project ""
-        (path "/309f7b86-a72d-4278-8d3b-bd0a8a8d0f7a"
+        (path "/d568f858-4b32-448a-819f-fc414901b317"
           (reference "D7")
           (unit 1)
         )
@@ -6398,17 +6570,17 @@
   )
   (symbol
     (lib_id "Device:spst_switch_right")
-    (at 271.35 179.1 0)
+    (at 425.85 219.75 0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid a13e25c5-b90f-4f0d-9dbd-46568f56a644)
+    (uuid 8c00a87e-0eb8-4473-817c-e4140ce899fe)
     (fields_autoplaced no)
     (property "Reference" "K8"
       (id 0)
-      (at 271.35 175.35 0)
+      (at 425.85 216 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6418,7 +6590,7 @@
     )
     (property "Value" "Cherry MX or Kailh Choc v1 (PCB mount)"
       (id 1)
-      (at 271.35 182.85 0)
+      (at 425.85 223.5 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6428,7 +6600,7 @@
     )
     (property "Footprint" ""
       (id 2)
-      (at 269.572 179.1 90)
+      (at 424.072 219.75 90)
       (effects
         (font
           (size 1.27 1.27)
@@ -6438,7 +6610,7 @@
     )
     (property "Datasheet" "~"
       (id 3)
-      (at 271.35 179.1 0)
+      (at 425.85 219.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6448,7 +6620,7 @@
     )
     (property "Description" "Switch"
       (id 4)
-      (at 271.35 179.1 0)
+      (at 425.85 219.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6457,14 +6629,14 @@
       )
     )
     (pin "1"
-      (uuid 42ec889a-9485-4eee-b200-679b8cbbab62)
+      (uuid 6621ac99-4da8-4e50-9e80-6c8c71ea3806)
     )
     (pin "2"
-      (uuid 611834cf-2b6a-4bea-8ee6-b130dffd4981)
+      (uuid 7bbbfc26-a0ad-44b6-a488-4c804827cdc6)
     )
     (instances
       (project ""
-        (path "/309f7b86-a72d-4278-8d3b-bd0a8a8d0f7a"
+        (path "/d568f858-4b32-448a-819f-fc414901b317"
           (reference "K8")
           (unit 1)
         )
@@ -6473,17 +6645,17 @@
   )
   (symbol
     (lib_id "Device:diode_down")
-    (at 293.85 179.1 0)
+    (at 448.35 219.75 0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid 4b623189-5751-4345-b80f-c0789251fd7d)
+    (uuid 03c14ea0-bb05-4b91-b899-7be2f2e9dec1)
     (fields_autoplaced no)
     (property "Reference" "D8"
       (id 0)
-      (at 297.3 178.95 0)
+      (at 451.8 219.60000000000002 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6493,7 +6665,7 @@
     )
     (property "Value" "1N4148"
       (id 1)
-      (at 289.2 179.1 0)
+      (at 443.7 219.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6504,7 +6676,7 @@
     )
     (property "Footprint" ""
       (id 2)
-      (at 292.072 179.1 90)
+      (at 446.572 219.75 90)
       (effects
         (font
           (size 1.27 1.27)
@@ -6514,7 +6686,7 @@
     )
     (property "Datasheet" "~"
       (id 3)
-      (at 293.85 179.1 0)
+      (at 448.35 219.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6524,7 +6696,7 @@
     )
     (property "Description" "Diode"
       (id 4)
-      (at 293.85 179.1 0)
+      (at 448.35 219.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6533,14 +6705,14 @@
       )
     )
     (pin "1"
-      (uuid 31e39c2b-22b7-4cfb-bb4c-eacad154fec6)
+      (uuid 8df0266f-52a9-4bf5-abd6-3cc161443faf)
     )
     (pin "2"
-      (uuid 362dfb75-13fe-4773-a818-80d1850e164b)
+      (uuid f815cc49-e97c-4ef7-b67a-e9e46369c1e2)
     )
     (instances
       (project ""
-        (path "/309f7b86-a72d-4278-8d3b-bd0a8a8d0f7a"
+        (path "/d568f858-4b32-448a-819f-fc414901b317"
           (reference "D8")
           (unit 1)
         )
@@ -6549,17 +6721,17 @@
   )
   (symbol
     (lib_id "Device:spst_switch_right")
-    (at 316.35 179.1 0)
+    (at 470.85 219.75 0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid 188c4748-1b53-409a-b444-47eb6a9db96d)
+    (uuid 1bb0a825-0a27-4f1e-8090-5b8d03abcf61)
     (fields_autoplaced no)
     (property "Reference" "K9"
       (id 0)
-      (at 316.35 175.35 0)
+      (at 470.85 216 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6569,7 +6741,7 @@
     )
     (property "Value" "Cherry MX or Kailh Choc v1 (PCB mount)"
       (id 1)
-      (at 316.35 182.85 0)
+      (at 470.85 223.5 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6579,7 +6751,7 @@
     )
     (property "Footprint" ""
       (id 2)
-      (at 314.572 179.1 90)
+      (at 469.072 219.75 90)
       (effects
         (font
           (size 1.27 1.27)
@@ -6589,7 +6761,7 @@
     )
     (property "Datasheet" "~"
       (id 3)
-      (at 316.35 179.1 0)
+      (at 470.85 219.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6599,7 +6771,7 @@
     )
     (property "Description" "Switch"
       (id 4)
-      (at 316.35 179.1 0)
+      (at 470.85 219.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6608,14 +6780,14 @@
       )
     )
     (pin "1"
-      (uuid 19d88968-d8fc-45a4-85f2-8ac583db64e2)
+      (uuid daa7711d-a95c-498f-825b-c7dce4c11416)
     )
     (pin "2"
-      (uuid 8cc99f3d-ddda-4cd3-8915-a2fa6088dd1e)
+      (uuid 8efcb4b7-0b4c-4a4f-9a66-e75fd7dcb075)
     )
     (instances
       (project ""
-        (path "/309f7b86-a72d-4278-8d3b-bd0a8a8d0f7a"
+        (path "/d568f858-4b32-448a-819f-fc414901b317"
           (reference "K9")
           (unit 1)
         )
@@ -6624,17 +6796,17 @@
   )
   (symbol
     (lib_id "Device:diode_down")
-    (at 338.85 179.1 0)
+    (at 493.35 219.75 0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid 3e120456-2887-42c9-b858-4a07fcc0fdb6)
+    (uuid 56da15c4-6285-4de6-8e1c-e936b0ffbae8)
     (fields_autoplaced no)
     (property "Reference" "D9"
       (id 0)
-      (at 342.3 178.95 0)
+      (at 496.8 219.60000000000002 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6644,7 +6816,7 @@
     )
     (property "Value" "1N4148"
       (id 1)
-      (at 334.20000000000005 179.1 0)
+      (at 488.70000000000005 219.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6655,7 +6827,7 @@
     )
     (property "Footprint" ""
       (id 2)
-      (at 337.072 179.1 90)
+      (at 491.572 219.75 90)
       (effects
         (font
           (size 1.27 1.27)
@@ -6665,7 +6837,7 @@
     )
     (property "Datasheet" "~"
       (id 3)
-      (at 338.85 179.1 0)
+      (at 493.35 219.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6675,7 +6847,7 @@
     )
     (property "Description" "Diode"
       (id 4)
-      (at 338.85 179.1 0)
+      (at 493.35 219.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6684,14 +6856,14 @@
       )
     )
     (pin "1"
-      (uuid 069812bb-caea-4da0-b97b-d1c1788ee869)
+      (uuid 74b22d32-0a04-4bce-8291-da52cb710dcd)
     )
     (pin "2"
-      (uuid 672f4ee9-400f-4b70-8104-0462778f3f38)
+      (uuid 1f0acbb6-8d74-479c-a30f-716811cf4774)
     )
     (instances
       (project ""
-        (path "/309f7b86-a72d-4278-8d3b-bd0a8a8d0f7a"
+        (path "/d568f858-4b32-448a-819f-fc414901b317"
           (reference "D9")
           (unit 1)
         )
@@ -6700,17 +6872,17 @@
   )
   (symbol
     (lib_id "Device:spst_switch_right")
-    (at 226.35 224.1 0)
+    (at 380.85 264.75 0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid b621e96e-27b2-4476-82b0-a365d1e3ba6b)
+    (uuid be9798e6-c482-468c-8f5b-128cc476d5c3)
     (fields_autoplaced no)
     (property "Reference" "K10"
       (id 0)
-      (at 226.35 220.35 0)
+      (at 380.85 261 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6720,7 +6892,7 @@
     )
     (property "Value" "Cherry MX or Kailh Choc v1 (PCB mount)"
       (id 1)
-      (at 226.35 227.85 0)
+      (at 380.85 268.5 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6730,7 +6902,7 @@
     )
     (property "Footprint" ""
       (id 2)
-      (at 224.572 224.1 90)
+      (at 379.072 264.75 90)
       (effects
         (font
           (size 1.27 1.27)
@@ -6740,7 +6912,7 @@
     )
     (property "Datasheet" "~"
       (id 3)
-      (at 226.35 224.1 0)
+      (at 380.85 264.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6750,7 +6922,7 @@
     )
     (property "Description" "Switch"
       (id 4)
-      (at 226.35 224.1 0)
+      (at 380.85 264.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6759,14 +6931,14 @@
       )
     )
     (pin "1"
-      (uuid 6751883e-6ffd-498e-946b-ff644fe35c40)
+      (uuid 178ba95e-4ff1-4f56-9eaa-2d28489b4241)
     )
     (pin "2"
-      (uuid fa553a13-4d3c-4362-8a5c-05207644830a)
+      (uuid 4cdb6277-04ca-45b2-88a9-648715e840df)
     )
     (instances
       (project ""
-        (path "/309f7b86-a72d-4278-8d3b-bd0a8a8d0f7a"
+        (path "/d568f858-4b32-448a-819f-fc414901b317"
           (reference "K10")
           (unit 1)
         )
@@ -6775,17 +6947,17 @@
   )
   (symbol
     (lib_id "Device:diode_down")
-    (at 248.85 224.1 0)
+    (at 403.35 264.75 0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid a4333c5e-4ff9-4e07-81cb-fdf81bee097d)
+    (uuid 3142d618-1216-470a-9395-586f3dd74cbb)
     (fields_autoplaced no)
     (property "Reference" "D10"
       (id 0)
-      (at 252.3 223.95 0)
+      (at 406.8 264.6 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6795,7 +6967,7 @@
     )
     (property "Value" "1N4148"
       (id 1)
-      (at 244.2 224.1 0)
+      (at 398.7 264.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6806,7 +6978,7 @@
     )
     (property "Footprint" ""
       (id 2)
-      (at 247.072 224.1 90)
+      (at 401.572 264.75 90)
       (effects
         (font
           (size 1.27 1.27)
@@ -6816,7 +6988,7 @@
     )
     (property "Datasheet" "~"
       (id 3)
-      (at 248.85 224.1 0)
+      (at 403.35 264.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6826,7 +6998,7 @@
     )
     (property "Description" "Diode"
       (id 4)
-      (at 248.85 224.1 0)
+      (at 403.35 264.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6835,14 +7007,14 @@
       )
     )
     (pin "1"
-      (uuid bc305938-9f50-4043-bc55-f7f7f6fdab9a)
+      (uuid f8174dcc-e063-4777-a198-36eef41c22d5)
     )
     (pin "2"
-      (uuid 69cb98a9-14f0-448b-a965-bc066b2054df)
+      (uuid d4bc7750-d4a1-47f8-b983-7164dc5e921a)
     )
     (instances
       (project ""
-        (path "/309f7b86-a72d-4278-8d3b-bd0a8a8d0f7a"
+        (path "/d568f858-4b32-448a-819f-fc414901b317"
           (reference "D10")
           (unit 1)
         )
@@ -6851,17 +7023,17 @@
   )
   (symbol
     (lib_id "Device:spst_switch_right")
-    (at 271.35 224.1 0)
+    (at 425.85 264.75 0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid 06e82cd3-5838-40df-bd2e-b598cb95d200)
+    (uuid e03b9e58-4ce9-4e16-ac66-08bd0ae9fc0d)
     (fields_autoplaced no)
     (property "Reference" "K11"
       (id 0)
-      (at 271.35 220.35 0)
+      (at 425.85 261 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6871,7 +7043,7 @@
     )
     (property "Value" "Cherry MX or Kailh Choc v1 (PCB mount)"
       (id 1)
-      (at 271.35 227.85 0)
+      (at 425.85 268.5 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6881,7 +7053,7 @@
     )
     (property "Footprint" ""
       (id 2)
-      (at 269.572 224.1 90)
+      (at 424.072 264.75 90)
       (effects
         (font
           (size 1.27 1.27)
@@ -6891,7 +7063,7 @@
     )
     (property "Datasheet" "~"
       (id 3)
-      (at 271.35 224.1 0)
+      (at 425.85 264.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6901,7 +7073,7 @@
     )
     (property "Description" "Switch"
       (id 4)
-      (at 271.35 224.1 0)
+      (at 425.85 264.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6910,14 +7082,14 @@
       )
     )
     (pin "1"
-      (uuid 11d37ca5-865b-4dc3-9952-3ba045adda5b)
+      (uuid 0c79234a-48dd-469f-aea8-4879b7cf4361)
     )
     (pin "2"
-      (uuid bf9eb29a-7075-471a-879e-fcc263d36334)
+      (uuid 7b5e718d-b9d5-4914-b3ef-c96d961dfe4d)
     )
     (instances
       (project ""
-        (path "/309f7b86-a72d-4278-8d3b-bd0a8a8d0f7a"
+        (path "/d568f858-4b32-448a-819f-fc414901b317"
           (reference "K11")
           (unit 1)
         )
@@ -6926,17 +7098,17 @@
   )
   (symbol
     (lib_id "Device:diode_down")
-    (at 293.85 224.1 0)
+    (at 448.35 264.75 0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid c9033efa-16a6-4d04-85bf-3ee5c6818f9c)
+    (uuid 2c7bf199-4acc-4939-b491-ca7c19a1d509)
     (fields_autoplaced no)
     (property "Reference" "D11"
       (id 0)
-      (at 297.3 223.95 0)
+      (at 451.8 264.6 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6946,7 +7118,7 @@
     )
     (property "Value" "1N4148"
       (id 1)
-      (at 289.2 224.1 0)
+      (at 443.7 264.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6957,7 +7129,7 @@
     )
     (property "Footprint" ""
       (id 2)
-      (at 292.072 224.1 90)
+      (at 446.572 264.75 90)
       (effects
         (font
           (size 1.27 1.27)
@@ -6967,7 +7139,7 @@
     )
     (property "Datasheet" "~"
       (id 3)
-      (at 293.85 224.1 0)
+      (at 448.35 264.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6977,7 +7149,7 @@
     )
     (property "Description" "Diode"
       (id 4)
-      (at 293.85 224.1 0)
+      (at 448.35 264.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -6986,14 +7158,14 @@
       )
     )
     (pin "1"
-      (uuid 0fb5c5cd-c9fd-4455-a4c0-85a6fb20f765)
+      (uuid 78c11c72-8592-468b-bac4-734841e7cbc1)
     )
     (pin "2"
-      (uuid 0c82e785-46b3-4c02-a56c-15de2117103c)
+      (uuid 59c16493-2a83-4ca3-9a18-ce8915f6dcff)
     )
     (instances
       (project ""
-        (path "/309f7b86-a72d-4278-8d3b-bd0a8a8d0f7a"
+        (path "/d568f858-4b32-448a-819f-fc414901b317"
           (reference "D11")
           (unit 1)
         )
@@ -7002,17 +7174,17 @@
   )
   (symbol
     (lib_id "Device:spst_switch_right")
-    (at 316.35 224.1 0)
+    (at 470.85 264.75 0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid 8beb6388-47e7-40d0-8bfb-ba866663a832)
+    (uuid 250c70d7-5ecf-4483-940e-c8e257318eee)
     (fields_autoplaced no)
     (property "Reference" "K12"
       (id 0)
-      (at 316.35 220.35 0)
+      (at 470.85 261 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -7022,7 +7194,7 @@
     )
     (property "Value" "Cherry MX or Kailh Choc v1 (PCB mount)"
       (id 1)
-      (at 316.35 227.85 0)
+      (at 470.85 268.5 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -7032,7 +7204,7 @@
     )
     (property "Footprint" ""
       (id 2)
-      (at 314.572 224.1 90)
+      (at 469.072 264.75 90)
       (effects
         (font
           (size 1.27 1.27)
@@ -7042,7 +7214,7 @@
     )
     (property "Datasheet" "~"
       (id 3)
-      (at 316.35 224.1 0)
+      (at 470.85 264.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -7052,7 +7224,7 @@
     )
     (property "Description" "Switch"
       (id 4)
-      (at 316.35 224.1 0)
+      (at 470.85 264.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -7061,14 +7233,14 @@
       )
     )
     (pin "1"
-      (uuid 3108aedb-faa9-41de-8a9b-e1cb2b7145f3)
+      (uuid 7894cf4d-e10f-46b3-858f-655fd4283d79)
     )
     (pin "2"
-      (uuid ffccd2b7-d0c0-4a97-9056-119f08ed8d48)
+      (uuid 1b6c20cc-ef39-43c8-8f3f-ef887a98199d)
     )
     (instances
       (project ""
-        (path "/309f7b86-a72d-4278-8d3b-bd0a8a8d0f7a"
+        (path "/d568f858-4b32-448a-819f-fc414901b317"
           (reference "K12")
           (unit 1)
         )
@@ -7077,17 +7249,17 @@
   )
   (symbol
     (lib_id "Device:diode_down")
-    (at 338.85 224.1 0)
+    (at 493.35 264.75 0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid b4fdbdca-173e-4cf0-9ec5-00d211c12748)
+    (uuid 51fefa84-76cb-46a5-a44f-23b081ce43d8)
     (fields_autoplaced no)
     (property "Reference" "D12"
       (id 0)
-      (at 342.3 223.95 0)
+      (at 496.8 264.6 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -7097,7 +7269,7 @@
     )
     (property "Value" "1N4148"
       (id 1)
-      (at 334.20000000000005 224.1 0)
+      (at 488.70000000000005 264.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -7108,7 +7280,7 @@
     )
     (property "Footprint" ""
       (id 2)
-      (at 337.072 224.1 90)
+      (at 491.572 264.75 90)
       (effects
         (font
           (size 1.27 1.27)
@@ -7118,7 +7290,7 @@
     )
     (property "Datasheet" "~"
       (id 3)
-      (at 338.85 224.1 0)
+      (at 493.35 264.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -7128,7 +7300,7 @@
     )
     (property "Description" "Diode"
       (id 4)
-      (at 338.85 224.1 0)
+      (at 493.35 264.75 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -7137,102 +7309,278 @@
       )
     )
     (pin "1"
-      (uuid 6be8ddeb-8d50-4c19-9c1b-db8bd8489767)
+      (uuid ac107602-75cd-48c5-bf77-0da679fccddb)
     )
     (pin "2"
-      (uuid 4317369b-e9b9-4729-9479-f05379d6b60d)
+      (uuid a3a38f9f-434c-4a45-9551-31f2da4a3538)
     )
     (instances
       (project ""
-        (path "/309f7b86-a72d-4278-8d3b-bd0a8a8d0f7a"
+        (path "/d568f858-4b32-448a-819f-fc414901b317"
           (reference "D12")
           (unit 1)
         )
       )
     )
   )
-  (global_label "COL0"
+  (symbol
+    (lib_id "Device:U_1_4_female_header_2_54_mm")
+    (at 110.85 309.75 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid ac389d42-7e28-4702-8e3c-a62005480e4c)
+    (fields_autoplaced no)
+    (property "Reference" "J2"
+      (id 0)
+      (at 96.6 317.70000000000005 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left)
+      )
+    )
+    (property "Value" "1 × 4 female header, 2.54 mm"
+      (id 1)
+      (at 110.85 317.25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Footprint" ""
+      (id 2)
+      (at 109.07199999999999 309.75 90)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "~"
+      (id 3)
+      (at 110.85 309.75 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property "Description" "Integrated Circuit"
+      (id 4)
+      (at 110.85 309.75 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin "1"
+      (uuid f1573762-4f13-4dad-b9d1-5c4e5812e9f8)
+    )
+    (pin "2"
+      (uuid 04e845ad-d768-40a1-aaa5-684b9c613813)
+    )
+    (pin "3"
+      (uuid 16e9c509-13ff-433a-a7b1-52416bdb66c7)
+    )
+    (pin "4"
+      (uuid 90a60395-1d53-4404-8aaa-515b60264927)
+    )
+    (instances
+      (project ""
+        (path "/d568f858-4b32-448a-819f-fc414901b317"
+          (reference "J2")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (global_label "GND"
     (shape input)
-    (at 71.1 86.1 180)
+    (at 225.6 114.75 180)
     (effects
       (font
         (size 1.27 1.27)
       )
       (justify right)
     )
-    (uuid 1e2cc854-cc98-406e-a7a4-3873ad209a14)
+    (uuid c52c4fd7-d618-4151-a0be-cb05a7b64a11)
+    (fields_autoplaced no)
+  )
+  (global_label "3V3"
+    (shape input)
+    (at 225.6 117.75 180)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid 01160b1a-5280-4629-be4b-ab98a675eeb2)
+    (fields_autoplaced no)
+  )
+  (global_label "COL0"
+    (shape input)
+    (at 225.6 126.75 180)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid 0d263b95-82e0-41a7-a05d-506b1b9e9c8d)
     (fields_autoplaced no)
   )
   (global_label "COL1"
     (shape input)
-    (at 71.1 89.1 180)
+    (at 225.6 129.75 180)
     (effects
       (font
         (size 1.27 1.27)
       )
       (justify right)
     )
-    (uuid fb92963e-4853-4d67-8cea-dbc75a46dd41)
+    (uuid d443874d-ff70-415c-bf8d-eeddbac7fb3f)
     (fields_autoplaced no)
   )
   (global_label "COL2"
     (shape input)
-    (at 71.1 92.1 180)
+    (at 225.6 132.75 180)
     (effects
       (font
         (size 1.27 1.27)
       )
       (justify right)
     )
-    (uuid 4f3dbe5c-7fa5-4b63-94bc-443de5b99cbf)
+    (uuid b4748e14-4e9f-417c-ae25-3cd7b35e4c6b)
     (fields_autoplaced no)
   )
   (global_label "ROW0"
     (shape input)
-    (at 71.1 98.1 180)
+    (at 225.6 138.75 180)
     (effects
       (font
         (size 1.27 1.27)
       )
       (justify right)
     )
-    (uuid 00a9ae08-90c6-41db-85e8-fd363431a2ae)
+    (uuid 401ccc32-c857-4602-b279-2b9f0a9f9f53)
     (fields_autoplaced no)
   )
   (global_label "ROW1"
     (shape input)
-    (at 71.1 101.1 180)
+    (at 225.6 141.75 180)
     (effects
       (font
         (size 1.27 1.27)
       )
       (justify right)
     )
-    (uuid 236ae28a-9b63-494b-ae43-c0d6d7cdc277)
+    (uuid 5ff4f563-b691-44fd-afc1-54509b120da3)
     (fields_autoplaced no)
   )
   (global_label "ROW2"
     (shape input)
-    (at 71.1 104.1 180)
+    (at 225.6 144.75 180)
     (effects
       (font
         (size 1.27 1.27)
       )
       (justify right)
     )
-    (uuid 739181e1-51f5-468f-a328-b00c87b97fc1)
+    (uuid e5a6a1d2-8e1c-4a3e-9b02-d87784ac3b49)
     (fields_autoplaced no)
   )
   (global_label "ROW3"
     (shape input)
-    (at 71.1 107.1 180)
+    (at 225.6 147.75 180)
     (effects
       (font
         (size 1.27 1.27)
       )
       (justify right)
     )
-    (uuid 48d2363b-1711-4144-a4eb-95d0ccbcc81e)
+    (uuid 53eec5e1-1716-4dde-8106-b65fddd0d4ab)
+    (fields_autoplaced no)
+  )
+  (global_label "GP2"
+    (shape input)
+    (at 266.1 144.75 0)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left)
+    )
+    (uuid d7b27006-4023-40ea-94d0-85603f369e2b)
+    (fields_autoplaced no)
+  )
+  (global_label "GP3"
+    (shape input)
+    (at 266.1 141.75 0)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left)
+    )
+    (uuid a9ca78e6-5b24-4717-bae1-a62c9a536ba1)
+    (fields_autoplaced no)
+  )
+  (global_label "GND"
+    (shape input)
+    (at 90.6 308.25 180)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid 8d3b448a-a53f-44ab-a01d-2bf90c6bbc05)
+    (fields_autoplaced no)
+  )
+  (global_label "3V3"
+    (shape input)
+    (at 90.6 311.25 180)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid b827e468-a101-4eba-b8e2-c91fbd8b8944)
+    (fields_autoplaced no)
+  )
+  (global_label "GP3"
+    (shape input)
+    (at 131.1 311.25 0)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left)
+    )
+    (uuid b9aba52f-9e6a-4ce8-9065-0e1753b38ed5)
+    (fields_autoplaced no)
+  )
+  (global_label "GP2"
+    (shape input)
+    (at 131.1 308.25 0)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left)
+    )
+    (uuid c0d04509-7f41-42ae-811c-f0caea87e63c)
     (fields_autoplaced no)
   )
 )

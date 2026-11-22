@@ -1,5 +1,23 @@
 [
   {
+    "slug": "thin-module-macropad-rear",
+    "date": "2026-11-22",
+    "ref": "thin-picro/macropad-rear",
+    "title": "Macropad, module behind the top row: Choc keys",
+    "note": "Built: 12 Choc v1 switches with low-profile caps on a through-hole 4 x 3 matrix, the thin module under the top row on pin headers, parts down; 59.7 x 76.9 mm board, 18.3 mm tall, every check passing, no parts overlapping. Not built yet",
+    "source": "thin-picro",
+    "picture": true
+  },
+  {
+    "slug": "thin-module-macropad-front",
+    "date": "2026-11-22",
+    "ref": "thin-picro/macropad-front",
+    "title": "Macropad, module on top: MX keys and a 2.0 in display",
+    "note": "Built: 12 MX switches with DSA caps on a through-hole 4 x 3 matrix (a DO-35 per key), the thin module soldered flat at the board's top edge, a 2.0 in ST7789 plugged straight into the module and lying over it, clear of the keys. 65.2 x 106.5 mm board, every check passing. Not built yet",
+    "source": "thin-picro",
+    "picture": true
+  },
+  {
     "slug": "2026-11-10-arm-arm-upright",
     "date": "2026-11-22",
     "ref": "arm/arm-upright",
@@ -15,24 +33,6 @@
     "title": "SCARA arm that draws",
     "note": "On the parts in hand: a 17HS4401 at both joints, a 12 V bench supply, DRV8825s at 1/8 step, one SG90 (updated 22 November 2026)",
     "source": "bench",
-    "picture": true
-  },
-  {
-    "slug": "thin-module-macropad-rear",
-    "date": "2026-11-21",
-    "ref": "thin-picro/macropad-rear",
-    "title": "Macropad, module behind the top row: Choc keys",
-    "note": "Built: 12 Choc v1 switches with low-profile caps on a through-hole 4 x 3 matrix, the thin module under the top row on pin headers, parts down; 59.7 x 76.9 mm board, 18.3 mm tall, every check passing, no parts overlapping. Not built yet",
-    "source": "thin-picro",
-    "picture": true
-  },
-  {
-    "slug": "thin-module-macropad-front",
-    "date": "2026-11-21",
-    "ref": "thin-picro/macropad-front",
-    "title": "Macropad, module on top: MX keys and a 2.0 in display",
-    "note": "Built: 12 MX switches with DSA caps on a through-hole 4 x 3 matrix (a DO-35 per key), the thin module soldered flat above the keys, a 2.0 in ST7789 flat on a standard socket over the module and the board above it, a slot for the USB-C cable. 67.6 x 113.8 mm board, every check passing. Not built yet",
-    "source": "thin-picro",
     "picture": true
   },
   {

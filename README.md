@@ -34,6 +34,22 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
+### Macropad, module behind the top row: Choc keys
+
+2026-11-22 · `thin-picro/macropad-rear` in thin-picro: Built: 12 Choc v1 switches with low-profile caps on a through-hole 4 x 3 matrix, the thin module under the top row on pin headers, parts down; 59.7 x 76.9 mm board, 18.3 mm tall, every check passing, no parts overlapping. Not built yet
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-module-macropad-rear/)
+
+[![Macropad, module behind the top row: Choc keys](m/thin-module-macropad-rear/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-module-macropad-rear/)
+
+### Macropad, module on top: MX keys and a 2.0 in display
+
+2026-11-22 · `thin-picro/macropad-front` in thin-picro: Built: 12 MX switches with DSA caps on a through-hole 4 x 3 matrix (a DO-35 per key), the thin module soldered flat at the board's top edge, a 2.0 in ST7789 plugged straight into the module and lying over it, clear of the keys. 65.2 x 106.5 mm board, every check passing. Not built yet
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-module-macropad-front/)
+
+[![Macropad, module on top: MX keys and a 2.0 in display](m/thin-module-macropad-front/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-module-macropad-front/)
+
 ### The arm upright: it lifts
 
 2026-11-22 · `arm/arm-upright` in bench: The same arm upright with the gripper, on the parts in hand: 17HS4401s, 12 V, the pen lift's SG90 moved to the gripper (updated 22 November 2026)
@@ -49,22 +65,6 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/2026-11-09-arm-arm/)
 
 [![SCARA arm that draws](m/2026-11-09-arm-arm/preview.png)](https://jonibach.github.io/rulecad-archive/m/2026-11-09-arm-arm/)
-
-### Macropad, module behind the top row: Choc keys
-
-2026-11-21 · `thin-picro/macropad-rear` in thin-picro: Built: 12 Choc v1 switches with low-profile caps on a through-hole 4 x 3 matrix, the thin module under the top row on pin headers, parts down; 59.7 x 76.9 mm board, 18.3 mm tall, every check passing, no parts overlapping. Not built yet
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-module-macropad-rear/)
-
-[![Macropad, module behind the top row: Choc keys](m/thin-module-macropad-rear/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-module-macropad-rear/)
-
-### Macropad, module on top: MX keys and a 2.0 in display
-
-2026-11-21 · `thin-picro/macropad-front` in thin-picro: Built: 12 MX switches with DSA caps on a through-hole 4 x 3 matrix (a DO-35 per key), the thin module soldered flat above the keys, a 2.0 in ST7789 flat on a standard socket over the module and the board above it, a slot for the USB-C cable. 67.6 x 113.8 mm board, every check passing. Not built yet
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/thin-module-macropad-front/)
-
-[![Macropad, module on top: MX keys and a 2.0 in display](m/thin-module-macropad-front/preview.png)](https://jonibach.github.io/rulecad-archive/m/thin-module-macropad-front/)
 
 ### Holds coupon 0.1.0
 
