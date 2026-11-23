@@ -36,7 +36,7 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 
 ### Pot with its lid on
 
-2026-11-23 · `enclosures/snap-pot-closed` in bench: A 60 mm pot whose lid clicks on with an annular snap (fixings annularSnapModel, issue 76): 0.4 mm bead, 262 N square push on, 518 N square pull off, 0.25% and 0.42% hoop strain against PLA's 0.61%; pot 19.3 g, lid 7.6 g
+2026-11-23 · `enclosures/snap-pot-closed` in bench: A 60 mm pot whose lid clicks on with an annular snap (fixings annularSnapModel, issue 76): 0.4 mm bead 6 mm under the rim, so the lid's top (5.8 mm over the groove) leaves the skirt free to give; 351 N square push on, 695 N square pull off; hoop strain 0.23% and 0.43%, the skirt's root 0.32%, against PLA's 0.61%; pot 19.3 g, lid 9 g
 
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/2026-11-23-snap-pot/)
 
