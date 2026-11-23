@@ -1,5 +1,14 @@
 [
   {
+    "slug": "bench-shoulder-pip",
+    "date": "2026-11-23",
+    "ref": "benchmarks/shoulder-pip",
+    "title": "Shoulder printed in place 0.1.0",
+    "note": "The bench shoulder's compound planetary printed as one piece on a 17HS4401 (issue 162): 44.3:1, every gap 0.3 mm (0.33 drawn), herringbone teeth, no carrier, the motor on four posts with an M3x8 hex-head screw each. 105 g. Predicted play at the output 3.21 degrees (1.60 mm at the output ring's pitch circle), against 0.65 degrees for the assembled 38:1",
+    "source": "bench",
+    "picture": true
+  },
+  {
     "slug": "2026-11-23-snap-pot",
     "date": "2026-11-23",
     "ref": "enclosures/snap-pot-closed",

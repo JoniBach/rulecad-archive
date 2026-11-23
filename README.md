@@ -2,6 +2,7 @@
 
 ## Experiments
 
+- **[The robot shoulder printed in place: one print, nothing to assemble but the motor](experiments/print-in-place/)** (2026-11-23): The bench shoulder's compound planetary drawn to come off the bed in one piece: every gap the printer's print gap, herringbone teeth, no carrier, checked by Manifold for gaps and by the slicer's eye for supports. Side by side with the assembled 38:1, with the play each is predicted to have. Predictions only so far: nothing has been printed. [On the site](https://jonibach.github.io/rulecad-archive/experiments/print-in-place/)
 - **[What to print to test fixings and frames: five coupons, then a frame](experiments/frames-print-list/)** (2026-11-21): The coupons that turn the fixings and frames estimates into measurements: fixings and holds (pins, magnets, printed bolts), slot, joint rig and printed beam, with what each needs, what it measures and the command that writes it back. [On the site](https://jonibach.github.io/rulecad-archive/experiments/frames-print-list/)
 - **[A case of printed beams: a Raspberry Pi 4 case with no bar to buy](experiments/printed-case/)** (2026-11-20): A small case of 2020 beams drawn in aluminium, every beam found printable in PETG, then drawn printed: posts and rails standing up from MISUMI's section, the cross beam lying down from the kit's printable profile, printed brackets, gussets, panels' clips, feet, the board's mount and a fan mount, all on one plate of 73 parts that prints clean. The sag under the board both ways. Predictions only so far: nothing has been printed. [On the site](https://jonibach.github.io/rulecad-archive/experiments/printed-case/)
 - **[A frame of beams with a moving axis: cut, drilled, printed and built from one assembly](experiments/frames/)** (2026-11-17): A box of 2020 placed by its ends, with blind joins, printed brackets, feet and a NEMA 17 driving a carriage along its top: the cut list from one bar, a sheet per beam, eight jigs, every printed part on one plate, 37 build steps, and a trapped nut and a plate for the wrong slots caught. Predictions only so far: nothing has been cut or printed. [On the site](https://jonibach.github.io/rulecad-archive/experiments/frames/)
@@ -33,6 +34,14 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
+
+### Shoulder printed in place 0.1.0
+
+2026-11-23 · `benchmarks/shoulder-pip` in bench: The bench shoulder's compound planetary printed as one piece on a 17HS4401 (issue 162): 44.3:1, every gap 0.3 mm (0.33 drawn), herringbone teeth, no carrier, the motor on four posts with an M3x8 hex-head screw each. 105 g. Predicted play at the output 3.21 degrees (1.60 mm at the output ring's pitch circle), against 0.65 degrees for the assembled 38:1
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/bench-shoulder-pip/)
+
+[![Shoulder printed in place 0.1.0](m/bench-shoulder-pip/preview.png)](https://jonibach.github.io/rulecad-archive/m/bench-shoulder-pip/)
 
 ### Pot with its lid on
 
