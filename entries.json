@@ -1,5 +1,14 @@
 [
   {
+    "slug": "2026-11-23-arm-jaws-check",
+    "date": "2026-11-23",
+    "ref": "arm/jaws-check",
+    "title": "Gripper jaws: opening check",
+    "note": "Compliant gripper jaws from the flexures generator (issue 77) on the arm's yoke: springs grip, the SG90 opens; holds 100 g twice over on 9.4 to 10.5 mm objects. Compare 2026-11-10-arm-gripper-check, the hand-built one",
+    "source": "bench",
+    "picture": true
+  },
+  {
     "slug": "bench-shoulder-pip",
     "date": "2026-11-23",
     "ref": "benchmarks/shoulder-pip",

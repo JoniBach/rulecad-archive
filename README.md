@@ -35,6 +35,14 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
+### Gripper jaws: opening check
+
+2026-11-23 · `arm/jaws-check` in bench: Compliant gripper jaws from the flexures generator (issue 77) on the arm's yoke: springs grip, the SG90 opens; holds 100 g twice over on 9.4 to 10.5 mm objects. Compare 2026-11-10-arm-gripper-check, the hand-built one
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/2026-11-23-arm-jaws-check/)
+
+[![Gripper jaws: opening check](m/2026-11-23-arm-jaws-check/preview.png)](https://jonibach.github.io/rulecad-archive/m/2026-11-23-arm-jaws-check/)
+
 ### Shoulder printed in place 0.1.0
 
 2026-11-23 · `benchmarks/shoulder-pip` in bench: The bench shoulder's compound planetary printed as one piece on a 17HS4401 (issue 162): 44.3:1, every gap 0.3 mm (0.33 drawn), herringbone teeth, no carrier, the motor on four posts with an M3x8 hex-head screw each. 105 g. Predicted play at the output 3.21 degrees (1.60 mm at the output ring's pitch circle), against 0.65 degrees for the assembled 38:1
