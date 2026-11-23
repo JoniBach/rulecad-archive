@@ -34,6 +34,14 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
+### A leg on a test stand
+
+2026-11-23 · `leg/stand` in bench: On the parts in hand: a 17HS4401 at hip and knee, a 12 V bench supply limited to 1.5 A, DRV8825s at 1/8 step (updated 23 November 2026)
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/2026-11-10-leg-stand/)
+
+[![A leg on a test stand](m/2026-11-10-leg-stand/preview.png)](https://jonibach.github.io/rulecad-archive/m/2026-11-10-leg-stand/)
+
 ### Macropad, module behind the top row: Choc keys
 
 2026-11-22 · `thin-picro/macropad-rear` in thin-picro: Built: 12 Choc v1 switches with low-profile caps on a through-hole 4 x 3 matrix, the thin module under the top row on pin headers, parts down; 59.7 x 76.9 mm board, 18.3 mm tall, every check passing, no parts overlapping. Not built yet
@@ -161,14 +169,6 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 [Open in 3D](https://jonibach.github.io/rulecad-archive/m/2026-11-13-winder-driven/)
 
 [![Motorised spool winder](m/2026-11-13-winder-driven/preview.png)](https://jonibach.github.io/rulecad-archive/m/2026-11-13-winder-driven/)
-
-### A leg on a test stand
-
-2026-11-13 · `leg/stand` in bench
-
-[Open in 3D](https://jonibach.github.io/rulecad-archive/m/2026-11-10-leg-stand/)
-
-[![A leg on a test stand](m/2026-11-10-leg-stand/preview.png)](https://jonibach.github.io/rulecad-archive/m/2026-11-10-leg-stand/)
 
 ### Gripper: closing check
 

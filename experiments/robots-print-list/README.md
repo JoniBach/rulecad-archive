@@ -2,7 +2,7 @@
 
 **10 November 2026.** Everything the kit says about these machines is a prediction until it has been measured. This is the list of what to print, in order, and what each print settles. Three GitHub issues stay open until it's done: [the arm draws (190)](https://github.com/JoniBach/rulecad/issues/190), [the arm lifts (197)](https://github.com/JoniBach/rulecad/issues/197) and [the leg stands and steps (202)](https://github.com/JoniBach/rulecad/issues/202).
 
-**Updated 22 November 2026:** the arm is now built from the parts on the bench: a 17HS4401 at the elbow as well as the shoulder (no NEMA 14), a 12 V bench supply (no 24 V supply), the DRV8825s at 1/8 step, and the one SG90 moved from the pen lift to the gripper. The buy lists below name only what is not already in hand.
+**Updated 22 November 2026:** the arm is now built from the parts on the bench: a 17HS4401 at the elbow as well as the shoulder (no NEMA 14), a 12 V bench supply (no 24 V supply), the DRV8825s at 1/8 step, and the one SG90 moved from the pen lift to the gripper. The buy lists below name only what is not already in hand. **Updated 23 November 2026:** the leg too, a 17HS4401 at its knee and the same 12 V supply.
 
 Each link below opens the model, with its parts to download. Print in PLA at 0.2 mm layers, four walls and 25% infill unless it says otherwise, and keep to one spool. Masses are solid figures, so a slicer's infill makes them lighter.
 
@@ -79,18 +79,22 @@ The Z axis in the examples isn't needed for this test.
 
 ## Stage 4: the leg stands and steps (issue 202)
 
-[A leg on a test stand](../../m/2026-11-10-leg-stand/): 471 g, about 9 hours. Its gearbox parts print the same as the arm's. The motors, drivers, shield and supply can move across from the arm. The leg is still drawn with a NEMA 14 at its knee and a 24 V supply: those change the same way as the arm's before it is built.
+[A leg on a test stand](../../m/2026-11-10-leg-stand/): 471 g, about 9 hours. Its gearbox parts print the same as the arm's. Like the arm, it is now drawn on the parts on the bench: a 17HS4401 at the hip and another at the knee (no NEMA 14), the 12 V bench supply with its current limit at 1.5 A (no 24 V supply), and the DRV8825s at 1/8 step. The motors, drivers, shield, Uno and supply move across from the arm. The thigh's knee plate now takes the 17HS4401's 31 mm square of screws: a thigh printed before 23 November was drawn for a NEMA 14, so print it again.
 
-**Buy:** two LM8UU bearings, two 8 mm rods, a kitchen scale, and a second 6800 bearing unless you move the arm's across.
+**Buy:** two LM8UU bearings, two 8 mm rods, a kitchen scale, a second 6800 bearing unless you move the arm's across, and the screws `npx cad list leg/stand` counts (M3 caps 6, 8, 10, 12 and 16 mm long, four M3x8 countersunk). `npx cad list leg/stand` lists the motors, drivers, shield and supply as in hand.
+
+**Before running it:** set both drivers to 0.5 A, 0.25 V on each trimmer, as for the arm, and the bench supply to 12 V limited to 1.5 A. The leg draws about 0.22 A at 12 V.
+
+**What the 17HS4401 knee changes, as checked:** the foot carries what rides the rods, the leg and its carriage, 1.01 kg (the leg alone is 855 g, 90 g more than with a NEMA 14). The knee needs 0.608 N m at the worst of the step and gets 1.682 N m, 2.8 times over (3.1 before, at 0.75 kg on the NEMA 14); the hip 0.198 N m, 8.5 times (11.4 before). 200 rpm is under the 17HS4401's 286 rpm corner on 12 V, so the supply costs no torque: only the masses move the margins.
 
 | Test | Against |
 |---|---|
-| Weight on the foot until a motor skips | `motor.torque`: 0.45 N m at the knee for a 1.5 kg robot's half share |
+| Weight on the foot until a motor skips | `motor.torque`: 0.608 N m at the knee with 1.01 kg riding the rods, 2.8 times over |
 | Power off, weight until it gives | `motor.holds` |
 | The foot's path by camera or pointer | the planned swing, 15 mm of clearance |
 | The step's time | the gait's period |
 
-The quadruped in the examples is a design only, and isn't part of these tests.
+The quadruped in the examples is a design only, and isn't part of these tests. It now has 17HS4401 knees at 1 A too: 4.2 kg with an estimated 0.4 kg of electronics, its knees 2.3 times over in a trot (1.7 with NEMA 14s).
 
 ## In total
 

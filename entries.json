@@ -1,5 +1,14 @@
 [
   {
+    "slug": "2026-11-10-leg-stand",
+    "date": "2026-11-23",
+    "ref": "leg/stand",
+    "title": "A leg on a test stand",
+    "note": "On the parts in hand: a 17HS4401 at hip and knee, a 12 V bench supply limited to 1.5 A, DRV8825s at 1/8 step (updated 23 November 2026)",
+    "source": "bench",
+    "picture": true
+  },
+  {
     "slug": "thin-module-macropad-rear",
     "date": "2026-11-22",
     "ref": "thin-picro/macropad-rear",
@@ -141,15 +150,6 @@
     "title": "Motorised spool winder",
     "note": "The spool winder with an N20 on the sun: the spool on the carrier, 4:1, 2.25 times the torque a 10 N strap needs on a 150:1 N20; draft PR 208",
     "source": "ws3",
-    "picture": true
-  },
-  {
-    "slug": "2026-11-10-leg-stand",
-    "date": "2026-11-13",
-    "ref": "leg/stand",
-    "title": "A leg on a test stand",
-    "note": "",
-    "source": "bench",
     "picture": true
   },
   {
