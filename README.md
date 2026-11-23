@@ -34,6 +34,14 @@ Models made with [rulecad](https://github.com/JoniBach/rulecad), newest first: a
 - **Add one:** `node add.mjs <workspace> <project>/<object>`, then commit and push.
 - **Bring in links shared as Gists:** `node import-gists.mjs`.
 
+### Pot with its lid on
+
+2026-11-23 · `enclosures/snap-pot-closed` in bench: A 60 mm pot whose lid clicks on with an annular snap (fixings annularSnapModel, issue 76): 0.4 mm bead, 262 N square push on, 518 N square pull off, 0.25% and 0.42% hoop strain against PLA's 0.61%; pot 19.3 g, lid 7.6 g
+
+[Open in 3D](https://jonibach.github.io/rulecad-archive/m/2026-11-23-snap-pot/)
+
+[![Pot with its lid on](m/2026-11-23-snap-pot/preview.png)](https://jonibach.github.io/rulecad-archive/m/2026-11-23-snap-pot/)
+
 ### A leg on a test stand
 
 2026-11-23 · `leg/stand` in bench: On the parts in hand: a 17HS4401 at hip and knee, a 12 V bench supply limited to 1.5 A, DRV8825s at 1/8 step (updated 23 November 2026)

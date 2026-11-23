@@ -1,5 +1,14 @@
 [
   {
+    "slug": "2026-11-23-snap-pot",
+    "date": "2026-11-23",
+    "ref": "enclosures/snap-pot-closed",
+    "title": "Pot with its lid on",
+    "note": "A 60 mm pot whose lid clicks on with an annular snap (fixings annularSnapModel, issue 76): 0.4 mm bead, 262 N square push on, 518 N square pull off, 0.25% and 0.42% hoop strain against PLA's 0.61%; pot 19.3 g, lid 7.6 g",
+    "source": "bench",
+    "picture": true
+  },
+  {
     "slug": "2026-11-10-leg-stand",
     "date": "2026-11-23",
     "ref": "leg/stand",
